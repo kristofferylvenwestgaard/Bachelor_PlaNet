@@ -1,0 +1,38 @@
+CREATE DATABASE PLANET;
+
+CREATE TABLE aktivitet
+(
+aktivitetID int NOT NULL AUTO_INCREMENT,
+PRIMARY KEY (aktivitetsId),
+aktivitetNavn varchar(50),
+beskrivelse (TEXT),
+dato (DATE),
+tid (TIME),
+alarm (TIME),
+FOREGIN KEY (bildeId) REFERENCES aktivitetBilde(bildeID),
+FOREGIN KEY (fargeId) REFERENCES aktivitetFarge(fargeID)
+) 
+
+CREATE TABLE aktivitetBilde
+(
+bildeId int NOT NULL AUTO_INCREMENT,
+bildeNavn varchar (50)
+bilde blob NOT NULL,
+PRIMARY KEY (bildeId)
+)  
+
+CREATE TABLE aktivitetFarge 
+(
+fargeId int NOT NULL AUTO_INCREMENT,
+PRIMARY KEY (fargeId),
+fargeNavn NOT NULL, VARCHAR(20)
+)
+ENGINE=InnoDB ; 
+
+
+
+
+
+
+
+

@@ -1,4 +1,3 @@
-
 <?php
 	include "includes/top.php";
 	include "includes/footer.php";
@@ -57,10 +56,10 @@
 
 					<!--AKTIVITETSFARGE VALG -->
 					<div id="farge_valg">
-						<p class="formText">Blå</p>
-						<p class="formText">Rød</p>
-						<p class="formText">Grønn</p>
-						<p class="formText">Sort</p>
+						<input type="button" value="Blå" name="blue"/>
+						<input type="button" value="Rød" name="red"/>
+						<input type="button" value="Grønn" name="green"/>
+						<input type="button" value="Sort" name="black"/>
 					</div>
 					<!--HJELPEFUNKSJONER-->
 					<div id="help_functions">Hjelpefunksjoner: </div> </br>
@@ -84,7 +83,6 @@
 					</div>
 				</div>
 			</form>
-			
 		</div>
 	</div>
 </div>

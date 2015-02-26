@@ -3,7 +3,7 @@
 
 
 	//FUNKSJON FOR Å LEGGE TIL AKTIVITET I DATABASE
-	function leggTilAktivitet($akNavn, $akBeskr, $dato, $tid, $alarm, $bilde, $farge)
+	function leggTilAktivitet($akNavn, $akBeskr, $dato, $tid, $alarm, $bildeId, $fargeId)
 	{
 		//Variabler som skal inn i aktivitet tabell.
 		$aktivitetNavn = $akNavn;
@@ -11,12 +11,12 @@
 		$aktivitetDato = $dato;
 		$aktivitetTid = $tid;
 		$aktivitetAlarm = $alarm;
-		$aktivitetBilde = $bilde;
-		$aktivitetFarge = $farge;
+		$aktivitetBilde = $bildeId;
+		$aktivitetFarge = $fargeId;
 
 		//SQL INSERT INTO aktivitet
-		$settInnAktivitet = "INSERT INTO aktivitet(aktivitetNavn, beskrivelse, dato, tid, alarm, bildeId, fargeId) VALUES ('".$aktivitetNavn."','".$aktivitetBeskrivelse."','". $aktivitetDato . "','". $aktivitetTid."'
-							,'". $aktivitetAlarm."','". $aktivitetBilde. "','". $aktivitetFarge."')";
+		$settInnAktivitet = "INSERT INTO aktivitet(bildeId, fargeId, aktivitetNavn, beskrivelse, dato, tid, alarm) VALUES ('". $aktivitetBilde. "','". $aktivitetFarge."''".$aktivitetNavn."','".$aktivitetBeskrivelse."','". $aktivitetDato . "','". $aktivitetTid."'
+							,'". $aktivitetAlarm."')";
 		
 		$resultat = mysqli_query($connect, $settInnAktivitet);
 
@@ -36,25 +36,24 @@
 	function hentAktivitet()
 	{
 		//SQL setning for å hente aktivitet
-		$hentAktivitet = "SELECT * FROM aktivitet";
-		$resultat = mysqli_query($connect, $hentAktivitet);
+		$visAktivitet = "SELECT aktivitetNavn, beskrivelse FROM aktivitet";
+		$resultat = mysqli_query($connect, $visAktivitet);
 
 		//Teller rekker i tabellen, og setter innholdet i et assosiativt array dersom det er fler enn 0.
 		//Lister deretter ut innholdet i arrayet (aktivitetene)
-		if(mysqli_num_rows($resultat) < 0)
+		if(mysqli_num_rows($resultat) > 0)
 		{
-			$aktivitetNr;
-			while($aktivitetNr = mysqli_fetch_assoc($resultat))
+			while($row = mysqli_fetch_assoc($resultat))
 			{
-				$innhold[] = $aktivitetNr;
+				$innhold[] = $row;
 			}
-			foreach($innhold as $aktivitet)
+			foreach($innhold as $row)
         	{
             	?>
          			<!--Oppretter en html section i aktivitetsvindu hvor aktivitetene vil listes ut.-->
             	    <section id="aktivitetListUt">
             	        <?php 
-            	            echo $aktivitet["aktivitetNavn"]."</br>". $aktivitet["aktivitetBeskrivelse"] ."</br>". $aktivitet["aktivitetNr"];
+            	            echo $row["aktivitetNavn"]."</br>". $row["beskrivelse"];
             	        ?>
            		    </section>
             	<?php

@@ -7,4 +7,8 @@
 	{
 		die("connection failed: " . mysql_connect_error());
 	}
+	//else
+	//{
+	//	echo "Du er tilkoblet!!!!";
+	//}
 ?>

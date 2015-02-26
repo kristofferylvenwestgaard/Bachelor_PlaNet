@@ -1,36 +1,32 @@
-CREATE TABLE aktivitet
-(
-id int NOT NULL AUTO_INCREMENT,
-aktivitetNavn varchar(50),
-beskrivelse text,
-dato date,
-tid time,
-alarm time,
-PRIMARY KEY (id)
-) 
-ENGINE=InnoDB;
-
 CREATE TABLE aktivitetBilde
 (
-bildeId int NOT NULL AUTO_INCREMENT,
-aktivitetId int NOT NULL,
+bildeId INT NOT NULL AUTO_INCREMENT,
 bildeNavn varchar (50),
 bilde blob NOT NULL,
-PRIMARY KEY (bildeId),
-FOREIGN KEY (aktivitetId) REFERENCES aktivitet(id)
-ON UPDATE CASCADE
-ON DELETE CASCADE
+PRIMARY KEY (bildeId)
 )  
 ENGINE=InnoDB;
 
 CREATE TABLE aktivitetFarge 
 (
-fargeId int NOT NULL AUTO_INCREMENT,
+fargeId INT NOT NULL AUTO_INCREMENT,
 fargeNavn varchar (20),
-aktivitetId int NOT NULL,
-PRIMARY KEY (fargeId),
-FOREIGN KEY (aktivitetId) REFERENCES aktivitet(id)
-ON UPDATE CASCADE
-ON DELETE CASCADE
+PRIMARY KEY (fargeId)
 )
 ENGINE=InnoDB; 
+
+CREATE TABLE aktivitet
+(
+id INT NOT NULL AUTO_INCREMENT,
+bildeId INT NOT NULL,
+fargeId INT NOT NULL,
+aktivitetNavn varchar(50),
+beskrivelse text,
+dato date,
+tid time,
+alarm time,
+PRIMARY KEY (id),
+FOREIGN KEY (bildeId) REFERENCES aktivitetBilde(bildeId),
+FOREIGN KEY (fargeId) REFERENCES aktivitetFarge(fargeId)
+) 
+ENGINE=InnoDB;

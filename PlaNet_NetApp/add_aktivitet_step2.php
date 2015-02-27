@@ -14,11 +14,6 @@
 				
 				<form class="form_add_aktivitet" action="" name="legg_til_aktivitet" method="post">
 					<div class="inAppText">Legg til aktivitet:</div></br>
-					
-					<?php
-						//Printer ut aktivitetsnavn.
-						echo $_REQUEST["aktivitetsnavn"];
-					?>
 
 					<div id="checkLeft">
 						<input class="input_check" type="checkbox" name="aktivitet"/><p class="formText">Aktivitet</p><br/>

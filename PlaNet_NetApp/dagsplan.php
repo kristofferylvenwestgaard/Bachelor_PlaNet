@@ -1,50 +1,24 @@
 <?php
 	include "includes/top.php";
 	include "includes/footer.php";
+	include "includes/header.php";
 ?>
-<!--HEADER-->
-<div class = "container">
-	<div class="col-1-3">
-		<div class="header">
-			<h1 class="htext">Terje</h1>
-		</div>
-	</div>
-	<div class="col-1-3">
-		<div class="header">
-			<a id="hlink" href="index.php">Uke</a>
-			<a id="hlink" href="index.php">Måned</a>
-		</div>
-	</div>
-	<div class="col-1-3">
-		<div class="header">
-			<!--Skal byttes ut med JS og Symbol!!!-->
-			<div class="col-1-1">
-				<div id="clock">21:52:42</div>
-				<div id="admin">
-					<a href="admin.php"><img src="img/admin1.png" alt="admin"/></a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--UKEDAGER-->
+
+	<!--Dag og aktivitetsnavn-->
 	
-	<div class="col-2-3">
-		<div class="ukedag">Middag</div>
-	</div>
 	<div class="col-1-3">
 		<div class="ukedag">Torsdag</div>
+	</div>
+	<div class="col-2-3">
+		<div class="aktivitetNavn">Middag</div>
 	</div>
 	
 
 	<!--UKEDAGER MED AKTIVITETSVISNING-->
 	
-	<div class="col-2-3">
-		<div class="dagsplanBoks">
-		</div>
-		<div id="onsdag">
-			
-		</div>
-	</div>
+
+
+
 	<div class="col-1-3">
 		<div id="torsdag">
 			<div class="activity">
@@ -69,8 +43,38 @@
 			</div>
 		</div>
 	</div>
+
+
+
+	<div class="col-2-3">
+		
+			<div class="dagsplanBoks">
+				<div class="col-9-10">
+INNHOLD INNHOLD INNHOLD INNHOLD INNHOLD INNHOLD INNHOLD INNHOLD INNHOLD
+				</div>
+
+				
+
+				<div class="col-1-10">
+					<div class="checkboxer">1</div>
+					<div class="checkboxer">2</div>
+					<div class="checkboxer">3</div>
+					<div class="checkboxer">4</div>
+					<div class="checkboxer">5</div>
+					<div class="checkboxer">6</div>
+					<div class="checkboxer">7</div>
+					<div class="checkboxer">8</div>
+					<div class="checkboxer">9</div>
+
+
+				</div>
 			</div>
-</div>
+		
+	</div>
+		
+	</div>
+
+
 
 
 

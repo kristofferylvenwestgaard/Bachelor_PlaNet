@@ -462,11 +462,41 @@
 	margin-right: auto;
 }
 
-/*******DAGSPLAN*****************/
+/*************DAGSPLAN*****************/
 
 .dagsplanBoks 
 {
 	height: 600px;
+	border-style:solid;
+	border-width:1px;
+	font-family:arial;
+	background-color:#f7f7f7;
+	position:relative;
+	z-index:1;
+
+}
+
+.aktivitetNavn 
+/* Header/tittel for aktivitetsnavn */
+{
+	font-family:arial;
+	text-align: center;
+	padding-top:10px;
+	height:30px;
+	border-style:solid;
+	border-width:1px;
+}
+
+
+
+.checkboxer 
+{
+	height:49px;
+	border-bottom: 1px;
+	border-bottom-style: solid;
+
+	
+	
 }
 
 /*-----------------------------------*/

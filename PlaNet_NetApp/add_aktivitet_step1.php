@@ -15,8 +15,9 @@
 
 					<!--TEXTBOX FOR AKTIVITETSNAVN-->
 					<div class="inAppText">Legg til aktivitet:</div></br>
-					<input class="input_text" type="text" placeholder="Aktivitetsnavn" name="aktivitetsnavn"/><br/>
-	
+					<input class="input_text" type="text" placeholder="Aktivitetsnavn" name="aktivitetsnavn"/>
+					<input class="input_text_small" type="text" placeholder="BildeId" name="bildeid"/>
+
 					<!--GJENTAGELSE MANDAG - FREDAG! -->
 					<div class="inAppText">Gjenta aktivitet:</div><br/> 
 					<div id="mandag_gjenta">
@@ -55,21 +56,73 @@
 					<input class="input_text" type="text" placeholder="Alarm - Valgfri" name="alarm"/><br/>
 
 					<!--AKTIVITETSFARGE VALG -->
-					<div id="farge_valg">
-						<input type="button" value="Blå" name="blue"/>
-						<input type="button" value="Rød" name="red"/>
-						<input type="button" value="Grønn" name="green"/>
-						<input type="button" value="Sort" name="black"/>
+					<div id="fargeValg">
+						<div class="inAppText">
+							Velg farge: 
+						</div>
+						<div id="farge_blue">
+							<p class="formText">Blå</p><br/>
+							<input class="input_check" type="checkbox" name="blue"/>
+						</div>
+						<div id="farge_red">
+							<p class="formText">Rød</p><br/>
+							<input class="input_check" type="checkbox" name="red"/>
+						</div>
+						<div id="farge_green">
+							<p class="formText">Grønn</p><br/>
+							<input class="input_check" type="checkbox" name="green"/>
+						</div>
+						<div id="farge_black">
+							<p class="formText">Sort</p><br/>
+							<input class="input_check" type="checkbox" name="black"/>
+						</div>
 					</div>
+
 					<!--HJELPEFUNKSJONER-->
-					<div id="help_functions">Hjelpefunksjoner: </div> </br>
-	
-					<input class="input_check" type="checkbox" name="skype"/><p class="formText">Skype</p><br/>
-					<input class="input_check" type="checkbox" name="månedlig"/><p class="formText">Personalliste</p><br/>
-	
-	
-					<input class="submit" type="submit" value="Legg til" name="submit"/>
+					<div id="help_functions">
+						<div class="inAppText">
+							Hjelpefunksjoner:
+						</div>
+						<div id="skype_check">
+							<p class="formText">Skype</p><br/>
+							<input class="input_check" type="checkbox" name="skype"/>
+						</div>
+						<div id="personal_check">	
+							<p class="formText">Personalliste</p><br/>
+							<input class="input_check" type="checkbox" name="månedlig"/><br/>
+						</div>
+					</div>
+					<div id="submit">
+						<input class="submit" type="submit" value="Legg til" name="submit"/>
+					</div>
 				</div>
+				
+				<!--PHP kode for å legge til aktivitet med parametere for all informasjon som er lagt til i skjema over.-->
+				<?php
+					if(isset($_REQUEST["submit"]))
+					{
+						//Sjekker hvilken farge som er valgt og tilegner variabel $farge riktig verdi
+						if(isset($_REQEUST["blue"]))
+						{
+						$farge = 1;
+						}
+						elseif(isset($_REQEUST["red"]))
+						{
+							$farge = 2;
+						}
+						elseif(isset($_REQEUST["green"]))
+						{
+							$farge = 3;
+						}
+						elseif(isset($_REQEUST["black"]))
+						{
+							$farge = 4;
+						}
+
+						//Benytter function leggTilAktivit() for å sette inn verdiene i tabeller
+						leggTilAktivitet($_REQUEST["aktivitetsnavn"], $_REQUEST["bildeid"], $farge );
+					}
+				?>
 
 				<!--DIV CONTAINER FOR HØYRE KOLONNE I LEGG TIL AKTIVITET-->
 				<div class="col_right">

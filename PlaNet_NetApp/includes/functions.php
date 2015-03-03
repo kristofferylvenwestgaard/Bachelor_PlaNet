@@ -2,8 +2,8 @@
 	include "db_connect.php";
 
 
-	//FUNKSJON FOR Å LEGGE TIL AKTIVITET I DATABASE
-	function leggTilAktivitet($akNavn, $akBeskr, $dato, $tid, $alarm, $bildeId, $fargeId)
+	//FUNKSJON FOR Å LEGGE TIL AKTIVITET I DATABASE MED RELASJONSATTRIBUTTER.
+	function leggTilAktivitet($akNavn, $akBeskr, $bildeId, $fargeId)
 	{
 		//Variabler som skal inn i aktivitet tabell.
 		$aktivitetNavn = $akNavn;
@@ -11,12 +11,11 @@
 		$aktivitetDato = $dato;
 		$aktivitetTid = $tid;
 		$aktivitetAlarm = $alarm;
-		$aktivitetBilde = $bildeId;
-		$aktivitetFarge = $fargeId;
+		$aktivitetBilde = 1;//$bildeId;
+		$aktivitetFarge = 1;//$fargeId;
 
 		//SQL INSERT INTO aktivitet
-		$settInnAktivitet = "INSERT INTO aktivitet(bildeId, fargeId, aktivitetNavn, beskrivelse, dato, tid, alarm) VALUES ('". $aktivitetBilde. "','". $aktivitetFarge."''".$aktivitetNavn."','".$aktivitetBeskrivelse."','". $aktivitetDato . "','". $aktivitetTid."'
-							,'". $aktivitetAlarm."')";
+		$settInnAktivitet = "INSERT INTO aktivitet(bildeId, fargeId, aktivitetNavn, beskrivelse) VALUES ('". $aktivitetBilde. "','". $aktivitetFarge."''".$aktivitetNavn."','".$aktivitetBeskrivelse."')";
 		
 		$resultat = mysqli_query($connect, $settInnAktivitet);
 
@@ -30,6 +29,10 @@
         	echo "Aktivitet er lagt til";
     	}
 	}
+
+	//Legger til handlingskjeder eller checkboxer for aktiviteter som ble lagt til på add_aktivitet_step1
+	//function leggTilHandlingskjede()
+	//()
 
 
 	//FUNKSJON FOR Å HENTE UT INNLAGTE AKTIVITETER FOR GITT DAG FRA DATABASE

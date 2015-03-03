@@ -43,7 +43,7 @@
 	/*VANLIG TEKST UTEN MARGINER PÅ VENSTRE SIDE!!! */
 	font-family: arial;
 	font-size: 16px;
-	margin-top:60px;
+	margin-top:30px;
 }
 
 
@@ -293,6 +293,16 @@
 	padding-left:10px;
 }
 
+.input_text_small
+{
+	width:70px;
+	height:30px;
+	margin-top:15px;
+	font-family: arial;
+	font-size: 15px;
+	padding-left:10px;
+}
+
 #mandag_gjenta
 {
 	width:40px;
@@ -340,16 +350,73 @@
 	margin-left:10px;
 }
 
-#farge_valg
+#fargeValg
 {
-	margin-top:15px;
+	width:100%;
+}
+
+#farge_blue
+{
+
+	width:40px;
+	float:left;
+	margin-top: 15px;
+}
+
+#farge_red
+{
+
+	width:40px;
+	float:left;
+	margin-top: 15px;
+}
+
+#farge_green
+{
+
+	width:50px;
+	float:left;
+	margin-top: 15px;
+}
+
+#farge_black
+{
+
+	width:40px;
+	float:left;
+	margin-top: 15px;
 }
 
 #help_functions
 {
+	display:block;
 	font-family: arial;
 	font-size: 16px;
-	margin-top:15px;
+	margin-top:70px;
+}
+
+#skype_check
+{
+
+	width:60px;
+	float:left;
+	margin-top: 15px;
+}
+
+#personal_check
+{
+
+	width:40px;
+	float:left;
+	margin-top: 15px;
+}
+
+#submit
+{
+	display:block;
+	font-family: arial;
+	font-size: 16px;
+	margin-top:60px;
 }
 
 .form_add_aktivitet

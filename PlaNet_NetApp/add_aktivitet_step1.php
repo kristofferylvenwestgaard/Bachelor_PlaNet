@@ -42,11 +42,11 @@
 					</div>
 					<div id="loerdag_gjenta">
 						<p class="formText">Lø</p><br/>
-						<input class="input_check" type="checkbox" name="lørdag"/>
+						<input class="input_check" type="checkbox" name="loerdag"/>
 					</div>
 					<div id="soendag_gjenta">
 						<p class="formText">Sø</p><br/>
-						<input class="input_check" type="checkbox" name="sønadg"/>
+						<input class="input_check" type="checkbox" name="soendag"/>
 					</div>
 
 					<!--DATO INPUT -->
@@ -89,7 +89,7 @@
 						</div>
 						<div id="personal_check">	
 							<p class="formText">Personalliste</p><br/>
-							<input class="input_check" type="checkbox" name="månedlig"/><br/>
+							<input class="input_check" type="checkbox" name="personalliste"/><br/>
 						</div>
 					</div>
 					<div id="submit">
@@ -101,10 +101,49 @@
 				<?php
 					if(isset($_REQUEST["submit"]))
 					{
+						//Sjekker hvilke ukedager som er valgt til gjentakelse, og setter true/false til var man-søn.
+						$mandag = false;
+						$tirsdag = false;
+						$onsdag = false;
+						$torsdag = false;
+						$fredag = false;
+						$loerdag = false;
+						$soendag = false;
+
+						if(isset($_REQUEST["mandag"]))
+						{
+							$mandag = true;
+						}
+						if(isset($_REQUEST["tirsdag"]))
+						{
+							$tirsdag = true;
+						}
+						if(isset($_REQUEST["onsdag"]))
+						{
+							$onsdag = true;
+						}
+						if(isset($_REQUEST["torsdag"]))
+						{
+							$torsdag = true;
+						}
+						if(isset($_REQUEST["fredag"]))
+						{
+							$fredag = true;
+						}
+						if(isset($_REQUEST["loerdag"]))
+						{
+							$loerdag = true;
+						}
+						if(isset($_REQUEST["soendag"]))
+						{
+							$soendag = true;
+						}
+
+
 						//Sjekker hvilken farge som er valgt og tilegner variabel $farge riktig verdi
 						if(isset($_REQEUST["blue"]))
 						{
-						$farge = 1;
+							$farge = 1;
 						}
 						elseif(isset($_REQEUST["red"]))
 						{
@@ -119,8 +158,9 @@
 							$farge = 4;
 						}
 
-						//Benytter function leggTilAktivit() for å sette inn verdiene i tabeller
-						leggTilAktivitet($_REQUEST["aktivitetsnavn"], $_REQUEST["bildeid"], $farge );
+						//Benytter function leggTilAktivitet() for å sette inn verdiene i tabeller
+						leggTilAktivitet($_REQUEST["bildeid"], $farge, $_REQUEST["aktivitetsnavn"], $mandag, $tirsdag, $onsdag, 
+										$torsdag, $fredag, $loerdag, $soendag );
 					}
 				?>
 

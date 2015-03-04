@@ -67,7 +67,7 @@
 		//SQL INSERT INTO aktivitet
 		$settInnAktivitet = "INSERT INTO aktivitet(bildeId, fargeId, handId, gjentaID, aktivitetNavn, beskrivelse, dato, tid, alarm) 
 							VALUES ('". $aktivitetBilde. "','". $aktivitetFarge."','".$handId."','".$gjentaId."','".$aktivitetNavn.
-									"','".$aktivitetBeskrivelse."','".$dato."','".$tid."','".$alarm"')";
+									"','".$aktivitetBeskrivelse."','".$dato."','".$tid."','".$alarm."')";
 		
 		$resultat = mysqli_query($connect, $settInnAktivitet);
 

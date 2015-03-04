@@ -141,25 +141,25 @@
 
 
 						//Sjekker hvilken farge som er valgt og tilegner variabel $farge riktig verdi
-						if(isset($_REQEUST["blue"]))
+						if(isset($_REQUEST["blue"]))
 						{
 							$farge = 1;
 						}
-						elseif(isset($_REQEUST["red"]))
+						elseif(isset($_REQUEST["red"]))
 						{
 							$farge = 2;
 						}
-						elseif(isset($_REQEUST["green"]))
+						elseif(isset($_REQUEST["green"]))
 						{
 							$farge = 3;
 						}
-						elseif(isset($_REQEUST["black"]))
+						elseif(isset($_REQUEST["black"]))
 						{
 							$farge = 4;
 						}
 
 						//Benytter function leggTilAktivitet() for å sette inn verdiene i tabeller
-						leggTilAktivitet($_REQUEST["bildeid"], $farge, $_REQUEST["aktivitetsnavn"], $mandag, $tirsdag, $onsdag, 
+						leggTilAktivitet( $_REQUEST["bildeid"], $farge, $_REQUEST["aktivitetsnavn"], $mandag, $tirsdag, $onsdag, 
 										$torsdag, $fredag, $loerdag, $soendag );
 					}
 				?>

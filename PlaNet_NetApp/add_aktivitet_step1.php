@@ -107,6 +107,18 @@
 					</div>
 				</div>
 			</form>
+					<?php
+					
+					$sql = "INSERT INTO i (aktivitet)
+							VALUES ('skole')";
+						if ($connect->query($sql) === TRUE) {
+						    echo "New record created successfully";
+						} else {
+						    echo "Error: " . $sql . "<br>" . $connect->error;
+						}
+
+						$connect->close();
+					?>
 
 		</div>
 	</div>

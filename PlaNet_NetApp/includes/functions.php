@@ -171,6 +171,7 @@
 	//FUNKSJON FOR Å HENTE UT INNLAGTE AKTIVITETER FOR GITT DAG FRA DATABASE
 	function hentAktivitet()
 	{
+		global $connect;
 		//SQL setning for å hente aktivitet
 		$visAktivitet = "SELECT aktivitetNavn, beskrivelse FROM aktivitet";
 		$resultat = mysqli_query($connect, $visAktivitet);

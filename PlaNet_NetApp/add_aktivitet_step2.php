@@ -17,25 +17,7 @@
 
 			 <div class="inAppText"><?php echo $_SESSION["aktivitetsnavn"];?></div> 
 
-			 	<?php
-					//Sjekker hvilken farge som er valgt og tilegner variabel $farge riktig verdi
-					if(isset($_REQUEST["blue"]))
-					{
-						$farge = 1;
-					}
-					elseif(isset($_REQUEST["red"]))
-					{
-						$farge = 2;
-					}
-					elseif(isset($_REQUEST["green"]))
-					{
-						$farge = 3;
-					}
-					elseif(isset($_REQUEST["black"]))
-					{
-						$farge = 4;
-					}
-				?>
+			 	
 				<form class="form_add_aktivitet" action="" name="legg_til_aktivitet" method="post">
 					<div class="inAppText">Legg til aktivitet:</div></br>
 
@@ -80,10 +62,6 @@
 						<input class="submit btn btn-success" type="submit" value="+Legg til" name="leggTil"/>
 					</div>
 
-					<?php
-						//Benytter function leggTilAktivitet() for å sette inn verdiene i tabeller
-						leggTilAktivitet($_SESSION["aktivitetsnavn"]);
-					?>
 					<div id="checkRight">
 					</div>
 				</form>
@@ -93,9 +71,7 @@
 
 			<div class="col_right">
 				<div id="aktivitet_oversikt">
-					<?php
-						hentAktivitet();
-					?>
+				
 				</div>
 				<div class="next_page">
 					<a class="inAppLinks" href="index.php">Fullfør</a>

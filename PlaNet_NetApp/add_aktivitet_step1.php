@@ -98,58 +98,16 @@
 				</div>
 				
 				<!--PHP kode for å legge til aktivitet med parametere for all informasjon som er lagt til i skjema over.-->
-				<?php
-					if(isset($_REQUEST["submit"]))
-					{
-						//Sjekker hvilke ukedager som er valgt til gjentakelse, og setter true/false til var man-søn.
-						$mandag = false;
-						$tirsdag = false;
-						$onsdag = false;
-						$torsdag = false;
-						$fredag = false;
-						$loerdag = false;
-						$soendag = false;
-
-						if(isset($_REQUEST["mandag"]))
-						{
-							$mandag = true;
-						}
-						if(isset($_REQUEST["tirsdag"]))
-						{
-							$tirsdag = true;
-						}
-						if(isset($_REQUEST["onsdag"]))
-						{
-							$onsdag = true;
-						}
-						if(isset($_REQUEST["torsdag"]))
-						{
-							$torsdag = true;
-						}
-						if(isset($_REQUEST["fredag"]))
-						{
-							$fredag = true;
-						}
-						if(isset($_REQUEST["loerdag"]))
-						{
-							$loerdag = true;
-						}
-						if(isset($_REQUEST["soendag"]))
-						{
-							$soendag = true;
-						}
-					}
-				?>
-
+				
+					
 				<!--DIV CONTAINER FOR HØYRE KOLONNE I LEGG TIL AKTIVITET-->
 				<div class="col_right">
 					<div id="aktivitet_oversikt">
-						<?php
-							hentAktivitet();
-						?>
+						
 					</div>
 				</div>
 			</form>
+
 		</div>
 	</div>
 </div>

@@ -2,6 +2,7 @@
 	include "db_connect.php";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 	////FUNKSJON FOR Å LEGGE TIL AKTIVITET I DATABASE MED RELASJONSATTRIBUTTER.
 	//function leggTilAktivitet($bildeId, $fargeId, $akNavn, $akBeskr, $m, $tirs, $o, $tors, $f, $l, $s, $dato, $tid, $alarm)
@@ -111,6 +112,9 @@
     //	}
 	//}
 =======
+=======
+
+>>>>>>> origin/master
 	//FUNKSJON FOR Å LEGGE TIL AKTIVITET I DATABASE MED RELASJONSATTRIBUTTER.
 	function leggTilAktivitet($bildeId, $fargeId, $akNavn, $akBeskr, $m, $tirs, $o, $tors, $f, $l, $s, $dato, $tid, $alarm)
 	{
@@ -279,7 +283,6 @@
 	//FUNKSJON FOR Å HENTE UT INNLAGTE AKTIVITETER FOR GITT DAG FRA DATABASE
 	function hentAktivitet()
 	{
-		global $connect;
 		//SQL setning for å hente aktivitet
 		$visAktivitet = "SELECT aktivitetNavn, beskrivelse FROM aktivitet";
 		$resultat = mysqli_query($connect, $visAktivitet);

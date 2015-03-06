@@ -1,7 +1,7 @@
 <?php
-	session_start();
 	include "includes/top.php";
 	include "includes/footer.php";
+	include "includes/header.php";
 ?>
 
 <div class="container">

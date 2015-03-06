@@ -1,6 +1,11 @@
 <?php
 	include "db_connect.php";
 
+	//function leggTilAktivitet($n)
+	//{
+	//}
+				
+					
 
 	//FUNKSJON FOR Å HENTE UT INNLAGTE AKTIVITETER FOR GITT DAG FRA DATABASE
 	function hentAktivitet()

@@ -9,7 +9,7 @@
 	</div>
 	<div id="admincontent">
 		<div class="col-1-1">	
-			<form class="form_add_aktivitet" action="add_aktivitet_step2.php" name="legg_til_aktivitet" method="post">
+			<form class="form_add_aktivitet" action="" name="legg_til_aktivitet" method="post">
 				<!--DIV CONTAINER FOR VENSTRE KOLONNE I LEGG TIL AKTIVITET-->
 				<div class="col_left">
 
@@ -107,19 +107,22 @@
 					</div>
 				</div>
 			</form>
-					<?php
-					
-					$sql = "INSERT INTO i (aktivitet)
-							VALUES ('skole')";
-						if ($connect->query($sql) === TRUE) {
-						    echo "New record created successfully";
-						} else {
-						    echo "Error: " . $sql . "<br>" . $connect->error;
-						}
+			<?php
+				if(isset($_REQUEST["submit"]) && !empty($_REQUEST["aktivitetsnavn"]))
+				{
+					$sql = "INSERT INTO i (aktivitet) VALUES ('".$_REQUEST["aktivitetsnavn"]."')";
+					if ($connect->query($sql) === TRUE) 
+					{
+						echo "New record created successfully";
+					} 
+					else 
+					{
+						echo "Error: " . $sql . "<br>" . $connect->error;
+					}
 
-						$connect->close();
-					?>
-
+					$connect->close();
+				}
+			?>
 		</div>
 	</div>
 </div>

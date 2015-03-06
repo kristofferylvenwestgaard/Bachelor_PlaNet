@@ -67,9 +67,6 @@
 					</div>
 				</form>
 			</div>
-
-			
-
 			<div class="col_right">
 				<div id="aktivitet_oversikt">
 				

@@ -128,7 +128,7 @@
 			$resultat = mysqli_query($connect, $sql);
 			if(!$resultat)
 			{
-				echo "error:"
+				echo "error:";
 			}
 			else
 			{

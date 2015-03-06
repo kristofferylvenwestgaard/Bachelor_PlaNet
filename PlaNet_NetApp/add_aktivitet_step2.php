@@ -11,7 +11,12 @@
 	<div id="admincontent">
 		<div class="col-1-1">
 			<div class="col_left">
-			 <div class="inAppText"><?php echo $_REQUEST["aktivitetsnavn"];?></div> 
+
+			
+
+
+			 <div class="inAppText"><?php echo $_SESSION["aktivitetsnavn"];?></div> 
+
 			 	<?php
 					//Sjekker hvilken farge som er valgt og tilegner variabel $farge riktig verdi
 					if(isset($_REQUEST["blue"]))
@@ -77,7 +82,7 @@
 
 					<?php
 						//Benytter function leggTilAktivitet() for å sette inn verdiene i tabeller
-						leggTilAktivitet($_REQUEST["aktivitetsnavn"]);
+						leggTilAktivitet($_SESSION["aktivitetsnavn"]);
 					?>
 					<div id="checkRight">
 					</div>

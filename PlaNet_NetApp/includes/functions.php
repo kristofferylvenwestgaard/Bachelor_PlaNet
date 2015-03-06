@@ -124,7 +124,7 @@
 
 		if(isset($_REQUEST["leggTil"]))
 		{
-			$sql = "INSERT INTO i (aktivitet) VALUES ('" . $aktivitetsNavn . "')";
+			$sql = "INSERT INTO i (aktivitet) VALUES (" . $aktivitetsNavn . "')";
 			$resultat = mysqli_query($connect, $sql);
 			if(!$resultat)
 			{

@@ -15,7 +15,7 @@
 			
 
 
-			 <div class="inAppText"><?php echo $_SESSION["aktivitetsnavn"];?></div> 
+			 <div class="inAppText"><?php echo $_REQUEST["aktivitetsnavn"];?></div> 
 
 			 	<?php
 					//Sjekker hvilken farge som er valgt og tilegner variabel $farge riktig verdi
@@ -81,8 +81,11 @@
 					</div>
 
 					<?php
-						//Benytter function leggTilAktivitet() for å sette inn verdiene i tabeller
-						leggTilAktivitet($_SESSION["aktivitetsnavn"]);
+					//	//Benytter function leggTilAktivitet() for å sette inn verdiene i tabeller
+					if(isset($_REQUEST["submit"]))
+					{
+						leggTilAktivitet($_REQUEST["aktivitetsnavn"]);
+					}
 					?>
 					<div id="checkRight">
 					</div>

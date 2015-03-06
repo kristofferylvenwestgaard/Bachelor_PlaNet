@@ -475,6 +475,16 @@
 	margin-right: auto;
 }
 
+.aktivitetListUt
+{
+	height:40px;
+	background-color: #f7f7f7;
+	font-family: arial;
+	font-size: 16px;
+	padding-left:10px;
+	padding-top: 10px;
+}
+
 /*************DAGSPLAN*****************/
 
 .dagsplanBoks 

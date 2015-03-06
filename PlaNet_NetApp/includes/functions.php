@@ -134,7 +134,7 @@
         	{
             	?>
          			<!--Oppretter en html section i aktivitetsvindu hvor aktivitetene vil listes ut.-->
-            	    <section id="aktivitetListUt">
+            	    <section class="aktivitetListUt">
             	        <?php 
             	            echo $row["aktivitetNavn"]."</br>". $row["beskrivelse"];
             	        ?>
@@ -144,7 +144,13 @@
 		}
 		else
 		{
-			echo "Det finnes ingen aktiviteter!";
+			?>
+				<section class="aktivitetListUt">
+					<?php
+						echo "Det finnes ingen aktiviteter!";
+					?>
+				</section>
+			<?php
 		}
 	}
 

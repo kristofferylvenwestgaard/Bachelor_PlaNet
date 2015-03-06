@@ -483,6 +483,12 @@
 	font-size: 16px;
 	padding-left:10px;
 	padding-top: 10px;
+	border-style: solid;
+	border-bottom-width: 1px;
+	border-top: 0;
+	border-right: 0;
+	border-left:0;
+
 }
 
 /*************DAGSPLAN*****************/

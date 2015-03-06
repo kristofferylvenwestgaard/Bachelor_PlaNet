@@ -11,9 +11,30 @@
 	<div id="admincontent">
 		<div class="col-1-1">
 			<div class="col_left">
-			<!--<?php	echo $_REQUEST ["aktivitetsnavn"]; ?> --><div class="inAppText">Aktivitetsnavnet gitt på forrige side</div> 
+			 <div class="inAppText"><?php echo $_REQUEST ["aktivitetsnavn"];?></div> 
+			 	<?php
+					//Sjekker hvilken farge som er valgt og tilegner variabel $farge riktig verdi
+					if(isset($_REQUEST["blue"]))
+					{
+						$farge = 1;
+					}
+					elseif(isset($_REQUEST["red"]))
+					{
+						$farge = 2;
+					}
+					elseif(isset($_REQUEST["green"]))
+					{
+						$farge = 3;
+					}
+					elseif(isset($_REQUEST["black"]))
+					{
+						$farge = 4;
+					}
+				?>
 				<form class="form_add_aktivitet" action="" name="legg_til_aktivitet" method="post">
 					<div class="inAppText">Legg til aktivitet:</div></br>
+
+					
 
 					<div id="checkLeft">
 						<input class="input_check" type="checkbox" name="aktivitet"/><p class="formText">Aktivitet</p><br/>
@@ -53,10 +74,19 @@
 							<br/>
 						<input class="submit btn btn-success" type="submit" value="+Legg til" name="submit"/>
 					</div>
+
+					<?php
+					//Benytter function leggTilAktivitet() for å sette inn verdiene i tabeller
+					leggTilAktivitet( $_REQUEST["bildeid"], $farge, $_REQUEST["aktivitetsnavn"], $mandag, $tirsdag, $onsdag, 
+									$torsdag, $fredag, $loerdag, $soendag );
+					?>
 					<div id="checkRight">
 					</div>
 				</form>
 			</div>
+
+			
+
 			<div class="col_right">
 				<div id="aktivitet_oversikt">
 					<?php

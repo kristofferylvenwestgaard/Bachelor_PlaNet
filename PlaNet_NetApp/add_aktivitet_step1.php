@@ -9,7 +9,7 @@
 	</div>
 	<div id="admincontent">
 		<div class="col-1-1">	
-			<form class="form_add_aktivitet" action="" name="legg_til_aktivitet" method="post">
+			<form class="form_add_aktivitet" action="add_aktivitet_step2.php" name="legg_til_aktivitet" method="post">
 				<!--DIV CONTAINER FOR VENSTRE KOLONNE I LEGG TIL AKTIVITET-->
 				<div class="col_left">
 
@@ -93,7 +93,7 @@
 						</div>
 					</div>
 					<div id="submit">
-						<input class="submit" type="submit" value="Legg til" name="submit"/>
+						<input class="submit" type="submit" value="Neste" name="submit"/>
 					</div>
 				</div>
 				
@@ -138,29 +138,6 @@
 						{
 							$soendag = true;
 						}
-
-
-						//Sjekker hvilken farge som er valgt og tilegner variabel $farge riktig verdi
-						if(isset($_REQUEST["blue"]))
-						{
-							$farge = 1;
-						}
-						elseif(isset($_REQUEST["red"]))
-						{
-							$farge = 2;
-						}
-						elseif(isset($_REQUEST["green"]))
-						{
-							$farge = 3;
-						}
-						elseif(isset($_REQUEST["black"]))
-						{
-							$farge = 4;
-						}
-
-						//Benytter function leggTilAktivitet() for å sette inn verdiene i tabeller
-						leggTilAktivitet( $_REQUEST["bildeid"], $farge, $_REQUEST["aktivitetsnavn"], $mandag, $tirsdag, $onsdag, 
-										$torsdag, $fredag, $loerdag, $soendag );
 					}
 				?>
 
@@ -170,9 +147,6 @@
 						<?php
 							hentAktivitet();
 						?>
-					</div>
-					<div class="next_page">
-						<a class="inAppLinks" href="add_aktivitet_step2.php">Next</a>
 					</div>
 				</div>
 			</form>

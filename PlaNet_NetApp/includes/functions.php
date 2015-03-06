@@ -30,36 +30,64 @@
 			{
 				$manSQL = "INSERT INTO ukedager(mandag) VALUES ('".$m."')";
 				$manRes = mysqli_query($connect, $manSQL);
+				if(!$manRes)
+				{
+					echo "feil!";
+				}
 			}
 			if($t)
 			{
 				$tirSQL = "INSERT INTO ukedager(tirsdag) VALUES ('".$t."')";
 				$tirRes = mysqli_query($connect, $tirSQL);
+				if(!$tirRes)
+				{
+					echo "feil!";
+				}
 			}
 			if($o)
 			{
 				$onsSQL = "INSERT INTO ukedager(onsdag) VALUES ('".$o."')";
 				$onsRes = mysqli_query($connect, $onsSQL);
+				if(!$onsRes)
+				{
+					echo "feil!";
+				}
 			}
 			if($to)
 			{
 				$torsSQL = "INSERT INTO ukedager(torsfag) VALUES ('".$to."')";
 				$torsRes = mysqli_query($connect, $torsSQL);
+				if(!$torsRes)
+				{
+					echo "feil!";
+				}
 			}
 			if($f)
 			{
 				$freSQL = "INSERT INTO ukedager(fredag) VALUES ('".$f."')";
 				$freRes = mysqli_query($connect, $freSQL);
+				if(!$freRes)
+				{
+					echo "feil!";
+				}
 			}
 			if($l)
 			{
 				$loerSQL = "INSERT INTO ukedager(onsdag) VALUES ('".$l."')";
 				$loerRes = mysqli_query($connect, $loerSQL);
+				if(!$loerRes)
+				{
+					echo "feil!";
+				}
 			}
 			if($s)
 			{
 				$soenSQL = "INSERT INTO ukedager(onsdag) VALUES ('".$s."')";
 				$soenRes = mysqli_query($connect, $soenSQL);
+				if(!$soenRes)
+				{
+					echo "feil!";
+				}
 			}
 		}
 		gjentaAktivitet($man, $tir, $ons, $tor, $fre, $loer, $soen);

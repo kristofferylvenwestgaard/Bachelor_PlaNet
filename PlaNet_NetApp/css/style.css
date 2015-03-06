@@ -293,6 +293,19 @@
 	padding-left:10px;
 }
 
+.input_textarea
+{
+	width:500px;
+	height:200px;
+	margin-top:15px;
+	font-family: arial;
+	font-size: 15px;
+	padding-left:10px;
+	padding-top:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+}
+
 .input_text_small
 {
 	width:70px;

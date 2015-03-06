@@ -22,7 +22,7 @@
 						
 						<div class="col-1-1">
 							<div class="inAppText">Beskrivelse:</div>
-							<textarea name="beskrivelseBoks" placeholder="Beskriv aktivitet" cols="46" rows="14"></textarea>
+							<textarea class="input_textarea" name="beskrivelseBoks" placeholder="Beskriv aktivitet" cols="46" rows="14"></textarea>
 						</div>
 
 						<div class="col-1-1">

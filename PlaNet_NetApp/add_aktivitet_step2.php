@@ -15,7 +15,7 @@
 			
 
 
-			 <div class="inAppText"><?php echo $_SESSION["aktivitetsnavn"];?></div> 
+			 <div class="inAppText"><?php echo $_REQUEST["aktivitetsnavn"];?></div> 
 
 			 	
 				<form class="form_add_aktivitet" action="" name="legg_til_aktivitet" method="post">
@@ -62,6 +62,16 @@
 						<input class="submit btn btn-success" type="submit" value="+Legg til" name="leggTil"/>
 					</div>
 
+<<<<<<< HEAD
+=======
+					<?php
+					//	//Benytter function leggTilAktivitet() for å sette inn verdiene i tabeller
+					if(isset($_REQUEST["submit"]))
+					{
+						leggTilAktivitet($_REQUEST["aktivitetsnavn"]);
+					}
+					?>
+>>>>>>> origin/master
 					<div id="checkRight">
 					</div>
 				</form>

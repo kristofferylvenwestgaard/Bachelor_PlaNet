@@ -118,8 +118,23 @@
 
 
 	//LEGG TIL AKTIVITET!!!!
-	function leggTilAktivitet()
+	function leggTilAktivitet($aN)
 	{
+		$aktivetsNavn = $aN;
+
+		if(isset($_REQUEST["leggTil"]))
+		{
+			$sql = "INSERT INTO i (aktivitet) VALUES ('" . $aktivitetsNavn . "')";
+			$resultat = mysqli_query($connect, $sql);
+			if(!$resultat)
+			{
+				echo "error:"
+			}
+			else
+			{
+				echo "ok!";
+			}
+		}
 		
 	}
 

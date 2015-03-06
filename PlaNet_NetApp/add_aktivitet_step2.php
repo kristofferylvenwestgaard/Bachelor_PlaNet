@@ -11,7 +11,7 @@
 	<div id="admincontent">
 		<div class="col-1-1">
 			<div class="col_left">
-			 <div class="inAppText"><?php echo $_REQUEST ["aktivitetsnavn"];?></div> 
+			 <div class="inAppText"><?php echo $_REQUEST["aktivitetsnavn"];?></div> 
 			 	<?php
 					//Sjekker hvilken farge som er valgt og tilegner variabel $farge riktig verdi
 					if(isset($_REQUEST["blue"]))
@@ -72,13 +72,12 @@
 						</div>
 						<br/>
 							<br/>
-						<input class="submit btn btn-success" type="submit" value="+Legg til" name="submit"/>
+						<input class="submit btn btn-success" type="submit" value="+Legg til" name="leggTil"/>
 					</div>
 
 					<?php
-					//Benytter function leggTilAktivitet() for å sette inn verdiene i tabeller
-					leggTilAktivitet( $_REQUEST["bildeid"], $farge, $_REQUEST["aktivitetsnavn"], $mandag, $tirsdag, $onsdag, 
-									$torsdag, $fredag, $loerdag, $soendag );
+						//Benytter function leggTilAktivitet() for å sette inn verdiene i tabeller
+						leggTilAktivitet($_REQUEST["aktivitetsnavn"]);
 					?>
 					<div id="checkRight">
 					</div>

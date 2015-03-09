@@ -1,13 +1,16 @@
 <?php
 	include "db_connect.php";
 
-	function leggTilAktivitet($n, $bId)
+	function leggTilAktivitet($n, $bId, $gjenta)
 	{
 		//DENNE ER GRUNNEN TIL AT FUNCTIONS INLCUDEN IKKE FUNGERTE... NÅ FUNGEERER DET GULL!
 		global $connect;
 		
 		$navn = $n;
 		$bildeId = $bId;
+		$gjentaId = $gjenta;
+
+		
 
 		$sql = "INSERT INTO aktivitet (bildeId, aktivitetNavn) VALUES ('". $bildeId."','". $navn ."')";
 		if ($connect->query($sql) === TRUE) 
@@ -21,7 +24,29 @@
 		$connect->close();
 	}
 				
-					
+	function gjentaDager($gjentaDager)
+	{
+		global $connect;
+		$gjentaArray = $gjentaDager;
+
+
+
+		//foreach-løkke som går gjennom gjenta-array og setter inn true eller false i ukedager.
+		foreach($gjentaArray as $innhold)
+		{
+			$sql = "INSERT INTO ukedager(mandag, tirsdag, onsdag, torsdag, fredag, lordag, sondag) VALUES ('".$innhold["m"]."','".$innhold["ti"]."','".$innhold["o"]."','".$innhold["to"]."','".$innhold["f"]."','"
+					.$innhold["l"]."','".$innhold["s"]."')";
+			if ($connect->query($sql) === TRUE) 
+			{
+				echo "New record created successfully";
+			} 
+			else 
+			{
+				echo "Error: " . $sql . "<br>" . $connect->error;
+			}
+			$connect->close();
+		}
+	}		
 
 	//FUNKSJON FOR Å HENTE UT INNLAGTE AKTIVITETER FOR GITT DAG FRA DATABASE
 	function hentAktivitet()

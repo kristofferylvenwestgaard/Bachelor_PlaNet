@@ -114,7 +114,49 @@
 				{
 					$aNavn = $_REQUEST["aktivitetsnavn"];
 					$bildeId = $_REQUEST["bildeid"];
-					leggTilAktivitet($aNavn, $bildeId);	
+					$m = false;
+					$ti = false;
+					$o = false;
+					$to = false;
+					$f = false;
+					$l = false;
+					$s = false;
+
+					if(isset($_REQUEST["mandag"]))
+					{
+						$m = true;
+					}
+					if(isset($_REQUEST["tirsdag"]))
+					{
+						$ti = true;
+					}
+					if(isset($_REQUEST["onsdag"]))
+					{
+						$o = true;
+					}
+					if(isset($_REQUEST["torsdag"]))
+					{
+						$to = true;
+					}
+					if(isset($_REQUEST["fredag"]))
+					{
+						$f = true;
+					}
+					if(isset($_REQUEST["loerdag"]))
+					{
+						$l = true;
+					}
+					if(isset($_REQUEST["soendag"]))
+					{
+						$s = true;
+					}
+					
+					//Setter gjentakelsedager inn i et array med true for gjenta og false for ikke å gjenta.
+					$gjentaArray = array($m, $ti, $o, $to, $f, $l, $s);
+
+
+					leggTilAktivitet($aNavn, $bildeId, $gjentaArray);
+					gjentaDager($gjentaArray);	
 				}
 			?>
 		</div>

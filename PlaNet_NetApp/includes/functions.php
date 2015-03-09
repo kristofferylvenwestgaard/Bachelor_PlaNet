@@ -1,9 +1,25 @@
 <?php
 	include "db_connect.php";
 
-	//function leggTilAktivitet($n)
-	//{
-	//}
+	function leggTilAktivitet($n, $bId)
+	{
+		//DENNE ER GRUNNEN TIL AT FUNCTIONS INLCUDEN IKKE FUNGERTE... NÅ FUNGEERER DET GULL!
+		global $connect;
+		
+		$navn = $n;
+		$bildeId = $bId;
+
+		$sql = "INSERT INTO aktivitet (bildeId, aktivitetNavn) VALUES ('". $bildeId."','". $navn ."')";
+		if ($connect->query($sql) === TRUE) 
+		{
+			echo "New record created successfully";
+		} 
+		else 
+		{
+			echo "Error: " . $sql . "<br>" . $connect->error;
+		}
+		$connect->close();
+	}
 				
 					
 

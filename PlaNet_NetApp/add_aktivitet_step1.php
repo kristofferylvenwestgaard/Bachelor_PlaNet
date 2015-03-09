@@ -93,7 +93,7 @@
 						</div>
 					</div>
 					<div id="submit">
-						<input class="submit" type="submit" value="Neste" name="submit"/>
+						<input class="submit" type="submit" value="Neste" name="nesteSide"/>
 					</div>
 				</div>
 				
@@ -103,24 +103,18 @@
 				<!--DIV CONTAINER FOR HØYRE KOLONNE I LEGG TIL AKTIVITET-->
 				<div class="col_right">
 					<div id="aktivitet_oversikt">
-						
+						<?php
+							hentAktivitet();
+						?>
 					</div>
 				</div>
 			</form>
 			<?php
-				if(isset($_REQUEST["submit"]) && !empty($_REQUEST["aktivitetsnavn"]))
+				if(isset($_REQUEST["nesteSide"]))
 				{
-					$sql = "INSERT INTO i (aktivitet) VALUES ('".$_REQUEST["aktivitetsnavn"]."')";
-					if ($connect->query($sql) === TRUE) 
-					{
-						echo "New record created successfully";
-					} 
-					else 
-					{
-						echo "Error: " . $sql . "<br>" . $connect->error;
-					}
-
-					$connect->close();
+					$aNavn = $_REQUEST["aktivitetsnavn"];
+					$bildeId = $_REQUEST["bildeid"];
+					leggTilAktivitet($aNavn, $bildeId);	
 				}
 			?>
 		</div>

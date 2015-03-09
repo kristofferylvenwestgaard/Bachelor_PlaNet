@@ -1,7 +1,8 @@
 <?php
 	include "db_connect.php";
 
-	function leggTilAktivitet($n, $bId, $gjenta)
+	//FUNKSJON SOM LEGGER INN AKTIVIET I aktivitettabell!
+	function leggTilAktivitet($n, $bId, $gjenta, $fId)
 	{
 		//DENNE ER GRUNNEN TIL AT FUNCTIONS INLCUDEN IKKE FUNGERTE... NÅ FUNGEERER DET GULL!
 		global $connect;
@@ -9,10 +10,10 @@
 		$navn = $n;
 		$bildeId = $bId;
 		$gjentaId = $gjenta;
-
+		$fargeId = $fId;
 		
 
-		$sql = "INSERT INTO aktivitet (bildeId, aktivitetNavn) VALUES ('". $bildeId."','". $navn ."')";
+		$sql = "INSERT INTO aktivitet (bildeId, aktivitetNavn, fargeId) VALUES ('". $bildeId."','". $navn ."','".$fargeId."')";
 		if ($connect->query($sql) === TRUE) 
 		{
 			echo "New record created successfully";
@@ -24,29 +25,25 @@
 		$connect->close();
 	}
 	
-	//FUNKER IKKE ENDA!!! - FOREACH LØKKEN HENTER IKKE VERIDER FRA ARRAY - TROR JEG HAR LAGD ARRAY FEIL...			
+	//FUNKER IKKE ENDA!!! - FEILMELDING kommer, men er veldig nære å få det til tror jeg...			
 	function gjentaDager($gjentaDager)
 	{
 		global $connect;
-		$gjentaArray = $gjentaDager;
 
 
-
-		//foreach-løkke som går gjennom gjenta-array og setter inn true eller false i ukedager.
-		foreach($gjentaArray as $innhold)
+		
+		$sql = "INSERT INTO ukedager (mandag, tirsdag, onsdag, torsdag, fredag, lordag, sondag) VALUES (".$gjentaDager[0].",".$gjentaDager[1].",".$gjentaDager[2].",
+				".$gjentaDager[3].",".$gjentaDager[4].",".$gjentaDager[5].",".$gjentaDager[6].")";
+		
+		if ($connect->query($sql) === TRUE) 
 		{
-			$sql = "INSERT INTO ukedager(mandag, tirsdag, onsdag, torsdag, fredag, lordag, sondag) VALUES ('".$innhold["m"]."','".$innhold["ti"]."','".$innhold["o"]."','".$innhold["to"]."','".$innhold["f"]."','"
-					.$innhold["l"]."','".$innhold["s"]."')";
-			if ($connect->query($sql) === TRUE) 
-			{
-				echo "New record created successfully";
-			} 
-			else 
-			{
-				echo "Error: " . $sql . "<br>" . $connect->error;
-			}
-			$connect->close();
+			echo "New record created successfully";
+		} 
+		else 
+		{
+			echo "Error: " . $sql . "<br>" . mysql_error($connect);
 		}
+		$connect->close();
 	}		
 
 	//FUNKSJON FOR Å HENTE UT INNLAGTE AKTIVITETER FOR GITT DAG FRA DATABASE
@@ -54,7 +51,7 @@
 	{
 		global $connect;
 		//SQL setning for å hente aktivitet
-		$visAktivitet = "SELECT aktivitetNavn, bildeId FROM aktivitet";
+		$visAktivitet = "SELECT aktivitetNavn, bildeId, fargeId FROM aktivitet";
 		$resultat = mysqli_query($connect, $visAktivitet);
 
 		//Teller rekker i tabellen, og setter innholdet i et assosiativt array dersom det er fler enn 0.
@@ -66,12 +63,29 @@
 				$innhold[] = $row;
 			}
 			foreach($innhold as $row)
-        	{
+        	{	
+        		//IF-TESTER som sjekker hvilken FargeID aktiviteten er tilegnet i DB. og setter $farge til riktig farge!
+        		if($row["fargeId"] == 1)
+        		{
+        			$farge = "Blå";
+        		}
+        		if($row["fargeId"] == 2)
+        		{
+        			$farge = "Rød";
+        		}
+        		if($row["fargeId"] == 3)
+        		{
+        			$farge = "Grønn";
+        		}
+        		if($row["fargeId"] == 4)
+        		{
+        			$farge = "Sort";
+        		}
             	?>
          			<!--Oppretter en html section i aktivitetsvindu hvor aktivitetene vil listes ut.-->
             	    <section class="aktivitetListUt">
             	        <?php 
-            	            echo "Aktivitetsnavn: ".$row["aktivitetNavn"]."</br> BildeId: ". $row["bildeId"];
+            	            echo "Aktivitetsnavn: ".$row["aktivitetNavn"].". BildeId: ". $row["bildeId"]."</br> Farge: ".$farge;
             	        ?>
            		    </section>
             	<?php

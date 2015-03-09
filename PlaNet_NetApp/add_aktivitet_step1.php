@@ -114,48 +114,69 @@
 				{
 					$aNavn = $_REQUEST["aktivitetsnavn"];
 					$bildeId = $_REQUEST["bildeid"];
-					$m = false;
-					$ti = false;
-					$o = false;
-					$to = false;
-					$f = false;
-					$l = false;
-					$s = false;
+					
+					//PHP for gjentakelses dager!
+					$m = 0;
+					$ti = 0;
+					$o = 0;
+					$to = 0;
+					$f = 0;
+					$l = 0;
+					$s = 0;
 
 					if(isset($_REQUEST["mandag"]))
 					{
-						$m = true;
+						$m = 1;
 					}
 					if(isset($_REQUEST["tirsdag"]))
 					{
-						$ti = true;
+						$ti = 1;
 					}
 					if(isset($_REQUEST["onsdag"]))
 					{
-						$o = true;
+						$o = 1;
 					}
 					if(isset($_REQUEST["torsdag"]))
 					{
-						$to = true;
+						$to = 1;
 					}
 					if(isset($_REQUEST["fredag"]))
 					{
-						$f = true;
+						$f = 1;
 					}
 					if(isset($_REQUEST["loerdag"]))
 					{
-						$l = true;
+						$l = 1;
 					}
 					if(isset($_REQUEST["soendag"]))
 					{
-						$s = true;
+						$s = 1;
 					}
 					
-					//Setter gjentakelsedager inn i et array med true for gjenta og false for ikke å gjenta.
+					//PHP for fargevalg
+					if(isset($_REQUEST["blue"]))
+					{
+						$fargeId = 1;
+					}
+					if(isset($_REQUEST["red"]))
+					{
+						$fargeId = 2;
+					}
+					if(isset($_REQUEST["green"]))
+					{
+						$fargeId = 3;
+					}
+					if(isset($_REQUEST["black"]))
+					{
+						$fargeId = 4;
+					}
+
+
+					//Setter gjentakelsedager inn i et array med 1=true for gjenta og 0=false for ikke å gjenta.
 					$gjentaArray = array($m, $ti, $o, $to, $f, $l, $s);
 
 
-					leggTilAktivitet($aNavn, $bildeId, $gjentaArray);
+					leggTilAktivitet($aNavn, $bildeId, $gjentaId, $fargeId);
 
 					//MÅ SE PÅ I FUNCTIONS - FUNKER IKKE!!!
 					gjentaDager($gjentaArray);	

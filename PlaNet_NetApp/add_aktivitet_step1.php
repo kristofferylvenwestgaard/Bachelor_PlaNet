@@ -156,6 +156,8 @@
 
 
 					leggTilAktivitet($aNavn, $bildeId, $gjentaArray);
+
+					//MÅ SE PÅ I FUNCTIONS - FUNKER IKKE!!!
 					gjentaDager($gjentaArray);	
 				}
 			?>

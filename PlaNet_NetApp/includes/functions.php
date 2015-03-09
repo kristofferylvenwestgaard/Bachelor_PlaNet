@@ -23,7 +23,8 @@
 		}
 		$connect->close();
 	}
-				
+	
+	//FUNKER IKKE ENDA!!! - FOREACH LØKKEN HENTER IKKE VERIDER FRA ARRAY - TROR JEG HAR LAGD ARRAY FEIL...			
 	function gjentaDager($gjentaDager)
 	{
 		global $connect;

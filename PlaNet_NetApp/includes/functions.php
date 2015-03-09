@@ -28,7 +28,7 @@
 	{
 		global $connect;
 		//SQL setning for å hente aktivitet
-		$visAktivitet = "SELECT aktivitetNavn, beskrivelse FROM aktivitet";
+		$visAktivitet = "SELECT aktivitetNavn, bildeId FROM aktivitet";
 		$resultat = mysqli_query($connect, $visAktivitet);
 
 		//Teller rekker i tabellen, og setter innholdet i et assosiativt array dersom det er fler enn 0.
@@ -45,7 +45,7 @@
          			<!--Oppretter en html section i aktivitetsvindu hvor aktivitetene vil listes ut.-->
             	    <section class="aktivitetListUt">
             	        <?php 
-            	            echo $row["aktivitetNavn"]."</br>". $row["beskrivelse"];
+            	            echo "Aktivitetsnavn: ".$row["aktivitetNavn"]."</br> BildeId: ". $row["bildeId"];
             	        ?>
            		    </section>
             	<?php

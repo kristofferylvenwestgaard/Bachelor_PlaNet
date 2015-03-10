@@ -176,7 +176,7 @@
 					$gjentaArray = array($m, $ti, $o, $to, $f, $l, $s);
 
 
-					leggTilAktivitet($aNavn, $bildeId, $gjentaId, $fargeId);
+					leggTilAktivitet($aNavn, $bildeId, $fargeId);
 
 					//MÅ SE PÅ I FUNCTIONS - FUNKER IKKE!!!
 					gjentaDager($gjentaArray);	

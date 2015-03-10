@@ -29,14 +29,14 @@ ENGINE=InnoDB;
 
 CREATE TABLE ukedager
 (
-gjentaID INT NOT NULL,
+gjentaID INT NOT NULL AUTO_INCREMENT,
 mandag boolean,
 tirsdag boolean,
 onsdag boolean,
 torsdag boolean,
 fredag boolean,
-lørdag boolean,
-søndag boolean,
+lordag boolean,
+sondag boolean,
 PRIMARY KEY (gjentaID)
 )
 ENGINE=InnoDB;

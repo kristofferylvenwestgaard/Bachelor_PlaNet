@@ -2,14 +2,13 @@
 	include "db_connect.php";
 
 	//FUNKSJON SOM LEGGER INN AKTIVIET I aktivitettabell!
-	function leggTilAktivitet($n, $bId, $gjenta, $fId)
+	function leggTilAktivitet($n, $bId, $fId)
 	{
 		//DENNE ER GRUNNEN TIL AT FUNCTIONS INLCUDEN IKKE FUNGERTE... NÅ FUNGEERER DET GULL!
 		global $connect;
 		
 		$navn = $n;
 		$bildeId = $bId;
-		$gjentaId = $gjenta;
 		$fargeId = $fId;
 		
 

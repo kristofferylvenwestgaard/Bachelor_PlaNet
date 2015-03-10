@@ -19,7 +19,7 @@
 		} 
 		else 
 		{
-			echo "Error: " . $sql . "<br>" . $connect->error;
+			echo "Error: " . $sql . "<br>" . $connect->error($sql);
 		}
 		$connect->close();
 	}
@@ -40,7 +40,7 @@
 		} 
 		else 
 		{
-			echo "Error: " . $sql . "<br>" . $connect->error;
+			echo "Error: " . $sql . "<br>" . $connect->error($sql);
 		}
 		$connect->close();
 	}		

@@ -21,7 +21,7 @@
 		{
 			echo "Error: " . $sql . "<br>" . $connect->error($sql);
 		}
-		$connect->close();
+		
 	}
 	
 	//FUNKER IKKE ENDA!!! - FEILMELDING kommer, men er veldig nære å få det til tror jeg...			
@@ -42,7 +42,7 @@
 		{
 			echo "Error: " . $sql . "<br>" . $connect->error;
 		}
-		$connect->close();
+		
 	}		
 
 	//FUNKSJON FOR Å HENTE UT INNLAGTE AKTIVITETER FOR GITT DAG FRA DATABASE

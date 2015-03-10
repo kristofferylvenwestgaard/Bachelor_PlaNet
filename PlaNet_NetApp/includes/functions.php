@@ -11,8 +11,34 @@
 		$bildeId = $bId;
 		$fargeId = $fId;
 		
+		//Funksjon for å hente siste gjentaId i tabellen ukedager --**** BUGGER HELE APPEN!!!****--
+		function hentGjentaId()
+		{
+			$gjentaId = "SELECT gjentaID FROM ukedager";
+			$resultat = mysqli_query($connect, $gjentaId)
+			if(mysqli_num_rows($resultat) > 0)
+			{
+				while($row = mysqli_fetch_assoc($resultat))
+				{
+					$innhold[] = $row;
+				}
+				$innhold = array_reverse($innhold, true);
 
-		$sql = "INSERT INTO aktivitet (bildeId, aktivitetNavn, fargeId) VALUES ('". $bildeId."','". $navn ."','".$fargeId."')";
+				$id = "";
+				$ok = 0;
+				foreach($innhold as $rekke)
+				{
+					$ok ++
+					if($ok == 1)
+					{
+						$id = $innhold["gjentaID"];
+					}
+				}
+			}
+			return $id;
+		}
+
+		$sql = "INSERT INTO aktivitet (bildeId, aktivitetNavn, fargeId, gjentaID) VALUES ('". $bildeId."','". $navn ."','".$fargeId."','".hentGjentaId()."')";
 		if ($connect->query($sql) === TRUE) 
 		{
 			echo "New record created successfully";
@@ -24,7 +50,7 @@
 		
 	}
 	
-	//FUNKER IKKE ENDA!!! - FEILMELDING kommer, men er veldig nære å få det til tror jeg...			
+	//Funksjon for å legge inn dager som skal gjentas i ukedager tabell.	
 	function gjentaDager($gjentaDager)
 	{
 		global $connect;

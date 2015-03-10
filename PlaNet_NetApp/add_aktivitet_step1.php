@@ -176,12 +176,14 @@
 
 					//Setter gjentakelsedager inn i et array med 1=true for gjenta og 0=false for ikke å gjenta.
 					$gjentaArray = array($m, $ti, $o, $to, $f, $l, $s);
+					
+					// Legger inn verdiene 1 for ja og 0 for nei i ukedager tabell!
+					gjentaDager($gjentaArray);	
 
-
+					// Legger inn aktivitet i database tabell med gitte specs for aktivitet.
 					leggTilAktivitet($aNavn, $bildeId, $fargeId);
 
-					//MÅ SE PÅ I FUNCTIONS - FUNKER IKKE!!!
-					gjentaDager($gjentaArray);	
+					
 				}
 			?>
 		</div>

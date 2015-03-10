@@ -41,7 +41,7 @@
 		} 
 		else 
 		{
-			echo "Error: " . $sql . "<br>" . mysql_error($connect);
+			echo "Error: " . $sql . "<br>" . $connect->error;
 		}
 		$connect->close();
 	}		

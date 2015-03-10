@@ -38,7 +38,7 @@
 		} 
 		else 
 		{
-			echo "Error: " . $sql . "<br>" . $connect->error($sql);
+			echo "Error: " . $sql . "<br>" . $connect->error;
 		}
 		$connect->close();
 	}		

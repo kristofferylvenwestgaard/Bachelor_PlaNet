@@ -28,7 +28,7 @@
 				$ok = 0;
 				foreach($innhold as $rekke)
 				{
-					$ok ++
+					$ok ++;
 					if($ok == 1)
 					{
 						$id = $innhold["gjentaID"];

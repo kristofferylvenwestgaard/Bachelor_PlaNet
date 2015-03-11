@@ -39,7 +39,7 @@
 			return $id;
 		}
 
-		$sql = "INSERT INTO aktivitet (bildeId, aktivitetNavn, fargeId, gjentaID) VALUES ('". $bildeId."','". $navn ."','".$fargeId."','".hentGjentaId()."')";
+		$sql = "INSERT INTO aktivitet (bildeId, fargeId, gjentaID, aktivitetNavn) VALUES ('". $bildeId."','" .$fargeId."','" .hentGjentaId()."','". $navn ."')";
 		if ($connect->query($sql) === TRUE) 
 		{
 			echo "New record created successfully";

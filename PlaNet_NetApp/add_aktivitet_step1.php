@@ -16,7 +16,7 @@
 					<!--TEXTBOX FOR AKTIVITETSNAVN-->
 					<div class="inAppText">Legg til aktivitet:</div></br>
 					<input class="input_text" type="text" placeholder="Aktivitetsnavn" name="aktivitetsnavn"/>
-				<!--	<input class="input_text_small" type="text" placeholder="BildeId" name="bildeid"/> -->
+				<input class="input_text_small" type="text" placeholder="BildeId" name="bildeid"/>
 								<button onclick="openWin()">Open "myWindow"</button>
 								<button onclick="closeWin()">Close "myWindow"</button>
 

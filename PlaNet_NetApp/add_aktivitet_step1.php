@@ -180,8 +180,12 @@
 					// Legger inn verdiene 1 for ja og 0 for nei i ukedager tabell!
 					gjentaDager($gjentaArray);	
 
+					//GjentaId hentet på den vanskelige måten! -- FUNKER IKKE!!!
+					hentGjentaId();
+					
+
 					// Legger inn aktivitet i database tabell med gitte specs for aktivitet.
-					leggTilAktivitet($aNavn, $bildeId, $fargeId);
+					leggTilAktivitet($aNavn, $bildeId, $fargeId, /*$gjentaIdentitet*/);
 
 					
 				}

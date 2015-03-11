@@ -1,8 +1,8 @@
 <?php
 	include "db_connect.php";
 
-	//FUNKSJON SOM LEGGER INN AKTIVIET I aktivitettabell!
-	function leggTilAktivitet($n, $bId, $fId)
+	//FUNKSJON SOM LEGGER INN AKTIVIET I aktivitettabell! --- Fungerer ikke PGA ($gId og insert gjentaId. Uten så er den gull)
+	function leggTilAktivitet($n, $bId, $fId, $gId)
 	{
 		//DENNE ER GRUNNEN TIL AT FUNCTIONS INLCUDEN IKKE FUNGERTE... NÅ FUNGEERER DET GULL!
 		global $connect;
@@ -10,36 +10,11 @@
 		$navn = $n;
 		$bildeId = $bId;
 		$fargeId = $fId;
+		$gjentaId = $gId;
+
 		
-		//Funksjon for å hente siste gjentaId i tabellen ukedager --**** BUGGER HELE APPEN!!!****--
-		function hentGjentaId()
-		{
-			$gjentaId = "SELECT gjentaID FROM ukedager";
-			$resultat = mysqli_query($connect, $gjentaId);
-			if(mysqli_num_rows($resultat) > 0)
-			{
-				while($row = mysqli_fetch_assoc($resultat))
-				{
-					$innhold[] = $row;
-				}
-				$innhold = array_reverse($innhold, true);
-
-				$id = "";
-				$ok = 0;
-				foreach($innhold as $rekke)
-				{
-					$ok ++;
-					if($ok == 1)
-					{
-						$id = $innhold["gjentaID"];
-						break;
-					}
-				}
-			}
-			return $id;
-		}
-
-		$sql = "INSERT INTO aktivitet (bildeId, fargeId, gjentaID, aktivitetNavn) VALUES ('". $bildeId."','" .$fargeId."','" .hentGjentaId()."','". $navn ."')";
+		echo $gjentaIdentitet;
+		$sql = "INSERT INTO aktivitet (bildeId, fargeId, gjentaID, aktivitetNavn) VALUES ('". $bildeId."','" .$fargeId."','" .$gjentaId."','". $navn ."')";
 		if ($connect->query($sql) === TRUE) 
 		{
 			echo "New record created successfully";
@@ -51,6 +26,41 @@
 		
 	}
 	
+	//Funksjon for å hente siste gjentaId i tabellen ukedager --ET ELELR ANNET SOM IKKE ER BRA-- Går bare til else setning...
+	function hentGjentaId()
+	{
+		global $connect;
+
+		$gjentaId = "SELECT gjentaID FROM ukedager";
+		$resultat = mysqli_query($connect, $gjentaId);
+		if(mysqli_num_rows($resultat) > 0)
+		{
+			while($row = mysqli_fetch_assoc($resultat))
+			{
+				$innhold[] = $row;
+			}
+			$innhold = array_reverse($innhold, true);
+			$id = "";
+			$ok = 0;
+			foreach($innhold as $rekke)
+			{
+				$ok ++;
+				if($ok == 1)
+				{
+					$id = $innhold["gjentaID"];
+					break;
+				}
+			}
+			return $id;
+			echo "tullball! YESSS!";
+		}
+		else
+		{
+			echo "noe helvetes gærent har skjedd!";
+		}
+		
+	}
+
 	//Funksjon for å legge inn dager som skal gjentas i ukedager tabell.	
 	function gjentaDager($gjentaDager)
 	{

@@ -1,12 +1,20 @@
-<script>
-var myWindow;
 
-function openWin() {
-    myWindow = window.open("", "myWindow", "width=200, height=100");
-    myWindow.document.write("<p>This is 'myWindow'</p>");
-}
-
-function closeWin() {
-    myWindow.close();
-}
-</script>
+   function popuponclick()
+   {
+      my_window = window.open("",
+       "mywindow","status=1,width=350,height=150");
+ 
+      my_window.document.write('<h1>The Popup Window</h1>');
+   }
+ 
+   function closepopup()
+   {
+      if(false == my_window.closed)
+      {
+         my_window.close ();
+      }
+      else
+      {
+         alert('Window already closed!');
+      }
+   }

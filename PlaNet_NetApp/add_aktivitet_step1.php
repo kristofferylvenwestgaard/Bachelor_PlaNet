@@ -16,9 +16,9 @@
 					<!--TEXTBOX FOR AKTIVITETSNAVN-->
 					<div class="inAppText">Legg til aktivitet:</div></br>
 					<input class="input_text" type="text" placeholder="Aktivitetsnavn" name="aktivitetsnavn"/>
-				<input class="input_text_small" type="text" placeholder="BildeId" name="bildeid"/>
-								<button onclick="openWin()">Open "myWindow"</button>
-								<button onclick="closeWin()">Close "myWindow"</button>
+						<!--<input class="input_text_small" type="text" placeholder="BildeId" name="bildeid"/>-->
+						<!-- JS for knapp -->
+						<input class="submit btn btn-primary" value="+Bilde" onClick="window.open('velgbilde.php','test','width=400,height=200')"> 
 
 					<!--GJENTAGELSE MANDAG - FREDAG! -->
 					<div class="inAppText">Gjenta aktivitet:</div><br/> 

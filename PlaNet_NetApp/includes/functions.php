@@ -15,7 +15,7 @@
 		function hentGjentaId()
 		{
 			$gjentaId = "SELECT gjentaID FROM ukedager";
-			$resultat = mysqli_query($connect, $gjentaId)
+			$resultat = mysqli_query($connect, $gjentaId);
 			if(mysqli_num_rows($resultat) > 0)
 			{
 				while($row = mysqli_fetch_assoc($resultat))

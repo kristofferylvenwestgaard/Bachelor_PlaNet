@@ -32,6 +32,7 @@
 					if($ok == 1)
 					{
 						$id = $innhold["gjentaID"];
+						break;
 					}
 				}
 			}

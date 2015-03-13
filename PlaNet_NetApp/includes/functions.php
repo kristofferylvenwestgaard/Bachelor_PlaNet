@@ -33,6 +33,8 @@
 
 		$gjentaId = "SELECT gjentaID FROM ukedager";
 		$resultat = mysqli_query($connect, $gjentaId);
+		$id = "";
+		$ok = 0;
 		if(mysqli_num_rows($resultat) > 0)
 		{
 			while($row = mysqli_fetch_assoc($resultat))
@@ -40,8 +42,7 @@
 				$innhold[] = $row;
 			}
 			$innhold = array_reverse($innhold, true);
-			$id = "";
-			$ok = 0;
+			
 			foreach($innhold as $rekke)
 			{
 				$ok ++;

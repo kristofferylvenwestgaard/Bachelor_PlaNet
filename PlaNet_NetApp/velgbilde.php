@@ -1,5 +1,6 @@
 <?php
 	include "includes/top.php";
+	include "includes/footer.php";
 ?>
 <div class="container">
 	<div class="col-1-1">

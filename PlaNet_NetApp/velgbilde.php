@@ -32,5 +32,26 @@
 			<input type="submit" value="Lukke/lagre" name="tilbake"/>
 		</div>
 	</form>
+	<?php
+	if(isset($_POST["tilbake"]))
+	{
+		if(isset($_POST["middag"]))
+		{
+			$_SESSION["bildeid"] = 1;
+		}
+		if(isset($_POST["skole"]))
+		{
+			$_SESSION["bildeid"] = 2;
+		}
+		if(isset($_POST["tv"]))
+		{
+			$_SESSION["bildeid"] = 3;
+		}
+	}
+	else
+	{
+		echo "noe er gærent!";
+	}
+	?>
 </div>	
 

@@ -57,7 +57,7 @@
 		}
 		else
 		{
-			echo $connect->error . "noe helvetes gærent har skjedd!";
+			echo $connect->error($id) . "noe helvetes gærent har skjedd!";
 		}
 		
 	}

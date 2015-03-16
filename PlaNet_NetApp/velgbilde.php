@@ -1,4 +1,5 @@
 <?php
+	session_start();
 	include "includes/top.php";
 	include "includes/footer.php";
 ?>
@@ -29,28 +30,24 @@
 			</div>
 		</div>
 		<div class="col-1-1">
-			<input type="submit" value="Lukke/lagre" name="tilbake"/>
+			<input type="submit" value="Lagre" name="tilbake"/>
 		</div>
 	</form>
 	<?php
-	if(isset($_POST["tilbake"]))
+	if(isset($_REQUEST["tilbake"]))
 	{
-		if(isset($_POST["middag"]))
+		if(isset($_REQUEST["middag"]))
 		{
 			$_SESSION["bildeid"] = 1;
 		}
-		if(isset($_POST["skole"]))
+		if(isset($_REQUEST["skole"]))
 		{
 			$_SESSION["bildeid"] = 2;
 		}
-		if(isset($_POST["tv"]))
+		if(isset($_REQUEST["tv"]))
 		{
 			$_SESSION["bildeid"] = 3;
 		}
-	}
-	else
-	{
-		echo "noe er gærent!";
 	}
 	?>
 </div>	

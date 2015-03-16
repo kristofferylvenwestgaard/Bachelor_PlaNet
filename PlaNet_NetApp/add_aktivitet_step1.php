@@ -19,7 +19,7 @@
 						<!--<input class="input_text_small" type="text" placeholder="BildeId" name="bildeid"/>-->
 						<!-- JS for knapp -->
 						<input class="submit btn btn-primary" value="+Bilde" onClick="window.open('velgbilde.php','test','width=1200,height=600')"> 
-						
+
 					<!--GJENTAGELSE MANDAG - FREDAG! -->
 					<div class="inAppText">Gjenta aktivitet:</div><br/> 
 					<div id="mandag_gjenta">
@@ -173,6 +173,25 @@
 					}
 
 
+
+					//test for å hente bildeId fra velgbilde.php og tilegne id for å hente ut fre database og gi til leggtilaktivitet()¨
+					if(isset($_POST["tilbake"]))
+					{
+						$bildeid = 0;
+						if(isset($_POST["middag"]))
+						{
+							$bildeid = 1;
+						}
+						if(isset($_POST["skole"]))
+						{
+							$bildeid = 2;
+						}
+						if(isset($_POST["tv"]))
+						{
+							$bildeid = 3;
+						}
+					}
+	
 					//Setter gjentakelsedager inn i et array med 1=true for gjenta og 0=false for ikke å gjenta.
 					$gjentaArray = array($m, $ti, $o, $to, $f, $l, $s);
 					
@@ -184,7 +203,7 @@
 					
 
 					// Legger inn aktivitet i database tabell med gitte specs for aktivitet.
-					leggTilAktivitet($aNavn, $_SESSION["bildeid"], $fargeId, $gjentaID);
+					leggTilAktivitet($aNavn, $bildeid, $fargeId, $gjentaID);
 
 					
 				}

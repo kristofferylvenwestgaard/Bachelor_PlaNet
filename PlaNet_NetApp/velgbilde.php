@@ -7,7 +7,7 @@
 		<div class="inAppText">Velg bildet som skal vises til aktivitet:</div>		 
 	</div>
 
-	<form action="" method="post">
+	<form action="add_aktivitet_step1.php" method="post">
 		<div class="col-1-3">
 			
 			<div class="bilderamme">
@@ -33,25 +33,5 @@
 			<input class="submit btn btn-success" value="Lukke/lagre" type="submit" onClick="window.close()" name="tilbake"/>
 		</div>
 	</form>
-
-	<?php
-	//test for å hente bildeId fra velgbilde.php og tilegne id for å hente ut fre database og gi til leggtilaktivitet()¨
-	if(isset($_POST["tilbake"]))
-	{
-		$bildeid = 0;
-		if(isset($_POST["middag"]))
-		{
-			$bildeid = 1;
-		}
-		if(isset($_POST["skole"]))
-		{
-			$bildeid = 2;
-		}
-		if(isset($_POST["tv"]))
-		{
-			$bildeid = 3;
-		}
-	}
-	?>
 </div>	
 

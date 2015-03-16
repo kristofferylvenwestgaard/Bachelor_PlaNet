@@ -173,9 +173,9 @@
 					}
 
 					//test for å hente bildeId fra velgbilde.php og tilegne id for å hente ut fre database og gi til leggtilaktivitet()¨
+					$bildeid = 1;
 					if(isset($_POST["tilbake"]))
 					{
-						$bildeid = 0;
 						if(isset($_POST["middag"]))
 						{
 							$bildeid = 1;

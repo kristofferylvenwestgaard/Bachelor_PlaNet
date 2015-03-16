@@ -13,7 +13,7 @@
 		$gjentaId = $gId;
 
 		
-		echo $gjentaIdentitet;
+		//*echo $gjentaIdentitet; *//
 		$sql = "INSERT INTO aktivitet (bildeId, fargeId, gjentaID, aktivitetNavn) VALUES ('". $bildeId."','" .$fargeId."','" .$gjentaId."','". $navn ."')";
 		if ($connect->query($sql) === TRUE) 
 		{

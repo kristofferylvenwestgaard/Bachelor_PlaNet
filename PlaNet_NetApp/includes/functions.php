@@ -31,9 +31,9 @@
 	{
 		global $connect;
 
-		$gjentaId = "SELECT gjentaID FROM ukedager";
-		$resultat = mysqli_query($connect, $gjentaId);
-		$id = "";
+		$id = "SELECT gjentaID FROM ukedager";
+		$resultat = mysqli_query($connect, $id);
+		$gid = "";
 		$ok = 0;
 		if(mysqli_num_rows($resultat) > 0)
 		{
@@ -48,11 +48,11 @@
 				$ok ++;
 				if($ok == 1)
 				{
-					$id = $innhold["gjentaID"];
+					$gid = $innhold["gjentaID"];
 					break;
 				}
 			}
-			return $id;
+			return $gid;
 			echo "tullball! YESSS!";
 		}
 		else

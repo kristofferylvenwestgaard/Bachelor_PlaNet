@@ -18,7 +18,7 @@
 					<input class="input_text" type="text" placeholder="Aktivitetsnavn" name="aktivitetsnavn"/>
 						<!--<input class="input_text_small" type="text" placeholder="BildeId" name="bildeid"/>-->
 						<!-- JS for knapp -->
-						<input class="submit btn btn-primary" value="+Bilde" onClick="window.open('velgbilde.php','test','width=1200,height=600')"> 
+						<a href="velgbilde.php">+Bilde</a>
 
 					<!--GJENTAGELSE MANDAG - FREDAG! -->
 					<div class="inAppText">Gjenta aktivitet:</div><br/> 
@@ -176,18 +176,22 @@
 					if(isset($_POST["tilbake"]))
 					{
 						$bildeid = 0;
-						if(isset($_POST["1"]))
+						if(isset($_POST["middag"]))
 						{
 							$bildeid = 1;
 						}
-						if(isset($_POST["2"]))
+						if(isset($_POST["skole"]))
 						{
 							$bildeid = 2;
 						}
-						if(isset($_POST["3"]))
+						if(isset($_POST["tv"]))
 						{
 							$bildeid = 3;
 						}
+					}
+					else
+					{
+						echo "noe er gærent!";
 					}
 				
 					//Setter gjentakelsedager inn i et array med 1=true for gjenta og 0=false for ikke å gjenta.

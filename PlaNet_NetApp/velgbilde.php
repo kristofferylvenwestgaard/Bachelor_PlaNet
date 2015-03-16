@@ -11,26 +11,25 @@
 		<div class="col-1-3">
 			
 			<div class="bilderamme">
-				<input type="checkbox" name="1"/>
+				<input type="checkbox" name="middag"/>
 				<img src="../Database/dinner.gif" alt="middag" width="100px" height="100px"/>
 			</div>
 		</div>
 		<div class="col-1-3">
 			
 			<div class="bilderamme">
-				<input type="checkbox" name="2"/>
+				<input type="checkbox" name="skole"/>
 				<img src="../Database/skole.jpg" alt="middag" width="100px" height="100px"/>
 			</div>
 		</div>
 		<div class="col-1-3">
-			
 			<div class="bilderamme">
-				<input type="checkbox" name="3"/>
+				<input type="checkbox" name="tv"/>
 				<img src="../Database/tv.jpg" alt="middag" width="100px" height="100px"/>
 			</div>
 		</div>
 		<div class="col-1-1">
-			<input class="submit btn btn-success" value="Lukke/lagre" type="submit" onClick="window.close()" name="tilbake"/>
+			<input type="submit" value="Lukke/lagre" name="tilbake"/>
 		</div>
 	</form>
 </div>	

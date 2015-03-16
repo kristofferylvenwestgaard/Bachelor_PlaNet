@@ -172,26 +172,24 @@
 						$fargeId = 4;
 					}
 
-
-
 					//test for å hente bildeId fra velgbilde.php og tilegne id for å hente ut fre database og gi til leggtilaktivitet()¨
 					if(isset($_POST["tilbake"]))
 					{
 						$bildeid = 0;
-						if(isset($_POST["middag"]))
+						if(isset($_POST["1"]))
 						{
 							$bildeid = 1;
 						}
-						if(isset($_POST["skole"]))
+						if(isset($_POST["2"]))
 						{
 							$bildeid = 2;
 						}
-						if(isset($_POST["tv"]))
+						if(isset($_POST["3"]))
 						{
 							$bildeid = 3;
 						}
 					}
-	
+				
 					//Setter gjentakelsedager inn i et array med 1=true for gjenta og 0=false for ikke å gjenta.
 					$gjentaArray = array($m, $ti, $o, $to, $f, $l, $s);
 					

@@ -18,14 +18,14 @@
 		<div class="col-1-3">
 			
 			<div class="bilderamme">
-				<input type="checkbox" name="1"/>
+				<input type="checkbox" name="2"/>
 				<img src="../Database/skole.jpg" alt="middag" width="100px" height="100px"/>
 			</div>
 		</div>
 		<div class="col-1-3">
 			
 			<div class="bilderamme">
-				<input type="checkbox" name="1"/>
+				<input type="checkbox" name="3"/>
 				<img src="../Database/tv.jpg" alt="middag" width="100px" height="100px"/>
 			</div>
 		</div>

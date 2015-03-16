@@ -1,6 +1,25 @@
 <?php
 	include "db_connect.php";
 
+	//test for å hente bildeId fra velgbilde.php og tilegne id for å hente ut fre database og gi til leggtilaktivitet()¨
+	if(isset($_POST["tilbake"]))
+	{
+		$bildeid = 0;
+		if(isset($_POST["middag"]))
+		{
+			$bildeid = 1;
+		}
+		if(isset($_POST["skole"]))
+		{
+			$bildeid = 2;
+		}
+		if(isset($_POST["tv"]))
+		{
+			$bildeid = 3;
+		}
+	}
+
+
 	//FUNKSJON SOM LEGGER INN AKTIVIET I aktivitettabell! --- Fungerer ikke PGA ($gId og insert gjentaId. Uten så er den gull)
 	function leggTilAktivitet($n, $bId, $fId, $gId)
 	{

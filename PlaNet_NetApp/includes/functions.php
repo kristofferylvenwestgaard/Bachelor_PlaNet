@@ -49,7 +49,7 @@
 				$ok ++;
 				if($ok == 1)
 				{
-					$gid = $innhold["gjentaID"];
+					$gid = $rekke["gjentaID"];
 					break;
 				}
 			}

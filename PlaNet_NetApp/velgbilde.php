@@ -38,18 +38,18 @@
 	//test for å hente bildeId fra velgbilde.php og tilegne id for å hente ut fre database og gi til leggtilaktivitet()¨
 	if(isset($_POST["tilbake"]))
 	{
-		$SESSION_["bildeid"] = 0;
+		$_SESSION["bildeid"] = 0;
 		if(isset($_POST["middag"]))
 		{
-			$SESSION_["bildeid"] = 1;
+			$_SESSION["bildeid"] = 1;
 		}
 		if(isset($_POST["skole"]))
 		{
-			$SESSION_["bildeid"] = 2;
+			$_SESSION["bildeid"] = 2;
 		}
 		if(isset($_POST["tv"]))
 		{
-			$SESSION_["bildeid"] = 3;
+			$_SESSION["bildeid"] = 3;
 		}
 	}
 	?>

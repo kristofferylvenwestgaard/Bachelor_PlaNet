@@ -115,7 +115,6 @@
 				if(isset($_REQUEST["nesteSide"]))
 				{
 					$aNavn = $_REQUEST["aktivitetsnavn"];
-					$bildeId = $_REQUEST["bildeid"];
 					
 					//PHP for gjentakelses dager!
 					$m = 0;
@@ -181,11 +180,11 @@
 					gjentaDager($gjentaArray);	
 
 					//GjentaId hentet på den vanskelige måten! -- FUNKER IKKE!!!
-					hentGjentaId();
+					$gjentaID = hentGjentaId();
 					
 
 					// Legger inn aktivitet i database tabell med gitte specs for aktivitet.
-					leggTilAktivitet($aNavn, $SESSION_["bildeid"], $fargeId, $gjentaIdentitet);
+					leggTilAktivitet($aNavn, $SESSION_["bildeid"], $fargeId, $gjentaID);
 
 					
 				}

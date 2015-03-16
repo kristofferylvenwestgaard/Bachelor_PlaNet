@@ -10,7 +10,6 @@
 
 	<form action="add_aktivitet_step1.php" method="post">
 		<div class="col-1-3">
-			
 			<div class="bilderamme">
 				<input type="checkbox" name="middag"/>
 				<img src="../Database/dinner.gif" alt="middag" width="100px" height="100px"/>
@@ -34,19 +33,20 @@
 		</div>
 	</form>
 	<?php
-	if(isset($_REQUEST["tilbake"]))
+	$_SESSION["bildeid"] = 0;
+	if(isset($_POST["tilbake"]))
 	{
-		if(isset($_REQUEST["middag"]))
+		if(!empty($_POST["middag"]))
 		{
 			$_SESSION["bildeid"] = 1;
 		}
-		if(isset($_REQUEST["skole"]))
+		if(!empty($_POST["skole"]))
 		{
 			$_SESSION["bildeid"] = 2;
 		}
-		if(isset($_REQUEST["tv"]))
+		if(!empty($_POST["tv"]))
 		{
-			$_SESSION["bildeid"] = 3;
+			$_POST["bildeid"] = 3;
 		}
 	}
 	?>

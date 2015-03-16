@@ -174,8 +174,8 @@
 					}
 
 					//test for å hente bildeId fra velgbilde.php og tilegne id for å hente ut fre database og gi til leggtilaktivitet()¨
-					$bildeid = $_SESSION["bildeid"];
-					echo $bildeid;
+					
+					
 				
 					//Setter gjentakelsedager inn i et array med 1=true for gjenta og 0=false for ikke å gjenta.
 					$gjentaArray = array($m, $ti, $o, $to, $f, $l, $s);
@@ -188,7 +188,7 @@
 					
 
 					// Legger inn aktivitet i database tabell med gitte specs for aktivitet.
-					leggTilAktivitet($aNavn, $bildeid, $fargeId, $gjentaID);
+					leggTilAktivitet($aNavn, $_SESSION["bildeid"], $fargeId, $gjentaID);
 
 					
 				}

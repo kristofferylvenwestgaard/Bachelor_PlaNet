@@ -33,7 +33,7 @@
 
 		$id = "SELECT gjentaID FROM ukedager";
 		$resultat = mysqli_query($connect, $id);
-		$gid = "";
+		$gid = 0;
 		$ok = 0;
 		if(mysqli_num_rows($resultat) > 0)
 		{

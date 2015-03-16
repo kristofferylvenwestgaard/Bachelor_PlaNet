@@ -184,7 +184,7 @@
 					
 
 					// Legger inn aktivitet i database tabell med gitte specs for aktivitet.
-					leggTilAktivitet($aNavn, $SESSION_["bildeid"], $fargeId, $gjentaID);
+					leggTilAktivitet($aNavn, $_SESSION["bildeid"], $fargeId, $gjentaID);
 
 					
 				}

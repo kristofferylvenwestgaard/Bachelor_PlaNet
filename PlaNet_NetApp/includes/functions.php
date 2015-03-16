@@ -19,10 +19,10 @@
 		if ($connect->query($sql) === TRUE) 
 		{
 			echo "New record created successfully";
-		} 
+		}
 		else 
 		{
-			echo "Error: " . $sql . "<br>" . $connect->error($sql);
+			echo "Error: " . $sql . "<br>" . $connect->error;
 		}
 		
 	}
@@ -58,7 +58,7 @@
 		}
 		else
 		{
-			echo $connect->error($id) . "noe helvetes gærent har skjedd!";
+			echo $connect->error . "noe helvetes gærent har skjedd!";
 		}
 		
 	}

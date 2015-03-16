@@ -524,6 +524,20 @@
 	border-bottom-style: solid;	
 }
 
+
+/* |||||Velg bilde vindu|||||||*/
+.bilderamme
+{
+	font-family:arial;
+	text-align: center;
+	padding-top:10px;
+	height:30px;
+	border-style:solid;
+	border-width:1px;
+}
+
+
+
 /*|||||||||||||||||||||Her t.o.m linje 1200 er for upload knappen||||||||||||||||||||||||||||||||| */
 .fileUpload {
 	position: relative;

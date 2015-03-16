@@ -8,3 +8,19 @@
 	</div>
 	<input class="submit btn btn-success" value="Lukke/lagre" type="submit" onClick="window.close()">
 </div>	
+
+<div class="col-1-4">
+		<div class="bilderamme">Bilde 1<img src="img/peng.jpg" /></div>
+	</div>
+	<div class="col-1-4">
+		<div class="bilderamme">Bilde 2</div>
+	</div>
+	<div class="col-1-4">
+		<div class="bilderamme">Bilde 2</div>
+	</div>
+	<div class="col-1-4">
+		<div class="bilderamme">Bilde 2</div>
+	</div>
+	<div class="col-1-4">
+		<div class="bilderamme">Bilde 2</div>
+	</div>

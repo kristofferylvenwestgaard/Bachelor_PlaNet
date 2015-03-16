@@ -19,7 +19,7 @@
 						<!--<input class="input_text_small" type="text" placeholder="BildeId" name="bildeid"/>-->
 						<!-- JS for knapp -->
 						<input class="submit btn btn-primary" value="+Bilde" onClick="window.open('velgbilde.php','test','width=1200,height=600')"> 
-
+						
 					<!--GJENTAGELSE MANDAG - FREDAG! -->
 					<div class="inAppText">Gjenta aktivitet:</div><br/> 
 					<div id="mandag_gjenta">

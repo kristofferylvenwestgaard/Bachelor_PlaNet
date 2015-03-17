@@ -492,6 +492,15 @@
 
 }
 
+#add_akt_step2_header
+{
+	padding-top:30px;
+	padding-left:40px;
+	font-family: arial;
+	font-size:24px;
+	font-weight: bold;
+}
+
 /*************DAGSPLAN*****************/
 
 .dagsplanBoks 
@@ -514,7 +523,7 @@
 	height:30px;
 	border-style:solid;
 	border-width:1px;
-}
+} 
 
 
 .checkboxer 

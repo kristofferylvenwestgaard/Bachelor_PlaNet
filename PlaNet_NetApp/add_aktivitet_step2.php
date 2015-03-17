@@ -10,12 +10,9 @@
 	<div id="admincontent">
 		<div class="col-1-1">
 			<div class="col_left">
-
-			
-
-
-			 <div class="inAppText"><?php echo $_REQUEST["aktivitetsnavn"];?></div> 
-
+				<div id="add_akt_step2_header">
+					<?php echo $_REQUEST["aktivitetsnavn"];?> 
+				</div>
 			 	
 				<form class="form_add_aktivitet" action="" name="legg_til_aktivitet" method="post">
 					<div class="inAppText">Legg til aktivitet:</div></br>

@@ -139,17 +139,8 @@
 					//i funksjonen leggTilAktivitet()
 					$bildeid = $_SESSION["bildeid"];
 
-					if($fargeid > 0 && ($bildeid == 1 || $bildeid == 2 || $bildeid == 3))
-					{
-						// Legger inn aktivitet i database tabell med gitte specs for aktivitet.
-						leggTilAktivitet($aNavn, $bildeid, $fargeId, $gjentaID);
-					}
-					else
-					{
-						echo "Du har ikke fylt inn all informasjon!";
-					}
-					
-					
+					// Legger inn aktivitet i database tabell med gitte specs for aktivitet.
+					leggTilAktivitet($aNavn, $bildeid, $fargeId, $gjentaID);
 				}
 			?>
 

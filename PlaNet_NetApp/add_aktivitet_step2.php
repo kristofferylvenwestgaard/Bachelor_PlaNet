@@ -108,6 +108,7 @@
 					}
 					
 					//PHP for fargevalg
+					$fargeid = 0;
 					if(isset($_REQUEST["blue"]))
 					{
 						$fargeId = 1;
@@ -130,13 +131,24 @@
 					
 					// Legger inn verdiene 1 for ja og 0 for nei i ukedager tabell!
 					gjentaDager($gjentaArray);	
+					
 					//GjentaId hentet på den vanskelige måten! -- FUNKER IKKE!!!
 					$gjentaID = hentGjentaId();
-					
 
+					//Gir bildeid fra session variabel som er opprettet opå velgbilde.php til $bildeid som benyttes
+					//i funksjonen leggTilAktivitet()
 					$bildeid = $_SESSION["bildeid"];
-					// Legger inn aktivitet i database tabell med gitte specs for aktivitet.
-					leggTilAktivitet($aNavn, $bildeid, $fargeId, $gjentaID);
+
+					if($fargeid > 0 && ($bildeid == 1 || $bildeid == 2 || $bildeid == 3))
+					{
+						// Legger inn aktivitet i database tabell med gitte specs for aktivitet.
+						leggTilAktivitet($aNavn, $bildeid, $fargeId, $gjentaID);
+					}
+					else
+					{
+						echo "Du har ikke fylt inn all informasjon!";
+					}
+					
 					
 				}
 			?>

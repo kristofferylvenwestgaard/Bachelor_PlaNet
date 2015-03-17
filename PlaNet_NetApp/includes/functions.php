@@ -54,11 +54,10 @@
 				}
 			}
 			return $gid;
-			echo "tullball! YESSS!";
 		}
 		else
 		{
-			echo $connect->error . "noe helvetes gærent har skjedd!";
+			echo "Error: " . $id . "<br>" . $connect->error;
 		}
 		
 	}

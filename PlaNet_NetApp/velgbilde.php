@@ -1,5 +1,4 @@
 <?php
-	session_start();
 	include "includes/top.php";
 	include "includes/footer.php";
 ?>
@@ -32,26 +31,5 @@
 			<input type="submit" value="Lagre" name="tilbake"/>
 		</div>
 	</form>
-	<?php
-
-	//DENNE IF TESTEN FUNGERER IKKE, VIRKER SOM AT DEN IKKE GÅR INN OG FÅR SJEKKET OM SJEKKBOKSENE ER HUKET AV.. 
-	//DERMED RETURNERES KUN EN UNDEFINED INDEX???
-
-	if(isset($_POST["tilbake"]))
-	{
-		if(isset($_POST["middag"]))
-		{
-			$_SESSION["bildeid"] = 1;
-		}
-		if(isset($_POST["skole"]))
-		{
-			$_SESSION["bildeid"] = 2;
-		}
-		if(isset($_POST["tv"]))
-		{
-			$_POST["bildeid"] = 3;
-		}
-	}
-	?>
 </div>	
 

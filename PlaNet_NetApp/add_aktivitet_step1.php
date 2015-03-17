@@ -1,5 +1,4 @@
 <?php
-	session_start();
 	include "includes/top.php";
 	include "includes/footer.php";
 ?>
@@ -10,7 +9,7 @@
 	</div>
 	<div id="admincontent">
 		<div class="col-1-1">	
-			<form class="form_add_aktivitet" action="" name="legg_til_aktivitet" method="post">
+			<form class="form_add_aktivitet" action="add_aktivitet_step2.php" name="legg_til_aktivitet" method="post">
 				<!--DIV CONTAINER FOR VENSTRE KOLONNE I LEGG TIL AKTIVITET-->
 				<div class="col_left">
 
@@ -99,9 +98,25 @@
 						<input class="submit" type="submit" value="Neste" name="nesteSide"/>
 					</div>
 				</div>
-				
-				<!--PHP kode for å legge til aktivitet med parametere for all informasjon som er lagt til i skjema over.-->
-				
+				<?php
+					if(isset($_POST["tilbake"]))
+					{
+						if(isset($_POST["middag"]))
+						{
+							$bildeid = 1;
+							$_SESSION["bildeid"] = $bildeid;
+						}
+						elseif(isset($_POST["skole"]))
+						{
+							$bildeid = 2;
+							$_SESSION["bildeid"] = $bildeid;
+						}
+						elseif(isset($_POST["tv"]))
+						{
+							$_SESSION["bildeid"] = 3;
+						}
+					}
+				?>
 					
 				<!--DIV CONTAINER FOR HØYRE KOLONNE I LEGG TIL AKTIVITET-->
 				<div class="col_right">
@@ -112,87 +127,7 @@
 					</div>
 				</div>
 			</form>
-			<?php
-				if(isset($_REQUEST["nesteSide"]))
-				{
-					$aNavn = $_REQUEST["aktivitetsnavn"];
-					
-					//PHP for gjentakelses dager!
-					$m = 0;
-					$ti = 0;
-					$o = 0;
-					$to = 0;
-					$f = 0;
-					$l = 0;
-					$s = 0;
-
-					if(isset($_REQUEST["mandag"]))
-					{
-						$m = 1;
-					}
-					if(isset($_REQUEST["tirsdag"]))
-					{
-						$ti = 1;
-					}
-					if(isset($_REQUEST["onsdag"]))
-					{
-						$o = 1;
-					}
-					if(isset($_REQUEST["torsdag"]))
-					{
-						$to = 1;
-					}
-					if(isset($_REQUEST["fredag"]))
-					{
-						$f = 1;
-					}
-					if(isset($_REQUEST["loerdag"]))
-					{
-						$l = 1;
-					}
-					if(isset($_REQUEST["soendag"]))
-					{
-						$s = 1;
-					}
-					
-					//PHP for fargevalg
-					if(isset($_REQUEST["blue"]))
-					{
-						$fargeId = 1;
-					}
-					if(isset($_REQUEST["red"]))
-					{
-						$fargeId = 2;
-					}
-					if(isset($_REQUEST["green"]))
-					{
-						$fargeId = 3;
-					}
-					if(isset($_REQUEST["black"]))
-					{
-						$fargeId = 4;
-					}
-
-					//test for å hente bildeId fra velgbilde.php og tilegne id for å hente ut fre database og gi til leggtilaktivitet()¨
-					
-					
-				
-					//Setter gjentakelsedager inn i et array med 1=true for gjenta og 0=false for ikke å gjenta.
-					$gjentaArray = array($m, $ti, $o, $to, $f, $l, $s);
-					
-					// Legger inn verdiene 1 for ja og 0 for nei i ukedager tabell!
-					gjentaDager($gjentaArray);	
-
-					//GjentaId hentet på den vanskelige måten! -- FUNKER IKKE!!!
-					$gjentaID = hentGjentaId();
-					
-
-					// Legger inn aktivitet i database tabell med gitte specs for aktivitet.
-					leggTilAktivitet($aNavn, $_SESSION["bildeid"], $fargeId, $gjentaID);
-
-					
-				}
-			?>
+			
 		</div>
 	</div>
 </div>

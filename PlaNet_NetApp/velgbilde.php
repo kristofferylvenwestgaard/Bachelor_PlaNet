@@ -33,18 +33,21 @@
 		</div>
 	</form>
 	<?php
-	$_SESSION["bildeid"] = 0;
+
+	//DENNE IF TESTEN FUNGERER IKKE, VIRKER SOM AT DEN IKKE GÅR INN OG FÅR SJEKKET OM SJEKKBOKSENE ER HUKET AV.. 
+	//DERMED RETURNERES KUN EN UNDEFINED INDEX???
+
 	if(isset($_POST["tilbake"]))
 	{
-		if(!empty($_POST["middag"]))
+		if(isset($_POST["middag"]))
 		{
 			$_SESSION["bildeid"] = 1;
 		}
-		if(!empty($_POST["skole"]))
+		if(isset($_POST["skole"]))
 		{
 			$_SESSION["bildeid"] = 2;
 		}
-		if(!empty($_POST["tv"]))
+		if(isset($_POST["tv"]))
 		{
 			$_POST["bildeid"] = 3;
 		}

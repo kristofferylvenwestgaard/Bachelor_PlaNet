@@ -55,7 +55,10 @@
 						</div>
 						<br/>
 							<br/>
-						<input class="submit btn btn-success" type="submit" value="+Legg til" name="leggTil"/>
+						<input class="submit btn btn-large btn-success" type="submit" value="+Legg til" name="leggTil"/>
+
+						
+
 					</div>
 
 
@@ -150,7 +153,8 @@
 				
 				</div>
 				<div class="next_page">
-					<a class="inAppLinks" href="index.php">Fullfør</a>
+					<a href="index.php" class="btn btn-large btn-success" type="button">Fullfør</button></a>
+					
 				</div>
 			</div>
 		</div>

@@ -28,7 +28,8 @@
 			</div>
 		</div>
 		<div class="col-1-1">
-			<input type="submit" value="Lagre" name="tilbake"/>
+			<!--<input type="submit" value="Lagre" name="tilbake"/> -->
+			<input class="submit btn btn-large btn-success" type="submit" value="Lagre" name="tilbake"/>
 		</div>
 	</form>
 </div>	

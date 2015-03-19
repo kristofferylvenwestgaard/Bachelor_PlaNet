@@ -27,7 +27,7 @@
 
 .inAppHeaders
 {
-	font-family: arial;
+	font-family: 'Open Sans';
 	font-size:18px;
 	margin-left:40px;
 }
@@ -41,7 +41,7 @@
 .inAppText
 {
 	/*VANLIG TEKST UTEN MARGINER PÅ VENSTRE SIDE!!! */
-	font-family: arial;
+	font-family: 'Open Sans';
 	font-size: 16px;
 	margin-top:30px;
 }
@@ -58,7 +58,7 @@
 /*Header Terje*/
 .htext
 {
-	font-family: arial;
+	font-family: 'Open Sans';
 	font-size:32px;
 	margin-left:20px;
 }
@@ -67,7 +67,7 @@
 {
 	text-decoration: none;
 	color:black;
-	font-family: arial;
+	font-family: 'Open Sans';
 	font-size: 16px;
 	padding-right:15px;
 	width:100%;
@@ -79,7 +79,7 @@
 #clock
 {
 	float:left;
-	font-family: arial;
+	font-family: 'Open Sans';
 	font-size:32px;
 	margin-right:20px;
 	padding-left: 200px;
@@ -99,7 +99,7 @@
 /*UKEDAGER*/
 .ukedag
 {
-	font-family:arial;
+	font-family:'Open Sans';
 	text-align: center;
 	padding-top:10px;
 	height:30px;
@@ -154,7 +154,7 @@
 	height:600px;
 	border-style:solid;
 	border-width:1px;
-	font-family:arial;
+	font-family:'Open Sans';
 	background-color:#f7f7f7;
 	position:relative;
 	z-index:1;
@@ -166,7 +166,7 @@
 	height:600px;
 	border-style:solid;
 	border-width:1px;
-	font-family:arial;
+	font-family:'Open Sans';
 	background-color:#f7f7f7;
 	position:relative;
 	z-index:1;
@@ -178,7 +178,7 @@
 	height:600px;
 	border-style:solid;
 	border-width:1px;
-	font-family:arial;
+	font-family:'Open Sans';
 	background-color:#f7f7f7;
 	position:relative;
 	z-index:1;
@@ -190,7 +190,7 @@
 	height:600px;
 	border-style:solid;
 	border-width:1px;
-	font-family:arial;
+	font-family:'Open Sans';
 	background-color:#f7f7f7;
 }
 
@@ -199,7 +199,7 @@
 	height:600px;
 	border-style:solid;
 	border-width:1px;
-	font-family:arial;
+	font-family:'Open Sans';
 	background-color:#f7f7f7;
 	position:relative;
 	z-index:1;
@@ -211,7 +211,7 @@
 	height:600px;
 	border-style:solid;
 	border-width:1px;
-	font-family:arial;
+	font-family:'Open Sans';
 	background-color:#f7f7f7;
 	position:relative;
 	z-index:1;
@@ -223,7 +223,7 @@
 	height:600px;
 	border-style:solid;
 	border-width:1px;
-	font-family:arial;
+	font-family:'Open Sans';
 	background-color:#f7f7f7;
 	position:relative;
 	z-index:1;
@@ -257,7 +257,21 @@
 {
 	margin-top:40px;
 }
+a:link {
+    text-decoration: none;
+}
 
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: underline;
+}
 
 
 
@@ -278,7 +292,7 @@
 .formText
 {
 	display: inline;
-	font-family: arial;
+	font-family: 'Open Sans';
 	margin-left:10px;
 	padding-bottom:20px; 
 }
@@ -288,7 +302,7 @@
 	width:300px;
 	height:30px;
 	margin-top:15px;
-	font-family: arial;
+	font-family: 'Open Sans';
 	font-size: 15px;
 	padding-left:10px;
 }
@@ -298,7 +312,7 @@
 	width:500px;
 	height:200px;
 	margin-top:15px;
-	font-family: arial;
+	font-family: 'Open Sans';
 	font-size: 15px;
 	padding-left:10px;
 	padding-top:10px;
@@ -311,7 +325,7 @@
 	width:70px;
 	height:30px;
 	margin-top:15px;
-	font-family: arial;
+	font-family: 'Open Sans';
 	font-size: 15px;
 	padding-left:10px;
 }
@@ -361,6 +375,10 @@
 .input_check
 {
 	margin-left:10px;
+	/*
+	min-height:33px;
+	min-width:33px;
+	*/
 }
 
 #fargeValg
@@ -403,7 +421,7 @@
 #help_functions
 {
 	display:block;
-	font-family: arial;
+	font-family: 'Open Sans';
 	font-size: 16px;
 	margin-top:70px;
 }
@@ -427,7 +445,7 @@
 #submit
 {
 	display:block;
-	font-family: arial;
+	font-family: 'Open Sans';
 	font-size: 16px;
 	margin-top:60px;
 }
@@ -441,7 +459,7 @@
 {
 	margin-top:30px;
 	width:100px;
-	font-family: arial;
+	font-family: 'Open Sans';
 }
 
 
@@ -480,7 +498,7 @@
 {
 	height:40px;
 	background-color: #f7f7f7;
-	font-family: arial;
+	font-family: 'Open Sans';
 	font-size: 16px;
 	padding-left:10px;
 	padding-top: 10px;
@@ -496,7 +514,7 @@
 {
 	padding-top:30px;
 	padding-left:40px;
-	font-family: arial;
+	font-family: 'Open Sans';
 	font-size:24px;
 	font-weight: bold;
 }
@@ -508,7 +526,7 @@
 	height: 600px;
 	border-style:solid;
 	border-width:1px;
-	font-family:arial;
+	font-family:'Open Sans';
 	background-color:#f7f7f7;
 	position:relative;
 	z-index:1;
@@ -517,7 +535,7 @@
 .aktivitetNavn 
 /* Header/tittel for aktivitetsnavn */
 {
-	font-family:arial;
+	font-family:'Open Sans';
 	text-align: center;
 	padding-top:10px;
 	height:30px;
@@ -537,7 +555,7 @@
 /* |||||Velg bilde vindu|||||||*/
 .bilderamme
 {
-	font-family:arial;
+	font-family:'Open Sans';
 	text-align: center;
 	padding-top:10px;
 	border-style:solid;
@@ -574,7 +592,7 @@ button.close {
 }
 
 .btn {
-  font-family: arial;
+  font-family: 'Open Sans';
   display: inline-block;
   *display: inline;
   padding: 4px 12px;

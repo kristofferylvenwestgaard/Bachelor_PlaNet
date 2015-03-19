@@ -14,11 +14,12 @@
 				<div class="col_left">
 
 					<!--TEXTBOX FOR AKTIVITETSNAVN-->
-					<div class="inAppText">Legg til aktivitet:</div></br>
+					<div class="inAppText">Legg til aktivitet:</div>
 					<input class="input_text" type="text" placeholder="Aktivitetsnavn" name="aktivitetsnavn"/>
 						<!--<input class="input_text_small" type="text" placeholder="BildeId" name="bildeid"/>-->
 						<!-- JS for knapp -->
-						<a href="velgbilde.php">+Bilde</a>
+						
+						<a href="velgbilde.php" class="btn btn-large btn-primary" type="button">+Bilde</button></a>
 
 					<!--GJENTAGELSE MANDAG - FREDAG! -->
 					<div class="inAppText">Gjenta aktivitet:</div><br/> 
@@ -95,7 +96,7 @@
 						</div>
 					</div>
 					<div id="submit">
-						<input class="submit" type="submit" value="Neste" name="nesteSide"/>
+						<input class="submit btn btn-large btn-primary" type="submit" value="Neste" name="nesteSide"/>
 					</div>
 				</div>
 				<?php

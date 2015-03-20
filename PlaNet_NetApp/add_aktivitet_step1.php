@@ -114,7 +114,8 @@
 						}
 						elseif(isset($_POST["tv"]))
 						{
-							$_SESSION["bildeid"] = 3;
+							$bildeid = 3;
+							$_SESSION["bildeid"] = $bildeid;
 						}
 					}
 				?>

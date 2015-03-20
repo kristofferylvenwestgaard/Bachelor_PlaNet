@@ -54,72 +54,27 @@
 		<div class="opacity">
 		</div>
 		<div id="mandag">
-			<div class="activity">
-				1
-			</div>
-			<div class="activity">
-				2
-			</div>
-			<div class="activity">
-				3
-			</div>
-			<div class="activity">
-				4
-			</div>
-			<div class="activity">
-				5
-			</div>
-			<div class="activity">
-				6
-			</div>
+			<?php	
+				listUtAktivitetUkeplan()
+			?>
 		</div>
 	</div>
 	<div class="col-1-7">
 		<div class="opacity">
 		</div>
 		<div id="tirsdag">
-			<div class="activity">
-				1
-			</div>
-			<div class="activity">
-				2
-			</div>
-			<div class="activity">
-				3
-			</div>
-			<div class="activity">
-				4
-			</div>
-			<div class="activity">
-				5
-			</div>
-			<div class="activity">
-				6
-			</div>
+			<?php	
+				listUtAktivitetUkeplan()
+			?>
 		</div>
 	</div>
 	<div class="col-1-7">
 		<div class="opacity">
 		</div>
 		<div id="onsdag">
-			<div class="activity">
-				1
-			</div>
-			<div class="activity">
-				2
-			</div>
-			<div class="activity">
-				3
-			</div>
-			<div class="activity">
-				4
-			</div>
-			<div class="activity">
-				5
-			</div>
-			<div class="activity">
-				6
-			</div>
+			<?php	
+				listUtAktivitetUkeplan()
+			?>
 		</div>
 	</div>
 	<div class="col-1-7">
@@ -133,72 +88,27 @@
 		<div class="opacity">
 		</div>
 		<div id="fredag">
-			<div class="activity">
-				1
-			</div>
-			<div class="activity">
-				2
-			</div>
-			<div class="activity">
-				3
-			</div>
-			<div class="activity">
-				4
-			</div>
-			<div class="activity">
-				5
-			</div>
-			<div class="activity">
-				6
-			</div>
+			<?php	
+				listUtAktivitetUkeplan()
+			?>
 		</div>
 	</div>
 	<div class="col-1-7">
 		<div class="opacity">
 		</div>
 		<div id="lordag">
-			<div class="activity">
-				1
-			</div>
-			<div class="activity">
-				2
-			</div>
-			<div class="activity">
-				3
-			</div>
-			<div class="activity">
-				4
-			</div>
-			<div class="activity">
-				5
-			</div>
-			<div class="activity">
-				6
-			</div>
+			<?php	
+				listUtAktivitetUkeplan()
+			?>
 		</div>
 	</div>
 	<div class="col-1-7">
 		<div class="opacity">
 		</div>
 		<div id="sondag">
-			<div class="activity">
-				1
-			</div>
-			<div class="activity">
-				2
-			</div>
-			<div class="activity">
-				3
-			</div>
-			<div class="activity">
-				4
-			</div>
-			<div class="activity">
-				5
-			</div>
-			<div class="activity">
-				6
-			</div>
+			<?php	
+				listUtAktivitetUkeplan()
+			?>
 		</div>
 	</div>
 </div>

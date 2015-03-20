@@ -140,5 +140,81 @@
 		}
 	}
 
+	//FUNKSJON FOR Å HENTE UT INNLAGTE AKTIVITETER FOR GITT DAG FRA DATABASE, og liste ut i UKEOVERSIKT!  
+	function listUtAktivitetUkeplan()
+	{
+		global $connect;
+		//SQL setning for å hente aktivitet
+		$visAktivitet = "SELECT aktivitetNavn, bildeId, fargeId FROM aktivitet";
+		$resultat = mysqli_query($connect, $visAktivitet);
+
+		//Teller rekker i tabellen, og setter innholdet i et assosiativt array dersom det er fler enn 0.
+		//Lister deretter ut innholdet i arrayet (aktivitetene)
+		if(mysqli_num_rows($resultat) > 0)
+		{
+			while($row = mysqli_fetch_assoc($resultat))
+			{
+				$innhold[] = $row;
+			}
+			foreach($innhold as $row)
+        	{	
+        		//IF-TESTER som sjekker hvilken FargeID aktiviteten er tilegnet i DB. og setter $farge til riktig farge!
+        		if($row["fargeId"] == 1)
+        		{
+        			$farge = "Blå";
+        		}
+        		if($row["fargeId"] == 2)
+        		{
+        			$farge = "Rød";
+        		}
+        		if($row["fargeId"] == 3)
+        		{
+        			$farge = "Grønn";
+        		}
+        		if($row["fargeId"] == 4)
+        		{
+        			$farge = "Sort";
+        		}
+
+        		//IF TESTER HVILKEN BILDE ID SOM BENYTTES OG HENTER DERETTER RIKTIG BILDE I BILDE TABELL
+        		if($row["bildeId"] == 1)
+        		{
+        			$sqlBilde = "SELECT bilde FROM aktivitetBilde WHERE bildeId = 1";
+        			$bildeResultat = mysqli_query($connect, $sqlBilde);
+        		}
+        		if($row["bildeId"] == 2)
+        		{
+        			$sqlBilde = "SELECT bilde FROM aktivitetBilde WHERE bildeId = 2";
+        			$bildeResultat = mysqli_query($connect, $sqlBilde);
+        		}
+        		if($row["bildeId"] == 3)
+        		{
+        			$sqlBilde = "SELECT bilde FROM aktivitetBilde WHERE bildeId = 3";
+        			$bildeResultat = mysqli_query($connect, $sqlBilde);
+        		}
+
+            	?>
+         			<!--Oppretter en html section i aktivitetsvindu hvor aktivitetene vil listes ut.-->
+            	    <div class="activity">
+						<div class="bluecode"></div>
+            	        <?php 
+            	            echo "Aktivitetsnavn: ".$row["aktivitetNavn"].". <br/> ". $bildeResultat ."</br> Farge: ".$farge;
+            	        ?>
+           		    </div>
+            	<?php
+            }
+		}
+		else
+		{
+			?>
+				<div class="activity">
+					<?php
+						echo "Det finnes ingen aktiviteter!";
+					?>
+				</div>
+			<?php
+		}
+	}
+
 	
 ?>

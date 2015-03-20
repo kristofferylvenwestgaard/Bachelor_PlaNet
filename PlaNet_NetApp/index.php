@@ -124,26 +124,9 @@
 	</div>
 	<div class="col-1-7">
 		<div id="torsdag">
-			<div class="activity">
-				<div class="bluecode"></div>
-				<div class="aktivitet">1</div>
-			</div>
-			<div class="activity">
-				<div class="redcode"></div>
-				<div class="aktivitet">2</div>
-			</div>
-			<div class="activity">
-				3
-			</div>
-			<div class="activity">
-				4
-			</div>
-			<div class="activity">
-				5
-			</div>
-			<div class="activity">
-				6
-			</div>
+			<?php	
+				listUtAktivitetUkeplan()
+			?>
 		</div>
 	</div>
 	<div class="col-1-7">

@@ -135,7 +135,7 @@
 					// Legger inn verdiene 1 for ja og 0 for nei i ukedager tabell!
 					gjentaDager($gjentaArray);	
 					
-					//GjentaId hentet på den vanskelige måten! -- FUNKER IKKE!!!
+					//GjentaId hentet på den vanskelige måten!!!
 					$gjentaID = hentGjentaId();
 
 					//Gir bildeid fra session variabel som er opprettet opå velgbilde.php til $bildeid som benyttes

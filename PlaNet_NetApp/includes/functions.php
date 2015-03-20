@@ -165,6 +165,8 @@
          			<!--Oppretter en html section i aktivitetsvindu hvor aktivitetene vil listes ut.-->
             	    <div class="activity">
             	    <?php
+            	    //IF TESTER SOM SJEKKER FARGEID OPP MOT VALGT FARGE OG GIR INDEX SIDENS AKTIVITETER 
+						//RIKTIG FARGEDIV
             	    	if($row["fargeId"] == 1)
             	    	{
 							?>
@@ -203,6 +205,8 @@
          			<!--Oppretter en html section i aktivitetsvindu hvor aktivitetene vil listes ut.-->
             	    <div class="activity">
 						<?php
+						//IF TESTER SOM SJEKKER FARGEID OPP MOT VALGT FARGE OG GIR INDEX SIDENS AKTIVITETER 
+						//RIKTIG FARGEDIV
             	    	if($row["fargeId"] == 1)
             	    	{
 							?>
@@ -241,6 +245,8 @@
          			<!--Oppretter en html section i aktivitetsvindu hvor aktivitetene vil listes ut.-->
             	    <div class="activity">
 						<?php
+						//IF TESTER SOM SJEKKER FARGEID OPP MOT VALGT FARGE OG GIR INDEX SIDENS AKTIVITETER 
+						//RIKTIG FARGEDIV
             	    	if($row["fargeId"] == 1)
             	    	{
 							?>
@@ -273,8 +279,6 @@
            		    </div>
             	<?php
         		}
-
-            	
             }
 		}
 		else

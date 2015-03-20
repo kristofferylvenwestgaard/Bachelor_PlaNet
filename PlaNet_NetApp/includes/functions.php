@@ -184,7 +184,7 @@
             	    <div class="activity">
 						<div class="bluecode"></div>
             	        <?php 
-            	            echo "Aktivitetsnavn: ".$row["aktivitetNavn"]."";?>
+            	            echo $row["aktivitetNavn"]."";?>
             	            <img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
            		    </div>
             	<?php
@@ -196,7 +196,7 @@
             	    <div class="activity">
 						<div class="bluecode"></div>
             	        <?php 
-            	            echo "Aktivitetsnavn: ".$row["aktivitetNavn"]."";?>
+            	            echo $row["aktivitetNavn"]."";?>
             	            <img src="../Database/skole.jpg" alt="skole" width="130px" height="60px"/>
            		    </div>
             	<?php
@@ -208,7 +208,7 @@
             	    <div class="activity">
 						<div class="bluecode"></div>
             	        <?php 
-            	            echo "Aktivitetsnavn: ".$row["aktivitetNavn"]."";?>
+            	            echo $row["aktivitetNavn"]."";?>
             	            <img src="../Database/tv.jpg" alt="tv" width="130px" height="60px"/>
            		    </div>
             	<?php

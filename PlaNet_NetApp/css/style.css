@@ -130,6 +130,28 @@
 	height:100%;
 }
 
+.greencode
+{
+	/*FARGEKODE TIL ENKELT AKTIVITET I UKESOVERSIKT*/
+	float:left;
+	display: block;
+	position: relative;
+	background-color: #15e000;
+	width:7%;
+	height:100%;
+}
+
+.blackcode
+{
+	/*FARGEKODE TIL ENKELT AKTIVITET I UKESOVERSIKT*/
+	float:left;
+	display: block;
+	position: relative;
+	background-color: #000000;
+	width:7%;
+	height:100%;
+}
+
 .aktivitet
 {
 	position:relative;

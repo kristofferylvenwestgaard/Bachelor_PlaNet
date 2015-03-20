@@ -158,33 +158,41 @@
 			}
 			foreach($innhold as $row)
         	{	
-        		//IF-TESTER som sjekker hvilken FargeID aktiviteten er tilegnet i DB. og setter $farge til riktig farge!
-        		if($row["fargeId"] == 1)
-        		{
-        			$farge = "Blå";
-        		}
-        		if($row["fargeId"] == 2)
-        		{
-        			$farge = "Rød";
-        		}
-        		if($row["fargeId"] == 3)
-        		{
-        			$farge = "Grønn";
-        		}
-        		if($row["fargeId"] == 4)
-        		{
-        			$farge = "Sort";
-        		}
-
         		//IF TESTER HVILKEN BILDE ID SOM BENYTTES OG HENTER DERETTER RIKTIG BILDE I BILDE TABELL
         		if($row["bildeId"] == 1)
         		{
         		?>
          			<!--Oppretter en html section i aktivitetsvindu hvor aktivitetene vil listes ut.-->
             	    <div class="activity">
-						<div class="bluecode"></div>
-            	        <?php 
-            	            echo $row["aktivitetNavn"]."";?>
+            	    <?php
+            	    	if($row["fargeId"] == 1)
+            	    	{
+							?>
+								<div class="bluecode"></div>
+							<?php
+            	    	}
+            	    	elseif($row["fargeId"] == 2)
+            	    	{
+							?>
+								<div class="redcode"></div>
+							<?php
+            	    	}
+            	    	elseif($row["fargeId"] == 3)
+            	    	{
+							?>
+								<div class="greencode"></div>
+							<?php
+            	    	}
+            	    	elseif($row["fargeId"] == 4)
+            	    	{
+							?>
+								<div class="blackcode"></div>
+							<?php
+            	    	}
+						
+            	         
+            	            echo $row["aktivitetNavn"]."";
+            	    ?>
             	            <img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
            		    </div>
             	<?php
@@ -194,9 +202,35 @@
         		?>
          			<!--Oppretter en html section i aktivitetsvindu hvor aktivitetene vil listes ut.-->
             	    <div class="activity">
-						<div class="bluecode"></div>
-            	        <?php 
-            	            echo $row["aktivitetNavn"]."";?>
+						<?php
+            	    	if($row["fargeId"] == 1)
+            	    	{
+							?>
+								<div class="bluecode"></div>
+							<?php
+            	    	}
+            	    	elseif($row["fargeId"] == 2)
+            	    	{
+							?>
+								<div class="redcode"></div>
+							<?php
+            	    	}
+            	    	elseif($row["fargeId"] == 3)
+            	    	{
+							?>
+								<div class="greencode"></div>
+							<?php
+            	    	}
+            	    	elseif($row["fargeId"] == 4)
+            	    	{
+							?>
+								<div class="blackcode"></div>
+							<?php
+            	    	}
+						
+            	         
+            	            echo $row["aktivitetNavn"]."";
+            	   		?>
             	            <img src="../Database/skole.jpg" alt="skole" width="130px" height="60px"/>
            		    </div>
             	<?php
@@ -206,9 +240,35 @@
         			?>
          			<!--Oppretter en html section i aktivitetsvindu hvor aktivitetene vil listes ut.-->
             	    <div class="activity">
-						<div class="bluecode"></div>
-            	        <?php 
-            	            echo $row["aktivitetNavn"]."";?>
+						<?php
+            	    	if($row["fargeId"] == 1)
+            	    	{
+							?>
+								<div class="bluecode"></div>
+							<?php
+            	    	}
+            	    	elseif($row["fargeId"] == 2)
+            	    	{
+							?>
+								<div class="redcode"></div>
+							<?php
+            	    	}
+            	    	elseif($row["fargeId"] == 3)
+            	    	{
+							?>
+								<div class="greencode"></div>
+							<?php
+            	    	}
+            	    	elseif($row["fargeId"] == 4)
+            	    	{
+							?>
+								<div class="blackcode"></div>
+							<?php
+            	    	}
+						
+            	         
+            	            echo $row["aktivitetNavn"]."";
+            	   		?>
             	            <img src="../Database/tv.jpg" alt="tv" width="130px" height="60px"/>
            		    </div>
             	<?php

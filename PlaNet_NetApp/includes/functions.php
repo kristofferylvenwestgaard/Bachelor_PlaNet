@@ -179,29 +179,42 @@
         		//IF TESTER HVILKEN BILDE ID SOM BENYTTES OG HENTER DERETTER RIKTIG BILDE I BILDE TABELL
         		if($row["bildeId"] == 1)
         		{
-        			$sqlBilde = "SELECT bilde FROM aktivitetBilde WHERE bildeId = 1";
-        			$bildeResultat = mysqli_query($connect, $sqlBilde);
-        		}
-        		if($row["bildeId"] == 2)
-        		{
-        			$sqlBilde = "SELECT bilde FROM aktivitetBilde WHERE bildeId = 2";
-        			$bildeResultat = mysqli_query($connect, $sqlBilde);
-        		}
-        		if($row["bildeId"] == 3)
-        		{
-        			$sqlBilde = "SELECT bilde FROM aktivitetBilde WHERE bildeId = 3";
-        			$bildeResultat = mysqli_query($connect, $sqlBilde);
-        		}
-
-            	?>
+        		?>
          			<!--Oppretter en html section i aktivitetsvindu hvor aktivitetene vil listes ut.-->
             	    <div class="activity">
 						<div class="bluecode"></div>
             	        <?php 
-            	            echo "Aktivitetsnavn: ".$row["aktivitetNavn"].". <br/> ". $bildeResultat ."</br> Farge: ".$farge;
-            	        ?>
+            	            echo "Aktivitetsnavn: ".$row["aktivitetNavn"]."";?>
+            	            <img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
            		    </div>
             	<?php
+        		}
+        		if($row["bildeId"] == 2)
+        		{
+        		?>
+         			<!--Oppretter en html section i aktivitetsvindu hvor aktivitetene vil listes ut.-->
+            	    <div class="activity">
+						<div class="bluecode"></div>
+            	        <?php 
+            	            echo "Aktivitetsnavn: ".$row["aktivitetNavn"]."";?>
+            	            <img src="../Database/skole.jpg" alt="skole" width="130px" height="60px"/>
+           		    </div>
+            	<?php
+        		}
+        		if($row["bildeId"] == 3)
+        		{
+        			?>
+         			<!--Oppretter en html section i aktivitetsvindu hvor aktivitetene vil listes ut.-->
+            	    <div class="activity">
+						<div class="bluecode"></div>
+            	        <?php 
+            	            echo "Aktivitetsnavn: ".$row["aktivitetNavn"]."";?>
+            	            <img src="../Database/tv.jpg" alt="tv" width="130px" height="60px"/>
+           		    </div>
+            	<?php
+        		}
+
+            	
             }
 		}
 		else

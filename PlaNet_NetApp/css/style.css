@@ -352,7 +352,27 @@ a:active
 {
 	width:300px;
 	height:30px;
-	margin-top:15px;
+	margin-top:10px;
+	font-family: 'Open Sans';
+	font-size: 15px;
+	padding-left:10px;
+}
+
+.input_dato
+{
+	width:140px;
+	height:30px;
+	margin-top:10px;
+	font-family: 'Open Sans';
+	font-size: 15px;
+	padding-left:10px;
+}
+
+.input_alarm
+{
+	width:75px;
+	height:30px;
+	margin-top:10px;
 	font-family: 'Open Sans';
 	font-size: 15px;
 	padding-left:10px;
@@ -511,6 +531,10 @@ a:active
 	font-family: 'Open Sans';
 }
 
+#alarmvalg
+{
+	float:right;
+}
 
 /*RIGHT COLUMN - INNHOLD! */
 

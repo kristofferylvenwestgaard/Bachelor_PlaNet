@@ -53,12 +53,23 @@
 					</div>
 
 					<!--DATO INPUT -->
-					<input class="input_text" type="date" placeholder="Dato - Valgfri" name="dato"/><br/>
-
+					<div class="col-1-1">
+						
+					<div class="inAppText">
+							Dato <small>[valgfritt]:</small>
+					</div>
+					<input class="input_dato" type="date" placeholder="Dato - Valgfri" name="dato"/><br/>
+				
 					<!--ALARM INPUT-->
-					<input class="input_text" type="time" placeholder="Alarm - Valgfri" name="alarm"/><br/>
-
+					
+					<div class="inAppText">
+							Alarm <small>[valgfritt]:</small>
+					</div>
+					<input class="input_alarm" type="time" placeholder="Alarm - Valgfri" name="alarm"/><br/>
+					
+				</div>
 					<!--AKTIVITETSFARGE VALG -->
+					<div class="col-1-1">
 					<div id="fargeValg">
 						<div class="inAppText">
 							Velg farge: 
@@ -80,6 +91,7 @@
 							<input class="input_check" type="checkbox" name="black"/>
 						</div>
 					</div>
+				</div>
 
 					<!--HJELPEFUNKSJONER-->
 					<div id="help_functions">

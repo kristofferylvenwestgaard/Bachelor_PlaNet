@@ -19,7 +19,7 @@
 						<!--<input class="input_text_small" type="text" placeholder="BildeId" name="bildeid"/>-->
 						<!-- JS for knapp -->
 						
-						<a href="velgbilde.php" class="btn btn-large btn-primary" type="button">+Bilde</button></a>
+						<a href="velgbilde.php" class="btn btn-primary" type="button">+Bilde</button></a>
 
 					<!--GJENTAGELSE MANDAG - FREDAG! -->
 					<div class="inAppText">Gjenta aktivitet:</div><br/> 
@@ -53,10 +53,10 @@
 					</div>
 
 					<!--DATO INPUT -->
-					<input class="input_text" type="text" placeholder="Dato - Valgfri" name="dato"/><br/>
+					<input class="input_text" type="date" placeholder="Dato - Valgfri" name="dato"/><br/>
 
 					<!--ALARM INPUT-->
-					<input class="input_text" type="text" placeholder="Alarm - Valgfri" name="alarm"/><br/>
+					<input class="input_text" type="time" placeholder="Alarm - Valgfri" name="alarm"/><br/>
 
 					<!--AKTIVITETSFARGE VALG -->
 					<div id="fargeValg">

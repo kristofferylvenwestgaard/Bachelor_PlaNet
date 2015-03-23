@@ -36,33 +36,61 @@
 		<h1 class="htext"><a class="inAppLinks" href="index.php">Administrer applikasjon</a></h1>
 		
 	</div>
-	<div id="admincontent">
-		<div class="col-1-1">
-			<div class="col_left">
-			 	<br/>
-				<br/>
-				<br/>
-				<br/>
-				</br>
-				<br/>						
-				<div class="col-1-1">
-					<a href="add_aktivitet_step1.php" class="btn btn-large btn-block btn-primary" type="button">Legg til aktivitet</button></a>
-					<a href="" class="btn btn-large btn-block btn-primary" type="button">Velg fra aktivitetsbank</button></a>
-					<br/>
-					<br/>
-					<a href="" class="btn btn-large btn-block btn-primary" type="button">Rapportering</button></a>
-					<a href="" class="btn btn-large btn-block btn-primary" type="button">Motivasjonsystem</button></a>
-					<a href="" class="btn btn-large btn-block btn-primary" type="button">Rapportering</button></a>
-
-					<br/>
+		<div id="admincontent">
+			<div class="col-1-1">
+				<div class="col_left">
+				 	<br/>
 					<br/>
 					<br/>
 					<br/>
 					</br>
-					<br/>
+					<br/>						
+					<div class="col-2-3">
+						<a href="add_aktivitet_step1.php" class="btn btn-large btn-block btn-primary" type="button">Legg til aktivitet</button></a>
+						<a href="" class="btn btn-large btn-block btn-primary" type="button">Velg fra aktivitetsbank</button></a>
+						<br/>
+						<br/>
+						<a href="" class="btn btn-large btn-block btn-primary" type="button">Rapportering</button></a>
+						<a href="" class="btn btn-large btn-block btn-primary" type="button">Motivasjonsystem</button></a>
+						<a href="" class="btn btn-large btn-block btn-primary" type="button">Rapportering</button></a>
 
-					<a href="index.php" class="btn btn-large btn-danger" type="button">Tilbake</button></a>
+						<br/>
+						<br/>
+						<br/>
+						<br/>
+						</br>
+						<br/>
+
+						<a href="index.php" class="btn btn-large btn-danger" type="button">Tilbake</button></a>
+					</div>
 				</div>
+				
+					<div class="col_right">
+						<div class="col-1-2">
+							</br>
+							<div class="inAppText">Terje Skog
+								</br>
+								</br>
+								Konglestien 3
+								</br>
+								0192 Oslo
+								</br>
+								</br>
+								93408080
+								</br>
+								terjeskog@gmail.com				
+							</div>
+						</div>
+						<div class="col-1-3">
+							<div class="circular-image"><img src="img/terje.jpg" alt="portrett"></div>
+						</div>
+						<div class="col-1-1">
+							</br>
+							<div id="skypeknapp">
+								<a href="" class="btn  btn-primary" type="button">Skype</button></a>
+							</div>
+						</div>
+					</div>
 			</div>
 		</div>
 	</div>

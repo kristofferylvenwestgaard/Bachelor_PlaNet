@@ -38,7 +38,7 @@
 		$stegNr = 1;
 		//MANGLER STEGBILDEVARIABEL.
 
-		$sql = "INSERT INTO (handId, stegNr, beskrivelse) VALUES ('".$hId."', '".$stegNr."', '".$b."')";
+		$sql = "INSERT INTO handlingskjede (handId, stegNr, beskrivelse) VALUES ('".$hId."', '".$stegNr."', '".$b."')";
 		$resultat = mysqli_query($connect, $sql);
 
 		if ($connect->query($sql) === TRUE) 

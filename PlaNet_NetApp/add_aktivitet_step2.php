@@ -158,6 +158,10 @@
 						{
 							addHandlingSteg($_SESSION["aid"], $_REQUEST["beskrivelseBoks"]);
 						}
+						else
+						{
+							echo "noe er galt med addHandlingSteg()";
+						}
 					}
 				}
 			?>

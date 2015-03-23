@@ -54,7 +54,7 @@
 
 					<!--DATO INPUT -->
 					<div class="col-1-1">
-						
+
 					<div class="inAppText">
 							Dato <small>[valgfritt]:</small>
 					</div>

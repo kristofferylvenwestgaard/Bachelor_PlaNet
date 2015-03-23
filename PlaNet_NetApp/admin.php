@@ -82,7 +82,7 @@
 							</div>
 						</div>
 						<div class="col-1-3">
-							<div class="circular-image"><img src="img/terje.jpg" alt="portrett"></div>
+							<div class="circular-image"><img src="img/terje.jpg" alt="portrett" width="100px" height="200px"></div>
 						</div>
 						<div class="col-1-1">
 							</br>

@@ -54,8 +54,8 @@
 		<div class="opacity">
 		</div>
 		<div id="mandag">
-			<?php	
-				listUtAktivitetUkeplan()
+			<?php
+				listUtAktivitetUkeplan();
 			?>
 		</div>
 	</div>

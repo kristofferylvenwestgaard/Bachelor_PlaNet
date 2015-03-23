@@ -144,6 +144,21 @@
 
 					// Legger inn aktivitet i database tabell med gitte specs for aktivitet.
 					leggTilAktivitet($aNavn, $bildeid, $fargeId, $gjentaID);
+
+					//hent aktivitetID for å opprette en sessionvariabel som kan gi riktig id til handlingskjedetabellen
+					//SETTER SESSIONVARIABEL MED SAMME AKTIVITET ID SOM AKTIVITETEN SOM LEGGES INN.
+					//DESTRUERES NÅR BRUKER TRYKKER FERDIG PÅ SIDE TO
+					
+					$_SESSION["aid"] = hentAktivitetId();
+
+					//LEGGE INN HANDLINGSKJEDESTEG MED ID LIK SESSION["aid"]
+					if(isset($_REQUEST["leggTil"]))
+					{
+						if(isset($_REQUEST["handlingskjede"]))
+						{
+							addHandlingSteg($_SESSION["aid"], $_REQUEST["beskrivelseBoks"]);
+						}
+					}
 				}
 			?>
 

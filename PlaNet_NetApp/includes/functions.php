@@ -26,6 +26,32 @@
 		}
 		
 	}
+
+	//LEGG TIL HANDLINGSKJEDE:
+	function addHandlingSteg($handlingsId, $beskrivelse)
+	{
+		global $connect;
+		
+		//Beskrivelse som skal legges til hver handlingskjedesteg
+		$hId = $handlingsId;	
+		$b = $beskrivelse;
+		$stegNr = 1;
+		//MANGLER STEGBILDEVARIABEL.
+
+		$sql = "INSERT INTO (handId, stegNr, beskrivelse) VALUES ('".$hId."', '".$stegNr."', '".$b."')";
+		$resultat = mysqli_query($connect, $sql);
+
+		if ($connect->query($sql) === TRUE) 
+		{
+			echo "New record created successfully";
+			$stegNr++;
+		}
+		else 
+		{
+			echo "Error: " . $sql . "<br>" . $connect->error;
+		}
+	}
+
 	
 	//Funksjon for å hente siste gjentaId i tabellen ukedager --ET ELELR ANNET SOM IKKE ER BRA-- Går bare til else setning...
 	function hentGjentaId()
@@ -54,6 +80,42 @@
 				}
 			}
 			return $gid;
+		}
+		else
+		{
+			echo "Error: " . $id . "<br>" . $connect->error;
+		}
+		
+	}
+
+
+
+	function hentAktivitetId()
+	{
+		global $connect;
+
+		$id = "SELECT id FROM aktivitet";
+		$resultat = mysqli_query($connect, $id);
+		$aid = 0;
+		$ok = 0;
+		if(mysqli_num_rows($resultat) > 0)
+		{
+			while($row = mysqli_fetch_assoc($resultat))
+			{
+				$innhold[] = $row;
+			}
+			$innhold = array_reverse($innhold, true);
+			
+			foreach($innhold as $rekke)
+			{
+				$ok ++;
+				if($ok == 1)
+				{
+					$aid = $rekke["id"];
+					break;
+				}
+			}
+			return $aid;
 		}
 		else
 		{

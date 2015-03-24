@@ -532,10 +532,12 @@ a:active
 }
 
 
-/*************TESTER FOR FARGECHECKBOXER ***************************/
+/*************FARGECHECKBOXER ***************************/
 label {
 display: inline;
 }
+
+/**RØD BOKS **/
 .redcheckbox {
 display: none;
 }
@@ -582,7 +584,7 @@ display: inline-block;
 position: relative;
 }
 
-
+/**BLÅ BOKS **/
 .bluecheckbox {
 display: none;
 }
@@ -629,6 +631,7 @@ display: inline-block;
 position: relative;
 }
 
+/**GRØNN BOKS **/
 .greencheckbox {
 display: none;
 }
@@ -675,6 +678,7 @@ display: inline-block;
 position: relative;
 }
 
+/**SVART BOKS **/
 .blackcheckbox {
 display: none;
 }

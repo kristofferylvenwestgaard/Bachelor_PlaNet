@@ -70,10 +70,15 @@
 				</div>
 					<!--AKTIVITETSFARGE VALG -->
 					<div class="col-1-1">
-					<div id="fargeValg">
-						<div class="inAppText">
-							Velg farge: 
-						</div>
+						<div id="fargeValg">
+							<div class="inAppText">
+								Velg farge: 
+							</div>
+								<input type="checkbox" id="checkbox-1-1" class="redcheckbox" name="red" /><label for="checkbox-1-1"></label>
+								<input type="checkbox" id="checkbox-1-2" class="bluecheckbox" name="blue" /><label for="checkbox-1-2"></label>
+								<input type="checkbox" id="checkbox-1-3" class="greencheckbox" name="green" /><label for="checkbox-1-3"></label>
+								<input type="checkbox" id="checkbox-1-4" class="blackcheckbox" name="black" /><label for="checkbox-1-4"></label>
+						<!-- GAMLE CHECKBOXER - JUST IN CASE
 						<div id="farge_blue">
 							<p class="formText">Blå</p><br/>
 							<input class="input_check" type="checkbox" name="blue"/>
@@ -90,6 +95,7 @@
 							<p class="formText">Sort</p><br/>
 							<input class="input_check" type="checkbox" name="black"/>
 						</div>
+					-->
 					</div>
 				</div>
 

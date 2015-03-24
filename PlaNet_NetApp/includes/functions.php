@@ -28,23 +28,22 @@
 	}
 
 	//LEGG TIL HANDLINGSKJEDE:
-	function addHandlingSteg($handlingsId, $beskrivelse)
+	function addHandlingSteg($handlingsId, $beskrivelse, $stegNr)
 	{
 		global $connect;
 		
 		//Beskrivelse som skal legges til hver handlingskjedesteg
 		$hId = $handlingsId;	
 		$b = $beskrivelse;
-		$stegNr = 1;
+		$sNr = $stegNr;
 		//MANGLER STEGBILDEVARIABEL.
 
-		$sql = "INSERT INTO handlingskjede (handId, stegNr, beskrivelse) VALUES ('".$hId."', '".$stegNr."', '".$b."')";
+		$sql = "INSERT INTO handlingskjede (handId, stegNr, beskrivelse) VALUES ('".$hId."', '".$sNr."', '".$b."')";
 		$resultat = mysqli_query($connect, $sql);
 
 		if ($connect->query($sql) === TRUE) 
 		{
 			echo "New record created successfully";
-			$stegNr++;
 		}
 		else 
 		{

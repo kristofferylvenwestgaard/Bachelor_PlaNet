@@ -11,7 +11,7 @@
 		<div class="col-1-1">
 			<div class="col_left">
 				<div id="add_akt_step2_header">
-					<?php echo $_REQUEST["aktivitetsnavn"];?> 
+					<?php echo $_SESSION["aktivitetsnavn"];?> 
 				</div>
 			 	
 				<form class="form_add_aktivitet" action="" name="legg_til_aktivitet" method="post">
@@ -56,12 +56,7 @@
 						<br/>
 							<br/>
 						<input class="submit btn btn-large btn-success" type="submit" value="+Legg til" name="leggTil"/>
-
-						
-
 					</div>
-
-
 					<div id="checkRight">
 					</div>
 				</form>
@@ -71,7 +66,8 @@
 			<?php
 				if(isset($_REQUEST["nesteSide"]))
 				{
-					$aNavn = $_REQUEST["aktivitetsnavn"];
+					$_SESSION["aktivitetsnavn"] = $_REQUEST["aktivitetsnavn"];
+					$aNavn = $_SESSION["aktivitetsnavn"];
 					
 					//PHP for gjentakelses dager!
 					$m = 0;
@@ -150,13 +146,14 @@
 					//DESTRUERES NÅR BRUKER TRYKKER FERDIG PÅ SIDE TO
 					
 					$_SESSION["aid"] = hentAktivitetId();
-
+					$stegNummer = 1;
 					//LEGGE INN HANDLINGSKJEDESTEG MED ID LIK SESSION["aid"]
 					if(isset($_REQUEST["leggTil"]))
 					{
 						if(isset($_REQUEST["handlingskjede"]))
 						{
-							addHandlingSteg($_SESSION["aid"], $_REQUEST["beskrivelseBoks"]);
+							addHandlingSteg($_SESSION["aid"], $_REQUEST["beskrivelseBoks"], $stegNummer);
+							$stegNummer++;
 						}
 						else
 						{

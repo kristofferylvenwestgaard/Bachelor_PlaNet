@@ -8,7 +8,7 @@
 		<h1 class="htext"><a class="inAppLinks" href="index.php">Administrer applikasjon</a></h1>
 	</div>
 	<div id="admincontent">
-				<form class="form_add_aktivitet" action="add_aktivitet_step2.php" name="legg_til_aktivitet" method="post">
+					<form class="form_add_aktivitet" action="add_aktivitet_step2.php" name="legg_til_aktivitet" method="post">
 				<!--DIV CONTAINER FOR VENSTRE KOLONNE I LEGG TIL AKTIVITET-->
 				<div class="col_left">
 				<div class="grid grid-pad">	
@@ -34,34 +34,34 @@
 				</div>
 				<div class="col-1-1">
 					<div class="content">
-						<div id="mandag_gjenta">
-							<p class="formText">Ma</p><br/>
-							<input class="input_check" type="checkbox" name="mandag"/>
-						</div>
-						<div id="tirsdag_gjenta">
-							<p class="formText">Ti</p><br/>
-							<input class="input_check" type="checkbox" name="tirsdag"/>
-						</div>
-						<div id="onsdag_gjenta">
-							<p class="formText">On</p><br/>
-							<input class="input_check" type="checkbox" name="onsdag"/>
-						</div>
-						<div id="torsdag_gjenta">
-							<p class="formText">To</p><br/>
-							<input class="input_check" type="checkbox" name="torsdag"/>
-						</div>
-						<div id="fredag_gjenta">
-							<p class="formText">Fr</p><br/>
-							<input class="input_check" type="checkbox" name="fredag"/>
-						</div>
-						<div id="loerdag_gjenta">
-							<p class="formText">Lø</p><br/>
-							<input class="input_check" type="checkbox" name="loerdag"/>
-						</div>
-						<div id="soendag_gjenta">
-							<p class="formText">Sø</p><br/>
-							<input class="input_check" type="checkbox" name="soendag"/>
-						</div>
+					<div id="mandag_gjenta">
+						<p class="formText">Ma</p><br/>
+						<input class="input_check" type="checkbox" name="mandag"/>
+					</div>
+					<div id="tirsdag_gjenta">
+						<p class="formText">Ti</p><br/>
+						<input class="input_check" type="checkbox" name="tirsdag"/>
+					</div>
+					<div id="onsdag_gjenta">
+						<p class="formText">On</p><br/>
+						<input class="input_check" type="checkbox" name="onsdag"/>
+					</div>
+					<div id="torsdag_gjenta">
+						<p class="formText">To</p><br/>
+						<input class="input_check" type="checkbox" name="torsdag"/>
+					</div>
+					<div id="fredag_gjenta">
+						<p class="formText">Fr</p><br/>
+						<input class="input_check" type="checkbox" name="fredag"/>
+					</div>
+					<div id="loerdag_gjenta">
+						<p class="formText">Lø</p><br/>
+						<input class="input_check" type="checkbox" name="loerdag"/>
+					</div>
+					<div id="soendag_gjenta">
+						<p class="formText">Sø</p><br/>
+						<input class="input_check" type="checkbox" name="soendag"/>
+					</div>
 					</div>
 				</div>
 
@@ -71,7 +71,7 @@
 							<div class="col-1-4">
 								<div class="content">		
 										<div class="inAppText">
-											Dato <small>[valgfritt]:</small>
+												Dato <small>[valgfritt]:</small>
 										</div>
 										<input class="input_dato" type="date" placeholder="Dato - Valgfri" name="dato"/><br/>
 								</div>
@@ -81,7 +81,7 @@
 							<div class="col-1-4">
 								<div class="content">		
 										<div class="inAppText">
-											Alarm <small>[valgfritt]:</small>
+												Alarm <small>[valgfritt]:</small>
 										</div>
 										<input class="input_alarm" type="time" placeholder="Alarm - Valgfri" name="alarm"/><br/>
 								</div>
@@ -91,18 +91,19 @@
 					<!--AKTIVITETSFARGE VALG -->
 					<div class="col-1-1">
 					<div class="content">
+						
 							<div class="inAppText">
 								Velg farge: 
 							</div>
 					</div>
 					</div>
 					<div class="col-1-1">
-						<div class="content">
-							<input type="checkbox" id="checkbox-1-1" class="redcheckbox" name="red" /><label for="checkbox-1-1"></label>
-							<input type="checkbox" id="checkbox-1-2" class="bluecheckbox" name="blue" /><label for="checkbox-1-2"></label>
-							<input type="checkbox" id="checkbox-1-3" class="greencheckbox" name="green" /><label for="checkbox-1-3"></label>
-							<input type="checkbox" id="checkbox-1-4" class="blackcheckbox" name="black" /><label for="checkbox-1-4"></label>
-						</div>
+					<div class="content">
+								<input type="checkbox" id="checkbox-1-1" class="redcheckbox" name="red" /><label for="checkbox-1-1"></label>
+								<input type="checkbox" id="checkbox-1-2" class="bluecheckbox" name="blue" /><label for="checkbox-1-2"></label>
+								<input type="checkbox" id="checkbox-1-3" class="greencheckbox" name="green" /><label for="checkbox-1-3"></label>
+								<input type="checkbox" id="checkbox-1-4" class="blackcheckbox" name="black" /><label for="checkbox-1-4"></label>
+					</div>
 					</div>
 						<!-- GAMLE CHECKBOXER - JUST IN CASE
 						<div id="farge_blue">
@@ -127,14 +128,14 @@
 
 					<!--HJELPEFUNKSJONER-->
 					<div class="col-1-1">
-						<div class="content">
-							<div class="inAppText">
-								Hjelpefunksjoner:
-							</div>
+					<div class="content">
+						<div class="inAppText">
+							Hjelpefunksjoner:
 						</div>
 					</div>
+					</div>
 
-				<div class="col-1-1">
+					<div class="col-1-1">
 					<div class="content">
 						<div id="skype_check">
 							<p class="formText">Skype</p><br/>
@@ -145,7 +146,7 @@
 							<input class="input_check" type="checkbox" name="personalliste"/><br/>
 						</div>
 						</div>
-				</div>
+					</div>
 
 					<!--NESTEKNAPP-->
 					<div class="col-1-1">

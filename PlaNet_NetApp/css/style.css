@@ -268,11 +268,6 @@
 }
 
 
-
-
-
-
-
 /**********ADMINSIDE*************/
 
 #admincontent
@@ -534,6 +529,196 @@ a:active
 #alarmvalg
 {
 	float:right;
+}
+
+
+/*************TESTER FOR FARGECHECKBOXER ***************************/
+label {
+display: inline;
+}
+.redcheckbox {
+display: none;
+}
+.redcheckbox + label {
+margin-left:0px;
+	min-height:15px;
+	min-width:15px;
+background-color: #fafafa;
+border: 1px solid #cacece;
+box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+padding: 9px;
+border-radius: 3px;
+display: inline-block;
+position: relative;
+}
+.redcheckbox + label:active, .regular-checkbox:checked + label:active {
+box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+.redcheckbox:checked + label {
+background-color: #e9ecee;
+border: 1px solid #adb8c0;
+box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+color: #99a1a7;
+}
+
+
+.redcheckbox:checked + label:after {
+content: '\2714';
+font-size: 35px; /*størrelse på V check tegn */
+position: absolute;
+top: -7px; /*posisjon V tegn (top/left) */
+left: 3px;
+color: red; /*Setter farge på V tegn etter checked */
+}
+
+
+.redcheckbox + label {
+background-color: red; /* Setter frage på boxen før check */
+border: 1px solid #cacece;
+box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+padding: 9px;
+border-radius: 3px;
+display: inline-block;
+position: relative;
+}
+
+
+.bluecheckbox {
+display: none;
+}
+.bluecheckbox + label {
+margin-left:0px;
+	min-height:15px;
+	min-width:15px;
+background-color: #fafafa;
+border: 1px solid #cacece;
+box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+padding: 9px;
+border-radius: 3px;
+display: inline-block;
+position: relative;
+}
+.bluecheckbox + label:active, .regular-checkbox:checked + label:active {
+box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+.bluecheckbox:checked + label {
+background-color: #e9ecee;
+border: 1px solid #adb8c0;
+box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+color: #99a1a7;
+}
+
+
+.bluecheckbox:checked + label:after {
+content: '\2714';
+font-size: 35px; /*størrelse på V check tegn */
+position: absolute;
+top: -7px; /*posisjon V tegn (top/left) */
+left: 3px;
+color: blue; /*Setter farge på V tegn etter checked */
+}
+
+
+.bluecheckbox + label {
+background-color: blue; /* Setter frage på boxen før check */
+border: 1px solid #cacece;
+box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+padding: 9px;
+border-radius: 3px;
+display: inline-block;
+position: relative;
+}
+
+.greencheckbox {
+display: none;
+}
+.greencheckbox + label {
+margin-left:0px;
+	min-height:15px;
+	min-width:15px;
+background-color: #fafafa;
+border: 1px solid #cacece;
+box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+padding: 9px;
+border-radius: 3px;
+display: inline-block;
+position: relative;
+}
+.greencheckbox + label:active, .regular-checkbox:checked + label:active {
+box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+.greencheckbox:checked + label {
+background-color: #e9ecee;
+border: 1px solid #adb8c0;
+box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+color: #99a1a7;
+}
+
+
+.greencheckbox:checked + label:after {
+content: '\2714';
+font-size: 35px; /*størrelse på V check tegn */
+position: absolute;
+top: -7px; /*posisjon V tegn (top/left) */
+left: 3px;
+color: green; /*Setter farge på V tegn etter checked */
+}
+
+
+.greencheckbox + label {
+background-color: green; /* Setter frage på boxen før check */
+border: 1px solid #cacece;
+box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+padding: 9px;
+border-radius: 3px;
+display: inline-block;
+position: relative;
+}
+
+.blackcheckbox {
+display: none;
+}
+.blackcheckbox + label {
+margin-left:0px;
+	min-height:15px;
+	min-width:15px;
+background-color: #fafafa;
+border: 1px solid #cacece;
+box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+padding: 9px;
+border-radius: 3px;
+display: inline-block;
+position: relative;
+}
+.blackcheckbox + label:active, .regular-checkbox:checked + label:active {
+box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+.blackcheckbox:checked + label {
+background-color: #e9ecee;
+border: 1px solid #adb8c0;
+box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+color: #99a1a7;
+}
+
+
+.blackcheckbox:checked + label:after {
+content: '\2714';
+font-size: 35px; /*størrelse på V check tegn */
+position: absolute;
+top: -7px; /*posisjon V tegn (top/left) */
+left: 3px;
+color: black; /*Setter farge på V tegn etter checked */
+}
+
+
+.blackcheckbox + label {
+background-color: black; /* Setter frage på boxen før check */
+border: 1px solid #cacece;
+box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+padding: 9px;
+border-radius: 3px;
+display: inline-block;
+position: relative;
 }
 
 /*RIGHT COLUMN - INNHOLD! */

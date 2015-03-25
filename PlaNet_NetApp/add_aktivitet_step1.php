@@ -188,9 +188,11 @@
 				<!--DIV CONTAINER FOR HØYRE KOLONNE I LEGG TIL AKTIVITET-->
 				<div class="col_right">
 					<div id="aktivitet_oversikt">
+						<div class="phpUtText">
 						<?php
 							hentAktivitet();
 						?>
+						</div>
 					</div>
 				</div>
 			</form>

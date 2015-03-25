@@ -15,10 +15,10 @@
 				</div>
 			 	
 				<form class="form_add_aktivitet" action="" name="legg_til_aktivitet" method="post">
-					<div class="inAppText">Legg til aktivitet:</div></br>
-
-					
-
+					<div class="inAppText">
+						Legg til aktivitet:
+					</div>
+					</br>
 					<div id="checkLeft">
 						<input class="input_check" type="checkbox" name="aktivitet"/><p class="formText">Aktivitet</p><br/>
 						<input class="input_check" type="checkbox" name="handlingskjede"/><p class="formText">Handlingskjede</p></br>
@@ -29,32 +29,33 @@
 							<textarea class="input_textarea" name="beskrivelseBoks" placeholder="Beskriv aktivitet" cols="46" rows="14"></textarea>
 						</div>
 
-						<div class="col-1-1">
-							
+						<div class="col-1-1">	
 							<form action="upload.php" method="post" enctype="multipart/form-data">
+								<div class="fileUpload btn btn-primary">
+								    <span>+Bilde</span>
+								    <input type="file" class="upload" />
+								</div>
 
-								   		<div class="fileUpload btn btn-primary">
-										    <span>+Bilde</span>
-										    <input type="file" class="upload" />
-										</div>
+								 <div class="fileUpload btn btn-primary">
+								    <span>+Video</span>
+								    <input type="file" class="upload" />
+								</div>
 
-										 <div class="fileUpload btn btn-primary">
-										    <span>+Video</span>
-										    <input type="file" class="upload" />
-										</div>
+								<div class="fileUpload btn btn-primary">
+								    <span>+Lyd</span>
+								    <input type="file" class="upload" />
+								</div>
 
-										<div class="fileUpload btn btn-primary">
-										    <span>+Lyd</span>
-										    <input type="file" class="upload" />
-										</div>
-
-										<div class="fileUpload btn btn-primary">
-										    <span>+Timer</span>
-										    <input type="file" class="upload" />
-										</div>	
+								<div class="fileUpload btn btn-primary">
+								    <span>+Timer</span>
+								    <input type="file" class="upload" />
+								</div>	
+							</form>
 						</div>
+
 						<br/>
-							<br/>
+						<br/>
+						
 						<input class="submit btn btn-large btn-success" type="submit" value="+Legg til" name="leggTil"/>
 					</div>
 					<div id="checkRight">
@@ -68,7 +69,7 @@
 				{
 					$_SESSION["aktivitetsnavn"] = $_REQUEST["aktivitetsnavn"];
 					$aNavn = $_SESSION["aktivitetsnavn"];
-					
+
 					//PHP for gjentakelses dager!
 					$m = 0;
 					$ti = 0;
@@ -150,6 +151,7 @@
 					//LEGGE INN HANDLINGSKJEDESTEG MED ID LIK SESSION["aid"]
 					if(isset($_REQUEST["leggTil"]))
 					{
+						echo $_SESSION["aid"];
 						if(isset($_REQUEST["handlingskjede"]))
 						{
 							addHandlingSteg($_SESSION["aid"], $_REQUEST["beskrivelseBoks"], $stegNummer);

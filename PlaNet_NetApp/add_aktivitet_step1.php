@@ -104,7 +104,8 @@
 							<input type="checkbox" id="checkbox-1-4" class="blackcheckbox" name="black" /><label for="checkbox-1-4"></label>
 						</div>
 					</div>
-						<!-- GAMLE CHECKBOXER - JUST IN CASE
+					<!-- 
+						GAMLE CHECKBOXER - JUST IN CASE
 						<div id="farge_blue">
 							<p class="formText">Blå</p><br/>
 							<input class="input_check" type="checkbox" name="blue"/>

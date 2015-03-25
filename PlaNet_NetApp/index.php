@@ -55,8 +55,29 @@
 		</div>
 		<div id="mandag">
 			<?php
-				listUtAktivitetUkeplan();
+				//listUtAktivitetUkeplan();
 			?>
+			<!--DUMMY INNHOLD!-->
+			<div class="activity">
+				<div class="bluecode"></div>
+				Puss tenner
+				<img src="../Database/skole.jpg" alt="middag" width="130px" height="60px"/>
+			</div>
+			<div class="activity">
+				<div class="redcode"></div>
+				Frokost
+				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
+			</div>
+			<div class="activity">
+				<div class="redcode"></div>
+				Lunch
+				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
+			</div>
+			<div class="activity">
+				<div class="blackcode"></div>
+				Middag
+				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
+			</div>
 		</div>
 	</div>
 	<div class="col-1-7">
@@ -64,8 +85,34 @@
 		</div>
 		<div id="tirsdag">
 			<?php	
-				listUtAktivitetUkeplan()
+				//listUtAktivitetUkeplan()
 			?>
+			<!--DUMMY INNHOLD!-->
+			<div class="activity">
+				<div class="bluecode"></div>
+				Puss tenner
+				<img src="../Database/skole.jpg" alt="middag" width="130px" height="60px"/>
+			</div>
+			<div class="activity">
+				<div class="redcode"></div>
+				Frokost
+				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
+			</div>
+			<div class="activity">
+				<div class="greencode"></div>
+				Trening
+				<img src="../Database/skole.jpg" alt="middag" width="130px" height="60px"/>
+			</div>
+			<div class="activity">
+				<div class="redcode"></div>
+				Lunch
+				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
+			</div>
+			<div class="activity">
+				<div class="blackcode"></div>
+				Middag
+				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
+			</div>
 		</div>
 	</div>
 	<div class="col-1-7">
@@ -73,8 +120,29 @@
 		</div>
 		<div id="onsdag">
 			<?php	
-				listUtAktivitetUkeplan()
+				//listUtAktivitetUkeplan()
 			?>
+			<!--DUMMY INNHOLD!-->
+			<div class="activity">
+				<div class="blackcode"></div>
+				Puss tenner
+				<img src="../Database/skole.jpg" alt="middag" width="130px" height="60px"/>
+			</div>
+			<div class="activity">
+				<div class="greencode"></div>
+				Frokost
+				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
+			</div>
+			<div class="activity">
+				<div class="redcode"></div>
+				Lunch
+				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
+			</div>
+			<div class="activity">
+				<div class="blackcode"></div>
+				Middag
+				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
+			</div>
 		</div>
 	</div>
 	<div class="col-1-7">
@@ -89,8 +157,29 @@
 		</div>
 		<div id="fredag">
 			<?php	
-				listUtAktivitetUkeplan()
+				//listUtAktivitetUkeplan()
 			?>
+			<!--DUMMY INNHOLD!-->
+			<div class="activity">
+				<div class="bluecode"></div>
+				Puss tenner
+				<img src="../Database/skole.jpg" alt="middag" width="130px" height="60px"/>
+			</div>
+			<div class="activity">
+				<div class="redcode"></div>
+				Frokost
+				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
+			</div>
+			<div class="activity">
+				<div class="redcode"></div>
+				Lunch
+				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
+			</div>
+			<div class="activity">
+				<div class="blackcode"></div>
+				Middag
+				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
+			</div>
 		</div>
 	</div>
 	<div class="col-1-7">
@@ -98,8 +187,34 @@
 		</div>
 		<div id="lordag">
 			<?php	
-				listUtAktivitetUkeplan()
+				//listUtAktivitetUkeplan()
 			?>
+			<!--DUMMY INNHOLD!-->
+			<div class="activity">
+				<div class="bluecode"></div>
+				Puss tenner
+				<img src="../Database/skole.jpg" alt="middag" width="130px" height="60px"/>
+			</div>
+			<div class="activity">
+				<div class="redcode"></div>
+				Frokost
+				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
+			</div>
+			<div class="activity">
+				<div class="greencode"></div>
+				Trening
+				<img src="../Database/skole.jpg" alt="middag" width="130px" height="60px"/>
+			</div>
+			<div class="activity">
+				<div class="redcode"></div>
+				Lunch
+				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
+			</div>
+			<div class="activity">
+				<div class="blackcode"></div>
+				Middag
+				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
+			</div>
 		</div>
 	</div>
 	<div class="col-1-7">
@@ -107,8 +222,29 @@
 		</div>
 		<div id="sondag">
 			<?php	
-				listUtAktivitetUkeplan()
+				//listUtAktivitetUkeplan()
 			?>
+			<!--DUMMY INNHOLD!-->
+			<div class="activity">
+				<div class="blackcode"></div>
+				Puss tenner
+				<img src="../Database/skole.jpg" alt="middag" width="130px" height="60px"/>
+			</div>
+			<div class="activity">
+				<div class="greencode"></div>
+				Frokost
+				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
+			</div>
+			<div class="activity">
+				<div class="redcode"></div>
+				Lunch
+				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
+			</div>
+			<div class="activity">
+				<div class="blackcode"></div>
+				Middag
+				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
+			</div>
 		</div>
 	</div>
 </div>

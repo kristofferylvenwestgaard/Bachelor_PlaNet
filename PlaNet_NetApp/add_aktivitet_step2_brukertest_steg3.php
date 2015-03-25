@@ -79,7 +79,25 @@
 							</div>
 						</div>	
 					</div>
+
+					<div class="col-1-2">
+							<div class="content">
+									<img src="img/tomatsuppe.gif" alt="vannbeger" width="100px" height="120px"/>
+							</div>
+						</div>
+					<div class="col-1-2">
+							<div class="content">
+								<div class="inAppText">
+									Hell posens innhold i vannet og rør rundt
+								</div>
+							</div>
+						</div>	
+
+
+
 				</div>
+
+
 				<div class="next_page">
 					<a href="index.php" class="btn btn-large btn-success" type="button">Fullfør</button></a>
 					

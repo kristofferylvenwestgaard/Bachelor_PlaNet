@@ -14,7 +14,7 @@
 					<?php echo $_SESSION["aktivitetsnavn"];?> 
 				</div>
 			 	
-				<form class="form_add_aktivitet" action="" name="legg_til_aktivitet" method="post">
+				<form class="form_add_aktivitet" action="add_aktivitet_step2_brukertest_steg2.php" name="legg_til_aktivitet" method="post">
 					<div class="inAppText">
 						Legg til aktivitet:
 					</div>

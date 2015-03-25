@@ -68,7 +68,7 @@
 					<div class="grid grid-pad">	
 						<div class="col-1-5">
 							<div class="content">
-									<img src="/img/vannbeger.jpg" alt="vannbeger" width="130px" height="90px"/>
+									<img src="img/vannbeger.jpg" alt="vannbeger" width="130px" height="90px"/>
 							</div>
 						</div>
 					<div class="col-1-5">

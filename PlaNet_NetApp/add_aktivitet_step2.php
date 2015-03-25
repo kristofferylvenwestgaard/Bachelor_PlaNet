@@ -58,8 +58,6 @@
 						
 						<input class="submit btn btn-large btn-success" type="submit" value="+Legg til" name="leggTil"/>
 					</div>
-					<div id="checkRight">
-					</div>
 				</form>
 			</div>
 

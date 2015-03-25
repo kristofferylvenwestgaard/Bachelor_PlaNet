@@ -18,7 +18,7 @@
 		$sql = "INSERT INTO aktivitet (bildeId, fargeId, gjentaID, aktivitetNavn) VALUES ('". $bildeId."','" .$fargeId."','" .$gjentaId."','". $navn ."')";
 		if ($connect->query($sql) === TRUE) 
 		{
-			echo "New record created successfully";
+			//echo "New record created successfully";
 		}
 		else 
 		{
@@ -43,7 +43,7 @@
 
 		if ($connect->query($sql) === TRUE) 
 		{
-			echo "New record created successfully";
+			//echo "New record created successfully";
 		}
 		else 
 		{
@@ -135,7 +135,7 @@
 		
 		if ($connect->query($sql) === TRUE) 
 		{
-			echo "New record created successfully";
+			//echo "New record created successfully";
 		} 
 		else 
 		{

@@ -788,15 +788,47 @@ position: relative;
 
 /*************DAGSPLAN*****************/
 
+
+#dagIdagsPlan
+/* Ramme med dagsnavn */
+{
+	font-family:'Open Sans';
+	text-align: center;
+	padding-top:10px;
+	height:30px;
+	border-style:solid;
+	border-width:1px;
+	border-bottom: 0px;
+	border-right: 0px;
+
+	
+}
+
 .dagsplanBoks 
+/* Ramme for aktivitetssteginnhold */
 {
 	height: 600px;
 	border-style:solid;
 	border-width:1px;
+	border-top: 0px;
+	border-left: 0px;
 	font-family:'Open Sans';
 	background-color:#f7f7f7;
 	position:relative;
 	z-index:1;
+}
+
+.dagsChecklist 
+/*Sjekklisteboks for dagsplan*/
+{
+	height: 600px;
+	border-style:solid;
+	border-width:1px;
+	border-left: 0px;
+	border-top:0px;
+	font-family:'Open Sans';
+	background-color:#f7f7f7;
+	position:relative;
 }
 
 .aktivitetNavn 
@@ -831,7 +863,7 @@ position: relative;
 
 
 
-/*|||||||||||||||||||||Her t.o.m linje 1200 er for upload knappen||||||||||||||||||||||||||||||||| */
+/*|||||||||||||||||||||Her t.o.m linje 1200 er for knapper||||||||||||||||||||||||||||||||| */
 .fileUpload {
 	position: relative;
 	overflow: hidden;
@@ -1004,6 +1036,10 @@ button.close {
 
 .btn-block + .btn-block {
   margin-top: 5px;
+}
+
+.sharp {
+  border-radius:0;
 }
 
 input[type="submit"].btn-block,

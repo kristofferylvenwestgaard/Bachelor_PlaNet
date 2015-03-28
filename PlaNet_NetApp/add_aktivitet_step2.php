@@ -144,15 +144,14 @@
 					//SETTER SESSIONVARIABEL MED SAMME AKTIVITET ID SOM AKTIVITETEN SOM LEGGES INN.
 					//DESTRUERES NÅR BRUKER TRYKKER FERDIG PÅ SIDE TO
 					
-					$_SESSION["aid"] = hentAktivitetId();
+					$_SESSION['aid'] = hentAktivitetId();
 					$stegNummer = 1;
 					//LEGGE INN HANDLINGSKJEDESTEG MED ID LIK SESSION["aid"]
-					if(isset($_REQUEST["leggTil"]))
+					if(isset($_REQUEST['leggTil']))
 					{
-						echo $_SESSION["aid"];
-						if(isset($_REQUEST["handlingskjede"]))
+						if(isset($_REQUEST['handlingskjede']))
 						{
-							addHandlingSteg($_SESSION["aid"], $_REQUEST["beskrivelseBoks"], $stegNummer);
+							addHandlingSteg($_SESSION['aid'], $_REQUEST['beskrivelseBoks'], $stegNummer);
 							$stegNummer++;
 						}
 						else

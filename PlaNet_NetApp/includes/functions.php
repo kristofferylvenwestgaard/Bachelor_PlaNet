@@ -28,17 +28,17 @@
 	}
 
 	//LEGG TIL HANDLINGSKJEDE:
-	function addHandlingSteg($handlingsId, $beskrivelse, $stegNr)
+	function addHandlingSteg($aktSamId, $beskrivelse, $stegNr)
 	{
 		global $connect;
 		
 		//Beskrivelse som skal legges til hver handlingskjedesteg
-		$hId = $handlingsId;	
+		$asId = $aktSamId;	
 		$b = $beskrivelse;
 		$sNr = $stegNr;
 		//MANGLER STEGBILDEVARIABEL.
 
-		$sql = "INSERT INTO handlingskjede (handId, stegNr, beskrivelse) VALUES ('".$hId."', '".$sNr."', '".$b."')";
+		$sql = "INSERT INTO handlingskjede (stegNr, beskrivelse, aktivitetSammenhengId) VALUES ('".$sNr."', '".$b."', '".$asId."')";
 		$resultat = mysqli_query($connect, $sql);
 
 		if ($connect->query($sql) === TRUE) 

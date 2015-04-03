@@ -12,13 +12,13 @@ CREATE TABLE aktivitetFarge
 fargeId INT NOT NULL AUTO_INCREMENT,
 fargeNavn varchar (20),
 PRIMARY KEY (fargeId)
- 
 )
 ENGINE=InnoDB;
 
 CREATE TABLE handlingskjede
 (
-handId INT NOT NULL,
+handId INT NOT NULL AUTO_INCREMENT,
+aktivitetSammenhengId INT NOT NULL,
 stegNr INT,
 beskrivelse text,
 stegBilde longblob,

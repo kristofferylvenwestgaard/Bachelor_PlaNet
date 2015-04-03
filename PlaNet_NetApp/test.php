@@ -10,6 +10,7 @@
 	{
 		if(isset($_REQUEST['handlingskjede']))
 		{
+			echo "record added!";
 			addHandlingSteg($_SESSION['aid'], $_REQUEST['beskrivelseBoks'], $stegNummer);
 			$stegNummer++;
 		}

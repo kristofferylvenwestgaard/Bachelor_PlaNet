@@ -47,7 +47,7 @@ CREATE TABLE aktivitet
 id INT NOT NULL AUTO_INCREMENT,
 bildeId INT NOT NULL,
 fargeId INT NOT NULL,
-handId INT NOT NULL,
+handId INT,
 gjentaID INT NOT NULL,
 aktivitetNavn varchar(50),
 beskrivelse text,

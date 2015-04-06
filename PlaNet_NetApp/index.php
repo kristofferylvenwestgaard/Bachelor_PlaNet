@@ -9,10 +9,15 @@
 			<h1 class="htext">Terje</h1>
 		</div>
 	</div>
-	<div class="col-1-3">
+	<div class="col-1-6">
 		<div class="header">
-			<a id="hlink" href="index.php">Uke</a>
-			<a id="hlink" href="index.php">Måned</a>
+			
+			<a id="ukemndknapper" href="index.php" class="btn btn-large btn-block btn-primary sharp disabled" type="button">Uke</button></a>
+		</div>
+	</div>
+	<div class="col-1-6">
+		<div class="header">
+			<a id="ukemndknapper" href="april.php" class="btn btn-large btn-block btn-primary sharp" type="button">Måned</button></a>
 		</div>
 	</div>
 	<div class="col-1-3">

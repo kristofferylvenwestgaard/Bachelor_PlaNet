@@ -9,10 +9,15 @@
 			<h1 class="htext">Terje</h1>
 		</div>
 	</div>
-	<div class="col-1-3">
+	<div class="col-1-6">
 		<div class="header">
-			<a id="hlink" href="index.php">Uke</a>
-			<a id="hlink" href="index.php">Måned</a>
+			
+			<a id="ukemndknapper" href="index.php" class="btn btn-large btn-block btn-primary sharp" type="button">Uke</button></a>
+		</div>
+	</div>
+	<div class="col-1-6">
+		<div class="header">
+			<a id="ukemndknapper" href="april.php" class="btn btn-large btn-block btn-primary sharp" type="button">Måned</button></a>
 		</div>
 	</div>
 	<div class="col-1-3">
@@ -66,6 +71,7 @@
 				</div>
 				
 					<div class="col_right">
+						<div id="adminInfoBoks">
 						<div class="col-1-2">
 							</br>
 							<div class="inAppText">Terje Skog
@@ -81,13 +87,25 @@
 								terjeskog@gmail.com				
 							</div>
 						</div>
-						<div class="col-1-3">
+						<div class="col-3-4">
 							<div class="circular-image"><img src="img/terje.jpg" alt="portrett"></div>
 						</div>
 						<div class="col-1-1">
-							</br>
 							<div id="skypeknapp">
-								<a href="" class="btn  btn-primary" type="button">Skype</button></a>
+						<script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
+								<div id="SkypeButton_Call_live:magnus.elde_1">
+						<script type="text/javascript">
+								    Skype.ui({
+								      "name": "call",
+								      "element": "SkypeButton_Call_live:magnus.elde_1",
+								      "participants": ["live:magnus.elde"],
+								      "imageSize": 32
+								    });
+						</script>
+								</div>
+								<!--
+								<a href="" class="btn btn-primary btn-lg outline" type="button">Skype</button></a>
+							-->
 							</div>
 						</div>
 					</div>

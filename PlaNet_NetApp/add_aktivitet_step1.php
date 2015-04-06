@@ -5,7 +5,7 @@
 
 <div class="container">
 	<div class="header">
-		<h1 class="htext"><a class="inAppLinks" href="index.php">Administrer applikasjon</a></h1>
+		<h1 class="htext"><a class="inAppLinks" href="admin.php">Administrer applikasjon</a></h1>
 	</div>
 	<div id="admincontent">
 				<form class="form_add_aktivitet" action="add_aktivitet_step2.php" name="legg_til_aktivitet" method="post">

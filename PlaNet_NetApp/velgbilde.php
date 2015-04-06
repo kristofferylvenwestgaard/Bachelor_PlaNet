@@ -8,22 +8,23 @@
 	</div>
 
 	<form action="add_aktivitet_step1.php" method="post">
-		<div class="col-1-3">
+		<div class="col-1-4">
 			<div class="bilderamme">
-				<input type="checkbox" name="middag"/>
+				
+				<input class="input_check_bilde" type="checkbox" name="middag"/>
 				<img src="../Database/dinner.gif" alt="middag" width="100px" height="100px"/>
 			</div>
 		</div>
-		<div class="col-1-3">
+		<div class="col-1-4">
 			
 			<div class="bilderamme">
-				<input type="checkbox" name="skole"/>
+				<input class="input_check_bilde" type="checkbox" name="skole"/>
 				<img src="../Database/skole.jpg" alt="middag" width="100px" height="100px"/>
 			</div>
 		</div>
-		<div class="col-1-3">
+		<div class="col-1-4">
 			<div class="bilderamme">
-				<input type="checkbox" name="tv"/>
+				<input class="input_check_bilde" type="checkbox" name="tv"/>
 				<img src="../Database/tv.jpg" alt="middag" width="100px" height="100px"/>
 			</div>
 		</div>

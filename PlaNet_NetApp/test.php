@@ -13,6 +13,9 @@
 			echo "record added!";
 			addHandlingSteg($_SESSION['aid'], $_REQUEST['beskrivelseBoks'], $stegNummer);
 			$stegNummer++;
+			?> 
+				<a href="add_aktivitet_step2.php">Tilbake</a> 
+			<?php
 		}
 		else
 		{

@@ -72,7 +72,6 @@
 					{
 						//echo "record added!";
 						addHandlingSteg($_SESSION['aid'], $_REQUEST['beskrivelseBoks'], $stegNummer);
-						$stegNummer++;
 					}
 					else
 					{

@@ -70,7 +70,7 @@
 				{
 					if(isset($_REQUEST['handlingskjede']))
 					{
-						echo "record added!";
+						//echo "record added!";
 						addHandlingSteg($_SESSION['aid'], $_REQUEST['beskrivelseBoks'], $stegNummer);
 						$stegNummer++;
 					}
@@ -84,7 +84,10 @@
 			<!--DIV CONTAINER FOR HØYRE KOLONNE! -->
 			<div class="col_right">
 				<div id="aktivitet_oversikt">
-				
+					<?php
+						$_SESSION['aid'] = hentAktivitetId();
+						hentHandlingskjede($_SESSION['aid']);
+					?>
 				</div>
 				<div class="next_page">
 					<a href="index.php" class="btn btn-large btn-success" type="button">Fullfør</button></a>

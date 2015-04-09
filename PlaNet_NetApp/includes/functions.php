@@ -297,6 +297,53 @@
 		}
 	}
 
+	//LISTER UT HANDLINGSKJEDE STEG I aktivitet step2 del2-3.
+	function hentHandlingskjede($aid)
+	{
+		global $connect;
+		//SQL setning for å hente aktivitet
+		$aktivitetId = $aid;
+		$visHandlingskjede = "SELECT aktivitetSammenhengId, stegNr, beskrivelse FROM handlingskjede";
+		$resultat = mysqli_query($connect, $visHandlingskjede);
+
+		//Teller rekker i tabellen, og setter innholdet i et assosiativt array dersom det er fler enn 0.
+		//Lister deretter ut innholdet i arrayet (aktivitetene)
+		if(mysqli_num_rows($resultat) > 0)
+		{
+			while($row = mysqli_fetch_assoc($resultat))
+			{
+				$innhold[] = $row;
+			}
+			foreach($innhold as $row)
+        	{	
+        		//IF TESTER HVILKEN BILDE ID SOM BENYTTES OG HENTER DERETTER RIKTIG BILDE I BILDE TABELL
+        		if($row["aktivitetSammenhengId"] == $aktivitetId)
+        		{
+        			?>
+         			<!--Oppretter en html section i aktivitetsvindu hvor aktivitetene vil listes ut.-->
+            	    <div class="activity">
+            	    <?php
+            	    //IF TESTER SOM SJEKKER FARGEID OPP MOT VALGT FARGE OG GIR INDEX SIDENS AKTIVITETER 
+					//RIKTIG FARGEDIV
+            	    	echo $row["stegNr"]. ": " . $row["beskrivelse"];
+            	    ?>
+           		    </div>
+            	<?php
+        		}
+            }
+		}
+		else
+		{
+			?>
+				<div class="activity">
+					<?php
+						echo "Det finnes ingen steg i handlingskjede!";
+					?>
+				</div>
+			<?php
+		}
+	}
+
 	//FUNKSJON FOR Å HENTE UT INNLAGTE AKTIVITETER FOR GITT DAG FRA DATABASE, og liste ut i UKEOVERSIKT!  
 	function listUtAktivitetUkeplan()
 	{

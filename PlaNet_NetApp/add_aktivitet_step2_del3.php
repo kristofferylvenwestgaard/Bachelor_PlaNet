@@ -63,104 +63,21 @@
 
 			<!--PHP KODE FOR Å LEGGE TIL AKTIVITET MED BESKRIVELSE OSV.-->
 			<?php
-				if(isset($_REQUEST["nesteSide"]))
+				$_SESSION['aid'] = hentAktivitetId();
+				$stegNummer = 1;
+				//LEGGE INN HANDLINGSKJEDESTEG MED ID LIK SESSION["aid"]
+				if(isset($_REQUEST['leggTil']))
 				{
-					$_SESSION["aktivitetsnavn"] = $_REQUEST["aktivitetsnavn"];
-					$aNavn = $_SESSION["aktivitetsnavn"];
-
-					//PHP for gjentakelses dager!
-					$m = 0;
-					$ti = 0;
-					$o = 0;
-					$to = 0;
-					$f = 0;
-					$l = 0;
-					$s = 0;
-					if(isset($_REQUEST["mandag"]))
+					if(isset($_REQUEST['handlingskjede']))
 					{
-						$m = 1;
+						echo "record added!";
+						addHandlingSteg($_SESSION['aid'], $_REQUEST['beskrivelseBoks'], $stegNummer);
+						$stegNummer++;
 					}
-					if(isset($_REQUEST["tirsdag"]))
+					else
 					{
-						$ti = 1;
+						echo "noe er galt med addHandlingSteg()";
 					}
-					if(isset($_REQUEST["onsdag"]))
-					{
-						$o = 1;
-					}
-					if(isset($_REQUEST["torsdag"]))
-					{
-						$to = 1;
-					}
-					if(isset($_REQUEST["fredag"]))
-					{
-						$f = 1;
-					}
-					if(isset($_REQUEST["loerdag"]))
-					{
-						$l = 1;
-					}
-					if(isset($_REQUEST["soendag"]))
-					{
-						$s = 1;
-					}
-					
-					//PHP for fargevalg
-					$fargeid = 0;
-					if(isset($_REQUEST["blue"]))
-					{
-						$fargeId = 1;
-					}
-					if(isset($_REQUEST["red"]))
-					{
-						$fargeId = 2;
-					}
-					if(isset($_REQUEST["green"]))
-					{
-						$fargeId = 3;
-					}
-					if(isset($_REQUEST["black"]))
-					{
-						$fargeId = 4;
-					}
-					
-					//Setter gjentakelsedager inn i et array med 1=true for gjenta og 0=false for ikke å gjenta.
-					$gjentaArray = array($m, $ti, $o, $to, $f, $l, $s);
-					
-					// Legger inn verdiene 1 for ja og 0 for nei i ukedager tabell!
-					gjentaDager($gjentaArray);	
-					
-					//GjentaId hentet på den vanskelige måten!!!
-					$gjentaID = hentGjentaId();
-
-					//Gir bildeid fra session variabel som er opprettet opå velgbilde.php til $bildeid som benyttes
-					//i funksjonen leggTilAktivitet()
-					$bildeid = $_SESSION["bildeid"];
-
-					// Legger inn aktivitet i database tabell med gitte specs for aktivitet.
-					leggTilAktivitet($aNavn, $bildeid, $fargeId, $gjentaID);
-
-					//hent aktivitetID for å opprette en sessionvariabel som kan gi riktig id til handlingskjedetabellen
-					//SETTER SESSIONVARIABEL MED SAMME AKTIVITET ID SOM AKTIVITETEN SOM LEGGES INN.
-					//DESTRUERES NÅR BRUKER TRYKKER FERDIG PÅ SIDE TO
-					
-
-					//$_SESSION['aid'] = hentAktivitetId();
-					//$stegNummer = 1;
-					////LEGGE INN HANDLINGSKJEDESTEG MED ID LIK SESSION["aid"]
-					//if(isset($_REQUEST['leggTil']))
-					//{
-					//	if(isset($_REQUEST['handlingskjede']))
-					//	{
-					//		addHandlingSteg($_SESSION['aid'], $_REQUEST['beskrivelseBoks'], $stegNummer);
-					//		$stegNummer++;
-					//	}
-					//	else
-					//	{
-					//		echo "noe er galt med addHandlingSteg()";
-					//	}
-					//}
-					
 				}
 			?>
 

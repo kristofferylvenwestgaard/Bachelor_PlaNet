@@ -67,6 +67,7 @@
 				{
 					$_SESSION["aktivitetsnavn"] = $_REQUEST["aktivitetsnavn"];
 					$aNavn = $_SESSION["aktivitetsnavn"];
+					$_SESSION['aid'] = hentAktivitetId();
 
 					//PHP for gjentakelses dager!
 					$m = 0;
@@ -150,10 +151,9 @@
 			<!--DIV CONTAINER FOR HØYRE KOLONNE! -->
 			<div class="col_right">
 				<div id="aktivitet_oversikt">
-					<?php
-						$_SESSION['aid'] = hentAktivitetId();
-						hentHandlingskjede($_SESSION['aid']);
-					?>
+						<?php
+							hentHandlingskjede($_SESSION['aid']);
+						?>
 				</div>
 				<div class="next_page">
 					<a href="index.php" class="btn btn-large btn-success" type="button">Fullfør</button></a>

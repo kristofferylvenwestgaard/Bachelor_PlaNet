@@ -64,14 +64,14 @@
 			<!--PHP KODE FOR Å LEGGE TIL AKTIVITET MED BESKRIVELSE OSV.-->
 			<?php
 				$_SESSION['aid'] = hentAktivitetId();
-				$stegNummer = 1;
 				//LEGGE INN HANDLINGSKJEDESTEG MED ID LIK SESSION["aid"]
 				if(isset($_REQUEST['leggTil']))
 				{
 					if(isset($_REQUEST['handlingskjede']))
 					{
 						//echo "record added!";
-						addHandlingSteg($_SESSION['aid'], $_REQUEST['beskrivelseBoks'], $stegNummer);
+						addHandlingSteg($_SESSION['aid'], $_REQUEST['beskrivelseBoks'], $_SESSION["stegNummer"]);
+						$_SESSION["stegNummer"] ++;
 					}
 					else
 					{
@@ -83,14 +83,12 @@
 			<!--DIV CONTAINER FOR HØYRE KOLONNE! -->
 			<div class="col_right">
 				<div id="aktivitet_oversikt">
-					<?php
-						$_SESSION['aid'] = hentAktivitetId();
-						hentHandlingskjede($_SESSION['aid']);
-					?>
+						<?php
+							hentHandlingskjede($_SESSION['aid']);
+						?>
 				</div>
 				<div class="next_page">
 					<a href="index.php" class="btn btn-large btn-success" type="button">Fullfør</button></a>
-					
 				</div>
 			</div>
 		</div>

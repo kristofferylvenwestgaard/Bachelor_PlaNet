@@ -151,9 +151,11 @@
 			<!--DIV CONTAINER FOR HØYRE KOLONNE! -->
 			<div class="col_right">
 				<div id="aktivitet_oversikt">
-						<?php
-							hentHandlingskjede($_SESSION['aid']);
-						?>
+					<div class="activity">
+						<div class="phpUtTextHand">
+            	    		Det finnes ingen steg foreløpig!
+            	    	<div>
+            	    </div>	
 				</div>
 				<div class="next_page">
 					<a href="index.php" class="btn btn-large btn-success" type="button">Fullfør</button></a>

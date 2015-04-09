@@ -1034,14 +1034,14 @@ button.close {
 
 .btn-primary.outline 
 {
-    border: 2px solid #6d6c6c;
-    color: #6d6c6c;
+    border: 1px solid #6d6c6c;
+    color: black;
 }
 
 .btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary 
 {
-    color: #33a6cc;
-    border-color: #33a6cc;
+    color: #F7F7F7;
+    border-color: #F7F7F7;
 }
 .btn-primary.outline:active, .btn-primary.outline.active 
 {
@@ -1201,9 +1201,18 @@ input[type="button"].btn-block {
 .btn-primary:active,
 .btn-primary.active,
 .btn-primary.disabled,
-.btn-primary[disabled] {
+.btn-primary[disabled]
+ {
   color: #ffffff;
   background-color: #006599;
+  *background-color: #006599;
+}
+
+.btn-primary.av,
+.btn-primary[av]
+{
+color: black;
+  background-color: #918f8f;
   *background-color: #006599;
 }
 

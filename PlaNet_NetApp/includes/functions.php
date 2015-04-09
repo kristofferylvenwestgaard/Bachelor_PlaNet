@@ -39,8 +39,6 @@
 		//MANGLER STEGBILDEVARIABEL.
 
 		$sql = "INSERT INTO handlingskjede (stegNr, beskrivelse, aktivitetSammenhengId) VALUES ('".$sNr."', '".$b."', '".$asId."')";
-		$resultat = mysqli_query($connect, $sql);
-
 		if ($connect->query($sql) === TRUE) 
 		{
 			//echo "New record created successfully";

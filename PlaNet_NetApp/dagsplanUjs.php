@@ -67,7 +67,7 @@
 	     <div class="col-1-12">
 	     	<div class="dagsChecklist">
 	     			
-	     		
+	     			<!-- MÅ ENDRES TIL SUBMITKNAPPER / BUTTONS OG HA NAME ="check"-->
 	     			<a href="#" class="btn btn-large btn-success btn-lg sharp" type="button">Steg #1</button></a>
 	     		
 	     			<a href="#" class="btn btn-large btn-danger btn-lg sharp" type="button">Steg #2</button></a>
@@ -85,7 +85,12 @@
 	     			<a href="#" class="btn btn-large btn-danger btn-lg sharp" type="button">Steg #8</button></a>
 	     		
 	     			<a href="#" class="btn btn-large btn-danger btn-lg sharp" type="button">Steg #9</button></a>
-	     	
+	     			
+	     			<?php
+
+	     				//MÅ FINNE EN MÅTE Å HENTE UT DE TO PARAMETERNE.
+	     				handKjedeStegCheck($stegNr, $aktivitetSammenhengId)
+	     			?>
 	     	</div>
 	     </div>
 	

@@ -344,6 +344,34 @@
 		}
 	}
 
+	//FUNKSJON FOR Å LEGGE INN "CHECK" I HANDLINGSKJEDE TABELL TIL RIKTIG STEGID
+	function handKjedeStegCheck($stegNr, $aktivitetSammenhengId)
+	{	
+		global $connect;
+		
+		$check = 0;
+
+		//sjekker om stegNr er krysset av
+		if(isset($_REQUEST["check"]))
+		{	
+			$check = 1;
+
+			//OPPDATERER HANDLINGSKJEDE TABELL VED Å SETTE INN CHECK PÅ RIKTIG HANDLINGSTEG.
+			$sql = "UPDATE handlingskjede SET checkSteg = '" .$check. "' 
+					WHERE aktivitetSammenhengId = '".$aktivitetSammenhengId."' 
+					AND stegNr = '".$stegNr."'";
+			
+			if ($connect->query($sql) === TRUE) 
+			{
+				//echo "New record created successfully";
+			} 
+			else 
+			{
+				echo "Error: " . $sql . "<br>" . $connect->error;
+			}
+		}
+	}
+
 	//FUNKSJON FOR Å HENTE UT INNLAGTE AKTIVITETER FOR GITT DAG FRA DATABASE, og liste ut i UKEOVERSIKT!  
 	function listUtAktivitetUkeplan()
 	{

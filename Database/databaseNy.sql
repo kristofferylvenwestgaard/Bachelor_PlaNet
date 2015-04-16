@@ -22,6 +22,7 @@ aktivitetSammenhengId INT NOT NULL,
 stegNr INT,
 beskrivelse text,
 stegBilde longblob,
+checkSteg INT,
 PRIMARY KEY (handId)
 )
 ENGINE=InnoDB;

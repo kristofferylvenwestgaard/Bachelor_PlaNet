@@ -43,18 +43,22 @@
 				<div id="torsdag">
 					<?php	
 						listUtAktivitetUkeplan()
+						//LEGGE TIL KNAPP FOR Å VELGE HVILKEN AKTIVITET MAN SKAL GJENNOMFØRE?
+						//--------> HER <---------//
+						//KNAPPEN HENTER RIKTIG AKTIVITETSID OG TILEGNER DEN I $aktivitetId under.
 					?>
 				</div>
 		</div>
-
-
-
-
 		<div class="col-9-12">
 	           <div class="grid">
 	           		<div class="dagsplanBoks">
 	           		
+	           		<?php
 
+	           			//$aktivitetId = ID fra div ovenfor;
+	           			hentHandlingskjede($aktivitetId); 
+	           			//Må modifiseres så kun et steg dukker opp av gangen
+	           		?>
 
 						
 					</div>

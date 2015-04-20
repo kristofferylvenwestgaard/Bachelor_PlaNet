@@ -620,9 +620,10 @@ a:active
 	margin-left:40px;
 }
 
+/*** MULIG KONFLIKT ***/
 .submit
 {
-	margin-top:30px;
+	margin-top:0px;
 	width:100px;
 	font-family: 'Open Sans';
 }
@@ -948,6 +949,18 @@ position: relative;
 	border-width:1px;
 } 
 
+.stegTittel
+/* Header/tittel for aktivitetsnavn */
+{
+	font-family:'Open Sans';
+	text-align: center;
+	padding-top:10px;
+	height:30px;
+	border-style:solid;
+	border-width:1px;
+	border-left:0px;
+} 
+
 
 .checkboxer 
 {
@@ -1124,6 +1137,14 @@ button.close {
           border-radius: 6px;
 }
 
+.btn-xl {
+  padding: 35px 19px;
+  font-size: 42px;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+
 .btn-large [class^="icon-"],
 .btn-large [class*=" icon-"] {
   margin-top: 4px;
@@ -1166,7 +1187,7 @@ button.close {
 }
 
 .btn-block + .btn-block {
-  margin-top: 5px;
+  margin-top: 0px;
 }
 
 .sharp {
@@ -1405,6 +1426,12 @@ button.btn::-moz-focus-inner,
 input[type="submit"].btn::-moz-focus-inner {
   padding: 0;
   border: 0;
+}
+
+button.btn.btn-xl, 
+input[type="submit"].btn.btn-xl {
+	*padding-top: 0px;
+  	*padding-bottom: 0px;
 }
 
 button.btn.btn-large,

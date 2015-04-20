@@ -24,7 +24,7 @@
         <div class="header">
             <!--Skal byttes ut med JS og Symbol!!!-->
             <div class="col-1-1">
-                <div id="clock">21:52:42</div>
+                <div id="clock"></div>
                 <div id="admin">
                     <a href="admin.php"><img src="img/admin1.png" alt="admin"/></a>
                 </div>

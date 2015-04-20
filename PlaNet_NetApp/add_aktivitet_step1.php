@@ -151,6 +151,7 @@
 					<!--NESTEKNAPP-->
 					<div class="col-1-1">
 					<div class="content">
+					</br>
 					
 						<input class="submit btn btn-large btn-primary" type="submit" value="Neste" name="nesteSide"/>
 					

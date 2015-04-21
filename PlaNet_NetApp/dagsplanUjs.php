@@ -8,7 +8,7 @@
 	<!--HEADER-->
 	<div class="col-1-3">
 		<div class="header">
-			<h1 class="htext">Terje</h1>
+			<a href="index.php"><h1 class="htext">Terje</h1></a>
 		</div>
 	</div>
 	<div class="col-1-6">

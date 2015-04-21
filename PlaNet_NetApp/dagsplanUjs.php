@@ -50,7 +50,7 @@
 		<div class="col-2-12">
 				<div id="torsdag">
 					<?php	
-						listUtAktivitetUkeplan()
+						hentAktivitet();
 						//LEGGE TIL KNAPP FOR Å VELGE HVILKEN AKTIVITET MAN SKAL GJENNOMFØRE?
 						//--------> HER <---------//
 						//KNAPPEN HENTER RIKTIG AKTIVITETSID OG TILEGNER DEN I $aktivitetId under.

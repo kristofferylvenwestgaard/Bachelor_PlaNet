@@ -51,13 +51,13 @@
 					</br>
 					<br/>						
 					<div class="col-2-3">
-						<a href="add_aktivitet_step1.php" class="btn btn-large btn-block btn-primary" type="button">Legg til aktivitet</button></a>
-						<a href="" class="btn btn-large btn-block btn-primary" type="button">Velg fra aktivitetsbank</button></a>
+						<a href="add_aktivitet_step1.php" class="btn btn-large btn-block btn-info" type="button">Legg til aktivitet</button></a>
+						<a href="" class="btn btn-large btn-block btn-info" type="button">Velg fra aktivitetsbank</button></a>
 						<br/>
 						<br/>
-						<a href="" class="btn btn-large btn-block btn-primary" type="button">Rapportering</button></a>
-						<a href="" class="btn btn-large btn-block btn-primary" type="button">Motivasjonsystem</button></a>
-						<a href="" class="btn btn-large btn-block btn-primary" type="button">Rapportering</button></a>
+						<a href="" class="btn btn-large btn-block btn-info" type="button">Rapportering</button></a>
+						<a href="" class="btn btn-large btn-block btn-info" type="button">Motivasjonsystem</button></a>
+						<a href="" class="btn btn-large btn-block btn-info" type="button">Rapportering</button></a>
 
 						<br/>
 						<br/>

@@ -31,22 +31,22 @@
 
 						<div class="col-1-1">	
 							<form action="upload.php" method="post" enctype="multipart/form-data">
-								<div class="fileUpload btn btn-primary">
+								<div class="fileUpload btn btn-info">
 								    <span>+Bilde</span>
 								    <input type="file" class="upload" />
 								</div>
 
-								 <div class="fileUpload btn btn-primary">
+								 <div class="fileUpload btn btn-info">
 								    <span>+Video</span>
 								    <input type="file" class="upload" />
 								</div>
 
-								<div class="fileUpload btn btn-primary">
+								<div class="fileUpload btn btn-info">
 								    <span>+Lyd</span>
 								    <input type="file" class="upload" />
 								</div>
 
-								<div class="fileUpload btn btn-primary">
+								<div class="fileUpload btn btn-info">
 								    <span>+Timer</span>
 								    <input type="file" class="upload" />
 								</div>	

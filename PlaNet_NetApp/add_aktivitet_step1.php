@@ -22,7 +22,7 @@
 					<div class="content">
 						<input class="input_text" type="text" placeholder="Aktivitetsnavn" name="aktivitetsnavn"/>
 							<!--<input class="input_text_small" type="text" placeholder="BildeId" name="bildeid"/>-->
-							<a href="velgbilde.php" class="btn btn-primary" type="button">+Bilde</button></a>
+							<a href="velgbilde.php" class="btn btn-info" type="button">+Bilde</button></a>
 					</div>
 				</div>
 
@@ -153,7 +153,7 @@
 					<div class="content">
 					</br>
 					
-						<input class="submit btn btn-large btn-primary" type="submit" value="Neste" name="nesteSide"/>
+						<input class="submit btn btn-large btn-info" type="submit" value="Neste" name="nesteSide"/>
 					
 					</div>
 					</div>

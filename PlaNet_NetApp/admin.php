@@ -52,7 +52,6 @@
 					<br/>						
 					<div class="col-1-1">
 
-
 						<form action="add_aktivitet_step1.php">
     						<input id="leggTilKnapp" type="submit" value="Legg til Aktivitet">
 						</form>
@@ -66,12 +65,9 @@
 						</form>
 
 						<form action="index.php">
-    						<input id="motivasjonKnapp" type="submit" value="motivasjonKnapp">
+    						<input id="motivasjonKnapp" type="submit" value="Motivasjon">
 						</form>
-
-						
-					
-						
+	
 						<br/>
 						</br>
 						<br/>

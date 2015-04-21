@@ -369,13 +369,14 @@ td
 {	
 
 	background:#EEEEEE;
+	height: 350px;
 	overflow: hidden;
 	padding-top: 10px;
 	padding-bottom: 1px;
 	padding-left: 15px;
 	margin-right: 40px;
 	margin-top: 45px;
-	border-radius: 10px 10px 10px 10px;
+	border-radius: 40px 150px 40px 150px;
 
 }
 

@@ -96,6 +96,7 @@
 {
 	float:left;
 	font-family: 'Open Sans';
+	color: #3f3f3f;
 	font-size:32px;
 	margin-right:20px;
 	padding-left: 200px;
@@ -190,7 +191,7 @@
 	background-color: black;
 	z-index: 2;
 	top:0px;
-	opacity: 0.6;
+	opacity: 0.3;
 }
 
 #mandag
@@ -252,7 +253,6 @@
 	border-style:solid;
 	border-width:1px;
 	border-color: #e8e5e5;
-	border-color: #e8e5e5;
 	font-family:'Open Sans';
 	background-color:#f7f7f7;
 	position:relative;
@@ -302,17 +302,18 @@
 div.tittel 
 {
     font-family: 'Open Sans';
+	color: #3f3f3f;
     text-align: center;
     font-size: 40px;
-    
-    color: black;
 }
 /* tabell */
 table 
 {
-    font: 100% 'Open Sans';
+    font: 100% 'Open Sans';  
+	color: #3f3f3f;
     table-layout: fixed;
     border-collapse: collapse;
+    border-color: #e8e5e5;
     width: 100%;
 }
 /* ukedag */
@@ -320,8 +321,8 @@ th
 {
     padding: 0 0.5em;
     text-align: center;
-    background-color:#5798BA;
-    color:white;
+    background-color:#F7F7F7;
+    color: #3f3f3f;
 }
 /* dager */
 td  
@@ -447,6 +448,7 @@ a:active
 {
 	display: inline;
 	font-family: 'Open Sans';
+	color: #3f3f3f;
 	margin-left:10px;
 	padding-bottom:20px; 
 }
@@ -873,6 +875,7 @@ position: relative;
 	margin-right: auto;
 	border-style: solid;
 	border-width:1px;
+	border-color: #e8e5e5;
 	overflow: scroll;
 }
 

@@ -130,6 +130,7 @@
 	background-color: #00ccff;
 	width:7%;
 	height:100%;
+	margin-right: 10px;
 }
 
 .redcode
@@ -141,6 +142,7 @@
 	background-color: #fb4646;
 	width:7%;
 	height:100%;
+	margin-right: 10px;
 }
 
 .greencode
@@ -152,6 +154,7 @@
 	background-color: #15e000;
 	width:7%;
 	height:100%;
+	margin-right: 10px;
 }
 
 .blackcode
@@ -163,6 +166,7 @@
 	background-color: #000000;
 	width:7%;
 	height:100%;
+	margin-right: 10px;
 }
 
 .aktivitet

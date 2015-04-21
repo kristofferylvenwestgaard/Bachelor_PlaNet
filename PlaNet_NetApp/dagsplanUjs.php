@@ -61,12 +61,8 @@
 	           <div class="grid">
 	           		<div class="dagsplanBoks">
 	           		
-	           		<?php
-
-	           			//$aktivitetId = ID fra div ovenfor;
-	           			hentHandlingskjede($aktivitetId); 
-	           			//Må modifiseres så kun et steg dukker opp av gangen
-	           		?>
+	           		<!--STATISK INFORMASJON IFMA HTML CSS-->
+	           		<!--HANDLINGSKJEDESTEG!-->
 
 						
 					</div>
@@ -75,6 +71,7 @@
 	     <div class="col-2-12">
 	     	<div class="dagsChecklist">
 
+	     			<!--HYPERLINKS TIL NESTE HANDLINGSSTEG!-->
 	     			<input class="submit btn btn-xl btn-block btn-success sharp" type="submit" value="1" name="check"/>
 
 	     			<input class="submit btn btn-xl btn-block btn-success sharp" type="submit" value="✓" name="check"/>
@@ -86,16 +83,6 @@
 	     			<input class="submit btn btn-xl btn-block btn-success sharp" type="submit" value="5" name="check"/>
 	     		
 	     			<input class="submit btn btn-xl btn-block btn-success sharp" type="submit" value="6" name="check"/>
-
-	     			
-	     		
-	     		
-	     			
-	     			<?php
-
-	     				//MÅ FINNE EN MÅTE Å HENTE UT DE TO PARAMETERNE.
-	     				handKjedeStegCheck($stegNr, $aktivitetSammenhengId)
-	     			?>
 	     	</div>
 	     </div>
 	

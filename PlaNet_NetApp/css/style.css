@@ -73,7 +73,7 @@
 #hlink:link, #hlink:visited, #hlink:active
 {
 	text-decoration: none;
-	color:black;
+	color:#3f3f3f;
 	font-family: 'Open Sans';
 	font-size: 16px;
 	padding-right:15px;
@@ -429,6 +429,120 @@ a:active
 	text-align:center;
 	display:inline-block;
     margin:0 320px;
+}
+
+
+
+a 
+{ 
+	text-decoration: none; 
+}
+
+a:hover 
+{ 
+	color: #3f3f3f; 
+	text-decoration: none;
+}
+
+a:visited 
+{ 
+	color: #3f3f3f;
+	text-decoration: none;
+}
+
+
+#leggTilKnapp
+{
+	float: left;
+    width: auto;
+	border-radius: 50%;    /*50% for sirkel og 100% for firkant og runde hjørner i midten av de to verdiene */
+	font-size: 20px;
+	font-family: 'Open Sans';
+	color: #3f3f3f;
+    background: #EEEEEE url(../img/aktivitet.png);
+    background-repeat:no-repeat, repeat-x;
+    background-position: center 50px;
+    padding-left: 0px;
+    padding-top: 20px;
+    cursor:pointer;
+    border:solid;
+    border-width: 1px;
+    border-color: #e8e5e5;
+    width:170px;
+    height:170px;
+}
+
+#leggTilKnapp:active {
+     border-radius: 50%;    /*50% for sirkel og 100% for firkant og runde hjørner i midten av de to verdiene */
+	font-size: 20px;
+	font-family: 'Open Sans';
+	color: #3f3f3f;
+}
+
+
+#malerKnapp
+{
+	float: left;
+    width: auto;
+	border-radius: 50%;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 20px;
+	font-family: 'Open Sans';
+	color: #3f3f3f;
+    background: #EEEEEE url(../img/mal.png);
+    background-repeat:no-repeat, repeat-x;
+    background-position: center 50px;
+    padding-left: 0px;
+    padding-top: 20px;
+    cursor:pointer;
+    border:solid;
+    border-width: 1px;
+    border-color: #e8e5e5;
+    width:170px;
+    height:170px;
+}
+
+
+#rapportKnapp
+{
+	border-radius: 50%;
+	font-size: 20px;
+	font-family: 'Open Sans';
+	color: #3f3f3f;
+    background: #EEEEEE url(../img/rapport.png);
+    background-repeat:no-repeat, repeat-x;
+    background-position: center 50px;
+    padding-left: 0px;
+    padding-top: 20px;
+    cursor:pointer;
+    border:solid;
+    border-width: 1px;
+    border-color: #e8e5e5;
+    width:170px;
+    height:170px;
+}
+
+
+
+#motivasjonKnapp
+{
+	border-radius: 50%;
+	margin-top: 10px;
+	font-size: 20px;
+	font-family: 'Open Sans';
+	color: #3f3f3f;
+    background: #EEEEEE url(../img/motivasjon.png);
+    background-repeat:no-repeat, repeat-x;
+    background-position: center 50px;
+    padding-left: 0px;
+    padding-top: 20px;
+    cursor:pointer;
+    border:solid;
+    border-width: 1px;
+    border-color: #e8e5e5;
+    width:170px;
+    height:170px;
 }
 
 
@@ -1045,6 +1159,8 @@ button.close {
   -webkit-appearance: none;
 }
 
+
+
 .btn {
   font-family: 'Open Sans';
   display: inline-block;
@@ -1276,7 +1392,7 @@ input[type="button"].btn-block {
 .btn-primary.av,
 .btn-primary[av]
 {
-color: black;
+  color: black;
   background-color: #918f8f;
   *background-color: #006599;
 }
@@ -1352,6 +1468,10 @@ color: black;
   background-color: #942a25 \9;
 }
 
+a.btn-danger:visited { 
+	color: #fff; 
+}
+
 .btn-success {
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
@@ -1412,6 +1532,11 @@ color: black;
   background-color: #2f96b4;
   *background-color: #2a85a0;
 }
+
+a.btn-info:visited { 
+	color: #fff; 
+}
+
 
 .btn-info:active,
 .btn-info.active {

@@ -50,23 +50,33 @@
 					<br/>
 					</br>
 					<br/>						
-					<div class="col-2-3">
-						<a href="add_aktivitet_step1.php" class="btn btn-large btn-block btn-info" type="button">Legg til aktivitet</button></a>
-						<a href="" class="btn btn-large btn-block btn-info" type="button">Velg fra aktivitetsbank</button></a>
-						<br/>
-						<br/>
-						<a href="" class="btn btn-large btn-block btn-info" type="button">Rapportering</button></a>
-						<a href="" class="btn btn-large btn-block btn-info" type="button">Motivasjonsystem</button></a>
-						<a href="" class="btn btn-large btn-block btn-info" type="button">Rapportering</button></a>
+					<div class="col-1-1">
 
-						<br/>
-						<br/>
-						<br/>
+
+						<form action="add_aktivitet_step1.php">
+    						<input id="leggTilKnapp" type="submit" value="Legg til Aktivitet">
+						</form>
+
+						<form action="index.php">
+    						<input id="malerKnapp" type="submit" value="Velg fra maler">
+						</form>
+
+						<form action="index.php">
+    						<input id="rapportKnapp" type="submit" value="Rapportering">
+						</form>
+
+						<form action="index.php">
+    						<input id="motivasjonKnapp" type="submit" value="motivasjonKnapp">
+						</form>
+
+						
+					
+						
 						<br/>
 						</br>
 						<br/>
 
-						<a href="index.php" class="btn btn-large btn-danger" type="button">Tilbake</button></a>
+						<a href="index.php" class="btn btn-large btn-outline" type="button">← Tilbake</button></a>
 					</div>
 				</div>
 				

@@ -28,6 +28,7 @@
 .inAppHeaders
 {
 	font-family: 'Open Sans';
+	color: #3f3f3f;
 	font-size:18px;
 	margin-left:40px;
 }
@@ -35,7 +36,7 @@
 .inAppLinks:link, .inAppLinks:visited, .inAppLinks:active
 {
 	text-decoration: none;
-	color:black;
+	color:#3f3f3f;
 }
 
 .inAppText
@@ -44,6 +45,7 @@
 	font-family: 'Open Sans';
 	font-size: 16px;
 	margin-top:30px;
+	color: #3f3f3f;
 }
 
 .phpUtText
@@ -63,6 +65,7 @@
 .htext
 {
 	font-family: 'Open Sans';
+	color: #3f3f3f;
 	font-size:32px;
 	margin-left:20px;
 }
@@ -113,10 +116,12 @@
 .ukedag
 {
 	font-family:'Open Sans';
+	color: #3f3f3f;
 	text-align: center;
 	padding-top:10px;
 	height:30px;
 	border-style:solid;
+	border-color: #e8e5e5;
 	border-width:1px;
 }
 
@@ -193,6 +198,7 @@
 	height:600px;
 	border-style:solid;
 	border-width:1px;
+	border-color: #e8e5e5;
 	font-family:'Open Sans';
 	background-color:#f7f7f7;
 	position:relative;
@@ -206,6 +212,7 @@
 	height:600px;
 	border-style:solid;
 	border-width:1px;
+	border-color: #e8e5e5;
 	font-family:'Open Sans';
 	background-color:#f7f7f7;
 	position:relative;
@@ -219,6 +226,7 @@
 	height:600px;
 	border-style:solid;
 	border-width:1px;
+	border-color: #e8e5e5;
 	font-family:'Open Sans';
 	background-color:#f7f7f7;
 	position:relative;
@@ -231,6 +239,7 @@
 {
 	height:600px;
 	border-style:solid;
+	border-color: #e8e5e5;
 	border-width:1px;
 	font-family:'Open Sans';
 	background-color:#f7f7f7;
@@ -242,6 +251,8 @@
 	height:600px;
 	border-style:solid;
 	border-width:1px;
+	border-color: #e8e5e5;
+	border-color: #e8e5e5;
 	font-family:'Open Sans';
 	background-color:#f7f7f7;
 	position:relative;
@@ -255,6 +266,7 @@
 	height:600px;
 	border-style:solid;
 	border-width:1px;
+	border-color: #e8e5e5;
 	font-family:'Open Sans';
 	background-color:#f7f7f7;
 	position:relative;
@@ -268,6 +280,7 @@
 	height:600px;
 	border-style:solid;
 	border-width:1px;
+	border-color: #e8e5e5;
 	font-family:'Open Sans';
 	background-color:#f7f7f7;
 	position:relative;
@@ -282,6 +295,7 @@
 	height:99px;
 	border-bottom: 1px;
 	border-bottom-style: solid;
+	border-color: #e8e5e5;
 }
 
 /**********MÅNEDSKALENDER*************/
@@ -908,7 +922,7 @@ position: relative;
 	padding-top:10px;
 	height:30px;
 	border-style:solid;
-	border-width:1px;
+	border-width:0px;
 	border-bottom: 0px;
 	border-right: 0px;
 
@@ -920,7 +934,7 @@ position: relative;
 {
 	height: 600px;
 	border-style:solid;
-	border-width:1px;
+	border-width:0px;
 	border-top: 0px;
 	border-left: 0px;
 	font-family:'Open Sans';
@@ -934,7 +948,7 @@ position: relative;
 {
 	height: 600px;
 	border-style:solid;
-	border-width:1px;
+	border-width:0px;
 	border-left: 0px;
 	border-top:0px;
 	font-family:'Open Sans';
@@ -951,7 +965,7 @@ position: relative;
 	padding-top:10px;
 	height:30px;
 	border-style:solid;
-	border-width:1px;
+	border-width:0px;
 } 
 
 .stegTittel
@@ -962,7 +976,7 @@ position: relative;
 	padding-top:10px;
 	height:30px;
 	border-style:solid;
-	border-width:1px;
+	border-width:0px;
 	border-left:0px;
 } 
 
@@ -970,7 +984,7 @@ position: relative;
 .checkboxer 
 {
 	height:49px;
-	border-bottom: 1px;
+	border-bottom: 0px;
 	border-bottom-style: solid;	
 }
 
@@ -1061,8 +1075,8 @@ button.close {
 
 .btn-primary.outline 
 {
-    border: 1px solid #6d6c6c;
-    color: black;
+    border: 1px solid #e8e5e5;
+    color: #3f3f3f;
 }
 
 .btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary 

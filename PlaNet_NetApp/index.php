@@ -26,7 +26,7 @@
 			<div class="col-1-1">
 				<div id="clock"></div>
 				<div id="admin">
-					<a href="admin.php"><img src="img/admin1.png" width="35px" height="35px" alt="admin"/></a>
+					<a href="admin.php"><img src="img/admin1.png" width="45px" height="45px" alt="admin"/></a>
 				</div>
 			</div>
 		</div>

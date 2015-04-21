@@ -395,46 +395,49 @@
         		{
         		?>
          			<!--Oppretter en html section i aktivitetsvindu hvor aktivitetene vil listes ut.-->
-            	    <div class="activity">
-            	    <?php
-            	    //IF TESTER SOM SJEKKER FARGEID OPP MOT VALGT FARGE OG GIR INDEX SIDENS AKTIVITETER 
-						//RIKTIG FARGEDIV
-            	    	if($row["fargeId"] == 1)
-            	    	{
-							?>
-								<div class="bluecode"></div>
-							<?php
-            	    	}
-            	    	elseif($row["fargeId"] == 2)
-            	    	{
-							?>
-								<div class="redcode"></div>
-							<?php
-            	    	}
-            	    	elseif($row["fargeId"] == 3)
-            	    	{
-							?>
-								<div class="greencode"></div>
-							<?php
-            	    	}
-            	    	elseif($row["fargeId"] == 4)
-            	    	{
-							?>
-								<div class="blackcode"></div>
-							<?php
-            	    	}
-						
-            	         
-            	            echo $row["aktivitetNavn"]."";
-            	    ?>
+            	    <a href="dagsplanUjs.php">
+            	    	<div class="activity">
+            	    		<?php
+            	    		//IF TESTER SOM SJEKKER FARGEID OPP MOT VALGT FARGE OG GIR INDEX SIDENS AKTIVITETER 
+								//RIKTIG FARGEDIV
+            	    			if($row["fargeId"] == 1)
+            	    			{
+									?>
+										<div class="bluecode"></div>
+									<?php
+            	    			}
+            	    			elseif($row["fargeId"] == 2)
+            	    			{
+									?>
+										<div class="redcode"></div>
+									<?php
+            	    			}
+            	    			elseif($row["fargeId"] == 3)
+            	    			{
+									?>
+										<div class="greencode"></div>
+									<?php
+            	    			}
+            	    			elseif($row["fargeId"] == 4)
+            	    			{
+									?>
+										<div class="blackcode"></div>
+									<?php
+            	    			}
+								
+            	    		     
+            	    		        echo $row["aktivitetNavn"]."";
+            	    		?>
             	            <img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
-           		    </div>
+           		  		</div>
+           		   </a>
             	<?php
         		}
         		if($row["bildeId"] == 2)
         		{
         		?>
          			<!--Oppretter en html section i aktivitetsvindu hvor aktivitetene vil listes ut.-->
+            	    <a href="dagsplanUjs.php">
             	    <div class="activity">
 						<?php
 						//IF TESTER SOM SJEKKER FARGEID OPP MOT VALGT FARGE OG GIR INDEX SIDENS AKTIVITETER 
@@ -469,12 +472,14 @@
             	   		?>
             	            <img src="../Database/skole.jpg" alt="skole" width="130px" height="60px"/>
            		    </div>
+           			</a>
             	<?php
         		}
         		if($row["bildeId"] == 3)
         		{
         			?>
          			<!--Oppretter en html section i aktivitetsvindu hvor aktivitetene vil listes ut.-->
+            	    <a href="dagsplanUjs.php">
             	    <div class="activity">
 						<?php
 						//IF TESTER SOM SJEKKER FARGEID OPP MOT VALGT FARGE OG GIR INDEX SIDENS AKTIVITETER 
@@ -509,6 +514,7 @@
             	   		?>
             	            <img src="../Database/tv.jpg" alt="tv" width="130px" height="60px"/>
            		    </div>
+           		</a>
             	<?php
         		}
             }

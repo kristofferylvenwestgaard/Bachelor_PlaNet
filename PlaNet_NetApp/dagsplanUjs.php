@@ -1,4 +1,4 @@
-<?php
+	<?php
 	include "includes/top.php";
 	include "includes/footer.php";
 

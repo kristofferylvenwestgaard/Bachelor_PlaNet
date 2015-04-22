@@ -473,11 +473,10 @@ a:visited
     height:170px;
 }
 
-#leggTilKnapp:active {
-     border-radius: 50%;    /*50% for sirkel og 100% for firkant og runde hjørner i midten av de to verdiene */
-	font-size: 20px;
-	font-family: 'Open Sans';
-	color: #3f3f3f;
+
+#leggTilKnapp:hover {
+     background-color: #e0dede;
+     color: black;
 }
 
 
@@ -504,6 +503,11 @@ a:visited
     height:170px;
 }
 
+#malerKnapp:hover {
+     background-color: #e0dede;
+     color: black;
+}
+
 
 #rapportKnapp
 {
@@ -522,6 +526,11 @@ a:visited
     border-color: #e8e5e5;
     width:170px;
     height:170px;
+}
+
+#rapportKnapp:hover {
+     background-color: #e0dede;
+     color: black;
 }
 
 
@@ -546,6 +555,10 @@ a:visited
     height:170px;
 }
 
+#motivasjonKnapp:hover {
+     background-color: #e0dede;
+     color: black;
+}
 
 /**********add_aktivitet_step1************/
 
@@ -1292,6 +1305,15 @@ button.close {
 .btn-xl {
   padding: 35px 19px;
   font-size: 42px;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+
+.btn-bilde {
+  padding: 7px 12px;
+  font-size: 17px;
+  margin-bottom: 4px;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;

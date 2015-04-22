@@ -22,7 +22,7 @@
 					<div class="content">
 						<input class="input_text" type="text" placeholder="Aktivitetsnavn" name="aktivitetsnavn"/>
 							<!--<input class="input_text_small" type="text" placeholder="BildeId" name="bildeid"/>-->
-							<a href="velgbilde.php" class="btn btn-info" type="button">+Bilde</button></a>
+							<a href="velgbilde.php" class="btn btn-bilde btn-info" type="button">+Bilde</button></a>
 					</div>
 				</div>
 

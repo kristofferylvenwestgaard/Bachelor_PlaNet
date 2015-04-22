@@ -3,35 +3,41 @@
 	include "includes/footer.php";
 ?>
 <div class="container">
+	<div class="header">
+		<h1 class="htext"><a class="inAppLinks" href="admin.php">Administrer applikasjon</a></h1>
+	</div>
+<div class="admincontent">
 	<div class="col-1-1">
+		<div id="velgbildeTekst">
 		<div class="inAppText">Velg bildet som skal vises til aktivitet:</div>		 
+		</div>
 	</div>
 
 	<form action="add_aktivitet_step1.php" method="post">
-		<div class="col-1-4">
-			<div class="bilderamme">
-				
-				<input class="input_check_bilde" type="checkbox" name="middag"/>
-				<img src="../Database/dinner.gif" alt="middag" width="100px" height="100px"/>
+		<div class="bilderamme">
+			<div class="col-1-4">
+			<input type="checkbox" id="checkbox-1-1" class="input_check_dinner" name="middag" /><label for="checkbox-1-1"></label>
 			</div>
-		</div>
-		<div class="col-1-4">
-			
-			<div class="bilderamme">
-				<input class="input_check_bilde" type="checkbox" name="skole"/>
-				<img src="../Database/skole.jpg" alt="middag" width="100px" height="100px"/>
+		
+			<div class="col-1-4">
+				<input type="checkbox" id="checkbox-1-2" class="input_check_skole" name="skole" /><label for="checkbox-1-2"></label>
 			</div>
-		</div>
-		<div class="col-1-4">
-			<div class="bilderamme">
-				<input class="input_check_bilde" type="checkbox" name="tv"/>
-				<img src="../Database/tv.jpg" alt="middag" width="100px" height="100px"/>
+		
+			<div class="col-1-4">
+				<input type="checkbox" id="checkbox-1-3" class="input_check_tv" name="tv" /><label for="checkbox-1-3"></label>
+			</div>
+		
+			<div class="col-1-4">
+				<input type="checkbox" id="checkbox-1-4" class="input_check_handle" name="handle" /><label for="checkbox-1-4"></label>
 			</div>
 		</div>
 		<div class="col-1-1">
+			<div id="velgbildeLagre">
 			<!--<input type="submit" value="Lagre" name="tilbake"/> -->
-			<input class="submit btn btn-large btn-success" type="submit" value="Lagre" name="tilbake"/>
+			<input class="submit btn btn-large btn-outline" type="submit" value="Lagre" name="tilbake"/>
+			</div>
 		</div>
+	</div>
 	</form>
 </div>	
 

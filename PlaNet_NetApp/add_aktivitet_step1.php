@@ -7,7 +7,7 @@
 	<div class="header">
 		<h1 class="htext"><a class="inAppLinks" href="admin.php">Administrer applikasjon</a></h1>
 	</div>
-	<div id="admincontent">
+	<div class="admincontent">
 				<form class="form_add_aktivitet" action="add_aktivitet_step2.php" name="legg_til_aktivitet" method="post">
 				<!--DIV CONTAINER FOR VENSTRE KOLONNE I LEGG TIL AKTIVITET-->
 				<div class="col_left">

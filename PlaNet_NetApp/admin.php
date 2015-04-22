@@ -41,7 +41,7 @@
 		<h1 class="htext"><a class="inAppLinks" href="index.php">Administrer applikasjon</a></h1>
 		
 	</div>
-		<div id="admincontent">
+		<div class="admincontent">
 			<div class="col-1-1">
 				<div class="col_left">
 				 	<br/>

@@ -380,7 +380,7 @@ td
 
 }
 
-#admincontent
+.admincontent
 {
 	height:600px;
 	border-style:solid;
@@ -1138,11 +1138,309 @@ position: relative;
 {
 	font-family:'Open Sans';
 	text-align: center;
-	padding-top:0px;
-	margin-right: 35px;
-	border-style:solid;
-	border-width:1px;
+	background:#EEEEEE;
+	height: 160px;
+	width: 1100px;
+	overflow: hidden;
+	padding-top: 30px;
+	padding-bottom: 65px;
+	padding-left: 0px;
+	margin-right: 0px;
+	margin-left: 50px;
+	margin-top: 40px;
+	border-radius: 0px 0px 0px 0px;
+	
 }
+
+#velgbildeTekst
+{
+	font-family:'Open Sans';
+	text-align: center;
+		background:#EEEEEE;
+	height: 80px;
+	width: 1100px;
+	overflow: hidden;
+	padding-top: 0px;
+	padding-bottom: 20px;
+	padding-left: 0px;
+	margin-right: 0px;
+	margin-left: 50px;
+	margin-top: 40px;
+	margin-bottom: -35px;
+	border-radius: 30px 30px 0px 0px;
+	
+}
+
+#velgbildeLagre
+{
+	font-family:'Open Sans';
+	text-align: center;
+		background:#EEEEEE;
+	height: 60px;
+	width: 1100px;
+	overflow: hidden;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 0px;
+	margin-right: 0px;
+	margin-left: 50px;
+	margin-top: -35px;
+	margin-bottom: 0px;
+	border-radius: 0px 0px 30px 30px;
+	
+}
+
+
+.input_check_dinner
+{
+    display: none;
+    
+}
+
+
+.input_check_dinner + label
+{
+
+margin-left:0px;
+height:175px; /*Størrelse checkbox */
+ width:175px;
+background: url(../../Database/dinner.gif);
+background-size: 175px 135px; /*Størrelse bilde i checkbox */
+background-position: center;
+background-repeat:no-repeat, repeat-x;
+border: 1px solid #cacece;
+box-shadow: inset 0px 2px 2px rgba(0, 0, 0, .3);
+border-radius: 30px;
+padding: 9px;
+display: inline-block;
+position: relative; 
+}
+
+
+.input_check_dinner + label:active, .regular-checkbox:checked + label:active {
+box-shadow: inset 0px 2px 2px rgba(0, 0, 0, .3);
+border-radius: 30px;
+}
+.input_check_dinner:checked + label {
+background-color: #fff;
+border: 1px solid #adb8c0;
+box-shadow: inset 0px 2px 2px rgba(0, 0, 0, .3);
+border-radius: 30px;
+color: #99a1a7;
+}
+
+
+.input_check_dinner:checked + label:after {
+content: '\2714';
+font-size: 185px; /*størrelse på V check tegn */
+position: absolute;
+top: -25px; /*posisjon V tegn (top/left) */
+left: 30px;
+color: #3f3f3f; /*Setter farge på V tegn etter checked */
+}
+
+
+.input_check_dinner + label {
+background-color: #fff; /* Setter frage på boxen før check */
+border: 1px solid #cacece;
+box-shadow: inset 0px 2px 2px rgba(0, 0, 0, .3);
+border-radius: 30px;
+padding: 9px;
+
+display: inline-block;
+position: relative;
+}
+
+
+
+
+
+.input_check_skole
+{
+    display: none;
+    
+}
+
+
+.input_check_skole + label
+{
+
+margin-left:0px;
+height:175px; /*Størrelse checkbox */
+ width:175px;
+background: url(../../Database/skole.jpg);
+background-size: 175px 135px; /*Størrelse bilde i checkbox */
+background-position: center;
+background-repeat:no-repeat, repeat-x;
+border: 1px solid #cacece;
+box-shadow: inset 0px 2px 2px rgba(0, 0, 0, .3);
+border-radius: 30px;
+padding: 9px;
+display: inline-block;
+position: relative; 
+}
+
+
+.input_check_skole + label:active, .regular-checkbox:checked + label:active {
+box-shadow: inset 0px 2px 2px rgba(0, 0, 0, .3);
+border-radius: 30px;
+}
+.input_check_skole:checked + label {
+background-color: #fff;
+border: 1px solid #adb8c0;
+box-shadow: inset 0px 2px 2px rgba(0, 0, 0, .3);
+border-radius: 30px;
+color: #99a1a7;
+}
+
+
+.input_check_skole:checked + label:after {
+content: '\2714';
+font-size: 185px; /*størrelse på V check tegn */
+position: absolute;
+top: -25px; /*posisjon V tegn (top/left) */
+left: 30px;
+color: #3f3f3f; /*Setter farge på V tegn etter checked */
+}
+
+
+.input_check_skole + label {
+background-color: #fff; /* Setter frage på boxen før check */
+border: 1px solid #cacece;
+box-shadow: inset 0px 2px 2px rgba(0, 0, 0, .3);
+border-radius: 30px;
+padding: 9px;
+
+display: inline-block;
+position: relative;
+}
+
+
+
+
+.input_check_tv
+{
+    display: none;
+    
+}
+
+
+.input_check_tv + label
+{
+
+margin-left:0px;
+height:175px; /*Størrelse checkbox */
+ width:175px;
+
+background: url(../../Database/tv.jpg);
+background-size: 175px 135px; /*Størrelse bilde i checkbox */
+background-position: center;
+background-repeat:no-repeat, repeat-x;
+border: 1px solid #cacece;
+box-shadow: inset 0px 2px 2px rgba(0, 0, 0, .3);
+border-radius: 30px;
+padding: 9px;
+display: inline-block;
+position: relative; 
+}
+
+
+.input_check_tv + label:active, .regular-checkbox:checked + label:active {
+box-shadow: inset 0px 2px 2px rgba(0, 0, 0, .3);
+border-radius: 30px;
+}
+.input_check_tv:checked + label {
+background-color: #fff;
+border: 1px solid #adb8c0;
+box-shadow: inset 0px 2px 2px rgba(0, 0, 0, .3);
+border-radius: 30px;
+color: #99a1a7;
+}
+
+
+.input_check_tv:checked + label:after {
+content: '\2714';
+font-size: 185px; /*størrelse på V check tegn */
+position: absolute;
+top: -25px; /*posisjon V tegn (top/left) */
+left: 30px;
+color: #3f3f3f; /*Setter farge på V tegn etter checked */
+}
+
+
+.input_check_tv + label {
+background-color: #fff; /* Setter frage på boxen før check */
+border: 1px solid #cacece;
+box-shadow: inset 0px 2px 2px rgba(0, 0, 0, .3);
+border-radius: 30px;
+padding: 9px;
+
+display: inline-block;
+position: relative;
+}
+
+
+
+.input_check_handle
+{
+    display: none;
+    
+}
+
+
+.input_check_handle + label
+{
+
+margin-left:0px;
+height:175px; /*Størrelse checkbox */
+ width:175px;
+background: url(../../Database/handlekurv.jpg);
+background-size: 155px 175px; /*Størrelse bilde i checkbox */
+background-position: center;
+background-repeat:no-repeat, repeat-x;
+border: 1px solid #cacece;
+box-shadow: inset 0px 2px 2px rgba(0, 0, 0, .3);
+border-radius: 30px;
+padding: 9px;
+display: inline-block;
+position: relative; 
+}
+
+
+.input_check_handle + label:active, .regular-checkbox:checked + label:active {
+box-shadow: inset 0px 2px 2px rgba(0, 0, 0, .3);
+border-radius: 30px;
+}
+.input_check_handle:checked + label {
+background-color: #fff;
+border: 1px solid #adb8c0;
+box-shadow: inset 0px 2px 2px rgba(0, 0, 0, .3);
+border-radius: 30px;
+color: #99a1a7;
+}
+
+
+.input_check_handle:checked + label:after {
+content: '\2714';
+font-size: 185px; /*størrelse på V check tegn */
+position: absolute;
+top: -25px; /*posisjon V tegn (top/left) */
+left: 30px;
+color: #3f3f3f; /*Setter farge på V tegn etter checked */
+}
+
+
+.input_check_handle + label {
+background-color: #fff; /* Setter frage på boxen før check */
+border: 1px solid #cacece;
+box-shadow: inset 0px 2px 2px rgba(0, 0, 0, .3);
+border-radius: 30px;
+padding: 9px;
+
+display: inline-block;
+position: relative;
+}
+
 
 
 

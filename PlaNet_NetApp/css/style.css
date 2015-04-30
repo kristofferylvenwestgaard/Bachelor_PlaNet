@@ -1441,14 +1441,114 @@ display: inline-block;
 position: relative;
 }
 
+/*MAL*/
+#hoved {
+	width: 500px;
+	margin: 0 auto;
+	font-family:'Open Sans';
+}
 
+#malMandag {
+	float: left;
+	width: 180px;
+	height: 400px;
+	padding: 5px 10px;
+	margin-right: 3px;
+	background: #eee;
+	text-align: center;
+	font-family:'Open Sans';
+	border-radius: 20px;
+	margin-left: 90px;
+	margin-top: 28px;
+	color: #3f3f3f;
+}
+
+#malvalg 
+{
+	float: left;
+	width: 250px;
+	height: 400px;
+	padding: 5px 10px;
+	margin-right: 3px;
+	margin-left: 55px;
+	background: #eee;
+	text-align: center;
+	font-family:'Open Sans';
+	border-radius: 20px;
+	color: #3f3f3f;
+}
+
+.maler {
+
+	width: 120px;
+	height: 85px;
+	padding: 0 5px;
+	display: block;
+	margin: 0 auto 3px;
+	text-align: center;
+	border: 1px solid #aaa;
+	background: #fff;	
+	cursor: move;
+	border-radius: 7px;
+	color: #3f3f3f;
+}
+
+.clear {
+	clear: both;
+}
+
+.leggTilPil
+{
+	font-size: 150px;
+	margin-top: 70px;
+	margin-left: 110px;
+	color: #3f3f3f;
+}
+
+#knappTirsdag
+{
+	float: right;
+	margin-right: 25px;
+	margin-top: 19px;
+}
+
+#dropDownMal
+{	
+	
+	margin-left: 75px;
+	margin-top: 2px;
+}
+
+select 
+{
+	font-family:'Open Sans';
+	color: #3f3f3f;
+	border-radius: 10px;
+	border-width: 1px;
+	font-size: 14px;
+	-webkit-padding-end: 20px;
+    -moz-padding-end: 20px;
+    -webkit-padding-start: 2px;
+    -moz-padding-start: 2px;
+
+}
+
+#headerMal
+{
+	/*VANLIG TEKST UTEN MARGINER PÅ VENSTRE SIDE!!! */
+	font-family: 'Open Sans';
+	font-size: 26px;
+	margin-top:0px;
+	margin-left: 15px;
+	color: #3f3f3f;
+}
 
 
 /*|||||||||||||||||||||Her t.o.m linje 1200 er for knapper||||||||||||||||||||||||||||||||| */
 .fileUpload {
 	position: relative;
 	overflow: hidden;
-	margin: 10px;
+	margin: 5px;
 }
 .fileUpload input.upload {
 	position: absolute;

@@ -395,7 +395,7 @@
         		{
         		?>
          			<!--Oppretter en html section i aktivitetsvindu hvor aktivitetene vil listes ut.-->
-            	    <a href="dagsplanUjs.php">
+            	    <a href="dagsplan.php">
             	    	<div class="activity">
             	    		<?php
             	    		//IF TESTER SOM SJEKKER FARGEID OPP MOT VALGT FARGE OG GIR INDEX SIDENS AKTIVITETER 
@@ -437,7 +437,7 @@
         		{
         		?>
          			<!--Oppretter en html section i aktivitetsvindu hvor aktivitetene vil listes ut.-->
-            	    <a href="dagsplanUjs.php">
+            	    <a href="dagsplan.php">
             	    <div class="activity">
 						<?php
 						//IF TESTER SOM SJEKKER FARGEID OPP MOT VALGT FARGE OG GIR INDEX SIDENS AKTIVITETER 
@@ -479,7 +479,7 @@
         		{
         			?>
          			<!--Oppretter en html section i aktivitetsvindu hvor aktivitetene vil listes ut.-->
-            	    <a href="dagsplanUjs.php">
+            	    <a href="dagsplan.php">
             	    <div class="activity">
 						<?php
 						//IF TESTER SOM SJEKKER FARGEID OPP MOT VALGT FARGE OG GIR INDEX SIDENS AKTIVITETER 

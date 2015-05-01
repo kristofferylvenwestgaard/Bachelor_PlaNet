@@ -72,7 +72,7 @@
 						</br>
 						<br/>
 
-						<a href="index.php" class="btn btn-large btn-outline" type="button">← Tilbake</button></a>
+						<a href="index.php" class="btn btn-large btn-outline sharp" type="button">← Tilbake</button></a>
 					</div>
 				</div>
 				

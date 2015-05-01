@@ -153,7 +153,7 @@
 					<div class="content">
 					</br>
 					
-						<input class="submit btn btn-large btn-outline" type="submit" value="Neste &rarr;" name="nesteSide"/>
+						<input class="submit btn btn-large btn-outline sharp" type="submit" value="Neste &rarr;" name="nesteSide"/>
 					
 					</div>
 					</div>

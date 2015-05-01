@@ -80,7 +80,7 @@
 						
 					
 						
-						<a href="admin.php" class="btn btn-large btn-outline" type="button">← Tilbake</button></a>
+						<a href="admin.php" class="btn btn-large btn-outline sharp" type="button">← Tilbake</button></a>
 					</div>
 					</div>
 				</div>

@@ -152,12 +152,12 @@
 
 						<div class="col-1-1">
 							<div id="tilbakeUkeMal">
-								<a href="velgmaltype.php" class="btn btn-large btn-outline" type="button">← Tilbake</button></a>
+								<a href="velgmaltype.php" class="btn btn-large btn-outline sharp" type="button">← Tilbake</button></a>
 							</div>
 						</div>
 						<div class="col-1-1">
 							<div id="lagreUkeMal">
-								<a href="index.php" class="btn btn-large btn-outline" type="button">Lagre</button></a>
+								<a href="index.php" class="btn btn-large btn-outline sharp" type="button">Lagre</button></a>
 							</div>
 						</div>
 

@@ -375,8 +375,8 @@ td
 	padding-bottom: 1px;
 	padding-left: 15px;
 	margin-right: 40px;
-	margin-top: 45px;
-	border-radius: 40px 150px 40px 150px;
+	margin-top: 47px;
+	border-radius: 2%;
 
 }
 
@@ -456,7 +456,7 @@ a:visited
 {
 	float: left;
     width: auto;
-	border-radius: 50%;    /*50% for sirkel og 100% for firkant og runde hjørner i midten av de to verdiene */
+	border-radius: 4%;    /*50% for sirkel og 100% for firkant og runde hjørner i midten av de to verdiene */
 	font-size: 20px;
 	font-family: 'Open Sans';
 	color: #3f3f3f;
@@ -484,7 +484,7 @@ a:visited
 {
 	float: left;
     width: auto;
-	border-radius: 50%;
+	border-radius: 4%;
 	margin-left: 10px;
 	margin-right: 10px;
 	font-size: 20px;
@@ -511,7 +511,7 @@ a:visited
 
 #rapportKnapp
 {
-	border-radius: 50%;
+	border-radius: 4%;
 	font-size: 20px;
 	font-family: 'Open Sans';
 	color: #3f3f3f;
@@ -537,7 +537,7 @@ a:visited
 
 #motivasjonKnapp
 {
-	border-radius: 50%;
+	border-radius: 4%;
 	margin-top: 10px;
 	font-size: 20px;
 	font-family: 'Open Sans';
@@ -568,7 +568,7 @@ a:visited
 {
 	float: left;
     width: auto;
-	border-radius: 50%;    /*50% for sirkel og 100% for firkant og runde hjørner i midten av de to verdiene */
+	border-radius: 4%;    /*50% for sirkel og 100% for firkant og runde hjørner i midten av de to verdiene */
 	font-size: 20px;
 	font-family: 'Open Sans';
 	color: #3f3f3f;
@@ -587,11 +587,16 @@ a:visited
     margin-top: 50px;
 }
 
+#ukeMalKnapp:hover {
+     background-color: #e0dede;
+     color: black;
+}
+
 #mndMalKnapp
 {
 	float: left;
     width: auto;
-	border-radius: 50%;    /*50% for sirkel og 100% for firkant og runde hjørner i midten av de to verdiene */
+	border-radius: 4%;    /*50% for sirkel og 100% for firkant og runde hjørner i midten av de to verdiene */
 	font-size: 20px;
 	font-family: 'Open Sans';
 	color: #3f3f3f;
@@ -609,6 +614,12 @@ a:visited
     margin-left: 40px;
     margin-top: 50px;
 }
+
+#mndMalKnapp:hover {
+     background-color: #e0dede;
+     color: black;
+}
+
 
 .inMalText
 {
@@ -1540,7 +1551,7 @@ position: relative;
 	color: #3f3f3f;
 }
 
-.maler {
+.malerEnkelt {
 
 	width: 120px;
 	height: 85px;
@@ -1585,7 +1596,7 @@ select
 {
 	font-family:'Open Sans';
 	color: #3f3f3f;
-	border-radius: 10px;
+	border-radius: 4px;
 	border-width: 1px;
 	font-size: 14px;
 	-webkit-padding-end: 20px;
@@ -1653,7 +1664,7 @@ select
 	
 }
 
-.maler {
+.malerUke {
 
 	width: 120px;
 	height: 85px;
@@ -1664,7 +1675,7 @@ select
 	border: 1px solid #aaa;
 	background: #fff;	
 	cursor: move;
-	border-radius: 7px;
+	border-radius: 4px;
 	color: #3f3f3f;
 }
 
@@ -1751,7 +1762,7 @@ select
 	
 }
 
-.maler {
+.malerMnd {
 
 	width: 120px;
 	height: 85px;
@@ -1762,7 +1773,7 @@ select
 	border: 1px solid #aaa;
 	background: #fff;	
 	cursor: move;
-	border-radius: 7px;
+	border-radius: 4px;
 	color: #3f3f3f;
 }
 

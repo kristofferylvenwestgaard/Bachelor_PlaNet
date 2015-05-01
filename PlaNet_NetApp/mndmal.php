@@ -38,14 +38,14 @@
 		<br/>
 		</br><br/>
 		<br/>
-		<div id="headerMal">Mal - ukedag</div>
+		<div id="headerMal">Mal - måned</div>
 			<div id="dropDownMal">
 				<select>
-				  <option value="alleEgendefinerte">Alle egendefinerte</option>
-				  <option value="saab">Middager</option>
-				  <option value="mercedes">Handlelister</option>
-				  <option value="audi">Hygiene</option>
-				  <option value="audi">Sport</option>
+				  <option value="alleEgendefinerte">Skoleuke</option>
+				  <option value="saab">Ferieuke</option>
+				  <option value="mercedes">Jobbeuke</option>
+				  <option value="audi">Skole og jobbuke</option>
+				
 				</select>
 			</div>
 
@@ -73,19 +73,19 @@
 
 					<section id="hoved">
 					
-						<div id="malvalgUke" ondrop="dropUser(this, event)" ondragenter="return false" ondragover="return false">
-							Velg mal
-							<div a draggable="true" class="maler" id="1" ondragstart="dragUser(this, event)">Se på Idol</a> 	
-								<img src="img/tv.jpg" width="45px" height="45px" alt="admin"/></a> 
-							</div>
-							<div a draggable="true" class="maler" id="2" ondragstart="dragUser(this, event)">Lage spaghetti</a> 
-								<img src="img/dinner.gif" width="45px" height="45px" alt="admin"/></a> 
-							</div>
-							<div a draggable="true" class="maler" id="3" ondragstart="dragUser(this, event)">Gå på skolen</a>
+						<div id="ukeMalValg" ondrop="dropUser(this, event)" ondragenter="return false" ondragover="return false">
+							Velg ukemal
+							<div a draggable="true" class="maler" id="3" ondragstart="dragUser(this, event)">Skole [uke 19]</a>
 								<img src="img/skole.jpg" width="45px" height="45px" alt="admin"/></a> 
 							</div>
-							<div a draggable="true" class="maler" id="4" ondragstart="dragUser(this, event)">Handle mat</a> 
-								<img src="img/handlekurv.jpg" width="45px" height="45px" alt="admin"/></a> 
+							<div a draggable="true" class="maler" id="3" ondragstart="dragUser(this, event)">Skole [uke 21]</a>
+								<img src="img/skole.jpg" width="45px" height="45px" alt="admin"/></a> 
+							</div>
+							<div a draggable="true" class="maler" id="3" ondragstart="dragUser(this, event)">Skole [uke 22]</a>
+								<img src="img/skole.jpg" width="45px" height="45px" alt="admin"/></a> 
+							</div>
+							<div a draggable="true" class="maler" id="3" ondragstart="dragUser(this, event)">Skole [uke 23]</a>
+								<img src="img/skole.jpg" width="45px" height="45px" alt="admin"/></a> 
 							</div>
 						
 						</div>
@@ -97,7 +97,7 @@
 					</div>
 				<div class="col-2-2">
 					<div id="malHjelpeTekst">
-						[Dra og slipp mal til ønsket ukedag]			
+						[Dra og slipp mal til ønsket ukenummer]			
 					</div>
 				</div>
 				
@@ -105,37 +105,30 @@
 						
 						<div class="col-2-7">
 							</br>
-							<div class="malUkeDagMandag" ondrop="dropUser(this, event)" ondragenter="return false" ondragover="return false">
-								Mandag
+							<div class="malUkeEn" ondrop="dropUser(this, event)" ondragenter="return false" ondragover="return false">
+								Uke 27
 							</div>
-							<div class="malUkeDager" ondrop="dropUser(this, event)" ondragenter="return false" ondragover="return false">
-								Tirsdag
+							<div class="malUkeNummer" ondrop="dropUser(this, event)" ondragenter="return false" ondragover="return false">
+								Uke 28
 							</div>
-							<div class="malUkeDager" ondrop="dropUser(this, event)" ondragenter="return false" ondragover="return false">
-								Onsdag
+							<div class="malUkeNummer" ondrop="dropUser(this, event)" ondragenter="return false" ondragover="return false">
+								Uke 29
 							</div>
-							<div class="malUkeDager" ondrop="dropUser(this, event)" ondragenter="return false" ondragover="return false">
-								Torsdag
+							<div class="malUkeNummer" ondrop="dropUser(this, event)" ondragenter="return false" ondragover="return false">
+								Uke 30
 							</div>
-							<div class="malUkeDager" ondrop="dropUser(this, event)" ondragenter="return false" ondragover="return false">
-								Fredag
-							</div>
-							<div class="malUkeDager" ondrop="dropUser(this, event)" ondragenter="return false" ondragover="return false">
-								Lørdag
-							</div>
-							<div class="malUkeDager" ondrop="dropUser(this, event)" ondragenter="return false" ondragover="return false">
-								Søndag
-							</div>
+
+						
 
 						<div class="clear"></div>
 
 						<div class="col-1-1">
-							<div id="tilbakeUkeMal">
+							<div id="tilbakeMndMal">
 								<a href="velgmaltype.php" class="btn btn-large btn-outline" type="button">← Tilbake</button></a>
 							</div>
 						</div>
 						<div class="col-1-1">
-							<div id="lagreUkeMal">
+							<div id="lagreMndMal">
 								<a href="index.php" class="btn btn-large btn-outline" type="button">Lagre</button></a>
 							</div>
 						</div>

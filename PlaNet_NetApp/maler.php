@@ -75,16 +75,16 @@
 					
 						<div id="malvalg" ondrop="dropUser(this, event)" ondragenter="return false" ondragover="return false">
 							Ubrukte maler
-							<div a draggable="true" class="maler" id="leonardo" ondragstart="dragUser(this, event)">Se på Idol</a> 	
+							<div a draggable="true" class="maler" id="1" ondragstart="dragUser(this, event)">Se på Idol</a> 	
 								<img src="img/tv.jpg" width="45px" height="45px" alt="admin"/></a> 
 							</div>
-							<div a draggable="true" class="maler" id="raphael" ondragstart="dragUser(this, event)">Lage spaghetti</a> 
+							<div a draggable="true" class="maler" id="2" ondragstart="dragUser(this, event)">Lage spaghetti</a> 
 								<img src="img/dinner.gif" width="45px" height="45px" alt="admin"/></a> 
 							</div>
-							<div a draggable="true" class="maler" id="michelangelo" ondragstart="dragUser(this, event)">Gå på skolen</a>
+							<div a draggable="true" class="maler" id="3" ondragstart="dragUser(this, event)">Gå på skolen</a>
 								<img src="img/skole.jpg" width="45px" height="45px" alt="admin"/></a> 
 							</div>
-							<div a draggable="true" class="maler" id="donatello" ondragstart="dragUser(this, event)">Handle mat</a> 
+							<div a draggable="true" class="maler" id="4" ondragstart="dragUser(this, event)">Handle mat</a> 
 								<img src="img/handlekurv.jpg" width="45px" height="45px" alt="admin"/></a> 
 							</div>
 						

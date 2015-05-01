@@ -52,27 +52,37 @@
 					<br/>						
 					<div class="col-1-1">
 
-						<form action="add_aktivitet_step1.php">
-    						<input id="leggTilKnapp" type="submit" value="Legg til Aktivitet">
+						<form action="ukemal.php">
+    						<input id="ukeMalKnapp" type="submit" value="Ukemal">
 						</form>
 
-						<form action="index.php">
-    						<input id="malerKnapp" type="submit" value="Velg fra maler">
+						<form action="mndmal.php">
+    						<input id="mndMalKnapp" type="submit" value="Månedsmal">
 						</form>
 
-						<form action="index.php">
-    						<input id="rapportKnapp" type="submit" value="Rapportering">
-						</form>
-
-						<form action="index.php">
-    						<input id="motivasjonKnapp" type="submit" value="Motivasjon">
-						</form>
+						
 	
+						<br/>
+
+						<div class="col-1-1">
+						</br>
+						<br/>
+						<br/>
+						<br/>
 						<br/>
 						</br>
 						<br/>
-
-						<a href="index.php" class="btn btn-large btn-outline" type="button">← Tilbake</button></a>
+						<br/>
+						<br/>
+						<br/>
+						<br/>
+						<br/>
+						<br/>
+						<br/>
+					
+						
+						<a href="admin.php" class="btn btn-large btn-outline" type="button">← Tilbake</button></a>
+					</div>
 					</div>
 				</div>
 				

@@ -56,7 +56,7 @@
     						<input id="leggTilKnapp" type="submit" value="Legg til Aktivitet">
 						</form>
 
-						<form action="index.php">
+						<form action="velgmaltype.php">
     						<input id="malerKnapp" type="submit" value="Velg fra maler">
 						</form>
 

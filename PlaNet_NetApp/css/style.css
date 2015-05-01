@@ -560,6 +560,54 @@ a:visited
      color: black;
 }
 
+
+/**Velg maltypeside **/
+
+
+#ukeMalKnapp
+{
+	float: left;
+    width: auto;
+	border-radius: 50%;    /*50% for sirkel og 100% for firkant og runde hjørner i midten av de to verdiene */
+	font-size: 20px;
+	font-family: 'Open Sans';
+	color: #3f3f3f;
+    background: #EEEEEE url(../img/uke.png);
+    background-repeat:no-repeat, repeat-x;
+    background-position: center 50px;
+    padding-left: 0px;
+    padding-top: 20px;
+    cursor:pointer;
+    border:solid;
+    border-width: 1px;
+    border-color: #e8e5e5;
+    width:170px;
+    height:170px;
+}
+
+#mndMalKnapp
+{
+	float: left;
+    width: auto;
+	border-radius: 50%;    /*50% for sirkel og 100% for firkant og runde hjørner i midten av de to verdiene */
+	font-size: 20px;
+	font-family: 'Open Sans';
+	color: #3f3f3f;
+    background: #EEEEEE url(../img/mnd.png);
+    background-repeat:no-repeat, repeat-x;
+    background-position: center 50px;
+    padding-left: 0px;
+    padding-top: 20px;
+    cursor:pointer;
+    border:solid;
+    border-width: 1px;
+    border-color: #e8e5e5;
+    width:170px;
+    height:170px;
+    margin-left: 10px;
+}
+
+
 /**********add_aktivitet_step1************/
 
 
@@ -1441,7 +1489,7 @@ display: inline-block;
 position: relative;
 }
 
-/*MAL*/
+/*MAL - enkeltdag*/
 #hoved {
 	width: 500px;
 	margin: 0 auto;
@@ -1535,12 +1583,181 @@ select
 
 #headerMal
 {
-	/*VANLIG TEKST UTEN MARGINER PÅ VENSTRE SIDE!!! */
 	font-family: 'Open Sans';
 	font-size: 26px;
 	margin-top:0px;
 	margin-left: 15px;
 	color: #3f3f3f;
+}
+
+/*MAL - uke*/
+
+.malUkeDager {
+	float: left;
+	width: 140px;
+	height: 400px;
+	margin-right: 3px;
+	background: #eee;
+	text-align: center;
+	font-family:'Open Sans';
+	border-radius: 20px;
+	margin-left: 3px;
+	margin-top: 0px;
+	color: #3f3f3f;
+	
+}
+
+.malUkeDagMandag {
+	float: left;
+	width: 140px;
+	height: 400px;
+	margin-right: 3px;
+	background: #eee;
+	text-align: center;
+	font-family:'Open Sans';
+	border-radius: 20px;
+	margin-left: 20px;
+	margin-top: 0px;
+	color: #3f3f3f;
+	
+}
+
+#malvalgUke 
+{
+	float: left;
+	width: 140px;
+	height: 400px;
+	margin-right: 3px;
+	margin-left: 8px;
+	margin-top: 17px;
+	background: #F7F7F7;
+	text-align: center;
+	font-family:'Open Sans';
+	border-radius: 20px;
+	color: #3f3f3f;
+	/*overflow: scroll;*/
+	
+}
+
+.maler {
+
+	width: 120px;
+	height: 85px;
+	padding: 0 5px;
+	display: block;
+	margin: 0 auto 3px;
+	text-align: center;
+	border: 1px solid #aaa;
+	background: #fff;	
+	cursor: move;
+	border-radius: 7px;
+	color: #3f3f3f;
+}
+
+.clear {
+	clear: both;
+}
+
+#malHjelpeTekst
+{
+	font-family: 'Open Sans';
+	font-size: 15px;
+	margin-left: 400px;
+	margin-top: -24px;
+	color: #3f3f3f;
+}
+
+#tilbakeUkeMal
+{
+	margin-top: 12px;
+	margin-left: -135px;
+}
+
+#lagreUkeMal
+{
+	margin-top: -45px;
+	margin-left: 945px;
+}
+
+
+/*MAL - mnd*/
+
+.malUkeNummer {
+	float: left;
+	width: 160px;
+	height: 130px;
+	margin-right: 3px;
+	background: #eee;
+	text-align: center;
+	font-family:'Open Sans';
+	border-radius: 20px;
+	margin-left: 18px;
+	margin-top: 0px;
+	color: #3f3f3f;
+	
+}
+
+.malUkeEn {
+	float: left;
+	width: 160px;
+	height: 130px;
+	margin-right: 3px;
+	background: #eee;
+	text-align: center;
+	font-family:'Open Sans';
+	border-radius: 20px;
+	margin-left: 160px;
+	margin-top: 0px;
+	color: #3f3f3f;
+	
+}
+
+#ukeMalValg 
+{
+	float: left;
+	width: 160px;
+	height: 400px;
+	margin-right: 3px;
+	margin-left: 60px;
+	margin-top: 17px;
+	background: #F7F7F7;
+	text-align: center;
+	font-family:'Open Sans';
+	border-radius: 20px;
+	color: #3f3f3f;
+	/*overflow: scroll;*/
+	
+}
+
+.maler {
+
+	width: 120px;
+	height: 85px;
+	padding: 0 5px;
+	display: block;
+	margin: 0 auto 3px;
+	text-align: center;
+	border: 1px solid #aaa;
+	background: #fff;	
+	cursor: move;
+	border-radius: 7px;
+	color: #3f3f3f;
+}
+
+.clear {
+	clear: both;
+}
+
+#tilbakeMndMal
+{
+	margin-top: 290px;
+	margin-left: -135px;
+}
+
+#lagreMndMal
+{
+	margin-top: -45px;
+	margin-left: 945px;
 }
 
 

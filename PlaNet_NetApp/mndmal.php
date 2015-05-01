@@ -94,22 +94,22 @@
 					
 						<div id="ukeMalValg" ondrop="dropUser(this, event)" ondragenter="return false" ondragover="return false">
 							Velg ukemal
-							<div a draggable="true" class="maler" id="3" ondragstart="dragUser(this, event)">Skole [uke 19]</a>
+							<div a draggable="true" class="malerMnd" id="3" ondragstart="dragUser(this, event)">Skole [uke 19]</a>
 								<img src="img/skole.jpg" width="45px" height="45px" alt="admin"/></a> 
 							</div>
-							<div a draggable="true" class="maler" id="3" ondragstart="dragUser(this, event)">Skole [uke 21]</a>
+							<div a draggable="true" class="malerMnd" id="3" ondragstart="dragUser(this, event)">Skole [uke 21]</a>
 								<img src="img/skole.jpg" width="45px" height="45px" alt="admin"/></a> 
 							</div>
-							<div a draggable="true" class="maler" id="3" ondragstart="dragUser(this, event)">Skole [uke 22]</a>
+							<div a draggable="true" class="malerMnd" id="3" ondragstart="dragUser(this, event)">Skole [uke 22]</a>
 								<img src="img/skole.jpg" width="45px" height="45px" alt="admin"/></a> 
 							</div>
-							<div a draggable="true" class="maler" id="3" ondragstart="dragUser(this, event)">Skole [uke 23]</a>
+							<div a draggable="true" class="malerMnd" id="3" ondragstart="dragUser(this, event)">Skole [uke 23]</a>
 								<img src="img/skole.jpg" width="45px" height="45px" alt="admin"/></a> 
 							</div>
-							<div a draggable="true" class="maler" id="3" ondragstart="dragUser(this, event)">Skole [uke 24]</a>
+							<div a draggable="true" class="malerMnd" id="3" ondragstart="dragUser(this, event)">Skole [uke 24]</a>
 								<img src="img/skole.jpg" width="45px" height="45px" alt="admin"/></a> 
 							</div>
-							<div a draggable="true" class="maler" id="3" ondragstart="dragUser(this, event)">Skole [uke 26]</a>
+							<div a draggable="true" class="malerMnd" id="3" ondragstart="dragUser(this, event)">Skole [uke 26]</a>
 								<img src="img/skole.jpg" width="45px" height="45px" alt="admin"/></a> 
 							</div>
 						

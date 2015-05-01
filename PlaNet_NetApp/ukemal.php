@@ -38,7 +38,7 @@
 		<br/>
 		</br><br/>
 		<br/>
-		<div id="headerMal">Mal - ukedag</div>
+		<div id="headerMal">Mal - uke</div>
 			<div id="dropDownMal">
 				<select>
 				  <option value="alleEgendefinerte">Alle egendefinerte</option>

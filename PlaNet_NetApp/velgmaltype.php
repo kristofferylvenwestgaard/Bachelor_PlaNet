@@ -76,9 +76,8 @@
 						<br/>
 						<br/>
 						<br/>
-						<br/>
-						<br/>
-						<br/>
+						
+						
 					
 						
 						<a href="admin.php" class="btn btn-large btn-outline" type="button">← Tilbake</button></a>
@@ -87,8 +86,12 @@
 				</div>
 				
 					<div class="col_right">
-						
+						<div class="inMalText">
+							Her kan du velge mellom ukemal og månedsmal. </br> </br> </br>[Bruk ukemal for å opprette en valgfri uke ved
+							hjelp av eksisterende enkeltaktiviteter.] </br></br> [Bruk månedsmal for å opprette en valgfri måned ved
+							hjelp av eksisterende ukemaler.]
 						</div>
+					</div>
 						
 								<!--
 								<a href="" class="btn btn-primary btn-lg outline" type="button">Skype</button></a>

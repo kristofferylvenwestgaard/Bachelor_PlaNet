@@ -205,7 +205,7 @@
 	position:relative;
 	z-index:1;
 	top:-600px;
-	overflow: scroll;
+	overflow-y: auto;
 }
 
 #tirsdag
@@ -219,7 +219,7 @@
 	position:relative;
 	z-index:1;
 	top:-600px;
-	overflow: scroll;
+	overflow-y: auto;
 }
 
 #onsdag
@@ -233,7 +233,7 @@
 	position:relative;
 	z-index:1;
 	top:-600px;
-	overflow: scroll;
+	overflow-y: auto;
 }
 
 #torsdag
@@ -244,7 +244,7 @@
 	border-width:1px;
 	font-family:'Open Sans';
 	background-color:#f7f7f7;
-	overflow: scroll;
+	overflow-y: auto;
 }
 
 #fredag
@@ -258,7 +258,7 @@
 	position:relative;
 	z-index:1;
 	top:-600px;
-	overflow: scroll;
+	overflow-y: auto;
 }
 
 #lordag
@@ -272,7 +272,7 @@
 	position:relative;
 	z-index:1;
 	top:-600px;
-	overflow: scroll;
+	overflow-y: auto;
 }
 
 #sondag
@@ -286,7 +286,7 @@
 	position:relative;
 	z-index:1;
 	top:-600px;
-	overflow: scroll;
+	overflow-y: auto;
 }
 
 /*aktivitetsbokser i ukedagene*/
@@ -1067,7 +1067,8 @@ position: relative;
 	border-style: solid;
 	border-width:1px;
 	border-color: #e8e5e5;
-	overflow: scroll;
+	overflow-y: auto;
+	overflow-x: auto;
 }
 
 
@@ -1151,7 +1152,7 @@ position: relative;
 	font-family:'Open Sans';
 	background-color:#f7f7f7;
 	position:relative;
-	overflow: scroll;
+	overflow-y: auto;
 }
 
 .aktivitetNavn 
@@ -1613,7 +1614,7 @@ select
 	background: #eee;
 	text-align: center;
 	font-family:'Open Sans';
-	border-radius: 20px;
+	border-radius: 7px;
 	margin-left: 3px;
 	margin-top: 0px;
 	color: #3f3f3f;
@@ -1628,7 +1629,7 @@ select
 	background: #eee;
 	text-align: center;
 	font-family:'Open Sans';
-	border-radius: 20px;
+	border-radius: 7px;
 	margin-left: 20px;
 	margin-top: 0px;
 	color: #3f3f3f;
@@ -1646,9 +1647,9 @@ select
 	background: #F7F7F7;
 	text-align: center;
 	font-family:'Open Sans';
-	border-radius: 20px;
+	border-radius: 7px;
 	color: #3f3f3f;
-	/*overflow: scroll;*/
+	overflow-y: auto;
 	
 }
 
@@ -1711,7 +1712,7 @@ select
 	background: #eee;
 	text-align: center;
 	font-family:'Open Sans';
-	border-radius: 20px;
+	border-radius: 7px;
 	margin-left: 18px;
 	margin-top: 0px;
 	color: #3f3f3f;
@@ -1726,7 +1727,7 @@ select
 	background: #eee;
 	text-align: center;
 	font-family:'Open Sans';
-	border-radius: 20px;
+	border-radius: 7px;
 	margin-left: 160px;
 	margin-top: 0px;
 	color: #3f3f3f;
@@ -1744,9 +1745,9 @@ select
 	background: #F7F7F7;
 	text-align: center;
 	font-family:'Open Sans';
-	border-radius: 20px;
+	border-radius: 7px;
 	color: #3f3f3f;
-	overflow: scroll;
+	overflow-y: auto;
 	
 }
 

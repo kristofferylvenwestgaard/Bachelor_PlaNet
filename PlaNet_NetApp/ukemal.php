@@ -42,10 +42,31 @@
 			<div id="dropDownMal">
 				<select>
 				  <option value="alleEgendefinerte">Alle egendefinerte</option>
-				  <option value="saab">Middager</option>
-				  <option value="mercedes">Handlelister</option>
-				  <option value="audi">Hygiene</option>
-				  <option value="audi">Sport</option>
+				  <option value="middager">Middager</option>
+				  <option value="handleliste">Handlelister</option>
+				  <option value="hygiene">Hygiene</option>
+				  <option value="sport">Sport</option>
+				</select>
+			</div>
+			<div id="dropDownUke">
+				<select>
+				  <option value="alleEgendefinerte">Uke 18</option>
+				  <option value="uke">Uke 19</option>
+				  <option value="uke">Uke 20</option>
+				  <option value="uke">Uke 21</option>
+				  <option value="uke">Uke 22</option>
+				  <option value="uke">Uke 23</option>
+				  <option value="uke">Uke 24</option>
+				  <option value="uke">Uke 25</option>
+				  <option value="uke">Uke 26</option>
+				  <option value="uke">Uke 27</option>
+				  <option value="uke">Uke 28</option>
+				  <option value="uke">Uke 29</option>
+				  <option value="uke">Uke 30</option>
+				  <option value="uke">Uke 31</option>
+				  <option value="uke">Uke 32</option>
+				  <option value="uke">Uke 33</option>
+				  <option value="uke">Uke 34</option>
 				</select>
 			</div>
 

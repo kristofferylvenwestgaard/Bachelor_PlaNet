@@ -42,10 +42,29 @@
 			<div id="dropDownMal">
 				<select>
 				  <option value="alleEgendefinerte">Skoleuke</option>
-				  <option value="saab">Ferieuke</option>
-				  <option value="mercedes">Jobbeuke</option>
-				  <option value="audi">Skole og jobbuke</option>
+				  <option value="ferie">Ferieuke</option>
+				  <option value="jobb">Jobbeuke</option>
+				  <option value="skoleogjobb">Skole og jobbuke</option>
 				
+				</select>
+			</div>
+			<div id="dropDownUke">
+				<select>
+				  <option value="alleEgendefinerte">2015 Mai </option>
+				  <option value="uke">2015 Juni</option>
+				  <option value="uke">2015 Juli</option>
+				  <option value="uke">2015 August</option>
+				  <option value="uke">2015 September </option>
+				  <option value="uke">2015 Oktober</option>
+				  <option value="uke">2015 November</option>
+				  <option value="uke">2015 Desember</option>
+				  <option value="uke">2016 Januar</option>
+				  <option value="uke">2016 Februar</option>
+				  <option value="uke">2016 Mars </option>
+				  <option value="uke">2016 April</option>
+				  <option value="uke">2016 Mai</option>
+				
+			
 				</select>
 			</div>
 
@@ -87,6 +106,13 @@
 							<div a draggable="true" class="maler" id="3" ondragstart="dragUser(this, event)">Skole [uke 23]</a>
 								<img src="img/skole.jpg" width="45px" height="45px" alt="admin"/></a> 
 							</div>
+							<div a draggable="true" class="maler" id="3" ondragstart="dragUser(this, event)">Skole [uke 24]</a>
+								<img src="img/skole.jpg" width="45px" height="45px" alt="admin"/></a> 
+							</div>
+							<div a draggable="true" class="maler" id="3" ondragstart="dragUser(this, event)">Skole [uke 26]</a>
+								<img src="img/skole.jpg" width="45px" height="45px" alt="admin"/></a> 
+							</div>
+						
 						
 						</div>
 					

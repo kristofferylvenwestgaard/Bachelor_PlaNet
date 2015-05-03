@@ -1117,6 +1117,13 @@ position: relative;
 	font-weight: bold;
 }
 
+#plussknapper
+{
+	margin-left: -5px;
+	margin-bottom: 45px;
+	margin-top: -9.5px;
+}
+
 /*************DAGSPLAN*****************/
 
 
@@ -2173,6 +2180,10 @@ a.btn-danger:visited {
   color: #ffffff;
   background-color: #51a351;
   *background-color: #499249;
+}
+
+a.btn-success:visited { 
+	color: #fff; 
 }
 
 .btn-success:active,

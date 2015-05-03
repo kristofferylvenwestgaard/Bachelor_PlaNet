@@ -29,34 +29,35 @@
 							<textarea class="input_textarea" name="beskrivelseBoks" placeholder="Beskriv aktivitet"></textarea>
 						</div>
 
-						<div class="col-1-1">	
+						<div class="col-1-1">
+							<div id="plussknapper">	
 							<form action="upload.php" method="post" enctype="multipart/form-data">
-								<div class="fileUpload btn btn-primary">
+								<div class="fileUpload btn btn-outline sharp">
 								    <span>+Bilde</span>
 								    <input type="file" class="upload" />
 								</div>
 
-								 <div class="fileUpload btn btn-primary">
+								 <div class="fileUpload btn btn-outline sharp">
 								    <span>+Video</span>
 								    <input type="file" class="upload" />
 								</div>
 
-								<div class="fileUpload btn btn-primary">
+								<div class="fileUpload btn btn-outline sharp">
 								    <span>+Lyd</span>
 								    <input type="file" class="upload" />
 								</div>
 
-								<div class="fileUpload btn btn-primary">
+								<div class="fileUpload btn btn-outline sharp">
 								    <span>+Timer</span>
 								    <input type="file" class="upload" />
 								</div>	
 							</form>
 						</div>
-
+						</div>
 						<br/>
 						<br/>
 						
-						<input class="submit btn btn-large btn-success" type="submit" value="+Legg til" name="leggTil"/>
+						<input class="submit btn btn-large btn-success sharp" type="submit" value="+Legg til" name="leggTil"/>
 					</div>
 				</form>
 			</div>
@@ -88,7 +89,7 @@
 						?>
 				</div>
 				<div class="next_page">
-					<a href="index.php" class="btn btn-large btn-success" type="button">Fullfør</button></a>
+					<a href="index.php" class="btn btn-large btn-success sharp" type="button">Fullfør</button></a>
 					
 				</div>
 			</div>

@@ -188,6 +188,7 @@
 					
 				<!--DIV CONTAINER FOR HØYRE KOLONNE I LEGG TIL AKTIVITET-->
 				<div class="col_right">
+					<section id="hoved">
 					<div id="aktivitet_oversikt">
 						<div class="phpUtText">
 						<?php

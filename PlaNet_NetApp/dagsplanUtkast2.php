@@ -60,7 +60,7 @@
 
 	<div class=" container dpBoks">
 	<div class="col-4-12">
-           <div class="tekstOmrade">Hjelpetekst for steg</div>
+           <div class="tekstOmrade"></br>Hjelpetekst for steg</div>
     </div>
 
     <div class="col-6-12">
@@ -76,11 +76,14 @@
 
     
     <div class="col-4-12">
-           <div class="tekstOmrade bakgrunnSkille">Hjelpetekst for steg</div>
+           <div class="tekstOmrade bakgrunnSkille"></br>Hjelpetekst for steg. Tekst strekker seg til dit den stopper og bildet opptar resterende plass. Hjelpetekst for steg. Tekst strekker seg til dit den stopper og bildet opptar resterende plass.
+           	Hjelpetekst for steg. Tekst strekker seg til dit den stopper og bildet opptar resterende plass.
+           Hjelpetekst for steg. Tekst strekker seg til dit den stopper og bildet opptar resterende plass
+       Hjelpetekst for steg. Tekst strekker seg til dit den stopper og bildet opptar resterende plass</div>
     </div>
 
     <div class="col-6-12">
-           <div class="bildeOmrade bakgrunnSkille"><img src="img/terje.jpg" width="260px" height="260px" float="right" alt="admin"/></div>
+           <div class="bildeOmrade bakgrunnSkille"><img src="img/terje.jpg" width="260px" height="260px" alt="admin"/></div>
     </div>
 
     <div class="col-2-12">
@@ -94,7 +97,7 @@
 
 
     <div class="col-4-12">
-           <div class="tekstOmrade">Hjelpetekst for steg</div>
+           <div class="tekstOmrade"></br>Hjelpetekst for steg</div>
     </div>
 
     <div class="col-6-12">
@@ -110,7 +113,7 @@
 
 
     <div class="col-4-12">
-           <div class="tekstOmrade bakgrunnSkille">Hjelpetekst for steg</div>
+           <div class="tekstOmrade bakgrunnSkille"></br>Hjelpetekst for steg</div>
     </div>
 
     <div class="col-6-12">

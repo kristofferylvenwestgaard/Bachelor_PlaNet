@@ -1271,13 +1271,14 @@ position: relative;
 .tekstOmrade
 {
 border-style: solid;
-text-indent: 15px;
 font-size: 20px;
+padding-left: 15px;
 height: 263px;
 border-width: 1px;
 border-right: 0px;
 border-left: 0px;
 border-color: #e8e5e5;
+overflow-y:auto;
 }
 
 .bildeOmrade

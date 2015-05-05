@@ -64,13 +64,12 @@
 	   				      		
 	   				      		<!--STATISK INFORMASJON IFMA HTML CSS-->
 	   				      		<!--Sjekkliste!-->
-	   				      		
+	   				      	
 	   				      		<div class="sjekkTekst">
 	   				      		test
 	   				      		</div>
-	   				      		
 	   				      	<div id="steg1">
-	   				      		
+
 	   				      		<input class="submit btn btn-dobbelxl btn-success sharp" type="submit" value="1" name="check"/>
 	   				      	</div>
 

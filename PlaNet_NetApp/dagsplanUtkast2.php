@@ -80,7 +80,7 @@
     </div>
 
     <div class="col-6-12">
-           <div class="bildeOmrade bakgrunnSkille"><img src="img/terje.jpg" width="260px" height="260px" alt="admin"/></div>
+           <div class="bildeOmrade bakgrunnSkille"><img src="img/terje.jpg" width="260px" height="260px" float="right" alt="admin"/></div>
     </div>
 
     <div class="col-2-12">

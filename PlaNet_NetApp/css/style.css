@@ -1157,6 +1157,13 @@ position: relative;
 	background-color:#f7f7f7;
 	position:relative;
 	z-index:1;
+	overflow-y:auto;
+
+}
+
+.scrollSammen
+{
+	overflow: scroll;
 }
 
 .dagsChecklist 
@@ -1170,8 +1177,23 @@ position: relative;
 	font-family:'Open Sans';
 	background-color:#f7f7f7;
 	position:relative;
-	overflow-y: auto;
+	
 }
+
+.dagsChecklistSjekkliste
+/*Sjekkliste checkboxer*/
+{
+	height: 600px;
+	border-style:solid;
+	border-width:0px;
+	border-left: 0px;
+	border-top:0px;
+	font-family:'Open Sans';
+	background-color:#f7f7f7;
+	position:relative;
+	
+}
+
 
 .aktivitetNavn 
 /* Header/tittel for aktivitetsnavn */
@@ -1212,6 +1234,63 @@ position: relative;
 	border-bottom-style: solid;	
 }
 
+#steg1
+{
+text-align: right;
+height: 131px;
+width: 980px;
+margin-right: 350px;
+border-style: solid;
+border-color: #e8e5e5;
+border-width: 1px;
+border-top: 0px;
+border-right: 0px;
+border-left: 0px;
+}
+
+
+#steg2
+{
+text-align: right;
+height: 131px;
+width: 980px;
+margin-right: 350px;
+border-style: solid;
+border-color: #e8e5e5;
+border-width: 1px;
+border-top: 0px;
+border-right: 0px;
+border-left: 0px;
+}
+
+.ovrigeSteg
+{
+text-align: right;
+height: 131px;
+width: 980px;
+margin-right: 350px;
+border-style: solid;
+border-color: #e8e5e5;
+border-width: 1px;
+border-top: 0px;
+border-right: 0px;
+border-left: 0px;
+}
+
+.sjekkTekst
+{
+	width: 250px;
+	text-align: right;
+	height: 130px;
+	float: left;
+}
+
+.sjekkBilde
+{
+	height: 46px;
+	width: 100px;
+	float: right;
+}
 
 /* |||||Velg bilde vindu|||||||*/
 .bilderamme
@@ -1965,6 +2044,16 @@ button.close {
           border-radius: 6px;
 }
 
+.btn-dobbelxl {
+  padding: 55px 89px;
+  font-size: 42px;
+  text-indent: -7px;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+
+
 .btn-bilde {
   
   padding-bottom: 5px;
@@ -2276,6 +2365,13 @@ input[type="submit"].btn::-moz-focus-inner {
 
 button.btn.btn-xl, 
 input[type="submit"].btn.btn-xl {
+	*padding-top: 0px;
+  	*padding-bottom: 0px;
+}
+
+
+button.btn.btn-dobbelxl, 
+input[type="submit"].btn.btn-dobbelxl {
 	*padding-top: 0px;
   	*padding-bottom: 0px;
 }

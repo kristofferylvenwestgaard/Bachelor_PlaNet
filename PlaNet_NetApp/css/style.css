@@ -1237,7 +1237,7 @@ position: relative;
 #steg1
 {
 text-align: right;
-height: 131px;
+height: 262px;
 width: 980px;
 margin-right: 350px;
 border-style: solid;
@@ -1252,7 +1252,7 @@ border-left: 0px;
 #steg2
 {
 text-align: right;
-height: 131px;
+height: 262px;
 width: 980px;
 margin-right: 350px;
 border-style: solid;
@@ -1266,7 +1266,7 @@ border-left: 0px;
 .ovrigeSteg
 {
 text-align: right;
-height: 131px;
+height: 262px;
 width: 980px;
 margin-right: 350px;
 border-style: solid;
@@ -2045,7 +2045,7 @@ button.close {
 }
 
 .btn-dobbelxl {
-  padding: 55px 89px;
+  padding: 121px 178px;
   font-size: 42px;
   text-indent: -7px;
   -webkit-border-radius: 6px;

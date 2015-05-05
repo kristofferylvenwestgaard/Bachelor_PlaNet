@@ -206,6 +206,7 @@
 	z-index:1;
 	top:-600px;
 	overflow-y: auto;
+	color: #3f3f3f;
 }
 
 #tirsdag
@@ -220,6 +221,7 @@
 	z-index:1;
 	top:-600px;
 	overflow-y: auto;
+	color: #3f3f3f;
 }
 
 #onsdag
@@ -234,6 +236,7 @@
 	z-index:1;
 	top:-600px;
 	overflow-y: auto;
+	color: #3f3f3f;
 }
 
 #torsdag
@@ -245,6 +248,7 @@
 	font-family:'Open Sans';
 	background-color:#f7f7f7;
 	overflow-y: auto;
+	color: #3f3f3f;
 }
 
 #fredag
@@ -259,6 +263,7 @@
 	z-index:1;
 	top:-600px;
 	overflow-y: auto;
+	color: #3f3f3f;
 }
 
 #lordag
@@ -273,6 +278,7 @@
 	z-index:1;
 	top:-600px;
 	overflow-y: auto;
+	color: #3f3f3f;
 }
 
 #sondag
@@ -287,6 +293,7 @@
 	z-index:1;
 	top:-600px;
 	overflow-y: auto;
+	color: #3f3f3f;
 }
 
 /*aktivitetsbokser i ukedagene*/
@@ -1265,7 +1272,7 @@ position: relative;
 {
 border-style: solid;
 text-indent: 15px;
-
+font-size: 20px;
 height: 263px;
 border-width: 1px;
 border-right: 0px;

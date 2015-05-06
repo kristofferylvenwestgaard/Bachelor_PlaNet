@@ -60,11 +60,11 @@
 
 	<div class=" container dpBoks">
 	<div class="col-4-12">
-           <div class="tekstOmrade"></br>Hjelpetekst for steg</div>
+           <div class="tekstOmrade"></br>Bestill pommes frites</div>
     </div>
 
     <div class="col-6-12">
-           <div class="bildeOmrade"><img src="img/terje.jpg" width="260px" height="260px" alt="admin"/></div>
+           <div class="bildeOmrade"><img src="checklistbilder/fries.jpg" width="400px" height="260px" alt="admin"/></div>
     </div>
 
     <div class="col-2-12">
@@ -76,14 +76,13 @@
 
     
     <div class="col-4-12">
-           <div class="tekstOmrade bakgrunnSkille"></br>Hjelpetekst for steg. Tekst strekker seg til dit den stopper og bildet opptar resterende plass. Hjelpetekst for steg. Tekst strekker seg til dit den stopper og bildet opptar resterende plass.
-           	Hjelpetekst for steg. Tekst strekker seg til dit den stopper og bildet opptar resterende plass.
-           Hjelpetekst for steg. Tekst strekker seg til dit den stopper og bildet opptar resterende plass
-       Hjelpetekst for steg. Tekst strekker seg til dit den stopper og bildet opptar resterende plass</div>
+           <div class="tekstOmrade bakgrunnSkille"></br>Hent salt. Om teksten er lang er den automatisk gjort scrollbar 
+            Hjelpetekst for steg. Om teksten er lang er den automatisk gjort scrollbar Hjelpetekst for steg. Om teksten er lang er den automatisk gjort scrollbar Hjelpetekst for steg. Om teksten er lang er den automatisk gjort scrollbar Hjelpetekst for steg. Om teksten er lang er den automatisk gjort scrollbar
+          </div>
     </div>
 
     <div class="col-6-12">
-           <div class="bildeOmrade bakgrunnSkille"><img src="img/terje.jpg" width="260px" height="260px" alt="admin"/></div>
+           <div class="bildeOmrade bakgrunnSkille"><img src="checklistbilder/salt.jpg" width="400px" height="260px" alt="admin"/></div>
     </div>
 
     <div class="col-2-12">

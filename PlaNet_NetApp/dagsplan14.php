@@ -63,7 +63,7 @@
 	           		
 	           		<div class "col-1-1">
 	           			<div class="handBilde">
-	           			<img src="handlingskjedebilder/tastsmskode.png" width="500px" height="350px" alt="admin"/></a>
+	           			<img src="handlingskjedebilder/TastSMSkode.png" width="500px" height="350px" alt="admin"/></a>
 	           			</div>
 	           		</div>
 

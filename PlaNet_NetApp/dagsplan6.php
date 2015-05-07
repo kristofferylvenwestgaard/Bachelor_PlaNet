@@ -63,7 +63,7 @@
 	           		
 	           		<div class "col-1-1">
 	           			<div class="handBilde">
-	           			<img src="handlingskjedebilder/dressingtype.png" width="450px" height="220px" alt="admin"/></a>
+	           			<img src="handlingskjedebilder/Dressingtype.png" width="450px" height="220px" alt="admin"/></a>
 	           			</div>
 	           		</div>
 

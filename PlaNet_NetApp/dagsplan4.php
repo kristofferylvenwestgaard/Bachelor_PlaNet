@@ -63,7 +63,7 @@
 	           		
 	           		<div class "col-1-1">
 	           			<div class="handBilde">
-	           			<img src="handlingskjedebilder/whopper.png" width="400px" height="350px" alt="admin"/></a>
+	           			<img src="handlingskjedebilder/Whopper.png" width="400px" height="350px" alt="admin"/></a>
 	           			</div>
 	           		</div>
 

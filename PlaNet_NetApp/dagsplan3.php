@@ -63,7 +63,7 @@
 	           		
 	           		<div class "col-1-1">
 	           			<div class="handBilde">
-	           				<img src="handlingskjedebilder/innlogging.png"alt="3"/></a>
+	           				<img src="handlingskjedebilder/Innlogging.png"alt="3"/></a>
 	           			</div>
 	           		</div>
 

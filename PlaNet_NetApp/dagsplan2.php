@@ -72,14 +72,13 @@
 	     	<div class="dagsChecklist">
 
 	     			<!--HYPERLINKS TIL NESTE HANDLINGSSTEG!-->
-	     			<!--STEG 1-2-->
-	     			<a href="dagsplan_prototype/dagsplan2.php" class="submit btn btn-xl btn-outline sharp" type="button">1</button></a>
-
-	     			<a href="dagsplan_prototype/dagsplan2.php" class="submit btn btn-xl btn-danger sharp" type="button">2</button></a>
-	     			<!--STEG 1-2-->
+	     			
+	     			<a href="dagsplan.php" class="submit btn btn-xl btn-success sharp" type="button">1</button></a>
+					<!--STEG 2-3-->
+	     			<a href="dagsplan3.php" class="submit btn btn-xl btn-outline sharp" type="button">2</button></a>
 
 	     			<a href="dagsplan3.php" class="submit btn btn-xl btn-danger sharp" type="button">3</button></a>
-
+					<!--STEG 2-3-->
 	     			<a href="dagsplan4.php" class="submit btn btn-xl btn-danger sharp" type="button">4</button></a>
 
 	     			<a href="dagsplan5.php" class="submit btn btn-xl btn-danger sharp" type="button">5</button></a>

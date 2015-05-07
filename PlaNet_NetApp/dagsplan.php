@@ -48,7 +48,7 @@
 <div class = "container">
 	
 		<div class="col-2-12">
-				<div id="torsdag">
+				<div id="fredag">
 					<?php	
 						hentAktivitet();
 						//LEGGE TIL KNAPP FOR Å VELGE HVILKEN AKTIVITET MAN SKAL GJENNOMFØRE?

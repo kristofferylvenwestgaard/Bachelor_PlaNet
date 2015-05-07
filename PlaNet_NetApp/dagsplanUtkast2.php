@@ -41,7 +41,7 @@
            <div class="aktivitetNavn">Aktivitetsnavn</div>
     </div>
     <div class="col-2-12">
-           <div class="stegTittel">Steg</div>
+           <div class="stegTittel">Sjekklister</div>
     </div>
 </div>
 
@@ -60,11 +60,11 @@
 
 	<div class=" container dpBoks">
 	<div class="col-4-12">
-           <div class="tekstOmrade"></br>Bestill pommes frites</div>
+           <div class="tekstOmrade"></br>Hente Whopper Burger (bestilt i WooperLab)</div>
     </div>
 
     <div class="col-6-12">
-           <div class="bildeOmrade"><img src="checklistbilder/fries.jpg" width="400px" height="260px" alt="admin"/></div>
+           <div class="bildeOmrade"><img src="checklistbilder/whopper.jpg" width="400px" height="260px" alt="admin"/></div>
     </div>
 
     <div class="col-2-12">
@@ -76,13 +76,12 @@
 
     
     <div class="col-4-12">
-           <div class="tekstOmrade bakgrunnSkille"></br>Hent salt. Om teksten er lang er den automatisk gjort scrollbar 
-            Hjelpetekst for steg. Om teksten er lang er den automatisk gjort scrollbar Hjelpetekst for steg. Om teksten er lang er den automatisk gjort scrollbar Hjelpetekst for steg. Om teksten er lang er den automatisk gjort scrollbar Hjelpetekst for steg. Om teksten er lang er den automatisk gjort scrollbar
+           <div class="tekstOmrade bakgrunnSkille"></br>Bestill pommes frites
           </div>
     </div>
 
     <div class="col-6-12">
-           <div class="bildeOmrade bakgrunnSkille"><img src="checklistbilder/salt.jpg" width="400px" height="260px" alt="admin"/></div>
+           <div class="bildeOmrade bakgrunnSkille"><img src="checklistbilder/fries.jpg" width="400px" height="260px" alt="admin"/></div>
     </div>
 
     <div class="col-2-12">
@@ -96,32 +95,32 @@
 
 
     <div class="col-4-12">
-           <div class="tekstOmrade"></br>Hjelpetekst for steg</div>
+           <div class="tekstOmrade"></br>Bestill drikke</div>
     </div>
 
     <div class="col-6-12">
-           <div class="bildeOmrade"><img src="img/terje.jpg" width="260px" height="260px" alt="admin"/></div>
+           <div class="bildeOmrade"><img src="checklistbilder/drikke.png" width="300px" height="260px" alt="admin"/></div>
     </div>
 
     <div class="col-2-12">
           <div class="stegOmrade">
-          	<a href="index.php" class="btn btn-dobbelxlX btn-outline sharp" type="button">X</button></a>
+          	<input type="checkbox" id="checkbox-1-3" class="sjekkBoksDagsplan" name="middag" /><label for="checkbox-1-3"></label>
           	
           </div>
     </div>
 
 
     <div class="col-4-12">
-           <div class="tekstOmrade bakgrunnSkille"></br>Hjelpetekst for steg</div>
+           <div class="tekstOmrade bakgrunnSkille"></br>Bestill kaffe</div>
     </div>
 
     <div class="col-6-12">
-           <div class="bildeOmrade bakgrunnSkille"><img src="img/terje.jpg" width="260px" height="260px" alt="admin"/></div>
+           <div class="bildeOmrade bakgrunnSkille"><img src="checklistbilder/kaffe.jpg" width="260px" height="260px" alt="admin"/></div>
     </div>
 
     <div class="col-2-12">
           <div class="stegOmrade bakgrunnSkille">
-          	<a href="index.php" class="btn btn-dobbelxlX btn-outline sharp" type="button">X</button></a>
+          	<input type="checkbox" id="checkbox-1-4" class="sjekkBoksDagsplan" name="middag" /><label for="checkbox-1-4"></label>
           	
           </div>
     </div>

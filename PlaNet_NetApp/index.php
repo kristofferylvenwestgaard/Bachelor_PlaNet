@@ -17,7 +17,7 @@
 	</div>
 	<div class="col-1-6">
 		<div class="header">
-			<a id="ukemndknapper" href="april.php" class="btn btn-large btn-block btn-outline sharp" type="button">Måned</button></a>
+			<a id="ukemndknapper" href="mai.php" class="btn btn-large btn-block btn-outline sharp" type="button">Måned</button></a>
 		</div>
 	</div>
 	<div class="col-1-3">

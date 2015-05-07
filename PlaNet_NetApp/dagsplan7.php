@@ -8,7 +8,7 @@
 	<!--HEADER-->
 	<div class="col-1-3">
 		<div class="header">
-			<a href="index.php"><h1 class="htext">Terje</h1></a>
+			
 		</div>
 	</div>
 	<div class="col-1-6">
@@ -35,10 +35,10 @@
 	</div>
 <div class = "container">
     <div class="col-2-12">
-           <div id="dagIdagsPlan">Torsdag</div>
+           <div id="dagIdagsPlan">Fredag</div>
     </div>
     <div class="col-8-12">
-           <div class="aktivitetNavn">List ut aktivtetsNavn</div>
+           <div class="aktivitetNavn">Bestill burger</div>
     </div>
     <div class="col-2-12">
            <div class="stegTittel">Steg</div>
@@ -112,10 +112,6 @@
 	     			<a href="dagsplan13.php" class="submit btn btn-xl btn-danger sharp" type="button">13</button></a>
 
 	     			<a href="dagsplan14.php" class="submit btn btn-xl btn-danger sharp" type="button">14</button></a>
-
-	     			<a href="dagsplan15.php" class="submit btn btn-xl btn-danger sharp" type="button">15</button></a>
-
-	     			<a href="dagsplan16.php" class="submit btn btn-xl btn-danger sharp" type="button">16</button></a>
 	     	</div>
 	     </div>
 	

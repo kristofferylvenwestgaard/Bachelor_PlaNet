@@ -83,12 +83,12 @@
 					
 	     			<a href="dagsplan5.php" class="submit btn btn-xl btn-success sharp" type="button">5</button></a>
 					
-	     			<a href="dagsplan7.php" class="submit btn btn-xl btn-success sharp" type="button">6</button></a>
-					<!--STEG 5-6-->
+	     			<a href="dagsplan6.php" class="submit btn btn-xl btn-success sharp" type="button">6</button></a>
+					<!--STEG 6-7-->
 	     			<a href="dagsplan8.php" class="submit btn btn-xl btn-outline sharp" type="button">7</button></a>
 					
 	     			<a href="dagsplan8.php" class="submit btn btn-xl btn-danger sharp" type="button">8</button></a>
-					<!--STEG 5-6-->
+					<!--STEG 6-7-->
 	     			<a href="dagsplan9.php" class="submit btn btn-xl btn-danger sharp" type="button">9</button></a>
 
 	     			<a href="dagsplan10.php" class="submit btn btn-xl btn-danger sharp" type="button">10</button></a>

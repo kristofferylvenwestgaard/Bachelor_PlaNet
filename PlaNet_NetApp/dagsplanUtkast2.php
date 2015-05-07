@@ -69,7 +69,7 @@
 
     <div class="col-2-12">
           <div class="stegOmrade">
-          	<a href="index.php" class="btn btn-dobbelxlX btn-outline sharp" type="button">X</button></a>
+          	<input type="checkbox" id="checkbox-1-1" class="sjekkBoksDagsplan" name="middag" /><label for="checkbox-1-1"></label>
           	
           </div>
     </div>
@@ -87,7 +87,7 @@
 
     <div class="col-2-12">
           <div class="stegOmrade bakgrunnSkille">
-          	<a href="index.php" class="btn btn-dobbelxl btn-success sharp" type="button">✓</button></a>
+          	<input type="checkbox" id="checkbox-1-2" class="sjekkBoksDagsplan" name="middag" /><label for="checkbox-1-2"></label>
           	
           </div>
     </div>

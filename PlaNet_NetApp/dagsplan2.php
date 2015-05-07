@@ -73,7 +73,7 @@
 
 	     			<!--HYPERLINKS TIL NESTE HANDLINGSSTEG!-->
 	     			
-	     			<a href="dagsplan.php" class="submit btn btn-xl btn-success sharp" type="button">1</button></a>
+	     			<a href="dagsplan.php" class="submit btn btn-xl btn-success sharp" type="button">1	</button></a>
 					<!--STEG 2-3-->
 	     			<a href="dagsplan3.php" class="submit btn btn-xl btn-outline sharp" type="button">2</button></a>
 
@@ -83,27 +83,27 @@
 
 	     			<a href="dagsplan5.php" class="submit btn btn-xl btn-danger sharp" type="button">5</button></a>
 
-	     			<a href="dagsplan6.php" class="submit btn btn-xl btn-danger sharp" type="button">1</button></a>
+	     			<a href="dagsplan6.php" class="submit btn btn-xl btn-danger sharp" type="button">6</button></a>
 
-	     			<a href="dagsplan7.php" class="submit btn btn-xl btn-danger sharp" type="button">1</button></a>
+	     			<a href="dagsplan7.php" class="submit btn btn-xl btn-danger sharp" type="button">7</button></a>
 
-	     			<a href="dagsplan8.php" class="submit btn btn-xl btn-danger sharp" type="button">1</button></a>
+	     			<a href="dagsplan8.php" class="submit btn btn-xl btn-danger sharp" type="button">8</button></a>
 
-	     			<a href="dagsplan9.php" class="submit btn btn-xl btn-danger sharp" type="button">1</button></a>
+	     			<a href="dagsplan9.php" class="submit btn btn-xl btn-danger sharp" type="button">9</button></a>
 
-	     			<a href="dagsplan10.php" class="submit btn btn-xl btn-danger sharp" type="button">1</button></a>
+	     			<a href="dagsplan10.php" class="submit btn btn-xl btn-danger sharp" type="button">10</button></a>
 
-	     			<a href="dagsplan11.php" class="submit btn btn-xl btn-danger sharp" type="button">1</button></a>
+	     			<a href="dagsplan11.php" class="submit btn btn-xl btn-danger sharp" type="button">11</button></a>
 
-	     			<a href="dagsplan12.php" class="submit btn btn-xl btn-danger sharp" type="button">1</button></a>
+	     			<a href="dagsplan12.php" class="submit btn btn-xl btn-danger sharp" type="button">12</button></a>
 
-	     			<a href="dagsplan13.php" class="submit btn btn-xl btn-danger sharp" type="button">1</button></a>
+	     			<a href="dagsplan13.php" class="submit btn btn-xl btn-danger sharp" type="button">13</button></a>
 
-	     			<a href="dagsplan14.php" class="submit btn btn-xl btn-danger sharp" type="button">1</button></a>
+	     			<a href="dagsplan14.php" class="submit btn btn-xl btn-danger sharp" type="button">14</button></a>
 
-	     			<a href="dagsplan15.php" class="submit btn btn-xl btn-danger sharp" type="button">1</button></a>
+	     			<a href="dagsplan15.php" class="submit btn btn-xl btn-danger sharp" type="button">15</button></a>
 
-	     			<a href="dagsplan16.php" class="submit btn btn-xl btn-danger sharp" type="button">1</button></a>
+	     			<a href="dagsplan16.php" class="submit btn btn-xl btn-danger sharp" type="button">16</button></a>
 	     	</div>
 	     </div>
 	

@@ -61,7 +61,20 @@
 	           <div class="grid">
 	           		<div class="dagsplanBoks">
 	           		
-	           		<!--STATISK INFORMASJON IFMA HTML CSS-->
+	           		<div class "col-1-1">
+	           			<div class="handBilde">
+	           			<a href="admin.php"><img src="img/admin1.png" width="45px" height="45px" alt="admin"/></a>
+	           			</div>
+	           		</div>
+
+					<div class "col-1-1">
+						<div class="handTekst">
+							test
+						</div>
+	           		</div>
+
+
+	           			<!--STATISK INFORMASJON IFMA HTML CSS-->
 	           		<!--HANDLINGSKJEDESTEG!-->
 
 						

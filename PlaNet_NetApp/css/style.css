@@ -1145,6 +1145,19 @@ position: relative;
 
 /*************DAGSPLAN*****************/
 
+
+.handBilde
+{
+	text-align: center;
+	margin-top: 50px;
+}
+
+.handTekst
+{
+	text-align: center;
+	margin-top: 50px;
+}
+
 /**Hjelpelinjer*/
 #testlinje
 {

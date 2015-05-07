@@ -397,7 +397,6 @@
          			<!--Oppretter en html section i aktivitetsvindu hvor aktivitetene vil listes ut.-->
             	    <a href="dagsplan.php">
             	    	<div class="activity">
-            	    		<div class="opacityEnkeltAktivitet">
             	    		<?php
             	    		//IF TESTER SOM SJEKKER FARGEID OPP MOT VALGT FARGE OG GIR INDEX SIDENS AKTIVITETER 
 								//RIKTIG FARGEDIV
@@ -430,7 +429,7 @@
             	    		        echo $row["aktivitetNavn"]."";
             	    		?>
             	            <img src="../Database/BurgerKing_aktivitet1.jpg" alt="whopper" width="130px" height="60px"/>
-           		  		</div>
+           		  		
            		  	</div>
            		   </a>
             	<?php

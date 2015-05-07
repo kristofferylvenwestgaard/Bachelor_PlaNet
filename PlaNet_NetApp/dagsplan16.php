@@ -103,7 +103,7 @@
 	     				
 	     			<a href="dagsplan15.php" class="submit btn btn-xl btn-success sharp" type="button">15</button></a>
 	     			<!--STEG 15-16-->
-	     			<a href="ukeplan.php" class="submit btn btn-xl btn-outline sharp" type="button">16</button></a>
+	     			<a href="index.php" class="submit btn btn-xl btn-outline sharp" type="button">16</button></a>
 	     			<!--STEG 15-16-->
 
 	     	</div>

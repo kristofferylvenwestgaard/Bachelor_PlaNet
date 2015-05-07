@@ -61,8 +61,17 @@
 	           <div class="grid">
 	           		<div class="dagsplanBoks">
 	           		
-	           		<!--STATISK INFORMASJON IFMA HTML CSS-->
-	           		<!--HANDLINGSKJEDESTEG!-->
+	           		<div class "col-1-1">
+	           			<div class="handBilde">
+	           			<img src="handlingskjedebilder/whopper.png" width="400px" height="350px" alt="admin"/></a>
+	           			</div>
+	           		</div>
+
+					<div class "col-1-1">
+						<div class="handTekst">
+							Velg Whopper
+						</div>
+	           		</div>
 
 						
 					</div>

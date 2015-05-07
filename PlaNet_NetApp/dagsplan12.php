@@ -61,9 +61,17 @@
 	           <div class="grid">
 	           		<div class="dagsplanBoks">
 	           		
-	           		<!--STATISK INFORMASJON IFMA HTML CSS-->
-	           		<!--HANDLINGSKJEDESTEG!-->
+	           		<div class "col-1-1">
+	           			<div class="handBilde">
+	           			<img src="handlingskjedebilder/valgdatotid.png" width="650px" height="350px" alt="admin"/></a>
+	           			</div>
+	           		</div>
 
+					<div class "col-1-1">
+						<div class="handTekst">
+							Velg tidspunkt - fredag 8. mai og velg når du vil hente den
+						</div>
+	           		</div>
 						
 					</div>
 	           </div>

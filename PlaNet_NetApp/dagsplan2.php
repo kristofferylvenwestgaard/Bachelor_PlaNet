@@ -61,9 +61,17 @@
 	           <div class="grid">
 	           		<div class="dagsplanBoks">
 	           		
-	           		<!--STATISK INFORMASJON IFMA HTML CSS-->
-	           		<!--HANDLINGSKJEDESTEG!-->
+	           		<div class "col-1-1">
+	           			<div class="handBilde">
+	           			<img src="handlingskjedebilder/whopperlab.png" width="650px" height="400px" alt="admin"/></a>
+	           			</div>
+	           		</div>
 
+					<div class "col-1-1">
+						<div class="handTekst">
+							Trykk på besøk WhopperLab.no
+						</div>
+	           		</div>
 						
 					</div>
 	           </div>

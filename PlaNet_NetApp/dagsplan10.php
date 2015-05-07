@@ -8,7 +8,7 @@
 	<!--HEADER-->
 	<div class="col-1-3">
 		<div class="header">
-			<a href="index.php"><h1 class="htext">Terje</h1></a>
+			<a href="index.php"><h1 class="htext"></h1></a>
 		</div>
 	</div>
 	<div class="col-1-6">
@@ -35,10 +35,10 @@
 	</div>
 <div class = "container">
     <div class="col-2-12">
-           <div id="dagIdagsPlan">Torsdag</div>
+           <div id="dagIdagsPlan">Fredag</div>
     </div>
     <div class="col-8-12">
-           <div class="aktivitetNavn">List ut aktivtetsNavn</div>
+           <div class="aktivitetNavn">Bestille burger</div>
     </div>
     <div class="col-2-12">
            <div class="stegTittel">Steg</div>
@@ -61,9 +61,17 @@
 	           <div class="grid">
 	           		<div class="dagsplanBoks">
 	           		
-	           		<!--STATISK INFORMASJON IFMA HTML CSS-->
-	           		<!--HANDLINGSKJEDESTEG!-->
+	           		<div class "col-1-1">
+	           			<div class="handBilde">
+	           			<img src="handlingskjedebilder/valghentested.png" width="650px" height="350px" alt="admin"/></a>
+	           			</div>
+	           		</div>
 
+					<div class "col-1-1">
+						<div class="handTekst">
+							Velg hentested Oslo
+						</div>
+	           		</div>
 						
 					</div>
 	           </div>

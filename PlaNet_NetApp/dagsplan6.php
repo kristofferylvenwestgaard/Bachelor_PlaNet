@@ -61,8 +61,17 @@
 	           <div class="grid">
 	           		<div class="dagsplanBoks">
 	           		
-	           		<!--STATISK INFORMASJON IFMA HTML CSS-->
-	           		<!--HANDLINGSKJEDESTEG!-->
+	           		<div class "col-1-1">
+	           			<div class="handBilde">
+	           			<img src="handlingskjedebilder/dressingtype.png" width="450px" height="220px" alt="admin"/></a>
+	           			</div>
+	           		</div>
+
+					<div class "col-1-1">
+						<div class="handTekst">
+							Velg dressing
+						</div>
+	           		</div>
 
 						
 					</div>

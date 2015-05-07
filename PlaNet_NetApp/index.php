@@ -151,19 +151,9 @@
 		</div>
 	</div>
 	<div class="col-1-7">
-		<div id="torsdag">
-			<?php	
-				listUtAktivitetUkeplan()
-			?>
-		</div>
-	</div>
-	<div class="col-1-7">
 		<div class="opacity">
 		</div>
-		<div id="fredag">
-			<?php	
-				//listUtAktivitetUkeplan()
-			?>
+		<div id="torsdag">
 			<!--DUMMY INNHOLD!-->
 			<div class="activity">
 				<div class="bluecode"></div>
@@ -185,6 +175,13 @@
 				Middag
 				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
 			</div>
+		</div>
+	</div>
+	<div class="col-1-7">
+		<div id="fredag">
+			<?php	
+				listUtAktivitetUkeplan()
+			?>
 		</div>
 	</div>
 	<div class="col-1-7">

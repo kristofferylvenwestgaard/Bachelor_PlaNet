@@ -6,7 +6,7 @@
 	<!--HEADER-->
 	<div class="col-1-3">
 		<div class="header">
-			<h1 class="htext">Terje</h1>
+			<h1 class="htext"></h1>
 		</div>
 	</div>
 	<div class="col-1-6">

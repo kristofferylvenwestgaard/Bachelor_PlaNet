@@ -8,7 +8,7 @@
 	<!--HEADER-->
 	<div class="col-1-3">
 		<div class="header">
-			<a href="index.php"><h1 class="htext">Terje</h1></a>
+			<a href="index.php"><h1 class="htext"></h1></a>
 		</div>
 	</div>
 	<div class="col-1-6">
@@ -35,13 +35,13 @@
 	</div>
 <div class = "container">
     <div class="col-2-12">
-           <div id="dagIdagsPlan">Torsdag</div>
+           <div id="dagIdagsPlan">Fredag</div>
     </div>
     <div class="col-8-12">
-           <div class="aktivitetNavn">Aktivitetsnavn</div>
+           <div class="aktivitetNavn">Hente burger</div>
     </div>
     <div class="col-2-12">
-           <div class="stegTittel">Sjekklister</div>
+           <div class="stegTittel">Sjekkliste</div>
     </div>
 </div>
 

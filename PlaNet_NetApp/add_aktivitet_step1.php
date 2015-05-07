@@ -165,17 +165,17 @@
 				<?php
 					if(isset($_POST["tilbake"]))
 					{
-						if(isset($_POST["middag"]))
+						if(isset($_POST["bestillmat"]))
 						{
 							$bildeid = 1;
 							$_SESSION["bildeid"] = $bildeid;
 						}
-						elseif(isset($_POST["skole"]))
+						elseif(isset($_POST["hentmat"]))
 						{
 							$bildeid = 2;
 							$_SESSION["bildeid"] = $bildeid;
 						}
-						elseif(isset($_POST["tv"]))
+						elseif(isset($_POST["soppel"]))
 						{
 							$bildeid = 3;
 							$_SESSION["bildeid"] = $bildeid;

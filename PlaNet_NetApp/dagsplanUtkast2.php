@@ -115,7 +115,7 @@
     </div>
 
     <div class="col-6-12">
-           <div class="bildeOmrade bakgrunnSkille"><img src="checklistbilder/kaffe.jpg" width="260px" height="260px" alt="admin"/></div>
+           <div class="bildeOmrade bakgrunnSkille"><img src="checklistbilder/kaffe.jpg" width="350x" height="260px" alt="admin"/></div>
     </div>
 
     <div class="col-2-12">
@@ -125,6 +125,69 @@
           </div>
     </div>
 
+
+    <div class="col-4-12">
+           <div class="tekstOmrade"></br>Be om ketchup</div>
+    </div>
+
+    <div class="col-6-12">
+           <div class="bildeOmrade"><img src="checklistbilder/ketchup.jpg" width="500x" height="260px" alt="admin"/></div>
+    </div>
+
+    <div class="col-2-12">
+          <div class="stegOmrade">
+            <input type="checkbox" id="checkbox-1-5" class="sjekkBoksDagsplan" name="middag" /><label for="checkbox-1-5"></label>
+            
+          </div>
+    </div>
+
+
+    <div class="col-4-12">
+           <div class="tekstOmrade bakgrunnSkille"></br>Hent sugerør</div>
+    </div>
+
+    <div class="col-6-12">
+           <div class="bildeOmrade bakgrunnSkille"><img src="checklistbilder/sugeror.jpg" width="350x" height="260px" alt="admin"/></div>
+    </div>
+
+    <div class="col-2-12">
+          <div class="stegOmrade bakgrunnSkille">
+            <input type="checkbox" id="checkbox-1-6" class="sjekkBoksDagsplan" name="middag" /><label for="checkbox-1-6"></label>
+            
+          </div>
+    </div>
+
+
+    <div class="col-4-12">
+           <div class="tekstOmrade"></br>Hent serviett</div>
+    </div>
+
+    <div class="col-6-12">
+           <div class="bildeOmrade"><img src="checklistbilder/servi.jpg" width="350x" height="260px" alt="admin"/></div>
+    </div>
+
+    <div class="col-2-12">
+          <div class="stegOmrade">
+            <input type="checkbox" id="checkbox-1-7" class="sjekkBoksDagsplan" name="middag" /><label for="checkbox-1-7"></label>
+            
+          </div>
+    </div>
+
+
+    <div class="col-4-12">
+           <div class="tekstOmrade bakgrunnSkille"></br>Bestill kaffe</div>
+    </div>
+
+    <div class="col-6-12"> 
+           <div class="bildeOmrade bakgrunnSkille"><img src="checklistbilder/kaffe.jpg" width="350x" height="260px" alt="admin"/></div>
+    </div>
+
+    <div class="col-2-12">
+          <div class="stegOmrade bakgrunnSkille">
+            <input type="checkbox" id="checkbox-1-8" class="sjekkBoksDagsplan" name="middag" /><label for="checkbox-1-8"></label>
+            
+          </div>
+    </div>
 
 
 

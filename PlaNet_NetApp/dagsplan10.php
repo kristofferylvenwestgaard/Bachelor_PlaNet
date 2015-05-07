@@ -109,9 +109,7 @@
 
 	     			<a href="dagsplan14.php" class="submit btn btn-xl btn-danger sharp" type="button">14</button></a>
 
-	     			<a href="dagsplan15.php" class="submit btn btn-xl btn-danger sharp" type="button">15</button></a>
-
-	     			<a href="dagsplan16.php" class="submit btn btn-xl btn-danger sharp" type="button">16</button></a>
+	     		
 	     	</div>
 	     </div>
 	

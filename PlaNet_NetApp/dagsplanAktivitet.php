@@ -35,13 +35,13 @@
 	</div>
 <div class = "container">
     <div class="col-2-12">
-           <div id="dagIdagsPlan">Fredag</div>
+           <div id="dagIAkt">Fredag</div>
     </div>
     <div class="col-8-12">
-           <div class="aktivitetNavn">Hente burger</div>
+           <div class="aktivitetNavnAktivitet">Kaste søppel</div>
     </div>
     <div class="col-2-12">
-           <div class="stegTittel"></div>
+           <div class="hoyreBoks"></div>
     </div>
 </div>
 
@@ -59,15 +59,20 @@
 		</div>
 
 	<div class=" containerSjekkliste dpBoks">
-	<div class="col-4-12">
-           <div class="tekstOmrade"></br>Hente Whopper Burger (bestilt i WooperLab)</div>
-    </div>
+	
+	           		
+	           		<div class "col-1-1">
+	           			<div class="aktBilde">
+	           			<img src="checklistbilder/soppel.jpg" width="400px" height="350px" alt="admin"/></a>
+	           			</div>
+	           		</div>
 
-    <div class="col-6-12">
-           <div class="bildeOmrade"><img src="checklistbilder/whopper.jpg" width="400px" height="260px" alt="admin"/></div>
-    </div>
+					<div class "col-1-1">
+						<div class="akttekst">
+							Kast søppelet fra Burger King
+						</div>
+	           		</div>
 
-    
 
     <div class="col-12-12">
           <div class="stegOmrade">
@@ -75,9 +80,6 @@
             
           </div>
     </div>
-
-
-    
 
 
 

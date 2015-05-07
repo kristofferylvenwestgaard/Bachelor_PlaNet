@@ -72,17 +72,21 @@
 	     	<div class="dagsChecklist">
 
 	     			<!--HYPERLINKS TIL NESTE HANDLINGSSTEG!-->
-	     			<input class="submit btn btn-xl btn-block btn-success sharp" type="submit" value="1" name="check"/>
+	     			<a href="index.php" class="submit btn btn-xl btn-success sharp" type="button">1</button></a>
 
-	     			<input class="submit btn btn-xl btn-block btn-success sharp" type="submit" value="✓" name="check"/>
-	     		
-	     			<input class="submit btn btn-xl btn-block btn-success sharp" type="submit" value="3" name="check"/>
-	     		
-	     			<input class="submit btn btn-xl btn-block btn-success sharp" type="submit" value="4" name="check"/>
+	     			<a href="index.php" class="submit btn btn-xl btn-success sharp" type="button">1</button></a>
 
-	     			<input class="submit btn btn-xl btn-block btn-success sharp" type="submit" value="5" name="check"/>
-	     		
-	     			<input class="submit btn btn-xl btn-block btn-success sharp" type="submit" value="6" name="check"/>
+	     			<a href="index.php" class="submit btn btn-xl btn-success sharp" type="button">1</button></a>
+
+	     			<a href="index.php" class="submit btn btn-xl btn-success sharp" type="button">1</button></a>
+
+	     			<a href="index.php" class="submit btn btn-xl btn-success sharp" type="button">1</button></a>
+
+	     			<a href="index.php" class="submit btn btn-xl btn-success sharp" type="button">1</button></a>
+
+	     			<a href="index.php" class="submit btn btn-xl btn-success sharp" type="button">1</button></a>
+
+	     			<a href="index.php" class="submit btn btn-xl btn-success sharp" type="button">1</button></a>
 	     	</div>
 	     </div>
 	

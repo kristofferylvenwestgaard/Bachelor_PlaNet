@@ -190,18 +190,11 @@
     </div>
 
 
-     <div class="col-4-12">
-          
-    </div>
+  
 
-    <div class="col-6-12"> 
-           
-    </div>
-
-    <div class="col-2-12">
+    <div class="col-12-12">
           <div class="stegOmrade">
-            
-            <a href="index.php" class="btn btn-xl btn-success sharp" type="button">Ferdig</button></a>
+            <a href="index.php" class="btn btn-success btn-overHele sharp" type="button">Ferdig</button></a>
             
           </div>
     </div>

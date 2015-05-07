@@ -163,7 +163,7 @@
     </div>
 
     <div class="col-6-12">
-           <div class="bildeOmrade"><img src="checklistbilder/servi.jpg" width="350x" height="260px" alt="admin"/></div>
+           <div class="bildeOmrade"><img src="checklistbilder/servi.jpg" width="300" height="260px" alt="admin"/></div>
     </div>
 
     <div class="col-2-12">

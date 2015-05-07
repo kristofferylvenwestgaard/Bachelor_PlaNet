@@ -38,7 +38,7 @@
            <div id="dagIdagsPlan">Fredag</div>
     </div>
     <div class="col-8-12">
-           <div class="aktivitetNavn">Bestille burger</div>
+           <div class="aktivitetNavn">Bestill burger</div>
     </div>
     <div class="col-2-12">
            <div class="stegTittel">Steg</div>

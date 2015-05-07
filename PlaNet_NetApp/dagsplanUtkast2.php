@@ -48,7 +48,7 @@
 <div class = "container">
 	
 		<div class="col-2-12">
-				<div id="torsdag">
+				<div id="fredag">
 					<?php	
 						hentAktivitet();
 						//LEGGE TIL KNAPP FOR Å VELGE HVILKEN AKTIVITET MAN SKAL GJENNOMFØRE?
@@ -175,16 +175,33 @@
 
 
     <div class="col-4-12">
-           <div class="tekstOmrade bakgrunnSkille"></br>Bestill kaffe</div>
+           <div class="tekstOmrade bakgrunnSkille"></br>Hent salt og pepper</div>
     </div>
 
     <div class="col-6-12"> 
-           <div class="bildeOmrade bakgrunnSkille"><img src="checklistbilder/kaffe.jpg" width="350x" height="260px" alt="admin"/></div>
+           <div class="bildeOmrade bakgrunnSkille"><img src="checklistbilder/salt.jpg" width="350x" height="260px" alt="admin"/></div>
     </div>
 
     <div class="col-2-12">
           <div class="stegOmrade bakgrunnSkille">
             <input type="checkbox" id="checkbox-1-8" class="sjekkBoksDagsplan" name="middag" /><label for="checkbox-1-8"></label>
+            
+          </div>
+    </div>
+
+
+     <div class="col-4-12">
+          
+    </div>
+
+    <div class="col-6-12"> 
+           
+    </div>
+
+    <div class="col-2-12">
+          <div class="stegOmrade">
+            
+            <a href="index.php" class="btn btn-xl btn-success sharp" type="button">Ferdig</button></a>
             
           </div>
     </div>

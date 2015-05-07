@@ -61,6 +61,18 @@
 	           <div class="grid">
 	           		<div class="dagsplanBoks">
 	           		
+	           		<div class "col-1-1">
+	           			<div class="handBilde">
+	           				<img src="handlingskjedebilder/ValgBrød.png" width="500px" height="140px" alt="5"/></a>
+	           			</div>
+	           		</div>
+
+					<div class "col-1-1">
+						<div class="handTekst">
+							Velg hvilken type brød du vil ha!
+						</div>
+	           		</div>
+
 	           		<!--STATISK INFORMASJON IFMA HTML CSS-->
 	           		<!--HANDLINGSKJEDESTEG!-->
 

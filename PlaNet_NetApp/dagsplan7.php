@@ -61,6 +61,18 @@
 	           <div class="grid">
 	           		<div class="dagsplanBoks">
 	           		
+	           		<div class "col-1-1">
+	           			<div class="handBilde">
+	           				<img src="handlingskjedebilder/ValgGarnityr.png" width="600px" height="200px" alt="7"/></a>
+	           			</div>
+	           		</div>
+
+					<div class "col-1-1">
+						<div class="handTekst">
+							Velg hvilket garnityr du vil ha!
+						</div>
+	           		</div>	
+
 	           		<!--STATISK INFORMASJON IFMA HTML CSS-->
 	           		<!--HANDLINGSKJEDESTEG!-->
 

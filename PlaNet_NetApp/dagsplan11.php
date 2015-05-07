@@ -61,6 +61,18 @@
 	           <div class="grid">
 	           		<div class="dagsplanBoks">
 	           		
+	           		<div class "col-1-1">
+	           			<div class="handBilde">
+	           				<img src="handlingskjedebilder/ValgHentested.png" alt="11"/></a>
+	           			</div>
+	           		</div>
+
+					<div class "col-1-1">
+						<div class="handTekst">
+							Velg Ullevål!
+						</div>
+	           		</div>
+
 	           		<!--STATISK INFORMASJON IFMA HTML CSS-->
 	           		<!--HANDLINGSKJEDESTEG!-->
 

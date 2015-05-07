@@ -61,6 +61,18 @@
 	           <div class="grid">
 	           		<div class="dagsplanBoks">
 	           		
+	           		<div class "col-1-1">
+	           			<div class="handBilde">
+	           				<img src="handlingskjedebilder/GåVidere.png" width="600px" height="200px" alt="9"/></a>
+	           			</div>
+	           		</div>
+
+					<div class "col-1-1">
+						<div class="handTekst">
+							Klikk på "Gå videre"!
+						</div>
+	           		</div>
+
 	           		<!--STATISK INFORMASJON IFMA HTML CSS-->
 	           		<!--HANDLINGSKJEDESTEG!-->
 

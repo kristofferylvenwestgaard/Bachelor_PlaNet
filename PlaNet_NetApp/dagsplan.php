@@ -63,13 +63,13 @@
 	           		
 	           		<div class "col-1-1">
 	           			<div class="handBilde">
-	           			<a href="admin.php"><img src="img/admin1.png" width="45px" height="45px" alt="admin"/></a>
+	           				<img src="handlingskjedebilder/1.png" width="500px" height="100px" alt="1"/></a>
 	           			</div>
 	           		</div>
 
 					<div class "col-1-1">
 						<div class="handTekst">
-							test
+							Besøk www.whopperlab.no, via din nettleser!
 						</div>
 	           		</div>
 

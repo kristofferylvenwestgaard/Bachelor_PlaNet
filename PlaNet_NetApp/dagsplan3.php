@@ -61,6 +61,18 @@
 	           <div class="grid">
 	           		<div class="dagsplanBoks">
 	           		
+	           		<div class "col-1-1">
+	           			<div class="handBilde">
+	           				<img src="handlingskjedebilder/innlogging.png"alt="3"/></a>
+	           			</div>
+	           		</div>
+
+					<div class "col-1-1">
+						<div class="handTekst">
+							Logg inn på whopperlab med mobilnummer: 96207239 og PIN-kode: 1161
+						</div>
+	           		</div>
+
 	           		<!--STATISK INFORMASJON IFMA HTML CSS-->
 	           		<!--HANDLINGSKJEDESTEG!-->
 

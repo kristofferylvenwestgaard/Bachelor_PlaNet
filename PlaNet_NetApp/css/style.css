@@ -194,6 +194,17 @@
 	opacity: 0.3;
 }
 
+.opacityEnkeltAktivitet
+{
+	/*OPACITY EFFEKT UKEKOVERSIKT!*/
+	height:99px;
+	position:relative;
+	background-color: black;
+	z-index: 2;
+	top:0px;
+	opacity: 0.3;
+}
+
 #mandag
 {
 	height:600px;

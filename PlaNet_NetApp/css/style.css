@@ -16,6 +16,7 @@
 	width:1200px;
 }
 
+
 [class*='col-'] {
 	float: left;
 	padding-right: 0px; /* column-space */
@@ -1181,7 +1182,7 @@ position: relative;
 	border-left: 0px;
 	font-family:'Open Sans';
 	overflow-y: scroll;
-	overflow-x: initial;
+	overflow-x: hidden;
 	
 
 }

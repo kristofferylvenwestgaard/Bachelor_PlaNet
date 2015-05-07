@@ -58,7 +58,7 @@
 				</div>
 		</div>
 
-	<div class=" container dpBoks">
+	<div class=" containerSjekkliste dpBoks">
 	<div class="col-4-12">
            <div class="tekstOmrade"></br>Hente Whopper Burger (bestilt i WooperLab)</div>
     </div>

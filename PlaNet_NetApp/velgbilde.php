@@ -16,15 +16,15 @@
 	<form action="add_aktivitet_step1.php" method="post">
 		<div class="bilderamme">
 			<div class="col-1-4">
-			<input type="checkbox" id="checkbox-1-1" class="input_check_dinner" name="middag" /><label for="checkbox-1-1"></label>
+			<input type="checkbox" id="checkbox-1-1" class="input_check_bestillmat" name="bestillmat" /><label for="checkbox-1-1"></label>
 			</div>
 		
 			<div class="col-1-4">
-				<input type="checkbox" id="checkbox-1-2" class="input_check_skole" name="skole" /><label for="checkbox-1-2"></label>
+				<input type="checkbox" id="checkbox-1-2" class="input_check_hentmat" name="hentmat" /><label for="checkbox-1-2"></label>
 			</div>
 		
 			<div class="col-1-4">
-				<input type="checkbox" id="checkbox-1-3" class="input_check_tv" name="tv" /><label for="checkbox-1-3"></label>
+				<input type="checkbox" id="checkbox-1-3" class="input_check_soppel" name="soppel" /><label for="checkbox-1-3"></label>
 			</div>
 		
 			<div class="col-1-4">

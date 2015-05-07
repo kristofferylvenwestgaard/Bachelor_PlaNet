@@ -1501,20 +1501,20 @@ position: relative;
 }
 
 
-.input_check_dinner
+.input_check_bestillmat
 {
     display: none;
     
 }
 
 
-.input_check_dinner + label
+.input_check_bestillmat + label
 {
 
 margin-left:0px;
 height:175px; /*Størrelse checkbox */
  width:175px;
-background: url(../../Database/dinner.gif);
+background: url(../../Database/BurgerKing_aktivitet1.jpg);
 background-size: 175px 135px; /*Størrelse bilde i checkbox */
 background-position: center;
 background-repeat:no-repeat, repeat-x;
@@ -1527,11 +1527,11 @@ position: relative;
 }
 
 
-.input_check_dinner + label:active, .regular-checkbox:checked + label:active {
+.input_check_bestillmat + label:active, .regular-checkbox:checked + label:active {
 box-shadow: inset 0px 2px 2px rgba(0, 0, 0, .3);
 border-radius: 30px;
 }
-.input_check_dinner:checked + label {
+.input_check_bestillmat:checked + label {
 background-color: #fff;
 border: 1px solid #adb8c0;
 box-shadow: inset 0px 2px 2px rgba(0, 0, 0, .3);
@@ -1540,7 +1540,7 @@ color: #99a1a7;
 }
 
 
-.input_check_dinner:checked + label:after {
+.input_check_bestillmat:checked + label:after {
 content: '\2714';
 font-size: 185px; /*størrelse på V check tegn */
 position: absolute;
@@ -1550,7 +1550,7 @@ color: #3f3f3f; /*Setter farge på V tegn etter checked */
 }
 
 
-.input_check_dinner + label {
+.input_check_bestillmat + label {
 background-color: #fff; /* Setter frage på boxen før check */
 border: 1px solid #cacece;
 box-shadow: inset 0px 2px 2px rgba(0, 0, 0, .3);
@@ -1565,20 +1565,20 @@ position: relative;
 
 
 
-.input_check_skole
+.input_check_hentmat
 {
     display: none;
     
 }
 
 
-.input_check_skole + label
+.input_check_hentmat + label
 {
 
 margin-left:0px;
 height:175px; /*Størrelse checkbox */
  width:175px;
-background: url(../../Database/skole.jpg);
+background: url(../../Database/Ullevål_BurgerKing_aktivitet2.jpg);
 background-size: 175px 135px; /*Størrelse bilde i checkbox */
 background-position: center;
 background-repeat:no-repeat, repeat-x;
@@ -1591,11 +1591,11 @@ position: relative;
 }
 
 
-.input_check_skole + label:active, .regular-checkbox:checked + label:active {
+.input_check_hentmat + label:active, .regular-checkbox:checked + label:active {
 box-shadow: inset 0px 2px 2px rgba(0, 0, 0, .3);
 border-radius: 30px;
 }
-.input_check_skole:checked + label {
+.input_check_hentmat:checked + label {
 background-color: #fff;
 border: 1px solid #adb8c0;
 box-shadow: inset 0px 2px 2px rgba(0, 0, 0, .3);
@@ -1604,7 +1604,7 @@ color: #99a1a7;
 }
 
 
-.input_check_skole:checked + label:after {
+.input_check_hentmat:checked + label:after {
 content: '\2714';
 font-size: 185px; /*størrelse på V check tegn */
 position: absolute;
@@ -1614,7 +1614,7 @@ color: #3f3f3f; /*Setter farge på V tegn etter checked */
 }
 
 
-.input_check_skole + label {
+.input_check_hentmat + label {
 background-color: #fff; /* Setter frage på boxen før check */
 border: 1px solid #cacece;
 box-shadow: inset 0px 2px 2px rgba(0, 0, 0, .3);
@@ -1628,21 +1628,21 @@ position: relative;
 
 
 
-.input_check_tv
+.input_check_soppel
 {
     display: none;
     
 }
 
 
-.input_check_tv + label
+.input_check_soppel + label
 {
 
 margin-left:0px;
 height:175px; /*Størrelse checkbox */
  width:175px;
 
-background: url(../../Database/tv.jpg);
+background: url(../../Database/søppel_aktiviet3.jpg);
 background-size: 175px 135px; /*Størrelse bilde i checkbox */
 background-position: center;
 background-repeat:no-repeat, repeat-x;
@@ -1655,11 +1655,11 @@ position: relative;
 }
 
 
-.input_check_tv + label:active, .regular-checkbox:checked + label:active {
+.input_check_soppel + label:active, .regular-checkbox:checked + label:active {
 box-shadow: inset 0px 2px 2px rgba(0, 0, 0, .3);
 border-radius: 30px;
 }
-.input_check_tv:checked + label {
+.input_check_soppel:checked + label {
 background-color: #fff;
 border: 1px solid #adb8c0;
 box-shadow: inset 0px 2px 2px rgba(0, 0, 0, .3);
@@ -1668,7 +1668,7 @@ color: #99a1a7;
 }
 
 
-.input_check_tv:checked + label:after {
+.input_check_soppel:checked + label:after {
 content: '\2714';
 font-size: 185px; /*størrelse på V check tegn */
 position: absolute;
@@ -1678,7 +1678,7 @@ color: #3f3f3f; /*Setter farge på V tegn etter checked */
 }
 
 
-.input_check_tv + label {
+.input_check_soppel + label {
 background-color: #fff; /* Setter frage på boxen før check */
 border: 1px solid #cacece;
 box-shadow: inset 0px 2px 2px rgba(0, 0, 0, .3);

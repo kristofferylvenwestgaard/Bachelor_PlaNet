@@ -197,7 +197,7 @@
             	         
             	            echo $row["aktivitetNavn"]."";
             	    ?>
-            	            <img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
+            	            <img src="../Database/BurgerKing_aktivitet1.jpg" alt="whopper" width="130px" height="60px"/>
            		    </div>
             	<?php
         		}
@@ -237,7 +237,7 @@
             	         
             	            echo $row["aktivitetNavn"]."";
             	   		?>
-            	            <img src="../Database/skole.jpg" alt="skole" width="130px" height="60px"/>
+            	            <img src="../Database/Ullevål_BurgerKing_aktivitet2.jpg" alt="ullevålBK" width="130px" height="60px"/>
            		    </div>
             	<?php
         		}
@@ -277,7 +277,7 @@
             	         
             	            echo $row["aktivitetNavn"]."";
             	   		?>
-            	            <img src="../Database/tv.jpg" alt="tv" width="130px" height="60px"/>
+            	            <img src="../Database/søppel_aktiviet3.jpg" alt="søppel" width="130px" height="60px"/>
            		    </div>
             	<?php
         		}
@@ -428,7 +428,7 @@
             	    		     
             	    		        echo $row["aktivitetNavn"]."";
             	    		?>
-            	            <img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
+            	            <img src="../Database/BurgerKing_aktivitet1.jpg" alt="whopper" width="130px" height="60px"/>
            		  		</div>
            		   </a>
             	<?php
@@ -470,7 +470,7 @@
             	         
             	            echo $row["aktivitetNavn"]."";
             	   		?>
-            	            <img src="../Database/skole.jpg" alt="skole" width="130px" height="60px"/>
+            	            <img src="../Database/Ullevål_BurgerKing_aktivitet2.jpg" alt="ullevålBK" width="130px" height="60px"/>
            		    </div>
            			</a>
             	<?php
@@ -512,7 +512,7 @@
             	         
             	            echo $row["aktivitetNavn"]."";
             	   		?>
-            	            <img src="../Database/tv.jpg" alt="tv" width="130px" height="60px"/>
+            	            <img src="../Database/søppel_aktiviet3.jpg" alt="søppel" width="130px" height="60px"/>
            		    </div>
            		</a>
             	<?php

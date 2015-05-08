@@ -395,7 +395,7 @@
         		{
         		?>
          			<!--Oppretter en html section i aktivitetsvindu hvor aktivitetene vil listes ut.-->
-            	    <a href="dagsplan.php">
+            	    <a class="inAppLinks" href="dagsplan.php">
             	    	<div class="activity">
             	    		<?php
             	    		//IF TESTER SOM SJEKKER FARGEID OPP MOT VALGT FARGE OG GIR INDEX SIDENS AKTIVITETER 
@@ -438,7 +438,7 @@
         		{
         		?>
          			<!--Oppretter en html section i aktivitetsvindu hvor aktivitetene vil listes ut.-->
-            	    <a href="dagsplanUtkast2.php">
+            	    <a class="inAppLinks" href="dagsplanUtkast2.php">
             	    <div class="activity">
 						<?php
 						//IF TESTER SOM SJEKKER FARGEID OPP MOT VALGT FARGE OG GIR INDEX SIDENS AKTIVITETER 
@@ -480,7 +480,7 @@
         		{
         			?>
          			<!--Oppretter en html section i aktivitetsvindu hvor aktivitetene vil listes ut.-->
-            	    <a href="dagsplanAktivitet.php">
+            	    <a class="inAppLinks" href="dagsplanAktivitet.php">
             	    <div class="activity">
 						<?php
 						//IF TESTER SOM SJEKKER FARGEID OPP MOT VALGT FARGE OG GIR INDEX SIDENS AKTIVITETER 

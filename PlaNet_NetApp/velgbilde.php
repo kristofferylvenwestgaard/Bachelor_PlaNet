@@ -34,7 +34,7 @@
 		<div class="col-1-1">
 			<div id="velgbildeLagre">
 			<!--<input type="submit" value="Lagre" name="tilbake"/> -->
-			<input class="submit btn btn-large btn-outline" type="submit" value="Lagre" name="tilbake"/>
+			<input class="submit btn btn-large btn-outline sharp" type="submit" value="Lagre" name="tilbake"/>
 			</div>
 		</div>
 	</div>

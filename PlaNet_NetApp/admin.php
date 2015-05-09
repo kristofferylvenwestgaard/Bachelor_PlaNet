@@ -83,7 +83,8 @@
 						</br>
 						<br/>
 
-						<a href="index.php" class="btn btn-large btn-outline sharp" type="button">← Tilbake</button></a>
+						<a class="btn btn-large btn-outline sharp" href="admin.php">
+  						<i class="fa fa-arrow-left"></i> Tilbake</a>
 					
 					</div>
 				</div>

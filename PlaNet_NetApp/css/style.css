@@ -2332,7 +2332,7 @@ button.close {
 .btn-dobbelxl {
   padding: 30px 89px;
   font-size: 35px;
-  margin-top: 2px;
+  margin-top: 28px;
   
   
   -webkit-border-radius: 6px;
@@ -2428,7 +2428,7 @@ input[type="button"].btn-block {
 }
 
 .btn-primary {
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   background-color: #347AB8;
   *background-color: #347AB8;
@@ -2436,7 +2436,7 @@ input[type="button"].btn-block {
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#347AB8), to(#347AB8));
   background-image: -webkit-linear-gradient(top, #347AB8, #347AB8);
   background-image: -o-linear-gradient(top, #347AB8, #347AB8);
-  background-image: linear-gradient(to bottom, #347AB8, #347AB8);
+  background-image: linear-gradient(to bottom, #6897b0, #6897b0);
   background-repeat: repeat-x;
   border-color: #0044cc #0044cc #002a80;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
@@ -2452,7 +2452,7 @@ input[type="button"].btn-block {
 .btn-primary[disabled]
  {
   color: #ffffff;
-  background-color: #006599;
+  background-color: #6897b0;
   *background-color: #006599;
 }
 
@@ -2470,7 +2470,7 @@ input[type="button"].btn-block {
 }
 
 .btn-warning {
-  color: #ffffff;
+  color: #ffffff !important;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   background-color: #faa732;
   *background-color: #f89406;
@@ -2478,7 +2478,7 @@ input[type="button"].btn-block {
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fbb450), to(#f89406));
   background-image: -webkit-linear-gradient(top, #fbb450, #f89406);
   background-image: -o-linear-gradient(top, #fbb450, #f89406);
-  background-image: linear-gradient(to bottom, #fbb450, #f89406);
+  background-image: linear-gradient(to bottom, #f0774c, #f0774c);
   background-repeat: repeat-x;
   border-color: #f89406 #f89406 #ad6704;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
@@ -2493,7 +2493,7 @@ input[type="button"].btn-block {
 .btn-warning.disabled,
 .btn-warning[disabled] {
   color: #ffffff;
-  background-color: #f89406;
+  background-color: #f0774c;
   *background-color: #df8505;
 }
 

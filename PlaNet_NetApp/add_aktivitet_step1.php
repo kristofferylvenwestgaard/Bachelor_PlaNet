@@ -18,13 +18,15 @@
 					<div class="inAppText">Legg til aktivitet:</div>
 					</div>
 				</div>
-				<div class="col-1-1">
+				<div class="col-1-1 draopp">
 					<div class="content">
 						<input class="input_text" type="text" placeholder="Aktivitetsnavn" name="aktivitetsnavn"/>
 							<!--<input class="input_text_small" type="text" placeholder="BildeId" name="bildeid"/>-->
-							<a href="velgbilde.php" class="btn btn-bilde btn-outline sharp" type="button">+Bilde</button></a>
+							<a href="velgbilde.php" class="btn btn-bilde btn-outline sharp" type="button"><i class="fa fa-plus-square-o"></i> Bilde</button></a>
 					</div>
 				</div>
+
+
 
 				<div class="col-1-1">
 					<div class="content">
@@ -32,7 +34,7 @@
 					<div class="inAppText">Gjenta aktivitet:</div> 
 					</div>
 				</div>
-				<div class="col-1-1">
+				<div class="col-1-1 draopp">
 					<div class="content">
 						<div id="mandag_gjenta">
 							<p class="formText">Ma</p><br/>
@@ -68,7 +70,7 @@
 
 								<!--DATO INPUT -->
 						
-							<div class="col-1-4">
+							<div class="col-1-4 draopp">
 								<div class="content">		
 										<div class="inAppText">
 											Dato <small>[valgfritt]:</small>
@@ -78,7 +80,7 @@
 							</div>
 						
 										<!--ALARM INPUT-->
-							<div class="col-1-4">
+							<div class="col-1-4 draopp">
 								<div class="content">		
 										<div class="inAppText">
 											Alarm <small>[valgfritt]:</small>
@@ -96,7 +98,7 @@
 							</div>
 					</div>
 					</div>
-					<div class="col-1-1">
+					<div class="col-1-1 draopp">
 						<div class="content">
 							<input type="checkbox" id="checkbox-1-1" class="redcheckbox" name="red" /><label for="checkbox-1-1"></label>
 							<input type="checkbox" id="checkbox-1-2" class="bluecheckbox" name="blue" /><label for="checkbox-1-2"></label>
@@ -143,6 +145,13 @@
 						</div>
 						<div id="personal_check">	
 							<p class="formText">Personalliste</p><br/>
+							<input class="input_check" type="checkbox" name="personalliste"/><br/>
+						</div>
+				</div>
+
+				<div class="col-1-1">
+						<div id="mnd_check">	
+							<p class="formText">Legg til i månedskalender</p><br/>
 							<input class="input_check" type="checkbox" name="personalliste"/><br/>
 						</div>
 						</div>

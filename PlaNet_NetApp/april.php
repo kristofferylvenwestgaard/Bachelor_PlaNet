@@ -12,12 +12,16 @@
     <div class="col-1-6">
         <div class="header">
             
-            <a id="ukemndknapper" href="index.php" class="btn btn-large btn-block btn-outline sharp" type="button">Uke</button></a>
+            <a id="ukemndknapper" href="index.php" class="btn btn-large btn-block btn-outline sharp" type="button">
+                <i class="fa fa-columns"></i>  Uke</button>
+            </a>
         </div>
     </div>
     <div class="col-1-6">
         <div class="header">
-            <a id="ukemndknapper" href="april.php" class="btn btn-large btn-block btn-outline sharp disabled" type="button">Måned</button></a>
+            <a id="ukemndknapper" href="index.php" class="btn btn-large btn-block btn-outline sharp disabled" type="button">
+                <i class="fa fa-calendar-o"></i>  Måned</button>
+            </a>
         </div>
     </div>
     <div class="col-1-3">
@@ -35,8 +39,8 @@
 <div class = "container">
     <div class="col-1-1">
            
-<div id="pilvenst"><a href="mai.php">&rarr;</a></div>
-<div id="pilhoy"><a href="mars.php">&larr;</a></div>
+<div id="pilvenst"><a href="mai.php"><i class="fa fa-long-arrow-right"></i></a></div>
+<div id="pilhoy"><a href="mars.php"><i class="fa fa-long-arrow-left"></i></a></div>
 
 
 <div class="tittel">April 2015</div>

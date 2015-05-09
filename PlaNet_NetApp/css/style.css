@@ -83,7 +83,7 @@
 	text-align:center;
 }
 
-#ukemndknapper
+.ukemndknapper
 {
 	padding-right:15px;
 	font-size: 16px;
@@ -905,17 +905,25 @@ a:visited
 #skype_check
 {
 
-	width:60px;
+	width:55px;
 	float:left;
-	margin-top: 15px;
+	margin-top: 8px;
 }
 
 #personal_check
 {
 
-	width:40px;
+	width:105px;
 	float:left;
-	margin-top: 15px;
+	margin-top: 8px;
+}
+
+#mnd_check
+{
+
+	text-transform: none;
+	float:left;
+	margin-top: 8px;
 }
 
 #submit
@@ -942,6 +950,11 @@ a:visited
 #alarmvalg
 {
 	float:right;
+}
+
+.draopp
+{
+	margin-bottom: -20px;
 }
 
 /*************ADD ATKVIVITET STEP 2 DEL 1-3 ***************/
@@ -2036,7 +2049,7 @@ select
 #lagreUkeMal
 {
 	margin-top: -45px;
-	margin-left: 945px;
+	margin-left: 900px;
 }
 
 #dropDownUke
@@ -2125,7 +2138,7 @@ select
 #lagreMndMal
 {
 	margin-top: -45px;
-	margin-left: 945px;
+	margin-left: 900px;
 }
 
 

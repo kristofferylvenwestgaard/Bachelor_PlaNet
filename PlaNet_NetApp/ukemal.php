@@ -10,16 +10,20 @@
 		</div>
 	</div>
 	<div class="col-1-6">
-		<div class="header">
-			
-			<a id="ukemndknapper" href="index.php" class="btn btn-large btn-block btn-outline sharp" type="button">Uke</button></a>
-		</div>
-	</div>
-	<div class="col-1-6">
-		<div class="header">
-			<a id="ukemndknapper" href="april.php" class="btn btn-large btn-block btn-outline sharp" type="button">Måned</button></a>
-		</div>
-	</div>
+		 <div class="header">
+            
+            <a id="ukemndknapper" href="index.php" class="btn btn-large btn-block btn-outline sharp" type="button">
+                <i class="fa fa-columns"></i>  Uke</button>
+            </a>
+        </div>
+    </div>
+    <div class="col-1-6">
+        <div class="header">
+            <a id="ukemndknapper" href="index.php" class="btn btn-large btn-block btn-outline sharp" type="button">
+                <i class="fa fa-calendar-o"></i>  Måned</button>
+            </a>
+        </div>
+    </div>
 	<div class="col-1-3">
 		<div class="header">
 			<!--Skal byttes ut med JS og Symbol!!!-->
@@ -152,12 +156,14 @@
 
 						<div class="col-1-1">
 							<div id="tilbakeUkeMal">
-								<a href="velgmaltype.php" class="btn btn-large btn-outline sharp" type="button">← Tilbake</button></a>
+								<a class="btn btn-large btn-outline sharp" href="velgmaltype.php">
+  						<i class="fa fa-arrow-left"></i> Tilbake</a>
 							</div>
 						</div>
 						<div class="col-1-1">
 							<div id="lagreUkeMal">
-								<a href="index.php" class="btn btn-large btn-outline sharp" type="button">Lagre</button></a>
+								<a class="btn btn-large btn-outline sharp" href="index.php">
+  								<i class="fa fa-floppy-o"></i> Lagre</a>
 							</div>
 						</div>
 

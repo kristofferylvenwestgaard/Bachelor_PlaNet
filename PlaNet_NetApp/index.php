@@ -12,12 +12,17 @@
 	<div class="col-1-6">
 		<div class="header">
 			
-			<a id="ukemndknapper" href="index.php" class="btn btn-large btn-block btn-outline sharp disabled" type="button">Uke</button></a>
+			<a id="ukemndknapper" href="index.php" class="btn btn-large btn-block btn-outline sharp disabled" type="button">
+				<i class="fa fa-columns"></i>  Uke</button>
+			</a>
 		</div>
 	</div>
 	<div class="col-1-6">
 		<div class="header">
-			<a id="ukemndknapper" href="mai.php" class="btn btn-large btn-block btn-outline sharp" type="button">Måned</button></a>
+			<a id="ukemndknapper" href="mai.php" class="btn btn-large btn-block btn-outline sharp" type="button">
+
+				<i class="fa fa-calendar-o"></i>  Måned</button>
+			</a>
 		</div>
 	</div>
 	<div class="col-1-3">

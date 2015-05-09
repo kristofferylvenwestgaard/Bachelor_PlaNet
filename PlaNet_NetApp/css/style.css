@@ -367,6 +367,7 @@
 {
 	font-family: 'Open Sans';
 	text-align: left;
+	margin-left: 25px;
 	margin-top: 40px;
 	margin-bottom: 10px;
 	font-size: 20px;
@@ -422,7 +423,7 @@ th
 {
     padding: 0 0.5em;
     text-align: center;
-    background-color:#F7F7F7;
+    background-color:#EEEEEE;
     color: #3f3f3f;
 }
 /* dager */
@@ -721,6 +722,63 @@ a:visited
 }
 
 
+#byttBrukerKnapp
+{
+	float: left;
+	margin-top: -171px;
+	border-radius: 4%;
+	margin-left: 180px;
+	font-size: 20px;
+	font-family: 'Open Sans';
+	color: #3f3f3f;
+    background: #EEEEEE url(../img/fjes.png);
+    background-repeat:no-repeat, repeat-x;
+    background-position: center 50px;
+    padding-left: 0px;
+    padding-top: 20px;
+    cursor:pointer;
+    border:solid;
+    border-width: 1px;
+    border-color: #e8e5e5;
+    width:170px;
+    height:170px;
+}
+
+
+#byttBrukerKnapp:hover {
+     background-color: #e0dede;
+     color: black;
+}
+
+#loggAvKnapp
+{
+	float: left;
+	margin-top: -171px;
+	border-radius: 4%;
+	margin-left: 360px;
+	font-size: 20px;
+	font-family: 'Open Sans';
+	color: #3f3f3f;
+    background: #EEEEEE url(../img/av3.png);
+    background-repeat:no-repeat, repeat-x;
+    background-position: center 50px;
+    padding-left: 0px;
+    padding-top: 20px;
+    cursor:pointer;
+    border:solid;
+    border-width: 1px;
+    border-color: #e8e5e5;
+    width:170px;
+    height:170px;
+}
+
+
+#loggAvKnapp:hover {
+     background-color: #e0dede;
+     color: black;
+}
+
+
 .inMalText
 {
 	/*VANLIG TEKST UTEN MARGINER PÅ VENSTRE SIDE!!! */
@@ -731,6 +789,69 @@ a:visited
 	margin-right: 100px;
 }
 
+
+#blanket {
+   background-color:#111;
+   opacity: 0.65;
+   *background:none;
+   position:absolute;
+   z-index: 9001;
+   top:0px;
+   left:0px;
+   width:100%;
+}
+
+#popUpDiv {
+	position:absolute;
+	background:url(pop-back.jpg) no-repeat;
+	width:400px;
+	height:400px;
+	border:5px solid #000;
+	z-index: 9002;
+}
+
+#popUpDiv a {position:relative; top:20px; left:20px}
+
+
+/**********login side************/
+#klokkeJust
+{
+	float: right;
+}
+
+#inLogTekst
+{
+	font-size: 55px;
+	font-family: 'Open Sans';
+	color: #3f3f3f;
+}
+
+.loginKor /**Justere boks**/
+{
+	margin-left: -6px;
+	
+}
+.loginBak
+{
+	background-color: #eee;
+	height: 165px;
+	width: 400px;
+	padding-left: 20px;
+	padding-top: 20px;
+	border-radius: 5px;
+}
+
+.loginKnapp 
+{
+	margin-top: 15px;
+	margin-left: 30px;
+}
+
+#loginTilbake
+{
+	margin-top: 230px;
+	margin-left: 30px;
+}
 
 /**********add_aktivitet_step1************/
 
@@ -764,6 +885,8 @@ a:visited
 	font-size: 15px;
 	padding-left:10px;
 }
+
+
 
 .input_dato
 {

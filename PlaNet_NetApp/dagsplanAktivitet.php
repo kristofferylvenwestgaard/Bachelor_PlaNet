@@ -46,13 +46,13 @@
            <div class="aktivitetNavnAktivitet">Kaste søppel</div>
     </div>
 		<div class="admincontent">
-			<div class= "col-1-2">
+			<div class= "col-3-4">
 	           			<div class="aktBilde">
-	           			<img src="checklistbilder/soppel.jpg" width="400px" height="350px" alt="admin"/></a>
+	           			<img src="checklistbilder/soppel2.jpg" width="750px" height="350px" alt="admin"/></a>
 	           			</div>
 	           		</div>
 
-					<div class= "col-1-2">
+					<div class= "col-1-4">
 						<div class="akttekst">
 							Kast søppelet fra Burger King
 						</div>

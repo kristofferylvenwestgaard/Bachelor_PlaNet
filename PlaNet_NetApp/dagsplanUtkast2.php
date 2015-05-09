@@ -196,10 +196,24 @@
 
   
 
-    <div class="col-12-12">
-          <div class="stegOmrade">
-            <a class="btn btn-success btn-overHele sharp" href="index.php">
-              <i class="fa fa-check-circle fa-3x"></i> Ferdig</a>
+        <div class="col-1-1">
+        <div class="col-1-3">
+                    
+                      <a class="btn btn-warning btn-dobbelxl btn-block sharp" href="index.php">
+                        <i class="fa fa-times"></i> Avbryt</a>
+
+              </div>
+
+      
+
+        
+        
+        <div class="col-2-3">
+            <a class="btn btn-primary btn-dobbelxl btn-block sharp" href="index.php">
+                        <i class="fa fa-check"></i> Ferdig</a>
+           
+        </div>
+        </div>
 
             
           

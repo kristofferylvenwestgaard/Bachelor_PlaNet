@@ -799,11 +799,13 @@ td
 a:link 
 {
     text-decoration: none;
+    color: #3f3f3f;
 }
 
 a:visited 
 {
     text-decoration: none;
+    color: #3f3f3f;
     
 }
 

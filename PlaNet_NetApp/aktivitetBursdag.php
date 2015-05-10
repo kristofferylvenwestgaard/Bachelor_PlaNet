@@ -53,7 +53,7 @@
 		<div class="admincontent">
 			<div class= "col-3-4">
 	           			<div class="aktBilde">
-	           			<img src="img/bursdag.jpg" width="750px" height="350px" alt="admin"/></a>
+	           			<img src="img/bursdag.jpg" width="720px" height="350px" alt="admin"/></a>
 	           			</div>
 	           		</div>
 

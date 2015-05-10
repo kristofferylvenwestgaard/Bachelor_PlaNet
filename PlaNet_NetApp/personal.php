@@ -66,178 +66,295 @@
 
 	<!--UKEDAGER MED AKTIVITETSVISNING-->
 	<div class="col-1-7">
-		<div class="opacity">
+		<div class="opacityPersonal">
 		</div>
-		<div id="mandag">
+		<div id="pmandag">
 			<?php
 				//listUtAktivitetUkeplan();
 			?>
 			<!--DUMMY INNHOLD!-->
+		<div class="persjonal">
+			<div class="personalFarge">
+			<strong>Morgen</strong></br>
+		</div>
+				Anita</br>
+				908 51 541
+				<div class="rundt">
+					<img src="img/pers1.jpg" alt="pers1" width="75px" height="75px"/>
+				</div>
+		</div>
+
+		<div class="persjonal">
+			<div class="personalFarge">
+			<strong>Formiddag</strong></br>
+			</div>
+				Joakim</br>
+				908 51 542
+				<div class="rundt">
+					<img src="img/pers2.jpg" alt="pers2" width="75px" height="75px"/>
+				</div>
+		</div>
+
+		<div class="persjonal">
+			<div class="personalFarge">
+			<strong>Kveld</strong></br>
+			</div>
+				Lise</br>
+				908 51 543
+				<div class="rundt">
+					<img src="img/pers3.jpg" alt="pers3" width="75px" height="75px"/>
+				</div>
+		</div>
+
+		</div>
+	</div>
+	<div class="col-1-7">
+		<div class="opacityPersonal">
+		</div>
+		<div id="ptirsdag">
+			<?php	
+				//listUtAktivitetUkeplan()
+			?>
+			<!--DUMMY INNHOLD!-->
+			<div class="persjonal">
+				<div class="personalFarge">
+			<strong>Morgen</strong></br>
+			</div>
+				Johan</br>
+				908 51 544
+				<div class="rundt">
+					<img src="img/pers4.jpg" alt="pers4" width="75px" height="75px"/>
+				</div>
+		</div>
+
+		<div class="persjonal">
+			<div class="personalFarge">
+			<strong>Formiddag</strong></br>
+			</div>
+				Kari</br>
+				908 51 542
+				<div class="rundt">
+					<img src="img/pers5.jpg" alt="pers5" width="75px" height="75px"/>
+				</div>
+		</div>
+
+		<div class="persjonal">
+			<div class="personalFarge">
+			<strong>Kveld</strong></br>
+			</div>
+				Anita</br>
+				908 51 541
+				<div class="rundt">
+					<img src="img/pers1.jpg" alt="pers1" width="75px" height="75px"/>
+				</div>
+		</div>
+		</div>
+	</div>
+	<div class="col-1-7">
+		<div class="opacityPersonal">
+		</div>
+		<div id="ponsdag">
+			<?php	
+				//listUtAktivitetUkeplan()
+			?>
+			<!--DUMMY INNHOLD!-->
+			<div class="persjonal">
+				<div class="personalFarge">
+			<strong>Morgen</strong></br>
+			</div>
+				Johan</br>
+				908 51 544
+				<div class="rundt">
+					<img src="img/pers4.jpg" alt="pers4" width="75px" height="75px"/>
+				</div>
+		</div>
+
+		<div class="persjonal">
+			<div class="personalFarge">
+			<strong>Formiddag</strong></br>
+			</div>
+				Kari</br>
+				908 51 545
+				<div class="rundt">
+					<img src="img/pers5.jpg" alt="pers5" width="75px" height="75px"/>
+				</div>
+		</div>
+
+		<div class="persjonal">
+			<div class="personalFarge">
+			<strong>Kveld</strong></br>
+			</div>
+				Petter</br>
+				908 51 546
+				<div class="rundt">
+					<img src="img/pers6.jpg" alt="pers6" width="75px" height="75px"/>
+				</div>
+		</div>
+		</div>
+	</div>
+	<div class="col-1-7">
+		<div class="opacityPersonal">
+		</div>
+		<div id="ptorsdag">
+			<!--DUMMY INNHOLD!-->
+			<div class="persjonal">
+				<div class="personalFarge">
+			<strong>Morgen</strong></br>
+			</div>
+				Anita</br>
+				908 51 541
+				<div class="rundt">
+					<img src="img/pers1.jpg" alt="pers1" width="75px" height="75px"/>
+				</div>
+		</div>
+
+		<div class="persjonal">
+			<div class="personalFarge">
+			<strong>Formiddag</strong></br>
+			</div>
+				Joakim</br>
+				908 51 542
+				<div class="rundt">
+					<img src="img/pers2.jpg" alt="pers2" width="75px" height="75px"/>
+				</div>
+		</div>
+
+		<div class="persjonal">
+			<div class="personalFarge">
+			<strong>Kveld</strong></br>
+			</div>
+				Lise</br>
+				908 51 543
+				<div class="rundt">
+					<img src="img/pers3.jpg" alt="pers3" width="75px" height="75px"/>
+				</div>
+		</div>
+		</div>
+	</div>
+	<div class="col-1-7">
+		<div id="pfredag">
+			<div class="persjonal">
+				<div class="personalFarge">
+			<strong>Morgen</strong></br>
+			</div>
+				Johan</br>
+				908 51 544
+				<div class="rundt">
+					<img src="img/pers4.jpg" alt="pers4" width="75px" height="75px"/>
+				</div>
+		</div>
+
+		<div class="persjonal">
+			<div class="personalFarge">
+			<strong>Formiddag</strong></br>
+			</div>
+				Kari</br>
+				908 51 542
+				<div class="rundt">
+					<img src="img/pers5.jpg" alt="pers5" width="75px" height="75px"/>
+				</div>
+		</div>
+
+		<div class="persjonal">
+			<div class="personalFarge">
+			<strong>Kveld</strong></br>
+			</div>
+				Lise</br>
+				908 51 546
+				<div class="rundt">
+					<img src="img/pers6.jpg" alt="pers6" width="75px" height="75px"/>
+				</div>
+		</div>
+		</div>
+	</div>
+	<div class="col-1-7">
+		<div class="opacityPersonal">
+		</div>
+		<div id="plordag">
+			<?php	
+				//listUtAktivitetUkeplan()
+			?>
+			<!--DUMMY INNHOLD!-->
+			<div class="persjonal">
+				<div class="personalFarge">
+			<strong>Morgen</strong></br>
+			</div>
+				Anita</br>
+				908 51 541
+				<div class="rundt">
+					<img src="img/pers1.jpg" alt="pers1" width="75px" height="75px"/>
+				</div>
+		</div>
+
+		<div class="persjonal">
+			<div class="personalFarge">
+			<strong>Formiddag</strong></br>
+			</div>
+				Joakim</br>
+				908 51 542
+				<div class="rundt">
+					<img src="img/pers2.jpg" alt="pers2" width="75px" height="75px"/>
+				</div>
+		</div>
+
+		<div class="persjonal">
+			<div class="personalFarge">
+			<strong>Kveld</strong></br>
+			</div>
+				Lise</br>
+				908 51 543
+				<div class="rundt">
+					<img src="img/pers3.jpg" alt="pers3" width="75px" height="75px"/>
+				</div>
+		</div>
+		</div>
+	</div>
+	<div class="col-1-7">
+		<div class="opacityPersonal">
+		</div>
+		<div id="psondag">
+			<?php	
+				//listUtAktivitetUkeplan()
+			?>
+			<!--DUMMY INNHOLD!-->
+			<div class="persjonal">
+			<div class="personalFarge">
+			<strong>Morgen</strong></br>
+			</div>
 		
+				Kari</br>
+				908 51 542
+				<div class="rundt">
+					<img src="img/pers5.jpg" alt="pers4" width="75px" height="75px"/>
+				</div>
+		</div>
+
+		<div class="persjonal">
+			<div class="personalFarge">
+			<strong>Formiddag</strong></br>
+			</div>
+				Johan</br>
+				908 51 544
+				<div class="rundt">
+					<img src="img/pers4.jpg" alt="pers5" width="75px" height="75px"/>
+				</div>
+		</div>
+
+		<div class="persjonal">
+			<div class="personalFarge">
+			<strong>Kveld</strong></br>
+			</div>
+				Lise</br>
+				908 51 546
+				<div class="rundt">
+					<img src="img/pers6.jpg" alt="pers6" width="75px" height="75px"/>
+				</div>
 		</div>
 	</div>
-	<div class="col-1-7">
-		<div class="opacity">
-		</div>
-		<div id="tirsdag">
-			<?php	
-				//listUtAktivitetUkeplan()
-			?>
-			<!--DUMMY INNHOLD!-->
-			<div class="activity">
-				<div class="bluecode"></div>
-				Puss tenner
-				<img src="../Database/skole.jpg" alt="middag" width="130px" height="60px"/>
-			</div>
-			<div class="activity">
-				<div class="redcode"></div>
-				Frokost
-				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
-			</div>
-			<div class="activity">
-				<div class="greencode"></div>
-				Trening
-				<img src="../Database/skole.jpg" alt="middag" width="130px" height="60px"/>
-			</div>
-			<div class="activity">
-				<div class="redcode"></div>
-				Lunch
-				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
-			</div>
-			<div class="activity">
-				<div class="blackcode"></div>
-				Middag
-				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
-			</div>
-		</div>
-	</div>
-	<div class="col-1-7">
-		<div class="opacity">
-		</div>
-		<div id="onsdag">
-			<?php	
-				//listUtAktivitetUkeplan()
-			?>
-			<!--DUMMY INNHOLD!-->
-			<div class="activity">
-				<div class="blackcode"></div>
-				Puss tenner
-				<img src="../Database/skole.jpg" alt="middag" width="130px" height="60px"/>
-			</div>
-			<div class="activity">
-				<div class="greencode"></div>
-				Frokost
-				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
-			</div>
-			<div class="activity">
-				<div class="redcode"></div>
-				Lunch
-				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
-			</div>
-			<div class="activity">
-				<div class="blackcode"></div>
-				Middag
-				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
-			</div>
-		</div>
-	</div>
-	<div class="col-1-7">
-		<div class="opacity">
-		</div>
-		<div id="torsdag">
-			<!--DUMMY INNHOLD!-->
-			<div class="activity">
-				<div class="bluecode"></div>
-				Puss tenner
-				<img src="../Database/skole.jpg" alt="middag" width="130px" height="60px"/>
-			</div>
-			<div class="activity">
-				<div class="redcode"></div>
-				Frokost
-				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
-			</div>
-			<div class="activity">
-				<div class="redcode"></div>
-				Lunch
-				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
-			</div>
-			<div class="activity">
-				<div class="blackcode"></div>
-				Middag
-				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
-			</div>
-		</div>
-	</div>
-	<div class="col-1-7">
-		<div id="fredag">
-			<?php	
-				listUtAktivitetUkeplan()
-			?>
-		</div>
-	</div>
-	<div class="col-1-7">
-		<div class="opacity">
-		</div>
-		<div id="lordag">
-			<?php	
-				//listUtAktivitetUkeplan()
-			?>
-			<!--DUMMY INNHOLD!-->
-			<div class="activity">
-				<div class="bluecode"></div>
-				Puss tenner
-				<img src="../Database/skole.jpg" alt="middag" width="130px" height="60px"/>
-			</div>
-			<div class="activity">
-				<div class="redcode"></div>
-				Frokost
-				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
-			</div>
-			<div class="activity">
-				<div class="greencode"></div>
-				Trening
-				<img src="../Database/skole.jpg" alt="middag" width="130px" height="60px"/>
-			</div>
-			<div class="activity">
-				<div class="redcode"></div>
-				Lunch
-				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
-			</div>
-			<div class="activity">
-				<div class="blackcode"></div>
-				Middag
-				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
-			</div>
-		</div>
-	</div>
-	<div class="col-1-7">
-		<div class="opacity">
-		</div>
-		<div id="sondag">
-			<?php	
-				//listUtAktivitetUkeplan()
-			?>
-			<!--DUMMY INNHOLD!-->
-			<div class="activity">
-				<div class="blackcode"></div>
-				Puss tenner
-				<img src="../Database/skole.jpg" alt="middag" width="130px" height="60px"/>
-			</div>
-			<div class="activity">
-				<div class="greencode"></div>
-				Frokost
-				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
-			</div>
-			<div class="activity">
-				<div class="redcode"></div>
-				Lunch
-				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
-			</div>
-			<div class="activity">
-				<div class="blackcode"></div>
-				Middag
-				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
-			</div>
-		</div>
-	</div>
+	<div id="tilbakePersonal">
+		<a class="btn btn-large btn-warning sharp" href="bruker.php">
+  		<i class="fa fa-arrow-left"></i> Tilbake</a>
 </div>
+</div>
+</div>
+

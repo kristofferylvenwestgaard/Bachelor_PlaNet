@@ -37,7 +37,7 @@
 			<div class="col-1-1">
 				<div id="clock"></div>
 				<div id="admin">
-				<a href="admin.php"><img src="img/admin1.png" width="45px" height="45px" alt="admin"/></a>
+					<a href="admin.php"><i class="fa fa-cog fa-3x"></i></a>
 				</div>
 			</div>
 		</div>
@@ -63,8 +63,33 @@
 							Trykk på besøk WhopperLab.no
 						</div>
 	           		</div>
+
+	           		
+	           		<div class="col-1-8 stegAvSteg">
+	           			<div class="stegNr1">
+	           				2
+	           			</div>
+
+	           			<div class="slash">
+	           				/
+	           			</div>
+	           			
+	           			<div class="stegNr2">
+	           				14 
+	           			</div>
+
+
+	           		</div>
+	          </div>	
+
 	           		<div class="col-1-1">
-	           			<div id="handKnapperPos2">
+	           			<div id="barPos1">
+	           				<progress max="100" value="14"></progress>
+	           			</div>
+	           		</div>	
+
+	           		<div class="col-1-1">
+	           			<div id="handKnapperPos">
 								<div class="col-1-3">
 									   <a class="btn btn-warning btn-dobbelxl btn-block sharp" href="dagsplan.php">
 									       <i class="fa fa-arrow-left"></i> Tilbake</a>
@@ -76,7 +101,7 @@
 					 			</div>
 						</div>
 				</div>
-			</div>
+			
 		</div>
 	</div>
 </div>

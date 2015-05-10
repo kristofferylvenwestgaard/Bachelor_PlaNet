@@ -70,11 +70,11 @@
     						<input id="malerKnapp" type="submit" value="Velg fra maler">
 						</form>
 
-						<form action="index.php">
+						<form action="#">
     						<input id="rapportKnapp" type="submit" value="Rapportering">
 						</form>
 
-						<form action="index.php">
+						<form action="#">
     						<input id="motivasjonKnapp" type="submit" value="Motivasjon">
 						</form>
 

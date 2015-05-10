@@ -65,7 +65,7 @@
 	           		<div class="col-1-1">
 				<div class="col-1-3">
 					          
-					            <a class="btn btn-warning btn-dobbelxl btn-block sharp" href="index.php">
+					            <a class="btn btn-warning btn-dobbelxl btn-block sharp" href="mai.php">
 					              <i class="fa fa-times"></i> Avbryt</a>
 
 					    </div>

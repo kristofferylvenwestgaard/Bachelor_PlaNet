@@ -44,11 +44,11 @@
 <div class = "container">
     <div class="col-1-1">
            
-<div id="pilvenst"><a href="april.php"><i class="fa fa-long-arrow-right"></i></a></div>
-<div id="pilhoy"><a href="mars.php"><i class="fa fa-long-arrow-left"></i></a></div>
+<div id="pilvenst"><a href="#"><i class="fa fa-long-arrow-right"></i></a></div>
+<div id="pilhoy"><a href="mai.php"><i class="fa fa-long-arrow-left"></i></a></div>
 
 
-    <div class="tittel">Mars 2015</div>
+    <div class="tittel">Juni 2015</div>
     <table border="1">
     <tr><th>Man</th><th>Tir</th><th>Ons</th><th>Tor</th><th>Fre</th><th>Lør</th><th>Søn</th></tr>
     <tr><td><span class="dato">&nbsp;</span></td><td><span class="dato">&nbsp;</span></td><td><span class="dato">&nbsp;</span></td><td><span class="dato">&nbsp;</span></td><td><span class="dato">&nbsp;</span></td><td><span class="dato">&nbsp;</span></td><td><span class="dato">1</span></td></tr>

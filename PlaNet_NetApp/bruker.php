@@ -7,7 +7,7 @@
 	<div class="col-1-3">
 		<div class="header">
 			<h1 class="htext">
-				<a href=admin.php>
+				<a href=bruker.php>
 				<i class="fa fa-user"></i>
 				Terje
 			</a>
@@ -65,7 +65,7 @@
 						
 					
 
-						<form action="index.php">
+						<form action="#">
     						<input id="motivasjonKnappBruker" type="submit" value="Mål">
 						</form>
 

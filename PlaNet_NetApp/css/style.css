@@ -1789,14 +1789,144 @@ position: relative;
 } 
 
 
+progress[value] 
+{
+  -webkit-appearance: none;
+   appearance: none;
+ 
+  width: 1198px;
+  height: 25px;
+}
+
+progress[value]::-webkit-progress-bar 
+{
+  background-color: #eee;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+progress[value]::-webkit-progress-value 
+{
+  background-image:
+	   -webkit-linear-gradient(-45deg, 
+	                           transparent 33%, rgba(0, 0, 0, .1) 33%, 
+	                           rgba(0,0, 0, .1) 0%, transparent 0%),
+	   -webkit-linear-gradient(top, 
+	                           rgba(255, 255, 255, .25), 
+	                           rgba(0, 0, 0, .25)),
+	   -webkit-linear-gradient(left, #83C8B5, #83C8B5);
+
+    border-radius: 2px; 
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+progress[value]::-webkit-progress-value::before 
+{
+  content: '80%';
+  position: absolute;
+  right: 0;
+  top: -125%;
+}
+
+progress[value]::-webkit-progress-value::after 
+{
+  content: '';
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  border-radius: 100%;
+  right: 7px;
+  top: 7px;
+  background-color: white;
+}
+
+#barPos1
+{
+	 margin-top: -100px;
+}
+
+
+
 #handKnapperPos
 {
-	margin-top: 240px;
+	margin-top: -100px;
 }
 
 #handKnapperPos2
 {
-	margin-top: 0px;
+	margin-top: -29px;
+}
+
+.stegAvSteg
+{
+	background:#EEEEEE;
+	height: 150px;
+	width: 150px;
+	margin-bottom: -240px;
+	margin-top: 225px;
+	margin-right: 15px;
+	float: right;
+	border-radius: 50%;
+}
+
+.stegNr1
+{
+	font-family:'Open Sans';
+	text-align: center;
+	margin-top: 30px;
+	margin-right: 50px;
+	color: #3f3f3f;
+	font-size: 42px;
+}
+.stegNr2
+{
+	font-family:'Open Sans';
+	text-align: center;
+	margin-top: -70px;
+	margin-left: 50px;
+	color: #3f3f3f;
+	font-size: 42px;
+}
+
+
+.slash
+{
+	font-family:'Open Sans';
+	text-align: center;
+	margin-top: -80px;
+	margin-right: 10px;
+	color: #3f3f3f;
+	font-size: 90px;
+}
+
+.stegNr1DobTall
+{
+	font-family:'Open Sans';
+	text-align: center;
+	margin-top: 30px;
+	margin-right: 70px;
+	color: #3f3f3f;
+	font-size: 42px;
+}
+.stegNr2DobTall
+{
+	font-family:'Open Sans';
+	text-align: center;
+	margin-top: -70px;
+	margin-left: 50px;
+	color: #3f3f3f;
+	font-size: 42px;
+}
+
+
+.slashDobTall
+{
+	font-family:'Open Sans';
+	text-align: center;
+	margin-top: -80px;
+	margin-right: 10px;
+	color: #3f3f3f;
+	font-size: 90px;
 }
 
 .checkboxer 

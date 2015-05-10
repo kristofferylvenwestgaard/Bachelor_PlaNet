@@ -75,7 +75,7 @@
 				
 				
 				<div class="col-2-3">
-					  <a class="btn btn-primary btn-dobbelxl btn-block sharp disabled" href="index.php">
+					  <a class="btn btn-primary btn-dobbelxl btn-block sharp disabled" href="#">
 					              <i class="fa fa-check"></i> Ferdig</a>
 					 
 				</div>

@@ -17,7 +17,7 @@
 	<div class="col-1-6">
 		<div class="header">
 			
-			<a id="ukemndknapper" href="index.php" class="btn btn-large btn-block btn-outline sharp disabled" type="button">
+			<a id="ukemndknapper" href="index.php" class="btn btn-large btn-block btn-outline sharp" type="button">
 				<i class="fa fa-columns"></i>  Uke</button>
 			</a>
 		</div>

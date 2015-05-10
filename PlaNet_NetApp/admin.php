@@ -7,7 +7,7 @@
 	<div class="col-1-3">
 		<div class="header">
 			<h1 class="htext">
-				<a href=admin.php>
+				<a href=bruker.php>
 				<i class="fa fa-user"></i>
 				Terje
 			</a>
@@ -93,7 +93,7 @@
 						</br>
 						<br/>
 
-						<a class="btn btn-large btn-outline sharp" href="admin.php">
+						<a class="btn btn-large btn-outline sharp" href="index.php">
   						<i class="fa fa-arrow-left"></i> Tilbake</a>
 					
 					</div>

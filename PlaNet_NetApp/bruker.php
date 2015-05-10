@@ -48,7 +48,7 @@
 					<br/>
 					</br><br/>
 					<br/>
-		<h1 class="htext"><a class="inAppLinks" href="index.php">Administrer applikasjon</a></h1>
+		<h1 class="htext"><a class="inAppLinks" href="index.php">Brukervalg</a></h1>
 		
 	</div>
 		<div class="admincontent">
@@ -74,7 +74,7 @@
 						</form>
 
 						<form action="start.php">
-    						<input id="loggAvKnappBruker" type="submit" value="Logg av bruker"/
+    						<input id="loggAvKnappBruker" type="submit" value="Logg av"/
     						onclick="return confirm('Er du sikker på at du vil logge av?')">
 						</form>
 

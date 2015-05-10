@@ -86,7 +86,7 @@
 						<br/>
 
 						<div id="tilbakeBruker">
-						<a class="btn btn-large btn-warning sharp" href="admin.php">
+						<a class="btn btn-large btn-warning sharp" href="index.php">
   						<i class="fa fa-arrow-left"></i> Tilbake</a>
 						</div>
 					</div>

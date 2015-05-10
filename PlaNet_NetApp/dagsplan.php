@@ -8,20 +8,29 @@
 	<!--HEADER-->
 	<div class="col-1-3">
 		<div class="header">
-			
+			<a href="bruker.php"><h1 class="htext">
+				<a href=bruker.php>
+				<i class="fa fa-user"></i>
+				Terje
+			</a>
+			</h1></a>
 		</div>
 	</div>
 	<div class="col-1-6">
 		<div class="header">
-			
-			<a id="ukemndknapper" href="index.php" class="btn btn-large btn-block btn-outline sharp" type="button">Uke</button></a>
-		</div>
-	</div>
-	<div class="col-1-6">
-		<div class="header">
-			<a id="ukemndknapper" href="april.php" class="btn btn-large btn-block btn-outline sharp" type="button">Måned</button></a>
-		</div>
-	</div>
+            
+            <a id="ukemndknapper" href="index.php" class="btn btn-large btn-block btn-outline sharp" type="button">
+                <i class="fa fa-columns"></i>  Uke</button>
+            </a>
+        </div>
+    </div>
+    <div class="col-1-6">
+        <div class="header">
+            <a id="ukemndknapper" href="index.php" class="btn btn-large btn-block btn-outline sharp" type="button">
+                <i class="fa fa-calendar-o"></i>  Måned</button>
+            </a>
+        </div>
+    </div>
 	<div class="col-1-3">
 		<div class="header">
 			<!--Skal byttes ut med JS og Symbol!!!-->
@@ -34,87 +43,40 @@
 		</div>
 	</div>
 <div class = "container">
-    <div class="col-2-12">
-           <div id="dagIdagsPlan">Fredag</div>
-    </div>
-    <div class="col-8-12">
-           <div class="aktivitetNavn">Bestill Burger</div>
-    </div>
-    <div class="col-2-12">
-           <div class="stegTittel">Steg</div>
-    </div>
-</div>
 
-<div class = "container">
-	
-		<div class="col-2-12">
-				<div id="fredag">
-					<?php	
-						hentAktivitet();
-						//LEGGE TIL KNAPP FOR Å VELGE HVILKEN AKTIVITET MAN SKAL GJENNOMFØRE?
-						//--------> HER <---------//
-						//KNAPPEN HENTER RIKTIG AKTIVITETSID OG TILEGNER DEN I $aktivitetId under.
-					?>
-				</div>
-		</div>
-		<div class="col-8-12">
-	           <div class="grid">
-	           		<div class="dagsplanBoks">
-	           		
-	           		<div class "col-1-1">
-	           			<div class="handBilde">
-	           				<img src="handlingskjedebilder/1.png" width="500px" height="100px" alt="1"/></a>
+
+
+
+	<div class="col-1-1">
+           <div class="aktivitetNavnAktivitet">Bestill Burger</div>
+    </div>
+		<div class="admincontent">
+			<div class= "col-3-4">
+	           			<div class="aktBilde">
+	           			<img src="handlingskjedebilder/1.png" width="650px" height="110px" alt="1"/></a>
+
 	           			</div>
 	           		</div>
 
-					<div class "col-1-1">
-						<div class="handTekst">
-							Besøk www.whopperlab.no, via din nettleser!
+					<div class= "col-1-4">
+						<div class="akttekst">
+							Besøk <strong>www.whopperlab.no</strong> via din nettleser
 						</div>
 	           		</div>
-
-
-	           			<!--STATISK INFORMASJON IFMA HTML CSS-->
-	           		<!--HANDLINGSKJEDESTEG!-->
-
-						
-					</div>
-	           </div>
-	     </div>
-	     <div class="col-2-12">
-	     	<div class="dagsChecklist">
-
-	     			<!--HYPERLINKS TIL NESTE HANDLINGSSTEG!-->
-	     			<!--STEG 1-2-->
-	     			<a href="dagsplan2.php" class="submit btn btn-xl btn-outline sharp" type="button">1</button></a>
-
-	     			<a href="dagsplan2.php" class="submit btn btn-xl btn-danger sharp" type="button">2</button></a>
-	     			<!--STEG 1-2-->
-
-	     			<a href="dagsplan3.php" class="submit btn btn-xl btn-danger sharp" type="button">3</button></a>
-
-	     			<a href="dagsplan4.php" class="submit btn btn-xl btn-danger sharp" type="button">4</button></a>
-
-	     			<a href="dagsplan5.php" class="submit btn btn-xl btn-danger sharp" type="button">5</button></a>
-
-	     			<a href="dagsplan6.php" class="submit btn btn-xl btn-danger sharp" type="button">6</button></a>
-
-	     			<a href="dagsplan7.php" class="submit btn btn-xl btn-danger sharp" type="button">7</button></a>
-
-	     			<a href="dagsplan8.php" class="submit btn btn-xl btn-danger sharp" type="button">8</button></a>
-
-	     			<a href="dagsplan9.php" class="submit btn btn-xl btn-danger sharp" type="button">9</button></a>
-
-	     			<a href="dagsplan10.php" class="submit btn btn-xl btn-danger sharp" type="button">10</button></a>
-
-	     			<a href="dagsplan11.php" class="submit btn btn-xl btn-danger sharp" type="button">11</button></a>
-
-	     			<a href="dagsplan12.php" class="submit btn btn-xl btn-danger sharp" type="button">12</button></a>
-
-	     			<a href="dagsplan13.php" class="submit btn btn-xl btn-danger sharp" type="button">13</button></a>
-
-	     			<a href="dagsplan14.php" class="submit btn btn-xl btn-danger sharp" type="button">14</button></a>
-	     	</div>
-	     </div>
-	
- </div>
+	           		<div class="col-1-1">
+	           			<div id="handKnapperPos">
+								<div class="col-1-3">
+									   <a class="btn btn-warning btn-dobbelxl btn-block sharp" href="index.php">
+									       <i class="fa fa-times"></i> Avbryt</a>
+								</div>
+			
+								<div class="col-2-3">
+					 					 <a class="btn btn-primary btn-dobbelxl btn-block sharp" href="dagsplan2.php">
+					             			 <i class="fa fa-check"></i> OK</a>
+					 			</div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

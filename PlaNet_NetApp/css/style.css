@@ -1776,6 +1776,16 @@ position: relative;
 } 
 
 
+#handKnapperPos
+{
+	margin-top: 240px;
+}
+
+#handKnapperPos2
+{
+	margin-top: 0px;
+}
+
 .checkboxer 
 {
 	height:49px;

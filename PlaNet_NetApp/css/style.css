@@ -128,13 +128,37 @@
 }
 
 /*UKEDAGER - ENKELTDAG*/
+.lightbluecode
+{
+	/*FARGEKODE TIL ENKELT AKTIVITET I UKESOVERSIKT*/
+	float:left;
+	display: block;
+	position: relative;
+	background-color: #92c5de;
+	width:7%;
+	height:100%;
+	margin-right: 10px;
+}
+
 .bluecode
 {
 	/*FARGEKODE TIL ENKELT AKTIVITET I UKESOVERSIKT*/
 	float:left;
 	display: block;
 	position: relative;
-	background-color: #00ccff;
+	background-color: #0571b0;
+	width:7%;
+	height:100%;
+	margin-right: 10px;
+}
+
+.orangecode
+{
+	/*FARGEKODE TIL ENKELT AKTIVITET I UKESOVERSIKT*/
+	float:left;
+	display: block;
+	position: relative;
+	background-color: #f4a582;
 	width:7%;
 	height:100%;
 	margin-right: 10px;
@@ -146,31 +170,7 @@
 	float:left;
 	display: block;
 	position: relative;
-	background-color: #fb4646;
-	width:7%;
-	height:100%;
-	margin-right: 10px;
-}
-
-.greencode
-{
-	/*FARGEKODE TIL ENKELT AKTIVITET I UKESOVERSIKT*/
-	float:left;
-	display: block;
-	position: relative;
-	background-color: #15e000;
-	width:7%;
-	height:100%;
-	margin-right: 10px;
-}
-
-.blackcode
-{
-	/*FARGEKODE TIL ENKELT AKTIVITET I UKESOVERSIKT*/
-	float:left;
-	display: block;
-	position: relative;
-	background-color: #000000;
+	background-color: #ca0020;
 	width:7%;
 	height:100%;
 	margin-right: 10px;
@@ -1398,7 +1398,7 @@ display: none;
 margin-left:0px;
 	min-height:15px;
 	min-width:15px;
-background-color: #fb4646;
+background-color: #ca0020;
 border: 1px solid #cacece;
 box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
 padding: 9px;
@@ -1423,12 +1423,12 @@ font-size: 35px; /*størrelse på V check tegn */
 position: absolute;
 top: -7px; /*posisjon V tegn (top/left) */
 left: 3px;
-color: #fb4646; /*Setter farge på V tegn etter checked */
+color: #ca0020; /*Setter farge på V tegn etter checked */
 }
 
 
 .redcheckbox + label {
-background-color: #fb4646; /* Setter frage på boxen før check */
+background-color: #ca0020; /* Setter frage på boxen før check */
 border: 1px solid #cacece;
 box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
 padding: 9px;
@@ -1470,12 +1470,12 @@ font-size: 35px; /*størrelse på V check tegn */
 position: absolute;
 top: -7px; /*posisjon V tegn (top/left) */
 left: 3px;
-color: #00ccff; /*Setter farge på V tegn etter checked */
+color: #92c5de; /*Setter farge på V tegn etter checked */
 }
 
 
 .bluecheckbox + label {
-background-color: #00ccff; /* Setter frage på boxen før check */
+background-color: #92c5de; /* Setter frage på boxen før check */
 border: 1px solid #cacece;
 box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
 padding: 9px;
@@ -1517,12 +1517,12 @@ font-size: 35px; /*størrelse på V check tegn */
 position: absolute;
 top: -7px; /*posisjon V tegn (top/left) */
 left: 3px;
-color: #15e000; /*Setter farge på V tegn etter checked */
+color: #f4a582; /*Setter farge på V tegn etter checked */
 }
 
 
 .greencheckbox + label {
-background-color: #15e000; /* Setter frage på boxen før check */
+background-color: #f4a582; /* Setter frage på boxen før check */
 border: 1px solid #cacece;
 box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
 padding: 9px;
@@ -1564,12 +1564,12 @@ font-size: 35px; /*størrelse på V check tegn */
 position: absolute;
 top: -7px; /*posisjon V tegn (top/left) */
 left: 3px;
-color: black; /*Setter farge på V tegn etter checked */
+color: #0571b0; /*Setter farge på V tegn etter checked */
 }
 
 
 .blackcheckbox + label {
-background-color: black; /* Setter frage på boxen før check */
+background-color: #0571b0; /* Setter frage på boxen før check */
 border: 1px solid #cacece;
 box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
 padding: 9px;

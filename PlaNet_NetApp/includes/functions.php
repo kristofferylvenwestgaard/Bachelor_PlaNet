@@ -172,25 +172,25 @@
             	    	if($row["fargeId"] == 1)
             	    	{
 							?>
-								<div class="bluecode"></div>
+								<div class="lightbluecode"></div>
 							<?php
             	    	}
             	    	elseif($row["fargeId"] == 2)
             	    	{
 							?>
-								<div class="redcode"></div>
+								<div class="bluecode"></div>
 							<?php
             	    	}
             	    	elseif($row["fargeId"] == 3)
             	    	{
 							?>
-								<div class="greencode"></div>
+								<div class="orangecode"></div>
 							<?php
             	    	}
             	    	elseif($row["fargeId"] == 4)
             	    	{
 							?>
-								<div class="blackcode"></div>
+								<div class="redcode"></div>
 							<?php
             	    	}
 						
@@ -212,25 +212,25 @@
             	    	if($row["fargeId"] == 1)
             	    	{
 							?>
-								<div class="bluecode"></div>
+								<div class="lightbluecode"></div>
 							<?php
             	    	}
             	    	elseif($row["fargeId"] == 2)
             	    	{
 							?>
-								<div class="redcode"></div>
+								<div class="bluecode"></div>
 							<?php
             	    	}
             	    	elseif($row["fargeId"] == 3)
             	    	{
 							?>
-								<div class="greencode"></div>
+								<div class="orangecode"></div>
 							<?php
             	    	}
             	    	elseif($row["fargeId"] == 4)
             	    	{
 							?>
-								<div class="blackcode"></div>
+								<div class="redcode"></div>
 							<?php
             	    	}
 						
@@ -252,25 +252,25 @@
             	    	if($row["fargeId"] == 1)
             	    	{
 							?>
-								<div class="bluecode"></div>
+								<div class="lightbluecode"></div>
 							<?php
             	    	}
             	    	elseif($row["fargeId"] == 2)
             	    	{
 							?>
-								<div class="redcode"></div>
+								<div class="bluecode"></div>
 							<?php
             	    	}
             	    	elseif($row["fargeId"] == 3)
             	    	{
 							?>
-								<div class="greencode"></div>
+								<div class="orangecode"></div>
 							<?php
             	    	}
             	    	elseif($row["fargeId"] == 4)
             	    	{
 							?>
-								<div class="blackcode"></div>
+								<div class="redcode"></div>
 							<?php
             	    	}
 						
@@ -403,25 +403,25 @@
             	    			if($row["fargeId"] == 1)
             	    			{
 									?>
-										<div class="bluecode"></div>
+										<div class="lightbluecode"></div>
 									<?php
             	    			}
             	    			elseif($row["fargeId"] == 2)
             	    			{
 									?>
-										<div class="redcode"></div>
+										<div class="bluecode"></div>
 									<?php
             	    			}
             	    			elseif($row["fargeId"] == 3)
             	    			{
 									?>
-										<div class="greencode"></div>
+										<div class="orangecode"></div>
 									<?php
             	    			}
             	    			elseif($row["fargeId"] == 4)
             	    			{
 									?>
-										<div class="blackcode"></div>
+										<div class="redcode"></div>
 									<?php
             	    			}
 								
@@ -446,25 +446,25 @@
             	    	if($row["fargeId"] == 1)
             	    	{
 							?>
-								<div class="bluecode"></div>
+								<div class="lightbluecode"></div>
 							<?php
             	    	}
             	    	elseif($row["fargeId"] == 2)
             	    	{
 							?>
-								<div class="redcode"></div>
+								<div class="bluecode"></div>
 							<?php
             	    	}
             	    	elseif($row["fargeId"] == 3)
             	    	{
 							?>
-								<div class="greencode"></div>
+								<div class="orangecode"></div>
 							<?php
             	    	}
             	    	elseif($row["fargeId"] == 4)
             	    	{
 							?>
-								<div class="blackcode"></div>
+								<div class="redcode"></div>
 							<?php
             	    	}
 						
@@ -488,25 +488,25 @@
             	    	if($row["fargeId"] == 1)
             	    	{
 							?>
-								<div class="bluecode"></div>
+								<div class="lightbluecode"></div>
 							<?php
             	    	}
             	    	elseif($row["fargeId"] == 2)
             	    	{
 							?>
-								<div class="redcode"></div>
+								<div class="bluecode"></div>
 							<?php
             	    	}
             	    	elseif($row["fargeId"] == 3)
             	    	{
 							?>
-								<div class="greencode"></div>
+								<div class="orangecode"></div>
 							<?php
             	    	}
             	    	elseif($row["fargeId"] == 4)
             	    	{
 							?>
-								<div class="blackcode"></div>
+								<div class="redcode"></div>
 							<?php
             	    	}
 						

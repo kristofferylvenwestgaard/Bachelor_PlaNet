@@ -73,15 +73,15 @@
 				//listUtAktivitetUkeplan();
 			?>
 			<!--DUMMY INNHOLD!-->
-		<div class="persjonal">
-			<div class="personalFarge">
-			<strong>Morgen</strong></br>
-		</div>
-				Anita</br>
-				908 51 541
-				<div class="rundt">
-					<img src="img/pers1.jpg" alt="pers1" width="75px" height="75px"/>
-				</div>
+			<div class="persjonal">
+				<div class="personalFarge">
+				<strong>Morgen</strong></br>
+			</div>
+			Anita</br>
+			908 51 541
+			<div class="rundt">
+				<img src="img/pers1.jpg" alt="pers1" width="75px" height="75px"/>
+			</div>
 		</div>
 
 		<div class="persjonal">

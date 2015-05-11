@@ -425,12 +425,12 @@
 .opacityPersonal
 {
 	/*OPACITY EFFEKT UKEKOVERSIKT!*/
-	height:600px;
+	height:300px;
 	position:relative;
 	background-color: black;
 	z-index: 2;
 	top:0px;
-	opacity: 0;
+	opacity: 0.3;
 }
 
 .persjonal
@@ -441,6 +441,7 @@
 	margin-left: 5px;
 	text-align: left;
 	border-color: #e8e5e5;
+	position:relative;
 }
 
 .rundt 
@@ -485,7 +486,7 @@
 	background-color:#f7f7f7;
 	position:relative;
 	z-index:1;
-	top:-600px;
+	top:-300px;
 	overflow-y: auto;
 	color: #3f3f3f;
 }
@@ -500,7 +501,7 @@
 	background-color:#f7f7f7;
 	position:relative;
 	z-index:1;
-	top:-600px;
+	top:-300px;
 	overflow-y: auto;
 	color: #3f3f3f;
 }
@@ -515,7 +516,7 @@
 	background-color:#f7f7f7;
 	position:relative;
 	z-index:1;
-	top:-600px;
+	top:-300px;
 	overflow-y: auto;
 	color: #3f3f3f;
 }
@@ -530,7 +531,7 @@
 	background-color:#f7f7f7;
 	position:relative;
 	z-index:1;
-	top:-600px;
+	top:-300px;
 	overflow-y: auto;
 	color: #3f3f3f;
 }
@@ -557,7 +558,7 @@
 	background-color:#f7f7f7;
 	position:relative;
 	z-index:1;
-	top:-600px;
+	top:-300px;
 	overflow-y: auto;
 	color: #3f3f3f;
 }
@@ -572,7 +573,7 @@
 	background-color:#f7f7f7;
 	position:relative;
 	z-index:1;
-	top:-600px;
+	top:-300px;
 	overflow-y: auto;
 	color: #3f3f3f;
 }

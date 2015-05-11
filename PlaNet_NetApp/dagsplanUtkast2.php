@@ -8,7 +8,12 @@
 	<!--HEADER-->
 	<div class="col-1-3">
 		<div class="header">
-			<a href="index.php"><h1 class="htext"></h1></a>
+			<h1 class="htext">
+        <a href=bruker.php>
+        <i class="fa fa-user"></i>
+        Terje
+      </a>
+      </h1></a>
 		</div>
 	</div>
 	<div class="col-1-6">
@@ -32,8 +37,8 @@
 			<div class="col-1-1">
 				<div id="clock"></div>
 				<div id="admin">
-				<a href="admin.php"><img src="img/admin1.png" width="45px" height="45px" alt="admin"/></a>
-				</div>
+          <a href="admin.php"><i class="fa fa-cog fa-3x"></i></a>
+        </div>
 			</div>
 		</div>
 	</div>

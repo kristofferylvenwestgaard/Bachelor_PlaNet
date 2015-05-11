@@ -48,12 +48,12 @@
 
 
 	<div class="col-1-1">
-           <div class="aktivitetNavnAktivitet">Bursdag</div>
+           <div class="aktivitetNavnAktivitet">Bursdag 15.05.2015</div>
     </div>
 		<div class="admincontent">
 			<div class= "col-3-4">
 	           			<div class="aktBilde">
-	           			<img src="img/bursdag.jpg" width="720px" height="350px" alt="admin"/></a>
+	           			<img src="img/bursdag2.jpg" width="600px" height="350px" alt="admin"/></a>
 	           			</div>
 	           		</div>
 

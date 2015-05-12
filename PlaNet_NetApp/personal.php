@@ -134,7 +134,7 @@
 				Kari</br>
 				908 51 542
 				<div class="rundt">
-					<img src="img/pers5.jpg" alt="pers5" width="75px" height="75px"/>
+					<img src="img/pers3.jpg" alt="pers3" width="75px" height="75px"/>
 				</div>
 		</div>
 
@@ -176,7 +176,7 @@
 				Kari</br>
 				908 51 545
 				<div class="rundt">
-					<img src="img/pers5.jpg" alt="pers5" width="75px" height="75px"/>
+					<img src="img/pers3.jpg" alt="pers3" width="75px" height="75px"/>
 				</div>
 		</div>
 
@@ -251,7 +251,7 @@
 				Kari</br>
 				908 51 542
 				<div class="rundt">
-					<img src="img/pers5.jpg" alt="pers5" width="75px" height="75px"/>
+					<img src="img/pers3.jpg" alt="pers3" width="75px" height="75px"/>
 				</div>
 		</div>
 
@@ -325,7 +325,7 @@
 				Kari</br>
 				908 51 542
 				<div class="rundt">
-					<img src="img/pers5.jpg" alt="pers4" width="75px" height="75px"/>
+					<img src="img/pers3.jpg" alt="pers4" width="75px" height="75px"/>
 				</div>
 		</div>
 
@@ -336,7 +336,7 @@
 				Johan</br>
 				908 51 544
 				<div class="rundt">
-					<img src="img/pers4.jpg" alt="pers5" width="75px" height="75px"/>
+					<img src="img/pers4.jpg" alt="pers3" width="75px" height="75px"/>
 				</div>
 		</div>
 

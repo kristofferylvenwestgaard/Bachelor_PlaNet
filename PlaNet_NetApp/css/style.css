@@ -354,7 +354,7 @@
 }
 
 
-#loggAvKnappBruker
+#byttBrukerKnappBruker
 {
 	float: left;
 	margin-top: -171px;
@@ -377,7 +377,7 @@
 }
 
 
-#loggAvKnappBruker:hover {
+#byttBrukerKnappBruker:hover {
 	 background: #e0dede url(../img/av3.png);
      background-repeat:no-repeat, repeat-x;
      background-position: center 50px;
@@ -472,7 +472,7 @@
 
 #tilbakePersonal
 {
-	margin-top: -575px;
+	margin-top: -270px;
 	margin-left: -1027px;
 }
 

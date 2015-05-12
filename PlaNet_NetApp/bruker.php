@@ -73,9 +73,9 @@
     						<input id="personalKnapp" type="submit" value="Personalliste">
 						</form>
 
-						<form action="start.php">
-    						<input id="loggAvKnappBruker" type="submit" value="Logg av"/
-    						onclick="return confirm('Er du sikker på at du vil logge av?')">
+						<form action="innlogging.php">
+    						<input id="byttBrukerKnappBruker" type="submit" value="Bytt bruker"/
+    						onclick="return confirm('Er du sikker på at du vil bytte bruker?')">
 						</form>
 
 

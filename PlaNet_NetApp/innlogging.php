@@ -6,7 +6,7 @@
 	<!--HEADER-->
 	<div class="col-1-3">
 		<div class="header">
-			<h1 class="htext"><a href=admin.php>
+			<h1 class="htext"><a href=bruker.php>
 				<i class="fa fa-user"></i>
 				Terje
 			</a>

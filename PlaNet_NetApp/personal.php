@@ -75,7 +75,7 @@
 			<!--DUMMY INNHOLD!-->
 			<div class="persjonal">
 				<div class="personalFarge">
-				<strong>Morgen</strong></br>
+				<strong>Dagvakt</strong></br>
 			</div>
 			Anita</br>
 			908 51 541
@@ -86,7 +86,7 @@
 
 		<div class="persjonal">
 			<div class="personalFarge">
-			<strong>Formiddag</strong></br>
+			<strong>Aftenvakt</strong></br>
 			</div>
 				Joakim</br>
 				908 51 542
@@ -97,7 +97,7 @@
 
 		<div class="persjonal">
 			<div class="personalFarge">
-			<strong>Kveld</strong></br>
+			<strong>Nattevakt</strong></br>
 			</div>
 				Lise</br>
 				908 51 543
@@ -118,7 +118,7 @@
 			<!--DUMMY INNHOLD!-->
 			<div class="persjonal">
 				<div class="personalFarge">
-			<strong>Morgen</strong></br>
+			<strong>Dagvakt</strong></br>
 			</div>
 				Johan</br>
 				908 51 544
@@ -129,7 +129,7 @@
 
 		<div class="persjonal">
 			<div class="personalFarge">
-			<strong>Formiddag</strong></br>
+			<strong>Aftenvakt</strong></br>
 			</div>
 				Kari</br>
 				908 51 542
@@ -140,7 +140,7 @@
 
 		<div class="persjonal">
 			<div class="personalFarge">
-			<strong>Kveld</strong></br>
+			<strong>Nattevakt</strong></br>
 			</div>
 				Anita</br>
 				908 51 541
@@ -160,7 +160,7 @@
 			<!--DUMMY INNHOLD!-->
 			<div class="persjonal">
 				<div class="personalFarge">
-			<strong>Morgen</strong></br>
+			<strong>Dagvakt</strong></br>
 			</div>
 				Johan</br>
 				908 51 544
@@ -171,7 +171,7 @@
 
 		<div class="persjonal">
 			<div class="personalFarge">
-			<strong>Formiddag</strong></br>
+			<strong>Aftenvakt</strong></br>
 			</div>
 				Kari</br>
 				908 51 545
@@ -182,7 +182,7 @@
 
 		<div class="persjonal">
 			<div class="personalFarge">
-			<strong>Kveld</strong></br>
+			<strong>Nattevakt</strong></br>
 			</div>
 				Petter</br>
 				908 51 546
@@ -199,7 +199,7 @@
 			<!--DUMMY INNHOLD!-->
 			<div class="persjonal">
 				<div class="personalFarge">
-			<strong>Morgen</strong></br>
+			<strong>Dagvakt</strong></br>
 			</div>
 				Anita</br>
 				908 51 541
@@ -210,7 +210,7 @@
 
 		<div class="persjonal">
 			<div class="personalFarge">
-			<strong>Formiddag</strong></br>
+			<strong>Aftenvakt</strong></br>
 			</div>
 				Joakim</br>
 				908 51 542
@@ -221,7 +221,7 @@
 
 		<div class="persjonal">
 			<div class="personalFarge">
-			<strong>Kveld</strong></br>
+			<strong>Nattevakt</strong></br>
 			</div>
 				Lise</br>
 				908 51 543
@@ -235,7 +235,7 @@
 		<div id="pfredag">
 			<div class="persjonal">
 				<div class="personalFarge">
-			<strong>Morgen</strong></br>
+			<strong>Dagvakt</strong></br>
 			</div>
 				Johan</br>
 				908 51 544
@@ -246,7 +246,7 @@
 
 		<div class="persjonal">
 			<div class="personalFarge">
-			<strong>Formiddag</strong></br>
+			<strong>Aftenvakt</strong></br>
 			</div>
 				Kari</br>
 				908 51 542
@@ -257,7 +257,7 @@
 
 		<div class="persjonal">
 			<div class="personalFarge">
-			<strong>Kveld</strong></br>
+			<strong>Nattevakt</strong></br>
 			</div>
 				Lise</br>
 				908 51 546
@@ -277,7 +277,7 @@
 			<!--DUMMY INNHOLD!-->
 			<div class="persjonal">
 				<div class="personalFarge">
-			<strong>Morgen</strong></br>
+			<strong>Dagvakt</strong></br>
 			</div>
 				Anita</br>
 				908 51 541
@@ -288,7 +288,7 @@
 
 		<div class="persjonal">
 			<div class="personalFarge">
-			<strong>Formiddag</strong></br>
+			<strong>Aftenvakt</strong></br>
 			</div>
 				Joakim</br>
 				908 51 542
@@ -299,7 +299,7 @@
 
 		<div class="persjonal">
 			<div class="personalFarge">
-			<strong>Kveld</strong></br>
+			<strong>Nattevakt</strong></br>
 			</div>
 				Lise</br>
 				908 51 543
@@ -319,7 +319,7 @@
 			<!--DUMMY INNHOLD!-->
 			<div class="persjonal">
 			<div class="personalFarge">
-			<strong>Morgen</strong></br>
+			<strong>Dagvakt</strong></br>
 			</div>
 		
 				Kari</br>
@@ -331,7 +331,7 @@
 
 		<div class="persjonal">
 			<div class="personalFarge">
-			<strong>Formiddag</strong></br>
+			<strong>Aftenvakt</strong></br>
 			</div>
 				Johan</br>
 				908 51 544
@@ -342,7 +342,7 @@
 
 		<div class="persjonal">
 			<div class="personalFarge">
-			<strong>Kveld</strong></br>
+			<strong>Nattevakt</strong></br>
 			</div>
 				Lise</br>
 				908 51 546
@@ -352,6 +352,8 @@
 		</div>
 	</div>
 	<div id="tilbakePersonal">
+
+
 		<a class="btn btn-large btn-warning sharp" href="bruker.php">
   		<i class="fa fa-arrow-left"></i> Tilbake</a>
 </div>

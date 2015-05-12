@@ -1,5 +1,3 @@
-magnuseldecom
-Mytoolshed.12
 
 <?php
 	//DATABASE TILKOBLING 

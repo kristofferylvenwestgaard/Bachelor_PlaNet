@@ -76,22 +76,22 @@
 			<div class="activity">
 				<div class="lightbluecode"></div>
 				Puss tenner
-				<img src="../Database/skole.jpg" alt="middag" width="130px" height="60px"/>
+				<img src="img/DUMMY_INDEX/tannpuss.jpg" alt="middag" width="130px" height="60px"/>
 			</div>
 			<div class="activity">
 				<div class="bluecode"></div>
 				Frokost
-				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
+				<img src="img/DUMMY_INDEX/frokost.jpg" alt="middag" width="130px" height="60px"/>
 			</div>
 			<div class="activity">
 				<div class="bluecode"></div>
 				Lunch
-				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
+				<img src="img/DUMMY_INDEX/lunch.jpg" alt="middag" width="130px" height="60px"/>
 			</div>
 			<div class="activity">
 				<div class="redcode"></div>
 				Middag
-				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
+				<img src="img/DUMMY_INDEX/middag.jpg" alt="middag" width="130px" height="60px"/>
 			</div>
 		</div>
 	</div>
@@ -106,27 +106,27 @@
 			<div class="activity">
 				<div class="lightbluecode"></div>
 				Puss tenner
-				<img src="../Database/skole.jpg" alt="middag" width="130px" height="60px"/>
+				<img src="img/DUMMY_INDEX/tannpuss.jpg" alt="middag" width="130px" height="60px"/>
 			</div>
 			<div class="activity">
 				<div class="bluecode"></div>
 				Frokost
-				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
+				<img src="img/DUMMY_INDEX/frokost.jpg" alt="middag" width="130px" height="60px"/>
 			</div>
 			<div class="activity">
 				<div class="orangecode"></div>
 				Trening
-				<img src="../Database/skole.jpg" alt="middag" width="130px" height="60px"/>
+				<img src="img/DUMMY_INDEX/trening.jpg" alt="middag" width="130px" height="60px"/>
 			</div>
 			<div class="activity">
 				<div class="bluecode"></div>
 				Lunch
-				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
+				<img src="img/DUMMY_INDEX/lunch.jpg" alt="middag" width="130px" height="60px"/>
 			</div>
 			<div class="activity">
 				<div class="redcode"></div>
 				Middag
-				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
+				<img src="img/DUMMY_INDEX/middag.jpg" alt="middag" width="130px" height="60px"/>
 			</div>
 		</div>
 	</div>
@@ -141,22 +141,22 @@
 			<div class="activity">
 				<div class="redcode"></div>
 				Puss tenner
-				<img src="../Database/skole.jpg" alt="middag" width="130px" height="60px"/>
+				<img src="img/DUMMY_INDEX/tannpuss.jpg" alt="middag" width="130px" height="60px"/>
 			</div>
 			<div class="activity">
 				<div class="orangecode"></div>
 				Frokost
-				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
+				<img src="img/DUMMY_INDEX/frokost.jpg" alt="middag" width="130px" height="60px"/>
 			</div>
 			<div class="activity">
 				<div class="bluecode"></div>
 				Lunch
-				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
+				<img src="img/DUMMY_INDEX/lunch.jpg" alt="middag" width="130px" height="60px"/>
 			</div>
 			<div class="activity">
 				<div class="redcode"></div>
 				Middag
-				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
+				<img src="img/DUMMY_INDEX/middag.jpg" alt="middag" width="130px" height="60px"/>
 			</div>
 		</div>
 	</div>
@@ -168,22 +168,22 @@
 			<div class="activity">
 				<div class="lightbluecode"></div>
 				Puss tenner
-				<img src="../Database/skole.jpg" alt="middag" width="130px" height="60px"/>
+				<img src="img/DUMMY_INDEX/tannpuss.jpg" alt="middag" width="130px" height="60px"/>
 			</div>
 			<div class="activity">
 				<div class="bluecode"></div>
 				Frokost
-				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
+				<img src="img/DUMMY_INDEX/frokost.jpg" alt="middag" width="130px" height="60px"/>
 			</div>
 			<div class="activity">
 				<div class="bluecode"></div>
 				Lunch
-				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
+				<img src="img/DUMMY_INDEX/lunch.jpg" alt="middag" width="130px" height="60px"/>
 			</div>
 			<div class="activity">
 				<div class="redcode"></div>
 				Middag
-				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
+				<img src="img/DUMMY_INDEX/middag.jpg" alt="middag" width="130px" height="60px"/>
 			</div>
 		</div>
 	</div>
@@ -205,27 +205,27 @@
 			<div class="activity">
 				<div class="lightbluecode"></div>
 				Puss tenner
-				<img src="../Database/skole.jpg" alt="middag" width="130px" height="60px"/>
+				<img src="img/DUMMY_INDEX/tannpuss.jpg" alt="middag" width="130px" height="60px"/>
 			</div>
 			<div class="activity">
 				<div class="bluecode"></div>
 				Frokost
-				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
+				<img src="img/DUMMY_INDEX/frokost.jpg" alt="middag" width="130px" height="60px"/>
 			</div>
 			<div class="activity">
 				<div class="orangecode"></div>
 				Trening
-				<img src="../Database/skole.jpg" alt="middag" width="130px" height="60px"/>
+				<img src="img/DUMMY_INDEX/trening.jpg" alt="middag" width="130px" height="60px"/>
 			</div>
 			<div class="activity">
 				<div class="bluecode"></div>
 				Lunch
-				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
+				<img src="img/DUMMY_INDEX/lunch.jpg" alt="middag" width="130px" height="60px"/>
 			</div>
 			<div class="activity">
 				<div class="redcode"></div>
 				Middag
-				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
+				<img src="img/DUMMY_INDEX/middag.jpg" alt="middag" width="130px" height="60px"/>
 			</div>
 		</div>
 	</div>
@@ -240,22 +240,22 @@
 			<div class="activity">
 				<div class="redcode"></div>
 				Puss tenner
-				<img src="../Database/skole.jpg" alt="middag" width="130px" height="60px"/>
+				<img src="img/DUMMY_INDEX/tannpuss.jpg" alt="middag" width="130px" height="60px"/>
 			</div>
 			<div class="activity">
 				<div class="orangecode"></div>
 				Frokost
-				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
+				<img src="img/DUMMY_INDEX/frokost.jpg" alt="middag" width="130px" height="60px"/>
 			</div>
 			<div class="activity">
 				<div class="bluecode"></div>
 				Lunch
-				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
+				<img src="img/DUMMY_INDEX/lunch.jpg" alt="middag" width="130px" height="60px"/>
 			</div>
 			<div class="activity">
 				<div class="redcode"></div>
 				Middag
-				<img src="../Database/dinner.gif" alt="middag" width="130px" height="60px"/>
+				<img src="img/DUMMY_INDEX/middag.jpg" alt="middag" width="130px" height="60px"/>
 			</div>
 		</div>
 	</div>

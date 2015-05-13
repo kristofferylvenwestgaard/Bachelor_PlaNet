@@ -187,18 +187,38 @@
           </div>
     </div>
 
+
+  
+
+   
         <div class="col-1-3">
+                    
                       <a class="btn btn-warning btn-dobbelxl btn-block sharp" href="index.php">
                         <i class="fa fa-times"></i> Avbryt</a>
-        </div>
 
+              </div>
 
+      
+
+        
+        
         <div class="col-2-3">
             <a class="btn btn-primary btn-dobbelxl btn-block sharp" href="index.php">
                         <i class="fa fa-check"></i> Ferdig</a>
            
         </div>
+       
+
+            
+          
+
 
           </div>
-   
+
+
+
+
+    
 </div>   
+
+            

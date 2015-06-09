@@ -131,33 +131,10 @@
 		</div>
 	</div>
 	<div class="col-1-7">
-		<div class="opacity">
-		</div>
 		<div id="onsdag">
 			<?php	
-				//listUtAktivitetUkeplan()
+				listUtAktivitetUkeplan()
 			?>
-			<!--DUMMY INNHOLD!-->
-			<div class="activity">
-				<div class="redcode"></div>
-				Puss tenner
-				<img src="img/DUMMY_INDEX/tannpuss.jpg" alt="middag" width="130px" height="60px"/>
-			</div>
-			<div class="activity">
-				<div class="orangecode"></div>
-				Frokost
-				<img src="img/DUMMY_INDEX/frokost.jpg" alt="middag" width="130px" height="60px"/>
-			</div>
-			<div class="activity">
-				<div class="bluecode"></div>
-				Lunch
-				<img src="img/DUMMY_INDEX/lunch.jpg" alt="middag" width="130px" height="60px"/>
-			</div>
-			<div class="activity">
-				<div class="redcode"></div>
-				Middag
-				<img src="img/DUMMY_INDEX/middag.jpg" alt="middag" width="130px" height="60px"/>
-			</div>
 		</div>
 	</div>
 	<div class="col-1-7">
@@ -188,10 +165,30 @@
 		</div>
 	</div>
 	<div class="col-1-7">
+		<div class="opacity">
+		</div>
 		<div id="fredag">
-			<?php	
-				listUtAktivitetUkeplan()
-			?>
+			<!--DUMMY INNHOLD!-->
+			<div class="activity">
+				<div class="lightbluecode"></div>
+				Puss tenner
+				<img src="img/DUMMY_INDEX/tannpuss.jpg" alt="middag" width="130px" height="60px"/>
+			</div>
+			<div class="activity">
+				<div class="bluecode"></div>
+				Frokost
+				<img src="img/DUMMY_INDEX/frokost.jpg" alt="middag" width="130px" height="60px"/>
+			</div>
+			<div class="activity">
+				<div class="bluecode"></div>
+				Lunch
+				<img src="img/DUMMY_INDEX/lunch.jpg" alt="middag" width="130px" height="60px"/>
+			</div>
+			<div class="activity">
+				<div class="redcode"></div>
+				Middag
+				<img src="img/DUMMY_INDEX/middag.jpg" alt="middag" width="130px" height="60px"/>
+			</div>
 		</div>
 	</div>
 	<div class="col-1-7">

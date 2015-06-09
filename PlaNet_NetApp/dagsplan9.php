@@ -53,7 +53,7 @@
 		<div class="admincontent">
 			<div class= "col-3-4">
 	           			<div class="aktBilde">
-	           			<img src="handlingskjedebilder/GåVidere.png" width="400px" height="200px" alt="9"/></a>
+	           			<img src="handlingskjedebilder/nye_bilder_hs/9.png" width="650px" height="370px" alt="9"/></a>
 
 	           			</div>
 	           		</div>

@@ -18,12 +18,12 @@
 					<div class="inAppText">Legg til aktivitet:</div>
 					</div>
 				</div>
-				<div class="col-1-1 draopp">
-					<div class="content">
+				<div class="col-1-1">
+					
 						<input class="input_text" type="text" placeholder="Aktivitetsnavn" name="aktivitetsnavn"/>
 							<!--<input class="input_text_small" type="text" placeholder="BildeId" name="bildeid"/>-->
 							<a href="velgbilde.php" class="btn btn-bilde btn-outline sharp" type="button"><i class="fa fa-plus-square-o"></i> Bilde</button></a>
-					</div>
+					
 				</div>
 
 

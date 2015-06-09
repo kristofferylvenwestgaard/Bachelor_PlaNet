@@ -85,6 +85,29 @@
 			    var user = event.dataTransfer.getData('User');
 			    target.appendChild(document.getElementById(user)); 
 			}
+				function touchHandler(event) {
+    			var touch = event.changedTouches[0];
+	
+    			var simulatedEvent = document.createEvent("MouseEvent");
+      			simulatedEvent.initMouseEvent({
+        		touchstart: "mousedown",
+       	 		touchmove: "mousemove",
+        		touchend: "mouseup"
+    			}[event.type], true, true, window, 1,
+        		touch.screenX, touch.screenY,
+        		touch.clientX, touch.clientY, false,
+        		false, false, false, 0, null);
+	
+    			touch.target.dispatchEvent(simulatedEvent);
+    			event.preventDefault();
+			}
+
+		function init() {
+    			document.addEventListener("touchstart", touchHandler, true);
+    			document.addEventListener("touchmove", touchHandler, true);
+    			document.addEventListener("touchend", touchHandler, true);
+    			document.addEventListener("touchcancel", touchHandler, true);
+			}
 		</script>
 		
 	</div>
@@ -103,22 +126,22 @@
 					
 						<div id="ukeMalValg" ondrop="dropUser(this, event)" ondragenter="return false" ondragover="return false">
 							Velg ukemal
-							<div a draggable="true" class="malerMnd" id="3" ondragstart="dragUser(this, event)">Skole [uke 19]</a>
+							<div a draggable="true" class="malerMnd" id="1" ondragstart="dragUser(this, event)">Skole [uke 19]</a>
 								<img src="img/skole.jpg" width="45px" height="45px" alt="admin"/></a> 
 							</div>
-							<div a draggable="true" class="malerMnd" id="3" ondragstart="dragUser(this, event)">Skole [uke 21]</a>
+							<div a draggable="true" class="malerMnd" id="2" ondragstart="dragUser(this, event)">Skole [uke 21]</a>
 								<img src="img/skole.jpg" width="45px" height="45px" alt="admin"/></a> 
 							</div>
 							<div a draggable="true" class="malerMnd" id="3" ondragstart="dragUser(this, event)">Skole [uke 22]</a>
 								<img src="img/skole.jpg" width="45px" height="45px" alt="admin"/></a> 
 							</div>
-							<div a draggable="true" class="malerMnd" id="3" ondragstart="dragUser(this, event)">Skole [uke 23]</a>
+							<div a draggable="true" class="malerMnd" id="4" ondragstart="dragUser(this, event)">Skole [uke 23]</a>
 								<img src="img/skole.jpg" width="45px" height="45px" alt="admin"/></a> 
 							</div>
-							<div a draggable="true" class="malerMnd" id="3" ondragstart="dragUser(this, event)">Skole [uke 24]</a>
+							<div a draggable="true" class="malerMnd" id="5" ondragstart="dragUser(this, event)">Skole [uke 24]</a>
 								<img src="img/skole.jpg" width="45px" height="45px" alt="admin"/></a> 
 							</div>
-							<div a draggable="true" class="malerMnd" id="3" ondragstart="dragUser(this, event)">Skole [uke 26]</a>
+							<div a draggable="true" class="malerMnd" id="6" ondragstart="dragUser(this, event)">Skole [uke 26]</a>
 								<img src="img/skole.jpg" width="45px" height="45px" alt="admin"/></a> 
 							</div>
 						

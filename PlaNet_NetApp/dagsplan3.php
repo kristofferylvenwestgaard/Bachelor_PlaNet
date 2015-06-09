@@ -53,7 +53,7 @@
 		<div class="admincontent">
 			<div class= "col-3-4">
 	           			<div class="aktBilde">
-	           			<img src="handlingskjedebilder/Innlogging.png"alt="3"/></a>
+	           			<img src="handlingskjedebilder/nye_bilder_hs/3.png"alt="3"/></a>
 	           			</div>
 	           		</div>
 
